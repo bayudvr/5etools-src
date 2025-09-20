@@ -2,11 +2,11 @@
 	"_meta": {
 		"sources": [
 			{
-				"json": "MTW",
-				"abbreviation": "MTW",
-				"full": "Malvidra Twisted World",
+				"json": "MTW-TS",
+				"abbreviation": "MTW-TS",
+				"full": "Vaelithra Series",
 				"authors": [
-					"Malvidra Collection"
+					"Malvidra Twisted World"
 				],
 				"convertedBy": [
 					"M Bayu Devara"
@@ -31,7 +31,7 @@
 		{
 			"name": "Vaelithra: The Ruin of Silver Light",
 			"id": "VTRoS",
-			"source": "MTW",
+			"source": "MTW-TS",
 			"group": "supplement",
 			"published": "2025-09-19",
 			"author": "Malvidra Twisted World, Bayu Devara",
@@ -98,7 +98,7 @@
 	"adventureData": [
 		{
 			"id": "VTRoS",
-			"source": "MTW",
+			"source": "MTW-TS",
 			"data": [
 				{
 					"type": "section",
@@ -125,7 +125,7 @@
 										"Confront the cult’s monstrous patron’s pet, twisted by abyssal power."
 									]
 								},
-								"The climax brings them face-to-face with a fragment of {@deity Vaeil|the primordials|MTW}’s will—the Vaelithra—and briefly with the abyssal master behind the corruption. Though the adventurers cannot fight this {@deity Xy'loth|demon lords|MTW}, they witness how fragile time itself can be when gods and demons pull at its threads."
+								"The climax brings them face-to-face with a fragment of {@deity Vaeil|the primordials|MTW-TS}’s will—the Vaelithra—and briefly with the abyssal master behind the corruption. Though the adventurers cannot fight this {@deity Xy'loth|demon lords|MTW-TS}, they witness how fragile time itself can be when gods and demons pull at its threads."
 							]
 						},
 						{
@@ -134,9 +134,9 @@
 							"page": 1,
 							"id": "000c",
 							"entries": [
-								"For centuries, the Silver Light order served as acolytes of {@deity Vaeil|the primordials|MTW}, God of Time and Keeper of the Archive. In the city of Dewanginokori, they were beloved for their blessings—prayers over crops, safe births, successful trade, and guidance in life’s trials.",
-								"Recently, however, a group of Drow elves arrived claiming devotion to {@deity Vaeil|the primordials|MTW}. In truth, they were secret worshipers of an {@deity Xy'loth|demon lords|MTW} of despair and sacrifice. Slowly, they wormed their way into the Silver Light, twisting its rituals and climbing its ranks. By the dark month of Umbralos, when the shadows lengthen, one of them was raised to High Priest. The order’s blessings became bargains. Those who sought help were promised deliverance—then lured into the old temple of the Silver Light, now a ruin. There, the faithful were sacrificed to feed a horrific abyssal creature, the {@deity Xy'loth|demon lords|MTW}’s Pet.",
-								"Unseen, a fragment of {@deity Vaeil|the primordials|MTW}’s sundered soul walks the city as a beggar woman. This Vaelithra cannot act directly but watches for mortals brave enough to intervene. When the adventurers arrive in Dewanginokori during a torrential storm, on Aetheros, Day 1, fate gathers them together at the Boar Smile Tavern—their meeting place and the start of their journey into the shadows of the Silver Light."
+								"For centuries, the Silver Light order served as acolytes of {@deity Vaeil|the primordials|MTW-TS}, God of Time and Keeper of the Archive. In the city of Dewanginokori, they were beloved for their blessings—prayers over crops, safe births, successful trade, and guidance in life’s trials.",
+								"Recently, however, a group of Drow elves arrived claiming devotion to {@deity Vaeil|the primordials|MTW-TS}. In truth, they were secret worshipers of an {@deity Xy'loth|demon lords|MTW-TS} of despair and sacrifice. Slowly, they wormed their way into the Silver Light, twisting its rituals and climbing its ranks. By the dark month of Umbralos, when the shadows lengthen, one of them was raised to High Priest. The order’s blessings became bargains. Those who sought help were promised deliverance—then lured into the old temple of the Silver Light, now a ruin. There, the faithful were sacrificed to feed a horrific abyssal creature, the {@deity Xy'loth|demon lords|MTW-TS}’s Pet.",
+								"Unseen, a fragment of {@deity Vaeil|the primordials|MTW-TS}’s sundered soul walks the city as a beggar woman. This Vaelithra cannot act directly but watches for mortals brave enough to intervene. When the adventurers arrive in Dewanginokori during a torrential storm, on Aetheros, Day 1, fate gathers them together at the Boar Smile Tavern—their meeting place and the start of their journey into the shadows of the Silver Light."
 							]
 						},
 						{
@@ -151,11 +151,11 @@
 									"items": [
 										"{@b Chapter 1 - Boar Smile Tavern}: The adventurers arrive in Dewanginokori on the stormy evening of Aetheros, Day 1. With the tavern full, they are forced together at the bar itself, strangers sharing space. They soon hear rumors: families whispering about loved ones gone missing, blessings from the Silver Light turning hollow, and a beggar woman muttering of “light turned black.” This chapter bonds the party and sets the hook to investigate the Silver Light’s fall.",
 										"{@b Chapter 2 - The Silver Forest}: Following clues leads the adventurers into the Silver Forest, the sacred woods once tended by the Silver Light. Once bright with moonlit leaves and glimmering streams, it is now scarred—its wildlife restless, shadows moving where they shouldn’t. Here, the adventurers face skirmishes with corrupted acolytes and glimpse signs of a greater darkness. They may meet the beggar woman again, who hints at the truth: “Not all who bless serve the Keeper of Time.” The adventure continues on Aetheros, Day 2 (the day of Krylos).",
-										"{@b Chapter 3 - The Ruin of Silver Light}: The adventurers reach the ruined temple of the Silver Light. Here they discover the cult’s High Priest and their terrible secret: supplicants lured to sacrifice, their lifeblood feeding the {@deity Xy'loth|demon lords|MTW}’s Pet. This becomes the adventure’s climactic battle. If victorious, the adventurers free the captives and break the cult’s hold—but their victory awakens something far worse. The battle could take place late on Aetheros, Day 2.",
-										"{@b Epilogue - The Abyss Unveiled}: As the High Priest falls and the Pet is slain, the temple trembles. A rift tears open, and the {@deity Xy'loth|demon lords|MTW} manifests in his true abyssal form—Gargantuan, overwhelming, a being no mortal could stand against. Just as despair takes hold, the sky shatters into blinding light. Time cracks. Reality folds back."
+										"{@b Chapter 3 - The Ruin of Silver Light}: The adventurers reach the ruined temple of the Silver Light. Here they discover the cult’s High Priest and their terrible secret: supplicants lured to sacrifice, their lifeblood feeding the {@deity Xy'loth|demon lords|MTW-TS}’s Pet. This becomes the adventure’s climactic battle. If victorious, the adventurers free the captives and break the cult’s hold—but their victory awakens something far worse. The battle could take place late on Aetheros, Day 2.",
+										"{@b Epilogue - The Abyss Unveiled}: As the High Priest falls and the Pet is slain, the temple trembles. A rift tears open, and the {@deity Xy'loth|demon lords|MTW-TS} manifests in his true abyssal form—Gargantuan, overwhelming, a being no mortal could stand against. Just as despair takes hold, the sky shatters into blinding light. Time cracks. Reality folds back."
 									]
 								},
-								"The adventurers find themselves once more at the Boar Smile Tavern, the storm still raging outside, as if no time has passed. The date is Aetheros, Day 1 once again—but now the Silver Light is whole again, their order loyal to {@deity Vaeil|the primordials|MTW} once more. Only the beggar woman’s gaze lingers, knowing the truth: history was rewritten by the Vaelithra."
+								"The adventurers find themselves once more at the Boar Smile Tavern, the storm still raging outside, as if no time has passed. The date is Aetheros, Day 1 once again—but now the Silver Light is whole again, their order loyal to {@deity Vaeil|the primordials|MTW-TS} once more. Only the beggar woman’s gaze lingers, knowing the truth: history was rewritten by the Vaelithra."
 							]
 						}
 					]
@@ -196,7 +196,7 @@
 									"page": 1,
 									"id": "001a1",
 									"entries": [
-										"The bartender on duty was an Elf named {@creature Demolias Nogard|MTW}. With slightly disheveled blond hair and a pair of friendly green eyes, he greeted every newcomer with a warm smile. His build was unassuming, but his attire suggested a readiness for action: a white shirt and black vest paired with brown pants rolled up at the ankles. Your eye might be drawn to the sheathed shortsword on his back, a clear sign that he was more than just a man pouring drinks.",
+										"The bartender on duty was an Elf named {@creature Demolias Nogard|MTW-TS}. With slightly disheveled blond hair and a pair of friendly green eyes, he greeted every newcomer with a warm smile. His build was unassuming, but his attire suggested a readiness for action: a white shirt and black vest paired with brown pants rolled up at the ankles. Your eye might be drawn to the sheathed shortsword on his back, a clear sign that he was more than just a man pouring drinks.",
 										{
 											"type": "table",
 											"caption": "Boar Smile Tavern Menu",
@@ -331,7 +331,7 @@
 									"page": 1,
 									"id": "001a2",
 									"entries": [
-										"The only server on duty was a woman with a commanding presence. Her name was {@creature Diane Serpent|MTW}. She was notably tall with a strong, athletic build, and her brown hair was braided into two thick pigtails that swung slightly as she shifted her weight. Her uniform consisted of a tough, sleeveless gambeson over a loose-fitting tunic, and practical boots. The centerpiece of her gear, however, was a large, two-handed hammer that leaned against the wall next to her. She didn't seem to be in a rush, a silent guardian of the peace, ready to spring into action if needed."
+										"The only server on duty was a woman with a commanding presence. Her name was {@creature Diane Serpent|MTW-TS}. She was notably tall with a strong, athletic build, and her brown hair was braided into two thick pigtails that swung slightly as she shifted her weight. Her uniform consisted of a tough, sleeveless gambeson over a loose-fitting tunic, and practical boots. The centerpiece of her gear, however, was a large, two-handed hammer that leaned against the wall next to her. She didn't seem to be in a rush, a silent guardian of the peace, ready to spring into action if needed."
 									]
 								}
 							]
@@ -431,7 +431,7 @@
 									]
 								},
 								"As the party enters the woods, two robed figures rise from the shadows of the tavern and begin to follow from a distance. These are members of the corrupted Silver Light, sent to monitor or eliminate anyone who interferes with their plans. They should remain unseen for now.",
-								"A beggar woman, huddled outside the tavern, watches the adventurers leave. This is Vaelithra, a fragment of the god {@deity Vaeil|the primordials|MTW}. She is observing the party's first steps on their journey, but she will not interfere. Her presence is a subtle hint of a larger, divine conflict."
+								"A beggar woman, huddled outside the tavern, watches the adventurers leave. This is Vaelithra, a fragment of the god {@deity Vaeil|the primordials|MTW-TS}. She is observing the party's first steps on their journey, but she will not interfere. Her presence is a subtle hint of a larger, divine conflict."
 							]
 						}
 					]
@@ -449,7 +449,7 @@
 							"id": "002a",
 							"entries": [
 								"This chapter shifts the adventure’s tone entirely, moving from the safety of the tavern to the hostile tension of the woods. The Silver Forest is the players’ first real taste of the corruption they are investigating, a place of twisted beauty that conceals a very real menace. This serves as a vital combat trial, meant to test your party’s cohesion and combat strategy.",
-								"Encourage your players to explore the unsettling signs of corruption in the forest before the ambush. These clues are designed to build dread and foreshadow that something ancient and unnatural—the {@b {@deity Xy'loth|demon lords|MTW}'s Pet}—lingers deeper within."
+								"Encourage your players to explore the unsettling signs of corruption in the forest before the ambush. These clues are designed to build dread and foreshadow that something ancient and unnatural—the {@b {@deity Xy'loth|demon lords|MTW-TS}'s Pet}—lingers deeper within."
 							]
 						},
 						{
@@ -472,8 +472,8 @@
 								{
 									"type": "list",
 									"items": [
-										"4 {@creature Acolyte of Silver Light|MTW}.",
-										"1 {@creature Priest of Silver Light|MTW}."
+										"4 {@creature Acolyte of Silver Light|MTW-TS}.",
+										"1 {@creature Priest of Silver Light|MTW-TS}."
 									]
 								},
 								"Their goal is not to kill but to capture—they believe the adventurers are fated sacrifices or useful tools for their cause. The priest’s eyes glow with a fanatic's devotion as he gestures, commanding his acolytes. “Chosen offerings,” he declares, his voice a low hiss, “you walk willingly into our master’s grace!”",
@@ -501,7 +501,7 @@
 											"type": "list",
 											"items": [
 												"A clear path to the Ruin of Silver Light, a twisted stairway covered in thorny vines.",
-												"A dark hint that the cult seeks to 'awaken their chained master'—the {@deity Xy'loth|demon lords|MTW}'s Pet.",
+												"A dark hint that the cult seeks to 'awaken their chained master'—the {@deity Xy'loth|demon lords|MTW-TS}'s Pet.",
 												"A final, chilling warning: “You think you walk toward salvation… but you walk willingly into the maw of eternity.”"
 											]
 										}
@@ -523,43 +523,43 @@
 									"rows": [
 										[
 											"1",
-											"{@item Silver Charm|MTW}"
+											"{@item Silver Charm|MTW-TS}"
 										],
 										[
 											"2",
-											"{@item Blessed Candle|MTW}"
+											"{@item Blessed Candle|MTW-TS}"
 										],
 										[
 											"3",
-											"{@item Prayer Beads of Echo|MTW}"
+											"{@item Prayer Beads of Echo|MTW-TS}"
 										],
 										[
 											"4",
-											"{@item Silverleaf Ring|MTW}"
+											"{@item Silverleaf Ring|MTW-TS}"
 										],
 										[
 											"5",
-											"{@item Whispering Feather|MTW}"
+											"{@item Whispering Feather|MTW-TS}"
 										],
 										[
 											"6",
-											"{@item Dried Vial of Silver Fog|MTW}"
+											"{@item Dried Vial of Silver Fog|MTW-TS}"
 										],
 										[
 											"7",
-											"{@item Ashen Token|MTW}"
+											"{@item Ashen Token|MTW-TS}"
 										],
 										[
 											"8",
-											"{@item Hollow Coin|MTW}"
+											"{@item Hollow Coin|MTW-TS}"
 										],
 										[
 											"9",
-											"{@item Cracked Hourglass Pendant|MTW}"
+											"{@item Cracked Hourglass Pendant|MTW-TS}"
 										],
 										[
 											"10",
-											"{@item Moonlit Thread|MTW}"
+											"{@item Moonlit Thread|MTW-TS}"
 										]
 									]
 								}
@@ -588,7 +588,7 @@
 							"page": 1,
 							"id": "003b",
 							"entries": [
-								"After navigating the corrupted forest, the adventurers arrive at what was once the grand entrance to the temple of the Silver Light. The gate stands as a grim silhouette against the stormy sky, its intricate carvings of {@deity Vaeil|the primordials|MTW} and his celestial Archives now defaced and covered in abyssal glyphs. The air here is cold and heavy with the scent of decay. A low, guttural chanting echoes from within the ruins, a foul perversion of the order's old prayers. The path leads to a shattered, overgrown stairway that descends into darkness."
+								"After navigating the corrupted forest, the adventurers arrive at what was once the grand entrance to the temple of the Silver Light. The gate stands as a grim silhouette against the stormy sky, its intricate carvings of {@deity Vaeil|the primordials|MTW-TS} and his celestial Archives now defaced and covered in abyssal glyphs. The air here is cold and heavy with the scent of decay. A low, guttural chanting echoes from within the ruins, a foul perversion of the order's old prayers. The path leads to a shattered, overgrown stairway that descends into darkness."
 							]
 						},
 						{
@@ -597,7 +597,7 @@
 							"page": 1,
 							"id": "003c",
 							"entries": [
-								"As the adventurers descend into the main hall of the temple, the chanting stops. Five figures stand before a jagged rift in reality, their silver robes stained with blood and filth. In the center, the High Priest, a Drow Elf, turns to face them, his eyes glowing with black light. He is flanked by two robed Priests and three hooded Acolytes, who clutch their daggers with zealous fervor. The High Priest raises his hands, his voice echoing with a cruel mockery of {@deity Vaeil|the primordials|MTW}'s blessing. “You have intruded on the most sacred of rituals,” he hisses. “You are not a sacrifice… you are simply a feast!”",
+								"As the adventurers descend into the main hall of the temple, the chanting stops. Five figures stand before a jagged rift in reality, their silver robes stained with blood and filth. In the center, the High Priest, a Drow Elf, turns to face them, his eyes glowing with black light. He is flanked by two robed Priests and three hooded Acolytes, who clutch their daggers with zealous fervor. The High Priest raises his hands, his voice echoing with a cruel mockery of {@deity Vaeil|the primordials|MTW-TS}'s blessing. “You have intruded on the most sacred of rituals,” he hisses. “You are not a sacrifice… you are simply a feast!”",
 								{
 									"type": "list",
 									"items": [
@@ -605,9 +605,9 @@
 										{
 											"type": "list",
 											"items": [
-												"1 {@creature High Priest of Silver Light|MTW}",
-												"2 {@creature Priest of Silver Light|MTW}",
-												"3 {@creature Acolyte of Silver Light|MTW}"
+												"1 {@creature High Priest of Silver Light|MTW-TS}",
+												"2 {@creature Priest of Silver Light|MTW-TS}",
+												"3 {@creature Acolyte of Silver Light|MTW-TS}"
 											]
 										},
 										"The High Priest will prioritize using spells to weaken and control the party, while the acolytes attack recklessly to wear them down.",
@@ -623,16 +623,16 @@
 							"page": 1,
 							"id": "003d",
 							"entries": [
-								"The rift behind the High Priest tears open with a deafening screech of rending metal. The abyssal chanting swells into a roar as the true lord of these ruins emerges: {@creature The Abyssal Maw|MTW}. A gargantuan, multi-limbed creature of nightmare, it is a fleshy, chitinous horror with an impossibly wide maw filled with rows of razor-sharp teeth. Its body seems to warp and pull at the space around it, its movements erratic and alien. It has been a long time since its master fed it so well, and it is hungry for more."
+								"The rift behind the High Priest tears open with a deafening screech of rending metal. The abyssal chanting swells into a roar as the true lord of these ruins emerges: {@creature The Abyssal Maw|MTW-TS}. A gargantuan, multi-limbed creature of nightmare, it is a fleshy, chitinous horror with an impossibly wide maw filled with rows of razor-sharp teeth. Its body seems to warp and pull at the space around it, its movements erratic and alien. It has been a long time since its master fed it so well, and it is hungry for more."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "The Light of {@deity Vaeil|the primordials|MTW}",
+							"name": "The Light of {@deity Vaeil|the primordials|MTW-TS}",
 							"page": 1,
 							"id": "003e",
 							"entries": [
-								"If the party is defeated or clearly losing the battle against the {@creature The Abyssal Maw|MTW}, a blinding light erupts from the sky, a single, brilliant ray that shatters the temple's ceiling. This is the **Vaelithra's** power, a desperate act to correct a timeline that has gone too far. The light strikes the Maw, scorching it and instantly incinerating any remaining cultists. The Maw's body convulses, and it is left with only 20% of its total hit points remaining. The air shimmers with temporal energy, and for a fleeting moment, the adventurers catch a glimpse of the beggar woman from the tavern, her eyes glowing with impossible power, before the scene resets."
+								"If the party is defeated or clearly losing the battle against the {@creature The Abyssal Maw|MTW-TS}, a blinding light erupts from the sky, a single, brilliant ray that shatters the temple's ceiling. This is the **Vaelithra's** power, a desperate act to correct a timeline that has gone too far. The light strikes the Maw, scorching it and instantly incinerating any remaining cultists. The Maw's body convulses, and it is left with only 20% of its total hit points remaining. The air shimmers with temporal energy, and for a fleeting moment, the adventurers catch a glimpse of the beggar woman from the tavern, her eyes glowing with impossible power, before the scene resets."
 							]
 						},
 						{
@@ -641,8 +641,8 @@
 							"page": 1,
 							"id": "003f",
 							"entries": [
-								"Whether by their own hand or by the grace of the Vaelithra, the adventurers defeat the {@creature The Abyssal Maw|MTW}. As the monstrosity's body dissolves, a final, guttural scream tears from the rift in reality. The {@deity Xy'loth|demon lords|MTW} manifests in his true, gargantuan form—an overwhelming being of pure abyss and despair. This is where the adventure's epilogue begins.",
-								"A {@item Fragment of the Archive|MTW} is laying beside the High Priest and can be taken."
+								"Whether by their own hand or by the grace of the Vaelithra, the adventurers defeat the {@creature The Abyssal Maw|MTW-TS}. As the monstrosity's body dissolves, a final, guttural scream tears from the rift in reality. The {@deity Xy'loth|demon lords|MTW-TS} manifests in his true, gargantuan form—an overwhelming being of pure abyss and despair. This is where the adventure's epilogue begins.",
+								"A {@item Fragment of the Archive|MTW-TS} is laying beside the High Priest and can be taken."
 							]
 						}
 					]
@@ -659,10 +659,10 @@
 							"entries": [
 								"The rain pours heavily outside as thunder rattles the windows of the Boar Smile Tavern. Every table is full, leaving you no choice but to share one with strangers. The warmth of the hearth fills the room, carrying the sound of laughter and song.",
 								"A group of Silver Light acolytes sit near the bar, their silver-embroidered robes bright in the firelight. They raise cups with locals, blessing farmers and cradling newborns offered into their arms. A villager smiles at you warmly and whispers:",
-								"\"The Silver Light keeps us safe. {@deity Vaeil|the primordials|MTW}’s blessings shine upon Dewanginokori once more.\""
+								"\"The Silver Light keeps us safe. {@deity Vaeil|the primordials|MTW-TS}’s blessings shine upon Dewanginokori once more.\""
 							]
 						},
-						"Though the adventurers recall the horrors faced within the Silver Forest, none around them seem to bear such memories. Time has been rewritten by Vaelithra, fragment of {@deity Vaeil|the primordials|MTW}, restoring Dewanginokori to its golden age.",
+						"Though the adventurers recall the horrors faced within the Silver Forest, none around them seem to bear such memories. Time has been rewritten by Vaelithra, fragment of {@deity Vaeil|the primordials|MTW-TS}, restoring Dewanginokori to its golden age.",
 						"The loop closes where it began — the Boar Smile Tavern, the rain, the strangers at a crowded table — but now the weight of destiny hangs heavy. For the Archive remains threatened, and this was but the first page of a greater tale."
 					]
 				},
@@ -683,43 +683,43 @@
 							],
 							"rows": [
 								[
-									"{@deity Vaeil|the primordials|MTW}",
+									"{@deity Vaeil|the primordials|MTW-TS}",
 									"Deity"
 								],
 								[
-									"{@deity Xy'loth|demon lords|MTW}",
+									"{@deity Xy'loth|demon lords|MTW-TS}",
 									"Deity"
 								],
 								[
-									"{@creature Vaeil, the God of Time|MTW}",
+									"{@creature Vaeil, the God of Time|MTW-TS}",
 									"God"
 								],
 								[
-									"{@creature Xy'loth, the Archdemon|MTW}",
+									"{@creature Xy'loth, the Archdemon|MTW-TS}",
 									"Demon"
 								],
 								[
-									"{@creature The Abyssal Maw|MTW}",
+									"{@creature The Abyssal Maw|MTW-TS}",
 									"Monster"
 								],
 								[
-									"{@creature High Priest of Silver Light|MTW}",
+									"{@creature High Priest of Silver Light|MTW-TS}",
 									"Monster"
 								],
 								[
-									"{@creature Priest of Silver Light|MTW}",
+									"{@creature Priest of Silver Light|MTW-TS}",
 									"Monster"
 								],
 								[
-									"{@creature Acolyte of Silver Light|MTW}",
+									"{@creature Acolyte of Silver Light|MTW-TS}",
 									"Monster"
 								],
 								[
-									"{@creature Demolias Nogard|MTW}",
+									"{@creature Demolias Nogard|MTW-TS}",
 									"Non Playable Character"
 								],
 								[
-									"{@creature Diane Serpent|MTW}",
+									"{@creature Diane Serpent|MTW-TS}",
 									"Non Playable Character"
 								]
 							]
@@ -743,51 +743,51 @@
 							],
 							"rows": [
 								[
-									"{@item Silverlight Amulet|MTW}",
+									"{@item Silverlight Amulet|MTW-TS}",
 									"Rare"
 								],
 								[
-									"{@item Fragment of the Archive|MTW}",
+									"{@item Fragment of the Archive|MTW-TS}",
 									"Rare"
 								],
 								[
-									"{@item Silver Charm|MTW}",
+									"{@item Silver Charm|MTW-TS}",
 									"Common"
 								],
 								[
-									"{@item Blessed Candle|MTW}",
+									"{@item Blessed Candle|MTW-TS}",
 									"Common"
 								],
 								[
-									"{@item Prayer Beads of Echo|MTW}",
+									"{@item Prayer Beads of Echo|MTW-TS}",
 									"Common"
 								],
 								[
-									"{@item Silverleaf Ring|MTW}",
+									"{@item Silverleaf Ring|MTW-TS}",
 									"Common"
 								],
 								[
-									"{@item Whispering Feather|MTW}",
+									"{@item Whispering Feather|MTW-TS}",
 									"Common"
 								],
 								[
-									"{@item Dried Vial of Silver Fog|MTW}",
+									"{@item Dried Vial of Silver Fog|MTW-TS}",
 									"Common"
 								],
 								[
-									"{@item Ashen Token|MTW}",
+									"{@item Ashen Token|MTW-TS}",
 									"Common"
 								],
 								[
-									"{@item Hollow Coin|MTW}",
+									"{@item Hollow Coin|MTW-TS}",
 									"Common"
 								],
 								[
-									"{@item Cracked Hourglass Pendant|MTW}",
+									"{@item Cracked Hourglass Pendant|MTW-TS}",
 									"Common"
 								],
 								[
-									"{@item Moonlit Thread|MTW}",
+									"{@item Moonlit Thread|MTW-TS}",
 									"Common"
 								]
 							]
@@ -800,7 +800,7 @@
 	"deity": [
 		{
 			"name": "Vaeil",
-			"source": "MTW",
+			"source": "MTW-TS",
 			"page": 1,
 			"id": "Vaeil",
 			"alignment": [
@@ -827,7 +827,7 @@
 		},
 		{
 			"name": "Xy'loth",
-			"source": "MTW",
+			"source": "MTW-TS",
 			"alignment": [
 			  "C",
 			  "E"
@@ -854,10 +854,10 @@
 	"item": [
 		{
 			"name": "Dagger of Calm Fire",
-			"source": "MTW",
+			"source": "MTW-TS",
 			"page": 1,
 			"edition": "one",
-			"type": "W|MTW",
+			"type": "W|MTW-TS",
 			"rarity": "rare",
 			"weight": 1,
 			"value": 200,
@@ -881,10 +881,10 @@
 		},
 		{
 			"name": "Silverlight Amulet",
-			"source": "MTW",
+			"source": "MTW-TS",
 			"page": 2,
 			"edition": "one",
-			"type": "W|MTW",
+			"type": "W|MTW-TS",
 			"rarity": "rare",
 			"weight": 0.5,
 			"value": 500,
@@ -895,10 +895,10 @@
 		},
 		{
 			"name": "Fragment of the Archive",
-			"source": "MTW",
+			"source": "MTW-TS",
 			"page": 21,
 			"edition": "one",
-			"type": "W|MTW",
+			"type": "W|MTW-TS",
 			"rarity": "rare",
 			"weight": 0.2,
 			"value": 500,
@@ -911,10 +911,10 @@
 		},
 		{
 			"name": "Silver Charm",
-			"source": "MTW",
+			"source": "MTW-TS",
 			"page": 22,
 			"edition": "one",
-			"type": "W|MTW",
+			"type": "W|MTW-TS",
 			"rarity": "common",
 			"weight": 0.1,
 			"value": 25,
@@ -925,10 +925,10 @@
 		},
 		{
 			"name": "Blessed Candle",
-			"source": "MTW",
+			"source": "MTW-TS",
 			"page": 23,
 			"edition": "one",
-			"type": "W|MTW",
+			"type": "W|MTW-TS",
 			"rarity": "common",
 			"weight": 0.2,
 			"value": 10,
@@ -940,10 +940,10 @@
 		},
 		{
 			"name": "Prayer Beads of Echo",
-			"source": "MTW",
+			"source": "MTW-TS",
 			"page": 24,
 			"edition": "one",
-			"type": "W|MTW",
+			"type": "W|MTW-TS",
 			"rarity": "common",
 			"weight": 0.3,
 			"value": 15,
@@ -954,10 +954,10 @@
 		},
 		{
 			"name": "Silverleaf Ring",
-			"source": "MTW",
+			"source": "MTW-TS",
 			"page": 25,
 			"edition": "one",
-			"type": "W|MTW",
+			"type": "W|MTW-TS",
 			"rarity": "common",
 			"weight": 0,
 			"value": 30,
@@ -968,10 +968,10 @@
 		},
 		{
 			"name": "Whispering Feather",
-			"source": "MTW",
+			"source": "MTW-TS",
 			"page": 26,
 			"edition": "one",
-			"type": "W|MTW",
+			"type": "W|MTW-TS",
 			"rarity": "common",
 			"weight": 0,
 			"value": 5,
@@ -982,10 +982,10 @@
 		},
 		{
 			"name": "Dried Vial of Silver Fog",
-			"source": "MTW",
+			"source": "MTW-TS",
 			"page": 27,
 			"edition": "one",
-			"type": "W|MTW",
+			"type": "W|MTW-TS",
 			"rarity": "common",
 			"weight": 0.1,
 			"value": 20,
@@ -996,10 +996,10 @@
 		},
 		{
 			"name": "Ashen Token",
-			"source": "MTW",
+			"source": "MTW-TS",
 			"page": 28,
 			"edition": "one",
-			"type": "W|MTW",
+			"type": "W|MTW-TS",
 			"rarity": "common",
 			"weight": 0,
 			"value": 10,
@@ -1010,10 +1010,10 @@
 		},
 		{
 			"name": "Hollow Coin",
-			"source": "MTW",
+			"source": "MTW-TS",
 			"page": 29,
 			"edition": "one",
-			"type": "W|MTW",
+			"type": "W|MTW-TS",
 			"rarity": "common",
 			"weight": 0,
 			"value": 1,
@@ -1024,10 +1024,10 @@
 		},
 		{
 			"name": "Cracked Hourglass Pendant",
-			"source": "MTW",
+			"source": "MTW-TS",
 			"page": 30,
 			"edition": "one",
-			"type": "W|MTW",
+			"type": "W|MTW-TS",
 			"rarity": "common",
 			"weight": 0.2,
 			"value": 35,
@@ -1038,10 +1038,10 @@
 		},
 		{
 			"name": "Moonlit Thread",
-			"source": "MTW",
+			"source": "MTW-TS",
 			"page": 31,
 			"edition": "one",
-			"type": "W|MTW",
+			"type": "W|MTW-TS",
 			"rarity": "common",
 			"weight": 0,
 			"value": 15,
@@ -1055,13 +1055,13 @@
 		{
 			"name": "Wondrous item",
 			"abbreviation": "W",
-			"source": "MTW"
+			"source": "MTW-TS"
 		}
 	],
 	"monster": [
 		{
 			"name": "High Priest of Silver Light",
-			"source": "MTW",
+			"source": "MTW-TS",
 			"page": 1,
 			"size": [
 				"M"
@@ -1192,7 +1192,7 @@
 		},
 		{
 			"name": "Priest of Silver Light",
-			"source": "MTW",
+			"source": "MTW-TS",
 			"page": 1,
 			"size": [
 				"M"
@@ -1286,7 +1286,7 @@
 		},
 		{
 			"name": "Acolyte of Silver Light",
-			"source": "MTW",
+			"source": "MTW-TS",
 			"page": 1,
 			"size": [
 				"M"
@@ -1355,7 +1355,7 @@
 		},
 		{
 			"name": "The Abyssal Maw",
-			"source": "MTW",
+			"source": "MTW-TS",
 			"page": 1,
 			"size": [
 				"L"
@@ -1429,7 +1429,7 @@
 		},
 		{
 			"name": "Demolias Nogard",
-			"source": "MTW",
+			"source": "MTW-TS",
 			"size": [
 				"M"
 			],
@@ -1543,7 +1543,7 @@
 		},
 		{
 			"name": "Diane Serpent",
-			"source": "MTW",
+			"source": "MTW-TS",
 			"size": [
 				"M"
 			],
@@ -1628,7 +1628,7 @@
 		},
 		{
 			"name": "Vaeil, the God of Time",
-			"source": "MTW",
+			"source": "MTW-TS",
 			"page": 1,
 			"size": [
 				"G"
@@ -1710,14 +1710,14 @@
 			},
 			"legendaryGroup": {
 				"name": "Vaeil, the God of Time",
-				"source": "MTW"
+				"source": "MTW-TS"
 			},
 			"trait": [
 				{
 					"name": "Innate Spellcasting",
 					"entries": [
 						"Vaeil's spellcasting ability is Wisdom (spell save {@dc 26}). He can innately cast the following spells, requiring no material components:",
-						"At will: {@spell command}, {@spell time ravage|MTW}",
+						"At will: {@spell command}, {@spell time ravage|MTW-TS}",
 						"3/day each: {@spell banishment}, {@spell divine word}",
 						"1/day each: {@spell foresight}, {@spell prismatic wall}"
 					]
@@ -1780,7 +1780,7 @@
 		},
 		{
 			"name": "Xy'loth, the Archdemon",
-			"source": "MTW",
+			"source": "MTW-TS",
 			"page": 1,
 			"size": [
 				"G"
@@ -1861,7 +1861,7 @@
 			},
 			"legendaryGroup": {
 				"name": "Xy'loth, the Archdemon",
-				"source": "MTW"
+				"source": "MTW-TS"
 			},
 			"trait": [
 				{
@@ -1920,7 +1920,7 @@
 	"spell": [
 		{
 			"name": "Time Ravage",
-			"source": "MTW",
+			"source": "MTW-TS",
 			"page": 1,
 			"level": 9,
 			"school": "T",
