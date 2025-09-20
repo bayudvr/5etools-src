@@ -1,0 +1,1961 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "MTW",
+				"abbreviation": "MTW",
+				"full": "Malvidra Twisted World",
+				"authors": [
+					"M Bayu Devara"
+				],
+				"convertedBy": [
+					"M Bayu Devara"
+				],
+				"color": "82ff80",
+				"colorNight": "008528",
+				"version": "1.0.0",
+				"dateReleased": "2025-09-19"
+			}
+		],
+		"internalCopies": [
+			"deity",
+			"item",
+			"monster"
+		],
+		"status": "ready",
+		"edition": "one",
+		"dateAdded": 1758303168,
+		"dateLastModified": 1758303168
+	},
+	"adventure": [
+		{
+			"name": "Vaelithra: The Ruin of Silver Light",
+			"id": "VTRoS",
+			"source": "MTW",
+			"group": "supplement",
+			"published": "2025-09-19",
+			"author": "Malvidra Twisted World, Bayu Devara",
+			"storyline": "One Shot",
+			"level": {
+				"start": 3,
+				"end": 3
+			},
+			"contents": [
+				{
+					"name": "Introduction",
+					"headers": [
+						"Running This Adventure",
+						"Adventure Background",
+						"Adventure Outline"
+					]
+				},
+				{
+					"name": "Chapter 1: The Boar Smile Tavern",
+					"headers": [
+						"Roleplaying the Scene",
+						"The Boar Smile Tavern NPCs",
+						"Rumors of the Silver Light",
+						"A Call for Help",
+						"Into the Storm"
+					]
+				},
+				{
+					"name": "Chapter 2: The Silver Forest",
+					"headers": [
+						"Running This Chapter",
+						"Entering the Forest",
+						"The Ambush at the Halfway Point",
+						"Resolution"
+					]
+				},
+				{
+					"name": "Chapter 3: The Ruin of Silver Light",
+					"headers": [
+						"Running This Chapter",
+						"The Temple Gate",
+						"The High Priest's Stand",
+						"The Abyssal Maw",
+						"The Light of Vaeil",
+						"Resolution"
+					]
+				},
+				{
+					"name": "Epilogue",
+					"headers": [
+						"The Reset Timeline",
+						"Echoes of Vaelithra"
+					]
+				},
+				{
+					"name": "Appendix A: Creatures"
+				},
+				{
+					"name": "Appendix B: Items"
+				}
+			]
+		}
+	],
+	"adventureData": [
+		{
+			"id": "VTRoS",
+			"source": "MTW",
+			"data": [
+				{
+					"type": "section",
+					"name": "Introduction",
+					"page": 1,
+					"id": "000",
+					"entries": [
+						"This one-shot is part of a larger narrative within the Malvidra Twisted World universe. It takes place in the final moments of Umbralos, the Month of Lengthening Shadows, and the beginning of Aetheros, the Month of Embers and Remembrance. The corruption of the Silver Light temple has plunged the city into chaos, a reflection of the troubled times.",
+						{
+							"type": "entries",
+							"name": "Running This Adventure",
+							"page": 1,
+							"id": "000a",
+							"entries": [
+								"The Ruin of Silver Light is a one-shot adventure for characters of 3rd level. It draws them into the heart of Dewanginokori, a city once blessed by divine favor and now tainted by corruption.",
+								"The story begins simply—with strangers forced together by a storm in the Boar Smile Tavern on the night of Vael'thra, the first day of the month. Soon, they discover whispers of disappearances, false blessings, and a holy order turned sinister.",
+								"The adventurers will:",
+								{
+									"type": "list",
+									"items": [
+										"Explore the uneasy city of Dewanginokori on Aetheros, Day 1.",
+										"Uncover the truth behind the Silver Light cult and its High Priest.",
+										"Descend into the ruins of the Silver Light temple.",
+										"Confront the cult’s monstrous patron’s pet, twisted by abyssal power."
+									]
+								},
+								"The climax brings them face-to-face with a fragment of {@deity Vaeil|the primordials|MTW}’s will—the Vaelithra—and briefly with the abyssal master behind the corruption. Though the adventurers cannot fight this {@deity Xy'loth|demon lords|MTW}, they witness how fragile time itself can be when gods and demons pull at its threads."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Adventure Background",
+							"page": 1,
+							"id": "000c",
+							"entries": [
+								"For centuries, the Silver Light order served as acolytes of {@deity Vaeil|the primordials|MTW}, God of Time and Keeper of the Archive. In the city of Dewanginokori, they were beloved for their blessings—prayers over crops, safe births, successful trade, and guidance in life’s trials.",
+								"Recently, however, a group of Drow elves arrived claiming devotion to {@deity Vaeil|the primordials|MTW}. In truth, they were secret worshipers of an {@deity Xy'loth|demon lords|MTW} of despair and sacrifice. Slowly, they wormed their way into the Silver Light, twisting its rituals and climbing its ranks. By the dark month of Umbralos, when the shadows lengthen, one of them was raised to High Priest. The order’s blessings became bargains. Those who sought help were promised deliverance—then lured into the old temple of the Silver Light, now a ruin. There, the faithful were sacrificed to feed a horrific abyssal creature, the {@deity Xy'loth|demon lords|MTW}’s Pet.",
+								"Unseen, a fragment of {@deity Vaeil|the primordials|MTW}’s sundered soul walks the city as a beggar woman. This Vaelithra cannot act directly but watches for mortals brave enough to intervene. When the adventurers arrive in Dewanginokori during a torrential storm, on Aetheros, Day 1, fate gathers them together at the Boar Smile Tavern—their meeting place and the start of their journey into the shadows of the Silver Light."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Adventure Outline",
+							"page": 1,
+							"id": "000d",
+							"entries": [
+								"This one-shot has three main chapters and one epilogue. Each brings the adventurers deeper into the corruption of the Silver Light:",
+								{
+									"type": "list",
+									"items": [
+										"{@b Chapter 1 - Boar Smile Tavern}: The adventurers arrive in Dewanginokori on the stormy evening of Aetheros, Day 1. With the tavern full, they are forced together at the bar itself, strangers sharing space. They soon hear rumors: families whispering about loved ones gone missing, blessings from the Silver Light turning hollow, and a beggar woman muttering of “light turned black.” This chapter bonds the party and sets the hook to investigate the Silver Light’s fall.",
+										"{@b Chapter 2 - The Silver Forest}: Following clues leads the adventurers into the Silver Forest, the sacred woods once tended by the Silver Light. Once bright with moonlit leaves and glimmering streams, it is now scarred—its wildlife restless, shadows moving where they shouldn’t. Here, the adventurers face skirmishes with corrupted acolytes and glimpse signs of a greater darkness. They may meet the beggar woman again, who hints at the truth: “Not all who bless serve the Keeper of Time.” The adventure continues on Aetheros, Day 2 (the day of Krylos).",
+										"{@b Chapter 3 - The Ruin of Silver Light}: The adventurers reach the ruined temple of the Silver Light. Here they discover the cult’s High Priest and their terrible secret: supplicants lured to sacrifice, their lifeblood feeding the {@deity Xy'loth|demon lords|MTW}’s Pet. This becomes the adventure’s climactic battle. If victorious, the adventurers free the captives and break the cult’s hold—but their victory awakens something far worse. The battle could take place late on Aetheros, Day 2.",
+										"{@b Epilogue - The Abyss Unveiled}: As the High Priest falls and the Pet is slain, the temple trembles. A rift tears open, and the {@deity Xy'loth|demon lords|MTW} manifests in his true abyssal form—Gargantuan, overwhelming, a being no mortal could stand against. Just as despair takes hold, the sky shatters into blinding light. Time cracks. Reality folds back."
+									]
+								},
+								"The adventurers find themselves once more at the Boar Smile Tavern, the storm still raging outside, as if no time has passed. The date is Aetheros, Day 1 once again—but now the Silver Light is whole again, their order loyal to {@deity Vaeil|the primordials|MTW} once more. Only the beggar woman’s gaze lingers, knowing the truth: history was rewritten by the Vaelithra."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Chapter 1: The Boar Smile Tavern",
+					"page": 1,
+					"id": "001",
+					"entries": [
+						"The adventure begins as the adventurers arrive in Dewanginokori under a torrential storm. Seeking warmth and shelter, they enter the Boar Smile Tavern, a bustling establishment packed full of travelers, locals, and laborers all waiting out the weather. With no empty tables left, the characters are forced to sit side by side at the bar, strangers drawn together by chance—or perhaps fate.",
+						{
+							"type": "inset",
+							"entries": [
+								"The rain pours heavily outside as thunder rattles the windows of the Boar Smile Tavern. Every table is full, leaving you no choice but to share one with strangers. The warmth of the hearth can’t quite chase away the chill in the air, nor the uneasy whispers of the locals.",
+								"A group of Silver Light acolytes sit near the bar, their silver-embroidered robes darkened with damp. Once revered as the city’s blessing-givers, now they mutter among themselves, avoiding the gaze of common folk. A farmer leans in to whisper:",
+								"“They don’t bless the crops anymore. Those who beg their help vanish into the forest… and never come back.”"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Roleplaying the Scene",
+							"page": 1,
+							"id": "001a",
+							"entries": [
+								"Encourage the players to introduce their characters: their weariness from travel, their reasons for being in Dewanginokori, and their reactions to being squeezed together. While they do, snippets of hushed conversation drift from the other customers. These whispers are the first hints that something is deeply wrong in the city."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "The Boar Smile Tavern NPCs",
+							"page": 1,
+							"id": "001b",
+							"entries": [
+								{
+									"type": "entries",
+									"name": "The Bartender",
+									"page": 1,
+									"id": "001a1",
+									"entries": [
+										"The bartender on duty was an Elf named {@creature Demolias Nogard|MTW}. With slightly disheveled blond hair and a pair of friendly green eyes, he greeted every newcomer with a warm smile. His build was unassuming, but his attire suggested a readiness for action: a white shirt and black vest paired with brown pants rolled up at the ankles. Your eye might be drawn to the sheathed shortsword on his back, a clear sign that he was more than just a man pouring drinks.",
+										{
+											"type": "table",
+											"caption": "Boar Smile Tavern Menu",
+											"colLabels": [
+												"Name",
+												"Category",
+												"Description",
+												"Price"
+											],
+											"colStyles": [
+												"text-center",
+												"text-center",
+												"text-center",
+												"text-center"
+											],
+											"rows": [
+												[
+													"{@b Bullete Broth}",
+													"Food",
+													"{@italic Bulette broth with chopped carrots served with a sliver of cow cheese}",
+													"8sp"
+												],
+												[
+													"{@b Brown Bear Broth}",
+													"Food",
+													"{@italic Brown bear broth with diced snap peas served with a wheat roll}",
+													"7sp"
+												],
+												[
+													"{@b Poached Pufferfish}",
+													"Food",
+													"{@italic Poached pufferfish served with raw snap peas and beets and a slice of cheddar cheese}",
+													"6sp"
+												],
+												[
+													"{@b Seared Striped Bass}",
+													"Food",
+													"{@italic Seared striped bass served with grilled snow peas and a slab of applewood cheese}",
+													"4sp"
+												],
+												[
+													"{@b Deboned Kingfish}",
+													"Food",
+													"Deboned kingfish sauteed in a salty cashew sauce served with a wedge of wheat bread",
+													"4sp"
+												],
+												[
+													"{@b Boiled Rock Bass Bisque}",
+													"Food",
+													"Boiled rock bass bisque with marinated turnips and pumpkin",
+													"4sp"
+												],
+												[
+													"{@b Midsummer Lager}",
+													"Beer",
+													"-",
+													"1sp"
+												],
+												[
+													"{@b Thunderstorm Brew}",
+													"Beer",
+													"-",
+													"1sp"
+												],
+												[
+													"{@b Citrus Pear Stout}",
+													"Beer",
+													"-",
+													"4cp"
+												],
+												[
+													"{@b The Flying Crocodile Ale}",
+													"Beer",
+													"-",
+													"4cp"
+												],
+												[
+													"{@b Woody Blueberry Ale}",
+													"Beer",
+													"-",
+													"4cp"
+												],
+												[
+													"{@b Yellow Elderberry Mead}",
+													"Beer",
+													"-",
+													"2cp"
+												],
+												[
+													"{@b Honeyleaf Wine}",
+													"Wine",
+													"-",
+													"1sp"
+												],
+												[
+													"{@b Treant Root Red}",
+													"Wine",
+													"-",
+													"1sp"
+												],
+												[
+													"{@b Singing Succubi}",
+													"Wine",
+													"-",
+													"1sp"
+												],
+												[
+													"{@b Tart Blackcurrant Bourbon}",
+													"Liquor",
+													"-",
+													"1sp"
+												],
+												[
+													"{@b Tart Mammoth Fat Vodka}",
+													"Liquor",
+													"-",
+													"1cp"
+												],
+												[
+													"{@b Centipede Ichor}",
+													"Liquor",
+													"-",
+													"1cp"
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "The Server",
+									"page": 1,
+									"id": "001a2",
+									"entries": [
+										"The only server on duty was a woman with a commanding presence. Her name was {@creature Diane Serpent|MTW}. She was notably tall with a strong, athletic build, and her brown hair was braided into two thick pigtails that swung slightly as she shifted her weight. Her uniform consisted of a tough, sleeveless gambeson over a loose-fitting tunic, and practical boots. The centerpiece of her gear, however, was a large, two-handed hammer that leaned against the wall next to her. She didn't seem to be in a rush, a silent guardian of the peace, ready to spring into action if needed."
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Rumors of the Silver Light",
+							"page": 1,
+							"id": "001c",
+							"entries": [
+								"As your party settles into town, you can hear whispers about the local temple, the Silver Light. If you listen closely, or ask around, you might uncover some unsettling truths.",
+								{
+									"type": "entries",
+									"name": "A Missing Boy",
+									"page": 1,
+									"id": "001c1",
+									"entries": [
+										"You can try to catch the eye of a nervous-looking villager or simply listen in on a hushed conversation at the tavern.",
+										{
+											"type": "list",
+											"items": [
+												"{@b Skill Check}: Make a {@dc 12} {@skill Perception} or {@skill Insight} check.",
+												"{@b Success}: You overhear a man talking to a friend, his voice filled with worry. 'My son, Thomas, went into the Silver Forest days ago. They told me the Silver Light would watch over him, but he hasn't come back. I fear... I fear he's gone.'",
+												"{@b Failure}: You only catch bits and pieces of the conversation. You hear the words 'missing' and 'Silver Forest', but you can't piece together the full story. The man's distress is clear, but the details are a blur."
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "A Broken Worker",
+									"page": 1,
+									"id": "001c2",
+									"entries": [
+										"A local woodcutter, his clothes tattered and face pale, stumbles into the tavern, shaking and unable to speak. His eyes dart around the room in a panicked daze.",
+										{
+											"type": "list",
+											"items": [
+												"{@b Skill Check}: Make a {@dc 14} {@skill Insight} or {@skill Investigation} check to try and figure out what happened to him.",
+												"{@b Success}: You manage to get his attention and, with some gentle prompting, you learn he witnessed something terrible in the woods. He doesn't say what, but a single, terrifying word escapes his lips: 'They... changed.' He then collapses, exhausted.",
+												"{@b Failure}: The man is too traumatized to respond. All you can discern is a deep, paralyzing fear. He stares blankly at the wall, unable to communicate his experience."
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "A False Blessing",
+									"page": 1,
+									"id": "001c3",
+									"entries": [
+										"You hear whispers about a woman who rarely leaves her home anymore. It's said she had dealings with the Silver Light, but her story is a sad one. Finding her and convincing her to talk won't be easy.",
+										{
+											"type": "list",
+											"items": [
+												"{@b Skill Check}: Make a {@dc 15} {@skill Persuasion} or {@skill Intimidation} check to get her to open up.",
+												"{@b Success}: The woman, her eyes red from crying, tells you a sorrowful tale. Her brother was sick, and the Silver Light promised a cure if he came into their care. He vanished soon after, and she hasn't seen him since. She whispers, 'It wasn't a blessing. It was a lie.'",
+												"{@b Failure}: She becomes frightened and pulls away, refusing to speak of her brother. Her distress is obvious, but you can't get her to reveal why she's so afraid."
+											]
+										}
+									]
+								},
+								"These rumors paint a picture of unease and lost faith, setting suspicion on the Silver Light."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "A Call for Help",
+							"page": 1,
+							"id": "001d",
+							"entries": [
+								"The rain continues to fall in a heavy curtain outside, a steady drumming on the tavern roof. The world inside is warm and filled with the low murmur of conversation and the clinking of mugs.",
+								"Suddenly, the heavy oak door bursts open, and a gust of cold, wet air rushes in, along with a man drenched to the bone. His eyes are wide with panic and his face is streaked with rain and tears. The sound of his desperate scramble into the room, followed by his raw scream, is what shatters the quiet, forcing every conversation to an abrupt halt.",
+								{
+									"type": "inset",
+									"entries": [
+										"'Please!' he cries, his voice thick with terror. 'My sister—Elara! They took her!'",
+										"He clutches his chest before forcing himself to stand tall. 'They wore long gray robes, and they dragged her into the Silver Forest toward the old temple! My name is Gareth Blackwood, and I’ll give you everything I have—my family's entire inheritance! Just please, bring my sister Elara Blackwood home!'",
+										"His desperate plea echoes through the sudden silence of the tavern. Every eye in the room—from the gruff dwarven merchant to the wary-looking barmaid—turns toward the man, and then to you. The weight of his hope and fear rests squarely on your shoulders."
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Into the Storm",
+							"page": 1,
+							"id": "001e",
+							"entries": [
+								{
+									"type": "inset",
+									"entries": [
+										"The tension from Gareth's plea dissipates as he leads you out of the tavern and into the unforgiving storm. The town’s meager lights disappear behind you as you approach the dark, foreboding edge of the Silver Forest.",
+										"Here, at the treeline, Gareth stops. He turns to you, his face pale and eyes wide with terror, even more so than before.",
+										"'I can't... I can't go in there,' he stammers, pointing a shaking hand into the shadowy trees. 'I... I can’t lose her again. But please, adventurers, I beg of you. Don't let them take her light forever.'",
+										"With that, he turns and flees back toward the safety of the town, leaving you alone at the mouth of the dark forest."
+									]
+								},
+								"As the party enters the woods, two robed figures rise from the shadows of the tavern and begin to follow from a distance. These are members of the corrupted Silver Light, sent to monitor or eliminate anyone who interferes with their plans. They should remain unseen for now.",
+								"A beggar woman, huddled outside the tavern, watches the adventurers leave. This is Vaelithra, a fragment of the god {@deity Vaeil|the primordials|MTW}. She is observing the party's first steps on their journey, but she will not interfere. Her presence is a subtle hint of a larger, divine conflict."
+							]
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "Chapter 2: The Silver Forest",
+					"page": 1,
+					"id": "002",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Running This Chapter",
+							"page": 1,
+							"id": "002a",
+							"entries": [
+								"This chapter shifts the adventure’s tone entirely, moving from the safety of the tavern to the hostile tension of the woods. The Silver Forest is the players’ first real taste of the corruption they are investigating, a place of twisted beauty that conceals a very real menace. This serves as a vital combat trial, meant to test your party’s cohesion and combat strategy.",
+								"Encourage your players to explore the unsettling signs of corruption in the forest before the ambush. These clues are designed to build dread and foreshadow that something ancient and unnatural—the {@b {@deity Xy'loth|demon lords|MTW}'s Pet}—lingers deeper within."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Entering the Forest",
+							"page": 1,
+							"id": "002b",
+							"entries": [
+								"As the adventurers step beneath the forest canopy, they are met by an eerie, sudden stillness. The air grows heavy, muffling their footsteps and the patter of the rain, as if they've walked into a vacuum. The ancient trees and stones here are scarred with deep, jagged gashes, as though claws or blades have carved at the land itself. Strange silver motes drift through the branches, shimmering faintly before dissolving into nothingness when touched. Every now and then, a faint whisper—like a distorted prayer—echoes through the silence, carried on a non-existent breeze.",
+								"(Optional: A successful {@dc 15} {@skill Survival} or {@skill Arcana} check reveals that these marks are not random, but part of a sinister ritual, a deliberate defiling of the forest's natural life.)"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "The Ambush at the Halfway Point",
+							"page": 1,
+							"id": "002c",
+							"entries": [
+								"Just as the party nears the halfway point to the temple ruins, five figures melt from the shadows of the forest. They block the path ahead, their silver robes and gaunt faces a chilling mirror of the order they profess to serve.",
+								{
+									"type": "list",
+									"items": [
+										"4 {@creature Acolyte of Silver Light|MTW}.",
+										"1 {@creature Priest of Silver Light|MTW}."
+									]
+								},
+								"Their goal is not to kill but to capture—they believe the adventurers are fated sacrifices or useful tools for their cause. The priest’s eyes glow with a fanatic's devotion as he gestures, commanding his acolytes. “Chosen offerings,” he declares, his voice a low hiss, “you walk willingly into our master’s grace!”",
+								{
+									"type": "list",
+									"items": [
+										"The acolytes and priest fight fiercely but with a reckless abandon. They prefer non-lethal strikes (such as the flats of their blades or blows to the head) to subdue the party, though their fanaticism may lead to lethal force if they are cornered. This combat will serve as a hard test of the party's skills.",
+										"After a few rounds, the priest may use a spell to try and disorient the party, attempting to give the acolytes an advantage."
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Resolution",
+							"page": 1,
+							"id": "002d",
+							"entries": [
+								"If the party is defeated, they will awaken bound and unconscious at the entrance to the ruins, starting Chapter 3 at a disadvantage. If the party wins, the priest is left critically wounded and can be interrogated.",
+								{
+									"type": "list",
+									"items": [
+										"With a successful {@dc 15} 15 {@skill Persuasion} or {@skill Intimidation} check, the priest, in his dying breaths, reveals:",
+										{
+											"type": "list",
+											"items": [
+												"A clear path to the Ruin of Silver Light, a twisted stairway covered in thorny vines.",
+												"A dark hint that the cult seeks to 'awaken their chained master'—the {@deity Xy'loth|demon lords|MTW}'s Pet.",
+												"A final, chilling warning: “You think you walk toward salvation… but you walk willingly into the maw of eternity.”"
+											]
+										}
+									]
+								},
+								"With the ambush resolved, the adventurers can now find the overgrown stairway that marks the temple entrance, where this chapter ends. The darkness of the forest gives way to the true corruption of the ruins.",
+								"Use the table bellow for player if they looting:",
+								{
+									"type": "table",
+									"caption": "Loot from the Silver Light",
+									"colLabels": [
+										"d10",
+										"Item"
+									],
+									"colStyles": [
+										"col-2 text-center",
+										"col-10"
+									],
+									"rows": [
+										[
+											"1",
+											"{@item Silver Charm|MTW}"
+										],
+										[
+											"2",
+											"{@item Blessed Candle|MTW}"
+										],
+										[
+											"3",
+											"{@item Prayer Beads of Echo|MTW}"
+										],
+										[
+											"4",
+											"{@item Silverleaf Ring|MTW}"
+										],
+										[
+											"5",
+											"{@item Whispering Feather|MTW}"
+										],
+										[
+											"6",
+											"{@item Dried Vial of Silver Fog|MTW}"
+										],
+										[
+											"7",
+											"{@item Ashen Token|MTW}"
+										],
+										[
+											"8",
+											"{@item Hollow Coin|MTW}"
+										],
+										[
+											"9",
+											"{@item Cracked Hourglass Pendant|MTW}"
+										],
+										[
+											"10",
+											"{@item Moonlit Thread|MTW}"
+										]
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "Chapter 3: The Ruin of Silver Light",
+					"page": 1,
+					"id": "003",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Running This Chapter",
+							"page": 1,
+							"id": "003a",
+							"entries": [
+								"This is the climax of the adventure, where the party faces the source of the city's corruption. This chapter is designed as a two-phase combat encounter, escalating from a standard battle against the cult leaders to a full-blown boss fight. The transition should be dramatic, triggered by the players' success in the first phase. The final intervention by the Vaelithra serves as a narrative device to prevent a Total Party Kill, making the encounter cinematic and allowing the story to flow into the epilogue."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "The Temple Gate",
+							"page": 1,
+							"id": "003b",
+							"entries": [
+								"After navigating the corrupted forest, the adventurers arrive at what was once the grand entrance to the temple of the Silver Light. The gate stands as a grim silhouette against the stormy sky, its intricate carvings of {@deity Vaeil|the primordials|MTW} and his celestial Archives now defaced and covered in abyssal glyphs. The air here is cold and heavy with the scent of decay. A low, guttural chanting echoes from within the ruins, a foul perversion of the order's old prayers. The path leads to a shattered, overgrown stairway that descends into darkness."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "The High Priest's Stand",
+							"page": 1,
+							"id": "003c",
+							"entries": [
+								"As the adventurers descend into the main hall of the temple, the chanting stops. Five figures stand before a jagged rift in reality, their silver robes stained with blood and filth. In the center, the High Priest, a Drow Elf, turns to face them, his eyes glowing with black light. He is flanked by two robed Priests and three hooded Acolytes, who clutch their daggers with zealous fervor. The High Priest raises his hands, his voice echoing with a cruel mockery of {@deity Vaeil|the primordials|MTW}'s blessing. “You have intruded on the most sacred of rituals,” he hisses. “You are not a sacrifice… you are simply a feast!”",
+								{
+									"type": "list",
+									"items": [
+										"The encounter is with the following creatures:",
+										{
+											"type": "list",
+											"items": [
+												"1 {@creature High Priest of Silver Light|MTW}",
+												"2 {@creature Priest of Silver Light|MTW}",
+												"3 {@creature Acolyte of Silver Light|MTW}"
+											]
+										},
+										"The High Priest will prioritize using spells to weaken and control the party, while the acolytes attack recklessly to wear them down.",
+										"The goal of the cultists is to incapacitate the adventurers for sacrifice, but they will not hold back on lethal force if the party proves too resilient."
+									]
+								},
+								"The battle is a tense, desperate struggle. The moment the High Priest's hit points are reduced to 50% or less, or when half of his accompanying forces have been defeated, the ground trembles and the final phase of the battle begins."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "The Abyssal Maw",
+							"page": 1,
+							"id": "003d",
+							"entries": [
+								"The rift behind the High Priest tears open with a deafening screech of rending metal. The abyssal chanting swells into a roar as the true lord of these ruins emerges: {@creature The Abyssal Maw|MTW}. A gargantuan, multi-limbed creature of nightmare, it is a fleshy, chitinous horror with an impossibly wide maw filled with rows of razor-sharp teeth. Its body seems to warp and pull at the space around it, its movements erratic and alien. It has been a long time since its master fed it so well, and it is hungry for more."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "The Light of {@deity Vaeil|the primordials|MTW}",
+							"page": 1,
+							"id": "003e",
+							"entries": [
+								"If the party is defeated or clearly losing the battle against the {@creature The Abyssal Maw|MTW}, a blinding light erupts from the sky, a single, brilliant ray that shatters the temple's ceiling. This is the **Vaelithra's** power, a desperate act to correct a timeline that has gone too far. The light strikes the Maw, scorching it and instantly incinerating any remaining cultists. The Maw's body convulses, and it is left with only 20% of its total hit points remaining. The air shimmers with temporal energy, and for a fleeting moment, the adventurers catch a glimpse of the beggar woman from the tavern, her eyes glowing with impossible power, before the scene resets."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Resolution",
+							"page": 1,
+							"id": "003f",
+							"entries": [
+								"Whether by their own hand or by the grace of the Vaelithra, the adventurers defeat the {@creature The Abyssal Maw|MTW}. As the monstrosity's body dissolves, a final, guttural scream tears from the rift in reality. The {@deity Xy'loth|demon lords|MTW} manifests in his true, gargantuan form—an overwhelming being of pure abyss and despair. This is where the adventure's epilogue begins.",
+								"A {@item Fragment of the Archive|MTW} is laying beside the High Priest and can be taken."
+							]
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "Epilogue",
+					"page": 1,
+					"id": "005",
+					"entries": [
+						{
+							"type": "inset",
+							"name": "The Boar Smile Tavern Revisited",
+							"entries": [
+								"The rain pours heavily outside as thunder rattles the windows of the Boar Smile Tavern. Every table is full, leaving you no choice but to share one with strangers. The warmth of the hearth fills the room, carrying the sound of laughter and song.",
+								"A group of Silver Light acolytes sit near the bar, their silver-embroidered robes bright in the firelight. They raise cups with locals, blessing farmers and cradling newborns offered into their arms. A villager smiles at you warmly and whispers:",
+								"\"The Silver Light keeps us safe. {@deity Vaeil|the primordials|MTW}’s blessings shine upon Dewanginokori once more.\""
+							]
+						},
+						"Though the adventurers recall the horrors faced within the Silver Forest, none around them seem to bear such memories. Time has been rewritten by Vaelithra, fragment of {@deity Vaeil|the primordials|MTW}, restoring Dewanginokori to its golden age.",
+						"The loop closes where it began — the Boar Smile Tavern, the rain, the strangers at a crowded table — but now the weight of destiny hangs heavy. For the Archive remains threatened, and this was but the first page of a greater tale."
+					]
+				},
+				{
+					"type": "section",
+					"name": "Appendix A: Creatures",
+					"page": 1,
+					"entries": [
+						{
+							"type": "table",
+							"colLabels": [
+								"Name",
+								"Type"
+							],
+							"colStyles": [
+								"text-center",
+								"text-center"
+							],
+							"rows": [
+								[
+									"{@deity Vaeil|the primordials|MTW}",
+									"Deity"
+								],
+								[
+									"{@deity Xy'loth|demon lords|MTW}",
+									"Deity"
+								],
+								[
+									"{@creature Vaeil, the God of Time|MTW}",
+									"God"
+								],
+								[
+									"{@creature Xy'loth, the Archdemon|MTW}",
+									"Demon"
+								],
+								[
+									"{@creature The Abyssal Maw|MTW}",
+									"Monster"
+								],
+								[
+									"{@creature High Priest of Silver Light|MTW}",
+									"Monster"
+								],
+								[
+									"{@creature Priest of Silver Light|MTW}",
+									"Monster"
+								],
+								[
+									"{@creature Acolyte of Silver Light|MTW}",
+									"Monster"
+								],
+								[
+									"{@creature Demolias Nogard|MTW}",
+									"Non Playable Character"
+								],
+								[
+									"{@creature Diane Serpent|MTW}",
+									"Non Playable Character"
+								]
+							]
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "Appendix B: Items",
+					"page": 1,
+					"entries": [
+						{
+							"type": "table",
+							"colLabels": [
+								"Name",
+								"Rarity"
+							],
+							"colStyles": [
+								"text-center",
+								"text-center"
+							],
+							"rows": [
+								[
+									"{@item Silverlight Amulet|MTW}",
+									"Rare"
+								],
+								[
+									"{@item Fragment of the Archive|MTW}",
+									"Rare"
+								],
+								[
+									"{@item Silver Charm|MTW}",
+									"Common"
+								],
+								[
+									"{@item Blessed Candle|MTW}",
+									"Common"
+								],
+								[
+									"{@item Prayer Beads of Echo|MTW}",
+									"Common"
+								],
+								[
+									"{@item Silverleaf Ring|MTW}",
+									"Common"
+								],
+								[
+									"{@item Whispering Feather|MTW}",
+									"Common"
+								],
+								[
+									"{@item Dried Vial of Silver Fog|MTW}",
+									"Common"
+								],
+								[
+									"{@item Ashen Token|MTW}",
+									"Common"
+								],
+								[
+									"{@item Hollow Coin|MTW}",
+									"Common"
+								],
+								[
+									"{@item Cracked Hourglass Pendant|MTW}",
+									"Common"
+								],
+								[
+									"{@item Moonlit Thread|MTW}",
+									"Common"
+								]
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"deity": [
+		{
+			"name": "Vaeil",
+			"source": "MTW",
+			"page": 1,
+			"id": "Vaeil",
+			"alignment": [
+				"L",
+				"G"
+			],
+			"domain": [
+				"Time",
+				"Order",
+				"Creation"
+			],
+			"pantheon": "The Primordials",
+			"titles": [
+				"The God of Time",
+				"The Grand Architect",
+				"The Eternal Guardian"
+			],
+			"symbol": "A serene, all-seeing eye within a perfect clock, surrounded by the Ouroboros.",
+			"entries": [
+				"Vaeil is the benevolent deity who brought order from primordial chaos and established the flow of time. He is the guardian of the timeline, ensuring that the grand design of the cosmos unfolds as it should.",
+				"While Vaeil is often seen as a distant and impassive force, his influence is felt in the cycles of the seasons, the turning of the stars, and the natural progression of life and death. His followers, such as the Silver Light order, strive to maintain order, preserve knowledge, and protect the world from the disruptive influence of chaotic forces.",
+				"Vaeil's power is not one of direct intervention, but of subtle guidance and correction. He acts through his devoted followers to restore balance and mend the tears in the fabric of reality caused by beings like Xy'loth. His greatest triumph was the ending of the War of Sundering, which he accomplished by resetting time, an act that fractured a part of his soul, creating the entity known as Vaelithra."
+			]
+		},
+		{
+			"name": "Xy'loth",
+			"source": "MTW",
+			"alignment": [
+			  "C",
+			  "E"
+			],
+			"domain": [
+			  "Corruption",
+			  "Chaos",
+			  "Ruin"
+			],
+			"pantheon": "Demon Lords",
+			"titles": [
+			  "The Great Disruptor",
+			  "The Weaver of Lies",
+			  "The Maw of Entropy"
+			],
+			"symbol": "A stylized serpent intertwined with a shattered clock, its head poised to strike the center.",
+			"entries": [
+			  "Xy'loth is the primordial chaos that exists outside of time. It is not a being of flesh and blood but a malevolent force that seeks to unravel the orderly fabric of the multiverse, which was woven by Vaeil.",
+			  "Unlike other demons who seek power or conquest, Xy'loth's sole purpose is the ultimate unmaking of all things, returning them to the chaotic void from which it came. Its influence is insidious, working through whispers and subversion rather than brute force.",
+			  "Xy'loth is the master of lies, twisting the faith of mortals, and turning order against itself. The Drow cult in your adventure secretly worships Xy'loth, seeing its chaotic nature as true freedom from the gods' strictures. They believe that by bringing about the \"Ruin of Silver Light,\" they are paving the way for Xy'loth's ultimate victory and the final liberation of all creation into pure chaos."
+			]
+		 }
+	],
+	"item": [
+		{
+			"name": "Dagger of Calm Fire",
+			"source": "MTW",
+			"page": 1,
+			"edition": "one",
+			"type": "W|MTW",
+			"rarity": "rare",
+			"weight": 1,
+			"value": 200,
+			"weaponCategory": "simple",
+			"property": [
+				"F",
+				"L",
+				"T"
+			],
+			"mastery": [
+				"Nick|XPHB"
+			],
+			"range": "20/60",
+			"dmg1": "1d4",
+			"dmgType": "P",
+			"entries": [
+				"As a {@bold Bonus Action}, the blade can be infused with fire with any means necessary and it will absord the heat from the fire while still being cold to the touch. For 24h or until use as an attack, on a {@b Successful Hit} it will add a {@dice 1d4} {@b Fire Damage}.",
+				"The fire damage dice could increase based on the amount of fire it contacted to: Tiny Fire {@dice 1d4}, Small Fire {@dice 1d6}, Medium Fire {@dice 1d8}, Large Fire {@dice 1d10}",
+				"When releasing a fire damage of Medium or Large Fire absortion, roll a {@dice d20} with {@dc 5}, a failure will caused the dagger to crack. The dagger can only withstand 3 cracks or the fire damage effect is lost."
+			]
+		},
+		{
+			"name": "Silverlight Amulet",
+			"source": "MTW",
+			"page": 2,
+			"edition": "one",
+			"type": "W|MTW",
+			"rarity": "rare",
+			"weight": 0.5,
+			"value": 500,
+			"entries": [
+				"A pendant infused with the lingering blessing of Vaeil. While wearing this amulet, you gain {@b advantage} on saving throws against charm and frighten effects caused by fiends.",
+				"Once per long rest, you can channel the amulet’s power as an {@bold Action} to cast {@spell protection from evil and good} without expending a spell slot."
+			]
+		},
+		{
+			"name": "Fragment of the Archive",
+			"source": "MTW",
+			"page": 21,
+			"edition": "one",
+			"type": "W|MTW",
+			"rarity": "rare",
+			"weight": 0.2,
+			"value": 500,
+			"entries": [
+				"A crystalline shard suffused with silvery light. This is a fragment of the god Vaeil's sundered soul — a Vaelinthra.",
+				"While attuned, once per long rest, you can invoke its power to rewind a fleeting moment: when you or an ally within 30 feet fails a saving throw, ability check, or attack roll, you can reroll it. The second result must be used.",
+				"If shattered intentionally, the fragment releases a surge of divine time-energy. Each ally within 20 feet may immediately take the {@b Help} action as a reaction.",
+				"The fragment hums with faint whispers of archives unwritten."
+			]
+		},
+		{
+			"name": "Silver Charm",
+			"source": "MTW",
+			"page": 22,
+			"edition": "one",
+			"type": "W|MTW",
+			"rarity": "common",
+			"weight": 0.1,
+			"value": 25,
+			"entries": [
+				"A small silver trinket carried by corrupted acolytes.",
+				"When held, it grants {@b advantage} on a single saving throw against being frightened. The charm then loses its magic."
+			]
+		},
+		{
+			"name": "Blessed Candle",
+			"source": "MTW",
+			"page": 23,
+			"edition": "one",
+			"type": "W|MTW",
+			"rarity": "common",
+			"weight": 0.2,
+			"value": 10,
+			"entries": [
+				"A white candle with faint silver runes.",
+				"When lit, it sheds bright light in a 10-foot radius and dim light for an additional 10 feet.",
+				"Fiends within the bright light have {@b disadvantage} on Stealth checks."
+			]
+		},
+		{
+			"name": "Prayer Beads of Echo",
+			"source": "MTW",
+			"page": 24,
+			"edition": "one",
+			"type": "W|MTW",
+			"rarity": "common",
+			"weight": 0.3,
+			"value": 15,
+			"entries": [
+				"A string of dull beads once used in prayer to Vaeil.",
+				"When used as a focus during a rest, it restores {@dice 1d4} temporary hit points to the bearer."
+			]
+		},
+		{
+			"name": "Silverleaf Ring",
+			"source": "MTW",
+			"page": 25,
+			"edition": "one",
+			"type": "W|MTW",
+			"rarity": "common",
+			"weight": 0,
+			"value": 30,
+			"entries": [
+				"A ring shaped like entwined silver leaves.",
+				"Once per day, you can reroll a {@dice 1d20} ability check related to Nature or Religion."
+			]
+		},
+		{
+			"name": "Whispering Feather",
+			"source": "MTW",
+			"page": 26,
+			"edition": "one",
+			"type": "W|MTW",
+			"rarity": "common",
+			"weight": 0,
+			"value": 5,
+			"entries": [
+				"A delicate silver-dyed feather.",
+				"When blown into the air, the bearer hears a whisper of guidance, adding {@dice 1d4} to their next ability check."
+			]
+		},
+		{
+			"name": "Dried Vial of Silver Fog",
+			"source": "MTW",
+			"page": 27,
+			"edition": "one",
+			"type": "W|MTW",
+			"rarity": "common",
+			"weight": 0.1,
+			"value": 20,
+			"entries": [
+				"A tiny vial containing dried residue of the Silver Fog.",
+				"Smash it to create a 10-foot radius of lightly obscured mist for 1 minute."
+			]
+		},
+		{
+			"name": "Ashen Token",
+			"source": "MTW",
+			"page": 28,
+			"edition": "one",
+			"type": "W|MTW",
+			"rarity": "common",
+			"weight": 0,
+			"value": 10,
+			"entries": [
+				"A small disk of charred ash pressed into a token.",
+				"Once, you may automatically succeed on a single DC 10 Survival check."
+			]
+		},
+		{
+			"name": "Hollow Coin",
+			"source": "MTW",
+			"page": 29,
+			"edition": "one",
+			"type": "W|MTW",
+			"rarity": "common",
+			"weight": 0,
+			"value": 1,
+			"entries": [
+				"A strange coin with both sides hollowed out.",
+				"Before making a roll, you may flip the coin. Heads: +2 bonus. Tails: –2 penalty. You must accept the result."
+			]
+		},
+		{
+			"name": "Cracked Hourglass Pendant",
+			"source": "MTW",
+			"page": 30,
+			"edition": "one",
+			"type": "W|MTW",
+			"rarity": "common",
+			"weight": 0.2,
+			"value": 35,
+			"entries": [
+				"A pendant shaped like a cracked hourglass.",
+				"Once per day, you can delay the effect of a condition (such as {@condition poisoned}) for 1 minute before it takes hold."
+			]
+		},
+		{
+			"name": "Moonlit Thread",
+			"source": "MTW",
+			"page": 31,
+			"edition": "one",
+			"type": "W|MTW",
+			"rarity": "common",
+			"weight": 0,
+			"value": 15,
+			"entries": [
+				"A silvery thread that glimmers faintly in the moonlight.",
+				"When woven into clothing, it grants +1 AC for 1 hour after finishing a long rest. The thread is consumed after use."
+			]
+		}
+	],
+	"itemType": [
+		{
+			"name": "Wondrous item",
+			"abbreviation": "W",
+			"source": "MTW"
+		}
+	],
+	"monster": [
+		{
+			"name": "High Priest of Silver Light",
+			"source": "MTW",
+			"page": 1,
+			"size": [
+				"M"
+			],
+			"type": "humanoid",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				14
+			],
+			"hp": {
+				"average": 52,
+				"formula": "8d8 + 16"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 14,
+			"con": 14,
+			"int": 13,
+			"wis": 17,
+			"cha": 15,
+			"save": {
+				"wis": "+5",
+				"cha": "+4"
+			},
+			"passive": 13,
+			"skill": {
+				"deception": "+4",
+				"intimidation": "+4"
+			},
+			"languages": [
+				"Common",
+				"Undercommon",
+				"Abyssal"
+			],
+			"cr": "4",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The High Priest is a 5th-level spellcaster. His spellcasting ability is Wisdom (spell save {@dc 15}, {@hit 7} to hit with spell attacks). He has the following cleric spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"guidance",
+								"sacred flame",
+								"thaumaturgy"
+							]
+						},
+						"1": {
+							"slots": 4,
+							"spells": [
+								"bane",
+								"command",
+								"guiding bolt"
+							]
+						},
+						"2": {
+							"slots": 3,
+							"spells": [
+								"hold person",
+								"inflict wounds"
+							]
+						},
+						"3": {
+							"slots": 2,
+							"spells": [
+								"bestow curse",
+								"vampiric touch"
+							]
+						}
+					}
+				}
+			],
+			"trait": [
+				{
+					"name": "Fey Ancestry",
+					"entries": [
+						"The High Priest has advantage on saving throws against being charmed, and magic can't put him to sleep."
+					]
+				},
+				{
+					"name": "Sunlight Sensitivity",
+					"entries": [
+						"While in sunlight, the High Priest has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The High Priest makes two melee attacks."
+					]
+				},
+				{
+					"name": "Dagger",
+					"entries": [
+						"{@atk mw} {@hit 4}, reach 5 ft., one target. Hit: 4 ({@damage 1d4 + 2}) piercing damage."
+					]
+				}
+			],
+			"environment": [
+				"underdark"
+			],
+			"soundClip": {
+				"type": "internal",
+				"path": "bestiary/high-priest-of-silver-light.mp3"
+			},
+			"languageTags": [
+				"C",
+				"UA",
+				"A"
+			],
+			"damageTags": [
+				"N",
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionImmune": []
+		},
+		{
+			"name": "Priest of Silver Light",
+			"source": "MTW",
+			"page": 1,
+			"size": [
+				"M"
+			],
+			"type": "humanoid",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				13
+			],
+			"hp": {
+				"average": 38,
+				"formula": "7d8 + 7"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 12,
+			"int": 13,
+			"wis": 16,
+			"cha": 13,
+			"save": {
+				"wis": "+5",
+				"cha": "+3"
+			},
+			"passive": 13,
+			"skill": {
+				"religion": "+3"
+			},
+			"languages": [
+				"Common",
+				"Undercommon"
+			],
+			"cr": "2",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The priest is a 5th-level spellcaster. His spellcasting ability is Wisdom (spell save {@dc 13}, {@hit 5} to hit with spell attacks). He has the following cleric spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"guidance",
+								"sacred flame",
+								"thaumaturgy"
+							]
+						},
+						"1": {
+							"slots": 4,
+							"spells": [
+								"bane",
+								"command"
+							]
+						},
+						"2": {
+							"slots": 3,
+							"spells": [
+								"hold person",
+								"inflict wounds"
+							]
+						},
+						"3": {
+							"slots": 2,
+							"spells": [
+								"bestow curse"
+							]
+						}
+					}
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The priest makes two melee attacks."
+					]
+				},
+				{
+					"name": "Dagger",
+					"entries": [
+						"{@atk mw} {@hit 2}, reach 5 ft., one target. Hit: 3 ({@damage 1d4 + 1}) piercing damage."
+					]
+				}
+			],
+			"conditionImmune": []
+		},
+		{
+			"name": "Acolyte of Silver Light",
+			"source": "MTW",
+			"page": 1,
+			"size": [
+				"M"
+			],
+			"type": "humanoid",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				11
+			],
+			"hp": {
+				"average": 18,
+				"formula": "4d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 12,
+			"con": 10,
+			"int": 10,
+			"wis": 13,
+			"cha": 11,
+			"passive": 11,
+			"skill": {
+				"religion": "+3"
+			},
+			"languages": [
+				"Common",
+				"Undercommon"
+			],
+			"cr": "1/4",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The acolyte is a 1st-level spellcaster. His spellcasting ability is Wisdom (spell save {@dc 11}, {@hit 3} to hit with spell attacks). He has the following cleric spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"sacred flame"
+							]
+						},
+						"1": {
+							"slots": 2,
+							"spells": [
+								"bane",
+								"command"
+							]
+						}
+					}
+				}
+			],
+			"action": [
+				{
+					"name": "Dagger",
+					"entries": [
+						"{@atk mw} {@hit 3}, reach 5 ft., one target. Hit: 3 ({@damage 1d4 + 1}) piercing damage."
+					]
+				}
+			],
+			"conditionImmune": []
+		},
+		{
+			"name": "The Abyssal Maw",
+			"source": "MTW",
+			"page": 1,
+			"size": [
+				"L"
+			],
+			"type": "aberration",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				16
+			],
+			"hp": {
+				"average": 112,
+				"formula": "14d10+35"
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 19,
+			"dex": 13,
+			"con": 16,
+			"int": 3,
+			"wis": 11,
+			"cha": 6,
+			"resist": [
+				"cold",
+				"psychic"
+			],
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 10,
+			"languages": [
+				"understands Abyssal but can't speak"
+			],
+			"cr": "5",
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The Maw makes two attacks: one with its Bite and one with its Claw."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. Hit: 13 ({@damage 2d8 + 4}) piercing damage plus 5 ({@damage 1d10}) psychic damage. The target must succeed on a {@dc 15} Wisdom saving throw or become Frightened of the Maw until the end of its next turn."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. Hit: 11 ({@damage 2d6 + 4}) slashing damage. If the target is a creature, it must succeed on a {@dc 15} Strength saving throw or be grappled (escape DC 15)."
+					]
+				}
+			],
+			"trait": [
+				{
+					"name": "Festering Feast",
+					"entries": [
+						"The Abyssal Maw regains 10 hit points at the start of its turn if it is in an area of corruption or within 5 feet of a grappled or frightened creature."
+					]
+				}
+			],
+			"conditionImmune": [
+				"charmed",
+				"frightened",
+				"exhaustion"
+			]
+		},
+		{
+			"name": "Demolias Nogard",
+			"source": "MTW",
+			"size": [
+				"M"
+			],
+			"type": "humanoid",
+			"alignment": [
+				"L",
+				"G"
+			],
+			"ac": [
+				18
+			],
+			"hp": {
+				"average": 140,
+				"formula": "15d10 + 60"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 16,
+			"dex": 12,
+			"con": 18,
+			"int": 10,
+			"wis": 14,
+			"cha": 20,
+			"save": {
+				"wis": "+7",
+				"cha": "+9"
+			},
+			"passive": 12,
+			"skill": {
+				"persuasion": "+9",
+				"insight": "+7"
+			},
+			"languages": [
+				"Common",
+				"Elvish",
+				"Celestial"
+			],
+			"cr": "10",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Demolias is a 15th-level spellcaster. His spellcasting ability is Charisma (spell save {@dc 17}). He has the following paladin spells prepared:"
+					],
+					"spells": {
+						"1": {
+							"slots": 4,
+							"spells": [
+								"bless",
+								"compelled duel",
+								"divine favor"
+							]
+						},
+						"2": {
+							"slots": 3,
+							"spells": [
+								"find steed",
+								"magic weapon"
+							]
+						},
+						"3": {
+							"slots": 3,
+							"spells": [
+								"daylight",
+								"revivify"
+							]
+						},
+						"4": {
+							"slots": 2,
+							"spells": [
+								"aura of life",
+								"death ward"
+							]
+						}
+					}
+				}
+			],
+			"trait": [
+				{
+					"name": "Aura of Protection",
+					"entries": [
+						"Whenever Demolias or a friendly creature within 10 feet of him must make a saving throw, that creature gains a +5 bonus to the saving throw (included in the statblock)."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Demolias makes two melee attacks with his shortsword."
+					]
+				},
+				{
+					"name": "Shortsword",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. Hit: {@dice 1d6 + 3} piercing damage."
+					]
+				},
+				{
+					"name": "Divine Smite",
+					"entries": [
+						"When Demolias hits with a melee weapon attack, he can expend a spell slot to deal radiant damage to the target, in addition to the weapon's damage. The extra damage is {@dice 2d8} for a 1st-level spell slot, plus {@dice 1d8} for each spell level higher than 1st, to a maximum of {@dice 5d8}."
+					]
+				}
+			],
+			"conditionImmune": [
+				"charmed",
+				"frightened"
+			]
+		},
+		{
+			"name": "Diane Serpent",
+			"source": "MTW",
+			"size": [
+				"M"
+			],
+			"type": "humanoid",
+			"alignment": [
+				"L",
+				"G"
+			],
+			"ac": [
+				18
+			],
+			"hp": {
+				"average": 180,
+				"formula": "15d10 + 90"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 20,
+			"dex": 12,
+			"con": 20,
+			"int": 10,
+			"wis": 14,
+			"cha": 12,
+			"save": {
+				"str": "+10",
+				"con": "+10"
+			},
+			"passive": 12,
+			"skill": {
+				"athletics": "+10",
+				"intimidation": "+5"
+			},
+			"languages": [
+				"Common",
+				"Dwarvish"
+			],
+			"cr": "10",
+			"trait": [
+				{
+					"name": "Action Surge",
+					"entries": [
+						"Diane can take one additional action on her turn. Once she uses this feature, she must finish a short or long rest before she can use it again."
+					]
+				},
+				{
+					"name": "Second Wind",
+					"entries": [
+						"On her turn, Diane can use a bonus action to regain {@dice 1d10 + 15} hit points. Once she uses this feature, she must finish a short or long rest before she can use it again."
+					]
+				},
+				{
+					"name": "Indomitable (2/Day)",
+					"entries": [
+						"Diane can re-roll a saving throw that she fails. She must use the new roll."
+					]
+				},
+				{
+					"name": "Weapon Master",
+					"entries": [
+						"Diane's heavy hammer is a formidable weapon. She has a +2 bonus to attack rolls with her warhammer (included in the statblock)."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Diane makes three melee attacks with her warhammer."
+					]
+				},
+				{
+					"name": "Warhammer (Two-Handed)",
+					"entries": [
+						"{@atk mw} {@hit 12} to hit, reach 5 ft., one target. Hit: 12 ({@dice 2d6 + 5}) bludgeoning damage."
+					]
+				}
+			],
+			"conditionImmune": [
+				"exhaustion"
+			]
+		},
+		{
+			"name": "Vaeil, the God of Time",
+			"source": "MTW",
+			"page": 1,
+			"size": [
+				"G"
+			],
+			"type": "celestial",
+			"alignment": [
+				"L",
+				"G"
+			],
+			"ac": [
+				24
+			],
+			"hp": {
+				"average": 500,
+				"formula": "25d20 + 250"
+			},
+			"speed": {
+				"walk": 60,
+				"fly": 120
+			},
+			"str": 20,
+			"dex": 20,
+			"con": 30,
+			"int": 30,
+			"wis": 30,
+			"cha": 30,
+			"save": {
+				"int": "+18",
+				"wis": "+18",
+				"cha": "+18"
+			},
+			"skill": {
+				"arcana": "+18",
+				"history": "+18",
+				"insight": "+18"
+			},
+			"immune": [
+				"radiant",
+				"force",
+				"psychic",
+				"bludgeoning",
+				"piercing",
+				"slashing from nonmagical attacks"
+			],
+			"conditionImmune": [
+				"all"
+			],
+			"senses": [
+				"truesight 120 ft.",
+				"passive Perception 28"
+			],
+			"languages": [
+				"all"
+			],
+			"cr": "25",
+			"legendary": {
+				"actions": 3,
+				"actionsHeader": "Vaeil can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. Vaeil regains spent legendary actions at the start of their turn.",
+				"actionsEntries": [
+					{
+						"name": "Detect",
+						"entries": [
+							"Vaeil makes a Wisdom (Perception) check."
+						]
+					},
+					{
+						"name": "Chronal Shift (Costs 2 Actions)",
+						"entries": [
+							"Vaeil can reroll a saving throw it just failed. It must use the new roll. This can be used to counter an effect that would reduce its Legendary Resistance."
+						]
+					},
+					{
+						"name": "Divine Strike (Costs 3 Actions)",
+						"entries": [
+							"Vaeil makes one melee weapon attack. On a hit, the target takes an additional 27 ({@damage 5d10}) radiant damage."
+						]
+					}
+				]
+			},
+			"legendaryGroup": {
+				"name": "Vaeil, the God of Time",
+				"source": "MTW"
+			},
+			"trait": [
+				{
+					"name": "Innate Spellcasting",
+					"entries": [
+						"Vaeil's spellcasting ability is Wisdom (spell save {@dc 26}). He can innately cast the following spells, requiring no material components:",
+						"At will: {@spell command}, {@spell time ravage|MTW}",
+						"3/day each: {@spell banishment}, {@spell divine word}",
+						"1/day each: {@spell foresight}, {@spell prismatic wall}"
+					]
+				},
+				{
+					"name": "Legendary Resistance (5/Day)",
+					"entries": [
+						"If Vaeil fails a saving throw, he can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Time Reversal",
+					"entries": [
+						"If Vaeil would be reduced to 0 hit points, his current hit point total instead resets to 400 hit points, he recharges all his abilities, and he regains any expended uses of Legendary Resistance."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Vaeil makes two melee attacks with its radiant fists."
+					]
+				},
+				{
+					"name": "Radiant Fist",
+					"entries": [
+						"{@atk mw} {@hit 12} to hit, reach 15 ft., one target. Hit: 15 ({@damage 2d8 + 6}) bludgeoning damage plus 18 ({@damage 4d8}) radiant damage."
+					]
+				},
+				{
+					"name": "Temporal Warp (Recharge 5-6)",
+					"entries": [
+						"Vaeil chooses a point within 120 feet of him. A 30-foot-radius sphere centered on that point becomes a zone of temporal distortion until the start of his next turn. Each creature in that area must make a {@dc 26} Wisdom saving throw. On a failed save, the creature's speed is halved, and it can't take reactions. On a successful save, the creature's speed is halved. The creature can repeat the saving throw at the end of each of its turns, ending the effect on a success."
+					]
+				}
+			],
+			"soundClip": {
+				"type": "internal",
+				"path": "bestiary/vaeil-the-god-of-time.mp3"
+			},
+			"languageTags": [
+				"C",
+				"A"
+			],
+			"damageTags": [
+				"R",
+				"F",
+				"P",
+				"B",
+				"I",
+				"S",
+				"N"
+			],
+			"miscTags": [
+				"MW",
+				"RD",
+				"W"
+			]
+		},
+		{
+			"name": "Xy'loth, the Archdemon",
+			"source": "MTW",
+			"page": 1,
+			"size": [
+				"G"
+			],
+			"type": "fiend",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				22
+			],
+			"hp": {
+				"average": 400,
+				"formula": "20d20 + 200"
+			},
+			"speed": {
+				"walk": 50,
+				"fly": 80
+			},
+			"str": 26,
+			"dex": 16,
+			"con": 28,
+			"int": 20,
+			"wis": 24,
+			"cha": 26,
+			"save": {
+				"str": "+14",
+				"con": "+15",
+				"cha": "+14"
+			},
+			"skill": {
+				"intimidation": "+14",
+				"deception": "+14"
+			},
+			"immune": [
+				"fire",
+				"necrotic",
+				"psychic",
+				"bludgeoning",
+				"piercing",
+				"slashing from nonmagical attacks"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"paralyzed",
+				"poisoned",
+				"unconscious"
+			],
+			"senses": [
+				"truesight 120 ft.",
+				"passive Perception 24"
+			],
+			"languages": [
+				"Abyssal",
+				"telepathy 120 ft."
+			],
+			"cr": "20",
+			"legendary": {
+				"actions": 3,
+				"actionsHeader": "Xy'loth can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. Xy'loth regains spent legendary actions at the start of their turn.",
+				"actionsEntries": [
+					{
+						"name": "Shattering Strike (Costs 2 Actions)",
+						"entries": [
+							"Xy'loth makes one melee weapon attack. On a hit, the target must make a {@dc 22} Constitution saving throw or have one nonmagical item it is carrying destroyed."
+						]
+					},
+					{
+						"name": "Corrupting Gaze (Costs 1 Action)",
+						"entries": [
+							"Xy'loth targets one creature he can see within 60 feet of him. The target must succeed on a {@dc 22} Wisdom saving throw or take 22 ({@damage 4d10}) psychic damage and become poisoned until the end of its next turn."
+						]
+					}
+				]
+			},
+			"legendaryGroup": {
+				"name": "Xy'loth, the Archdemon",
+				"source": "MTW"
+			},
+			"trait": [
+				{
+					"name": "Chaotic Aura",
+					"entries": [
+						"Any creature that starts its turn within 10 feet of Xy'loth must succeed on a {@dc 20} Charisma saving throw or become confused for 1 minute. A confused creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. While confused, a creature can't take reactions and must roll a {@dice d10} at the start of each of its turns to determine its behavior. On a 1-4, it does nothing. On a 5-6, it makes a melee attack against a random target. On a 7-8, it makes a ranged attack against a random target. On a 9-10, it does nothing."
+					]
+				},
+				{
+					"name": "Legendary Resistance (4/Day)",
+					"entries": [
+						"If Xy'loth fails a saving throw, he can choose to succeed instead."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Xy'loth makes three melee attacks: one with its bite and two with its claws."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 14} to hit, reach 15 ft., one target. Hit: 19 ({@damage 2d10 + 8}) piercing damage plus 18 ({@damage 4d8}) psychic damage."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 14} to hit, reach 10 ft., one target. Hit: 15 ({@damage 2d6 + 8}) slashing damage plus 9 ({@damage 2d8}) necrotic damage."
+					]
+				}
+			],
+			"soundClip": {
+				"type": "internal",
+				"path": "bestiary/xyloth-the-archdemon.mp3"
+			},
+			"languageTags": [
+				"A"
+			],
+			"damageTags": [
+				"P",
+				"B",
+				"S",
+				"N"
+			],
+			"miscTags": [
+				"MW",
+				"RD",
+				"W"
+			]
+		}
+	],
+	"spell": [
+		{
+			"name": "Time Ravage",
+			"source": "MTW",
+			"page": 1,
+			"level": 9,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You unleash a wave of temporal energy at a creature you can see within range. The target must make a {@dc 26} Constitution saving throw, taking 10d10 force damage and aging 10 years on a failed save, or half as much damage and aging 5 years on a successful one.",
+				"If the aging effect would cause the target to die of old age, the target dies instantly and turns to dust. Otherwise, the aging effect is permanent and cannot be reversed by any means short of a {@spell wish} spell."
+			],
+			"damageTags": [
+				"F"
+			],
+			"miscTags": [
+				"S"
+			]
+		}
+	]
+}
