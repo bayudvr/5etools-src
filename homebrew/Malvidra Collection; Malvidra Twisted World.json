@@ -17,7 +17,7 @@
 				"dateReleased": "2025-09-10"
 			},
 			{
-				"json": "VTRoSL",
+				"json": "VTRoSL1",
 				"abbreviation": "V:TRoSL",
 				"full": "Vaelithra: The Ruin of Silver Light",
 				"authors": [
@@ -45,15 +45,16 @@
 	"adventure": [
 		{
 			"name": "Vaelithra: The Ruin of Silverlight",
-			"id": "VTRoSL1",
-			"abbreviation": "VTRoSL:1",
-			"source": "VTRoSL",
+			"id": "VTRoSL11",
+			"abbreviation": "VTRoSL1:1",
+			"source": "VTRoSL1",
 			"group": "supplement",
 			"published": "2025-09-19",
 			"author": "Malvidra Twisted World",
 			"storyline": "One Shot Adventure",
 			"level": {
-				"start": 3
+				"start": 3,
+				"end": "3"
 			},
 			"contents": [
 				{
@@ -130,9 +131,9 @@
 	],
 	"adventureData": [
 		{
-			"id": "VTRoSL1",
-			"abbreviation": "VTRoSL:1",
-			"source": "VTRoSL",
+			"id": "VTRoSL11",
+			"abbreviation": "VTRoSL1:1",
+			"source": "VTRoSL1",
 			"data": [
 				{
 					"type": "section",
@@ -171,7 +172,7 @@
 							"id": "000c",
 							"entries": [
 								"For centuries, the Silver Light order served as acolytes of {@deity Vaeil|the primordials|MTW}, God of Time and Keeper of the Archive. In the city of Dewanginokori, they were beloved for their blessings\u2014prayers over crops, safe births, successful trade, and guidance in life's trials.",
-								"Recently, however, a group of Drow elves arrived claiming devotion to {@deity Vaeil|the primordials|MTW}. In truth, they were secret worshipers of {@deity Xy'loth|demon lords|MTW} and sacrifice. Slowly, they wormed their way into the Silver Light, twisting its rituals and climbing its ranks. By the dark month of Umbralos, when the shadows lengthen, one of them was raised to High Priest. The order's blessings became bargains. Those who sought help were promised deliverance\u2014then lured into the old temple of the Silver Light, now a ruin. There, the faithful were sacrificed to feed a horrific abyssal creature, the Archdemon's Pet, {@creature The Abyssal Maw|VTRoSL}.",
+								"Recently, however, a group of Drow elves arrived claiming devotion to {@deity Vaeil|the primordials|MTW}. In truth, they were secret worshipers of {@deity Xy'loth|demon lords|MTW} and sacrifice. Slowly, they wormed their way into the Silver Light, twisting its rituals and climbing its ranks. By the dark month of Umbralos, when the shadows lengthen, one of them was raised to High Priest. The order's blessings became bargains. Those who sought help were promised deliverance\u2014then lured into the old temple of the Silver Light, now a ruin. There, the faithful were sacrificed to feed a horrific abyssal creature, the Archdemon's Pet, {@creature The Abyssal Maw|VTRoSL1}.",
 								"Unseen, a fragment of {@deity Vaeil|the primordials|MTW}'s sundered soul walks the city as a beggar woman. This {@creature Vaelithra, Fragment of Vaeil|MTW|Vaelithra} cannot act directly but watches for mortals brave enough to intervene. When the adventurers arrive in Dewanginokori during a torrential storm, on Aetheros, Day 1, fate gathers them together at the Boar Smile Tavern\u2014their meeting place and the start of their journey into the shadows of the Silver Light."
 							]
 						},
@@ -190,7 +191,7 @@
 										"{@b Chapter 1 - Boar Smile Tavern}: The adventurers arrive in Dewanginokori on the stormy evening of Aetheros, Day 1. With the tavern full, they are forced together at the bar itself, strangers sharing space. They soon hear rumors: families whispering about loved ones gone missing, blessings from the Silver Light turning hollow, and a beggar woman muttering of \"light turned black.\" This chapter bonds the party and sets the hook to investigate the Silver Light's fall.",
 										"{@b Chapter 2 - The Silver Forest}: Following clues leads the adventurers into the Silver Forest, the sacred woods once tended by the Silver Light. Once bright with moonlit leaves and glimmering streams, it is now scarred\u2014its wildlife restless, shadows moving where they shouldn't. Here, the adventurers face skirmishes with corrupted acolytes and glimpse signs of a greater darkness. They may meet the beggar woman again, who hints at the truth: \"Not all who bless serve the Keeper of Time.\" The adventure continues on the same or next day",
 										"{@b Chapter 3 - The Ruin of Silver Light}: The adventurers reach the ruined temple of the Silver Light. Here they discover the cult's High Priest and their terrible secret: supplicants lured to sacrifice, their lifeblood feeding the {@deity Xy'loth|demon lords|MTW}'s Pet. This becomes the adventure's climactic battle. If victorious, the adventurers free the captives and break the cult's hold\u2014but their victory awakens something far worse.",
-										"{@b Epilogue - The Abyss Unveiled}: As the High Priest falls and {@creature The Abyssal Maw|VTRoSL} is slain, the temple trembles. A rift tears open, and the {@deity Xy'loth|demon lords|MTW} manifests in his true abyssal form\u2014Gargantuan, overwhelming, a being no mortal could stand against. Just as despair takes hold, the sky shatters into blinding light. Time cracks. Reality folds back."
+										"{@b Epilogue - The Abyss Unveiled}: As the High Priest falls and {@creature The Abyssal Maw|VTRoSL1} is slain, the temple trembles. A rift tears open, and the {@deity Xy'loth|demon lords|MTW} manifests in his true abyssal form\u2014Gargantuan, overwhelming, a being no mortal could stand against. Just as despair takes hold, the sky shatters into blinding light. Time cracks. Reality folds back."
 									]
 								},
 								"The adventurers find themselves once more at the Boar Smile Tavern, the storm still raging outside, as if no time has passed. The date is Aetheros, Day 1 once again\u2014but now the Silver Light is whole again, their order loyal to {@deity Vaeil|the primordials|MTW} once more. Only the beggar woman's gaze lingers, knowing the truth: history was rewritten by the {@creature Vaelithra, Fragment of Vaeil|MTW|Vaelithra}."
@@ -240,7 +241,7 @@
 													"page": 2,
 													"name": "The Bartender",
 													"entries": [
-														"The bartender on duty was an Elf named {@creature Demolias Nogard|VTRoSL}. With slightly disheveled blond hair and a pair of friendly green eyes, he greeted every newcomer with a warm smile. His build was unassuming, but his attire suggested a readiness for action: a white shirt and black vest paired with brown pants rolled up at the ankles. Your eye might be drawn to the sheathed shortsword on his back, a clear sign that he was more than just a man pouring drinks."
+														"The bartender on duty was an Elf named {@creature Demolias Nogard|VTRoSL1}. With slightly disheveled blond hair and a pair of friendly green eyes, he greeted every newcomer with a warm smile. His build was unassuming, but his attire suggested a readiness for action: a white shirt and black vest paired with brown pants rolled up at the ankles. Your eye might be drawn to the sheathed shortsword on his back, a clear sign that he was more than just a man pouring drinks."
 													]
 												}
 											]
@@ -385,7 +386,7 @@
 													"type": "entries",
 													"name": "The Server",
 													"entries": [
-														"The only server on duty was a woman with a commanding presence. Her name was {@creature Diane Serpent|VTRoSL}. She was notably tall with a strong, athletic build, and her brown hair was braided into two thick pigtails that swung slightly as she shifted her weight. Her uniform consisted of a tough, sleeveless gambeson over a loose-fitting tunic, and practical boots. The centerpiece of her gear, however, was a large, two-handed hammer that leaned against the wall next to her. She didn't seem to be in a rush, a silent guardian of the peace, ready to spring into action if needed."
+														"The only server on duty was a woman with a commanding presence. Her name was {@creature Diane Serpent|VTRoSL1}. She was notably tall with a strong, athletic build, and her brown hair was braided into two thick pigtails that swung slightly as she shifted her weight. Her uniform consisted of a tough, sleeveless gambeson over a loose-fitting tunic, and practical boots. The centerpiece of her gear, however, was a large, two-handed hammer that leaned against the wall next to her. She didn't seem to be in a rush, a silent guardian of the peace, ready to spring into action if needed."
 													]
 												}
 											]
@@ -518,8 +519,8 @@
 								{
 									"type": "list",
 									"items": [
-										"4 {@creature Acolyte of Silver Light|VTRoSL}.",
-										"1 {@creature Priest of Silver Light|VTRoSL}."
+										"4 {@creature Acolyte of Silver Light|VTRoSL1}.",
+										"1 {@creature Priest of Silver Light|VTRoSL1}."
 									]
 								},
 								"Their goal is not to kill but to capture\u2014they believe the adventurers are fated sacrifices or useful tools for their cause. The priest's eyes glow with a fanatic's devotion as he gestures, commanding his acolytes. \"Chosen offerings,\" he declares, his voice a low hiss, \"you walk willingly into our master's grace!\"",
@@ -567,43 +568,43 @@
 									"rows": [
 										[
 											"1",
-											"{@item Silver Charm|VTRoSL}"
+											"{@item Silver Charm|VTRoSL1}"
 										],
 										[
 											"2",
-											"{@item Blessed Candle|VTRoSL}"
+											"{@item Blessed Candle|VTRoSL1}"
 										],
 										[
 											"3",
-											"{@item Prayer Beads of Echo|VTRoSL}"
+											"{@item Prayer Beads of Echo|VTRoSL1}"
 										],
 										[
 											"4",
-											"{@item Silverleaf Ring|VTRoSL}"
+											"{@item Silverleaf Ring|VTRoSL1}"
 										],
 										[
 											"5",
-											"{@item hispering Feather|VTRoSL}"
+											"{@item Whispering Feather|VTRoSL1}"
 										],
 										[
 											"6",
-											"{@item Dried Vial of Silver Fog|VTRoSL}"
+											"{@item Dried Vial of Silver Fog|VTRoSL1}"
 										],
 										[
 											"7",
-											"{@item Ashen Token}"
+											"{@item Ashen Token|VTRoSL1}"
 										],
 										[
 											"8",
-											"{@item Hollow Coin|VTRoSL}"
+											"{@item Hollow Coin|VTRoSL1}"
 										],
 										[
 											"9",
-											"{@item Cracked Hourglass Pendant|VTRoSL}"
+											"{@item Cracked Hourglass Pendant|VTRoSL1}"
 										],
 										[
 											"10",
-											"{@item Moonlit Thread|VTRoSL}"
+											"{@item Moonlit Thread|VTRoSL1}"
 										]
 									]
 								}
@@ -641,9 +642,9 @@
 										{
 											"type": "list",
 											"items": [
-												"1 {@creature High Priest of Silver Light|VTRoSL}",
-												"2 {@creature Priest of Silver Light|VTRoSL}",
-												"3 {@creature Acolyte of Silver Light|VTRoSL}"
+												"1 {@creature High Priest of Silver Light|VTRoSL1}",
+												"2 {@creature Priest of Silver Light|VTRoSL1}",
+												"3 {@creature Acolyte of Silver Light|VTRoSL1}"
 											]
 										},
 										"The High Priest will prioritize using spells to weaken and control the party, while the acolytes attack recklessly to wear them down.",
@@ -655,14 +656,14 @@
 									"type": "entries",
 									"name": "The Abyssal Maw",
 									"entries": [
-										"The rift behind the High Priest tears open with a deafening screech of rending metal. The abyssal chanting swells into a roar as the true lord of these ruins emerges: {@creature The Abyssal Maw|VTRoSL}. A gargantuan, multi-limbed creature of nightmare, it is a fleshy, chitinous horror with an impossibly wide maw filled with rows of razor-sharp teeth. Its body seems to warp and pull at the space around it, its movements erratic and alien. It has been a long time since its master fed it so well, and it is hungry for more."
+										"The rift behind the High Priest tears open with a deafening screech of rending metal. The abyssal chanting swells into a roar as the true lord of these ruins emerges: {@creature The Abyssal Maw|VTRoSL1}. A gargantuan, multi-limbed creature of nightmare, it is a fleshy, chitinous horror with an impossibly wide maw filled with rows of razor-sharp teeth. Its body seems to warp and pull at the space around it, its movements erratic and alien. It has been a long time since its master fed it so well, and it is hungry for more."
 									]
 								},
 								{
 									"type": "entries",
 									"name": "The Light of Vaeil",
 									"entries": [
-										"If the party is defeated or clearly losing the battle against the {@creature The Abyssal Maw|VTRoSL}, a blinding light erupts from the sky, a single, brilliant ray that shatters the temple's ceiling. This is the {@creature Vaelithra, Fragment of Vaeil|MTW|Vaelithra}'s power, a desperate act to correct a timeline that has gone too far. The light strikes the Maw, scorching it and instantly incinerating any remaining cultists. The Maw's body convulses, and it is left with only 20% of its total hit points remaining. The air shimmers with temporal energy, and for a fleeting moment, the adventurers catch a glimpse of the beggar woman from the tavern, her eyes glowing with impossible power, before the scene resets."
+										"If the party is defeated or clearly losing the battle against the {@creature The Abyssal Maw|VTRoSL1}, a blinding light erupts from the sky, a single, brilliant ray that shatters the temple's ceiling. This is the {@creature Vaelithra, Fragment of Vaeil|MTW|Vaelithra}'s power, a desperate act to correct a timeline that has gone too far. The light strikes the Maw, scorching it and instantly incinerating any remaining cultists. The Maw's body convulses, and it is left with only 20% of its total hit points remaining. The air shimmers with temporal energy, and for a fleeting moment, the adventurers catch a glimpse of the beggar woman from the tavern, her eyes glowing with impossible power, before the scene resets."
 									]
 								}
 							]
@@ -671,8 +672,8 @@
 							"type": "section",
 							"name": "Resolution",
 							"entries": [
-								"Whether by their own hand or by the grace of the {@creature Vaelithra, Fragment of Vaeil|MTW|Vaelithra}, the adventurers defeat the {@creature The Abyssal Maw|VTRoSL}. As the monstrosity's body dissolves, a final, guttural scream tears from the rift in reality. The archdemon manifests in his true, gargantuan form\u2014an overwhelming being of pure abyss and despair. This is where the adventure's epilogue begins.",
-								"A {@item Fragment of the Archive|VTRoSL} is laying beside the High Priest and can be taken."
+								"Whether by their own hand or by the grace of the {@creature Vaelithra, Fragment of Vaeil|MTW|Vaelithra}, the adventurers defeat the {@creature The Abyssal Maw|VTRoSL1}. As the monstrosity's body dissolves, a final, guttural scream tears from the rift in reality. The archdemon manifests in his true, gargantuan form\u2014an overwhelming being of pure abyss and despair. This is where the adventure's epilogue begins.",
+								"A {@item Fragment of the Archive|VTRoSL1} is laying beside the High Priest and can be taken."
 							]
 						}
 					]
@@ -734,27 +735,27 @@
 									"Demon"
 								],
 								[
-									"{@creature Diane Serpent|VTRoSL}",
+									"{@creature Diane Serpent|VTRoSL1}",
 									"NPC"
 								],
 								[
-									"{@creature Demolias Nogard|VTRoSL}",
+									"{@creature Demolias Nogard|VTRoSL1}",
 									"NPC"
 								],
 								[
-									"{@creature The Abyssal Maw|VTRoSL}",
+									"{@creature The Abyssal Maw|VTRoSL1}",
 									"Monster"
 								],
 								[
-									"{@creature Acolyte of Silver Light|VTRoSL}",
+									"{@creature Acolyte of Silver Light|VTRoSL1}",
 									"Monster"
 								],
 								[
-									"{@creature Priest of Silver Light|VTRoSL}",
+									"{@creature Priest of Silver Light|VTRoSL1}",
 									"Monster"
 								],
 								[
-									"{@creature High Priest of Silver Light|VTRoSL}",
+									"{@creature High Priest of Silver Light|VTRoSL1}",
 									"Monster"
 								]
 							]
@@ -777,51 +778,51 @@
 							],
 							"rows": [
 								[
-									"{@item Silverlight Amulet|VTRoSL}",
+									"{@item Silverlight Amulet|VTRoSL1}",
 									"Rare"
 								],
 								[
-									"{@item Fragment of the Archive|VTRoSL}",
+									"{@item Fragment of the Archive|VTRoSL1}",
 									"Rare"
 								],
 								[
-									"{@item Silver Charm|VTRoSL}",
+									"{@item Silver Charm|VTRoSL1}",
 									"Common"
 								],
 								[
-									"{@item Blessed Candle|VTRoSL}",
+									"{@item Blessed Candle|VTRoSL1}",
 									"Common"
 								],
 								[
-									"{@item Prayer Beads of Echo|VTRoSL}",
+									"{@item Prayer Beads of Echo|VTRoSL1}",
 									"Common"
 								],
 								[
-									"{@item Silverleaf Ring|VTRoSL}",
+									"{@item Silverleaf Ring|VTRoSL1}",
 									"Common"
 								],
 								[
-									"{@item Whispering Feather|VTRoSL}",
+									"{@item Whispering Feather|VTRoSL1}",
 									"Common"
 								],
 								[
-									"{@item Dried Vial of Silver Fog|VTRoSL}",
+									"{@item Dried Vial of Silver Fog|VTRoSL1}",
 									"Common"
 								],
 								[
-									"{@item Ashen Token|VTRoSL}",
+									"{@item Ashen Token|VTRoSL1}",
 									"Common"
 								],
 								[
-									"{@item Hollow Coin|VTRoSL}",
+									"{@item Hollow Coin|VTRoSL1}",
 									"Common"
 								],
 								[
-									"{@item Cracked Hourglass Pendant|VTRoSL}",
+									"{@item Cracked Hourglass Pendant|VTRoSL1}",
 									"Common"
 								],
 								[
-									"{@item Moonlit Thread|VTRoSL}",
+									"{@item Moonlit Thread|VTRoSL1}",
 									"Common"
 								]
 							]
@@ -854,7 +855,7 @@
 				"L",
 				"G"
 			],
-			"domain": [
+			"domains": [
 				"Time",
 				"Order",
 				"Creation"
@@ -867,9 +868,9 @@
 			],
 			"symbol": "A serene, all-seeing eye within a perfect clock, surrounded by the Ouroboros.",
 			"entries": [
-				"Vaeil is the benevolent deity who brought order from primordial chaos and established the flow of time. He is the guardian of the timeline, ensuring that the grand design of the cosmos unfolds as it should.",
-				"While Vaeil is often seen as a distant and impassive force, his influence is felt in the cycles of the seasons, the turning of the stars, and the natural progression of life and death. His followers, such as the Silver Light order, strive to maintain order, preserve knowledge, and protect the world from the disruptive influence of chaotic forces.",
-				"Vaeil's power is not one of direct intervention, but of subtle guidance and correction. He acts through his devoted followers to restore balance and mend the tears in the fabric of reality caused by beings like Xy'loth. His greatest triumph was the ending of the War of Sundering, which he accomplished by resetting time, an act that fractured a part of his soul, creating the entity known as {@creature Vaelithra, Fragment of Vaeil|MTW|Vaelithra}."
+				"{@deity Vaeil|The Primordials|MTW} is the benevolent deity who brought order from primordial chaos and established the flow of time. He is the guardian of the timeline, ensuring that the grand design of the cosmos unfolds as it should.",
+				"While {@deity Vaeil|The Primordials|MTW} is often seen as a distant and impassive force, his influence is felt in the cycles of the seasons, the turning of the stars, and the natural progression of life and death. His followers, such as the {@creature Acolyte of Silver Light|VTRoSL1}, strive to maintain order, preserve knowledge, and protect the world from the disruptive influence of chaotic forces.",
+				"{@deity Vaeil|The Primordials|MTW}'s power is not one of direct intervention, but of subtle guidance and correction. He acts through his devoted followers to restore balance and mend the tears in the fabric of reality caused by beings like {@creature Xy'loth, the Archdemon|MTW|Xyloth}. His greatest triumph was the ending of the {@adventure War of Sundering|MTW|war-of-sundering}, which he accomplished by resetting time, an act that fractured a part of his soul, creating the entity known as {@creature Vaelithra, Fragment of Vaeil|MTW|Vaelithra}."
 			]
 		},
 		{
@@ -879,7 +880,7 @@
 				"C",
 				"E"
 			],
-			"domain": [
+			"domains": [
 				"Corruption",
 				"Chaos",
 				"Ruin"
@@ -892,9 +893,9 @@
 			],
 			"symbol": "A stylized serpent intertwined with a shattered clock, its head poised to strike the center.",
 			"entries": [
-				"Xy'loth is the primordial chaos that exists outside of time. It is not a being of flesh and blood but a malevolent force that seeks to unravel the orderly fabric of the multiverse, which was woven by Vaeil.",
-				"Unlike other demons who seek power or conquest, Xy'loth's sole purpose is the ultimate unmaking of all things, returning them to the chaotic void from which it came. Its influence is insidious, working through whispers and subversion rather than brute force.",
-				"Xy'loth is the master of lies, twisting the faith of mortals, and turning order against itself. The Drow cult in your adventure secretly worships Xy'loth, seeing its chaotic nature as true freedom from the gods' strictures. They believe that by bringing about the \"Ruin of Silver Light,\" they are paving the way for Xy'loth's ultimate victory and the final liberation of all creation into pure chaos."
+				"{@creature Xy'loth, the Archdemon|MTW|Xyloth} is the primordial chaos that exists outside of time. It is not a being of flesh and blood but a malevolent force that seeks to unravel the orderly fabric of the multiverse, which was woven by {@deity Vaeil|The Primordials|MTW}.",
+				"Unlike other demons who seek power or conquest, {@creature Xy'loth, the Archdemon|MTW|Xyloth}'s sole purpose is the ultimate unmaking of all things, returning them to the chaotic void from which it came. Its influence is insidious, working through whispers and subversion rather than brute force.",
+				"{@creature Xy'loth, the Archdemon|MTW|Xyloth} is the master of lies, twisting the faith of mortals, and turning order against itself. The {@creature Drow Cultist|VTRoSL1} in your adventure secretly worships {@creature Xy'loth, the Archdemon|MTW|Xyloth}, seeing its chaotic nature as true freedom from the gods' strictures. They believe that by bringing about the \"{@adventure Ruin of Silver Light|VTRoSL1|ruin-of-silver-light},\" they are paving the way for {@creature Xy'loth, the Archdemon|MTW|Xyloth}'s ultimate victory and the final liberation of all creation into pure chaos."
 			]
 		}
 	],
@@ -928,7 +929,7 @@
 		},
 		{
 			"name": "Silverlight Amulet",
-			"source": "VTRoSL",
+			"source": "VTRoSL1",
 			"page": 2,
 			"edition": "one",
 			"type": "W|MTW",
@@ -942,7 +943,7 @@
 		},
 		{
 			"name": "Fragment of the Archive",
-			"source": "VTRoSL",
+			"source": "VTRoSL1",
 			"page": 21,
 			"edition": "one",
 			"type": "W|MTW",
@@ -950,15 +951,15 @@
 			"weight": 0.2,
 			"value": 500,
 			"entries": [
-				"A crystalline shard suffused with silvery light. This is a fragment of the god Vaeil's sundered soul — a Vaelinthra.",
-				"While attuned, once per long rest, you can invoke its power to rewind a fleeting moment: when you or an ally within 30 feet fails a saving throw, ability check, or attack roll, you can reroll it. The second result must be used.",
-				"If shattered intentionally, the fragment releases a surge of divine time-energy. Each ally within 20 feet may immediately take the {@b Help} action as a reaction.",
+				"A crystalline shard suffused with silvery light. This is a fragment of the {@deity Vaeil|The Primordials|MTW}'s sundered soul — a {@creature Vaelithra, Fragment of Vaeil|MTW|Vaelithra}.",
+				"While attuned, once per {@recharge long rest}, you can invoke its power to rewind a fleeting moment: when you or an ally within {@distance 30 feet} fails a {@h} saving throw, ability check, or attack roll, you can reroll it. The second result must be used.",
+				"If shattered intentionally, the fragment releases a surge of divine time-energy. Each ally within {@distance 20 feet} may immediately take the {@action Help} action as a {@reaction}.",
 				"The fragment hums with faint whispers of archives unwritten."
 			]
 		},
 		{
 			"name": "Silver Charm",
-			"source": "VTRoSL",
+			"source": "VTRoSL1",
 			"page": 22,
 			"edition": "one",
 			"type": "W|MTW",
@@ -966,13 +967,13 @@
 			"weight": 0.1,
 			"value": 25,
 			"entries": [
-				"A small silver trinket carried by corrupted acolytes.",
-				"When held, it grants {@b advantage} on a single saving throw against being frightened. The charm then loses its magic."
+				"A small silver trinket carried by corrupted {@creature Acolyte of Silver Light|VTRoSL1}.",
+				"When held, it grants {@b advantage} on a single {@h}saving throw{@/h} against being {@condition frightened}. The charm then loses its magic."
 			]
 		},
 		{
 			"name": "Blessed Candle",
-			"source": "VTRoSL",
+			"source": "VTRoSL1",
 			"page": 23,
 			"edition": "one",
 			"type": "W|MTW",
@@ -981,13 +982,13 @@
 			"value": 10,
 			"entries": [
 				"A white candle with faint silver runes.",
-				"When lit, it sheds bright light in a 10-foot radius and dim light for an additional 10 feet.",
-				"Fiends within the bright light have {@b disadvantage} on Stealth checks."
+				"When lit, it sheds bright light in a {@distance 10-foot} radius and dim light for an additional {@distance 10 feet}.",
+				"{@creaturetype fiend|fiends} within the bright light have {@b disadvantage} on {@skill Stealth} checks."
 			]
 		},
 		{
 			"name": "Prayer Beads of Echo",
-			"source": "VTRoSL",
+			"source": "VTRoSL1",
 			"page": 24,
 			"edition": "one",
 			"type": "W|MTW",
@@ -1001,7 +1002,7 @@
 		},
 		{
 			"name": "Silverleaf Ring",
-			"source": "VTRoSL",
+			"source": "VTRoSL1",
 			"page": 25,
 			"edition": "one",
 			"type": "W|MTW",
@@ -1015,7 +1016,7 @@
 		},
 		{
 			"name": "Whispering Feather",
-			"source": "VTRoSL",
+			"source": "VTRoSL1",
 			"page": 26,
 			"edition": "one",
 			"type": "W|MTW",
@@ -1029,7 +1030,7 @@
 		},
 		{
 			"name": "Dried Vial of Silver Fog",
-			"source": "VTRoSL",
+			"source": "VTRoSL1",
 			"page": 27,
 			"edition": "one",
 			"type": "W|MTW",
@@ -1043,7 +1044,7 @@
 		},
 		{
 			"name": "Ashen Token",
-			"source": "VTRoSL",
+			"source": "VTRoSL1",
 			"page": 28,
 			"edition": "one",
 			"type": "W|MTW",
@@ -1057,7 +1058,7 @@
 		},
 		{
 			"name": "Hollow Coin",
-			"source": "VTRoSL",
+			"source": "VTRoSL1",
 			"page": 29,
 			"edition": "one",
 			"type": "W|MTW",
@@ -1071,7 +1072,7 @@
 		},
 		{
 			"name": "Cracked Hourglass Pendant",
-			"source": "VTRoSL",
+			"source": "VTRoSL1",
 			"page": 30,
 			"edition": "one",
 			"type": "W|MTW",
@@ -1085,7 +1086,7 @@
 		},
 		{
 			"name": "Moonlit Thread",
-			"source": "VTRoSL",
+			"source": "VTRoSL1",
 			"page": 31,
 			"edition": "one",
 			"type": "W|MTW",
@@ -1102,13 +1103,13 @@
 		{
 			"name": "Wondrous item",
 			"abbreviation": "W",
-			"source": "VTRoSL"
+			"source": "VTRoSL1"
 		}
 	],
 	"monster": [
 		{
 			"name": "High Priest of Silver Light",
-			"source": "VTRoSL",
+			"source": "VTRoSL1",
 			"page": 1,
 			"size": [
 				"M"
@@ -1138,7 +1139,6 @@
 				"wis": "+5",
 				"cha": "+4"
 			},
-			"passive": 13,
 			"skill": {
 				"deception": "+4",
 				"intimidation": "+4"
@@ -1239,7 +1239,7 @@
 		},
 		{
 			"name": "Priest of Silver Light",
-			"source": "VTRoSL",
+			"source": "VTRoSL1",
 			"page": 1,
 			"size": [
 				"M"
@@ -1269,7 +1269,6 @@
 				"wis": "+5",
 				"cha": "+3"
 			},
-			"passive": 13,
 			"skill": {
 				"religion": "+3"
 			},
@@ -1333,7 +1332,7 @@
 		},
 		{
 			"name": "Acolyte of Silver Light",
-			"source": "VTRoSL",
+			"source": "VTRoSL1",
 			"page": 1,
 			"size": [
 				"M"
@@ -1359,7 +1358,6 @@
 			"int": 10,
 			"wis": 13,
 			"cha": 11,
-			"passive": 11,
 			"skill": {
 				"religion": "+3"
 			},
@@ -1402,7 +1400,7 @@
 		},
 		{
 			"name": "The Abyssal Maw",
-			"source": "VTRoSL",
+			"source": "VTRoSL1",
 			"page": 1,
 			"size": [
 				"L"
@@ -1435,7 +1433,6 @@
 			"senses": [
 				"darkvision 60 ft."
 			],
-			"passive": 10,
 			"languages": [
 				"understands Abyssal but can't speak"
 			],
@@ -1476,7 +1473,7 @@
 		},
 		{
 			"name": "Demolias Nogard",
-			"source": "VTRoSL",
+			"source": "VTRoSL1",
 			"size": [
 				"M"
 			],
@@ -1505,7 +1502,6 @@
 				"wis": "+7",
 				"cha": "+9"
 			},
-			"passive": 12,
 			"skill": {
 				"persuasion": "+9",
 				"insight": "+7"
@@ -1590,7 +1586,7 @@
 		},
 		{
 			"name": "Diane Serpent",
-			"source": "VTRoSL",
+			"source": "VTRoSL1",
 			"size": [
 				"M"
 			],
@@ -1619,7 +1615,6 @@
 				"str": "+10",
 				"con": "+10"
 			},
-			"passive": 12,
 			"skill": {
 				"athletics": "+10",
 				"intimidation": "+5"
@@ -1674,7 +1669,7 @@
 			]
 		},
 		{
-			"name": "Vaeil, the God of Time",
+			"name": "Vaeil, The God of Time",
 			"source": "MTW",
 			"page": 1,
 			"size": [
@@ -1716,48 +1711,37 @@
 				"radiant",
 				"force",
 				"psychic",
-				"bludgeoning",
-				"piercing",
-				"slashing from nonmagical attacks"
+				"bludgeoning, piercing, slashing from nonmagical attacks"
 			],
-			"conditionImmune": [
-				"all"
-			],
+			"conditionImmune": [],
 			"senses": [
-				"truesight 120 ft.",
-				"passive Perception 28"
+				"truesight 120 ft."
 			],
-			"languages": [
-				"all"
-			],
+			"languages": [],
 			"cr": "25",
-			"legendary": {
-				"actions": 3,
-				"actionsHeader": "Vaeil can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. Vaeil regains spent legendary actions at the start of their turn.",
-				"actionsEntries": [
-					{
-						"name": "Detect",
-						"entries": [
-							"Vaeil makes a Wisdom (Perception) check."
-						]
-					},
-					{
-						"name": "Chronal Shift (Costs 2 Actions)",
-						"entries": [
-							"Vaeil can reroll a saving throw it just failed. It must use the new roll. This can be used to counter an effect that would reduce its Legendary Resistance."
-						]
-					},
-					{
-						"name": "Divine Strike (Costs 3 Actions)",
-						"entries": [
-							"Vaeil makes one melee weapon attack. On a hit, the target takes an additional 27 ({@damage 5d10}) radiant damage."
-						]
-					}
-				]
-			},
+			"legendary": [
+				{
+					"name": "Detect",
+					"entries": [
+						"Vaeil makes a Wisdom (Perception) check."
+					]
+				},
+				{
+					"name": "Chronal Shift (Costs 2 Actions)",
+					"entries": [
+						"Vaeil can reroll a saving throw it just failed. It must use the new roll. This can be used to counter an effect that would reduce its Legendary Resistance."
+					]
+				},
+				{
+					"name": "Divine Strike (Costs 3 Actions)",
+					"entries": [
+						"Vaeil makes one melee weapon attack. On a hit, the target takes an additional 27 ({@damage 5d10}) radiant damage."
+					]
+				}
+			],
 			"legendaryGroup": {
-				"name": "Vaeil, the God of Time",
-				"source": "VTRoSL"
+				"name": "Vaeil, The God of Time",
+				"source": "VTRoSL1"
 			},
 			"trait": [
 				{
@@ -1796,7 +1780,11 @@
 					]
 				},
 				{
-					"name": "Temporal Warp (Recharge 5-6)",
+					"name": "Temporal Warp",
+					"recharge": [
+						5,
+						6
+					],
 					"entries": [
 						"Vaeil chooses a point within 120 feet of him. A 30-foot-radius sphere centered on that point becomes a zone of temporal distortion until the start of his next turn. Each creature in that area must make a {@dc 26} Wisdom saving throw. On a failed save, the creature's speed is halved, and it can't take reactions. On a successful save, the creature's speed is halved. The creature can repeat the saving throw at the end of each of its turns, ending the effect on a success."
 					]
@@ -1863,9 +1851,7 @@
 				"fire",
 				"necrotic",
 				"psychic",
-				"bludgeoning",
-				"piercing",
-				"slashing from nonmagical attacks"
+				"bludgeoning, piercing, slashing from nonmagical attacks"
 			],
 			"conditionImmune": [
 				"charmed",
@@ -1876,35 +1862,30 @@
 				"unconscious"
 			],
 			"senses": [
-				"truesight 120 ft.",
-				"passive Perception 24"
+				"truesight 120 ft."
 			],
 			"languages": [
 				"Abyssal",
 				"telepathy 120 ft."
 			],
 			"cr": "20",
-			"legendary": {
-				"actions": 3,
-				"actionsHeader": "Xy'loth can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. Xy'loth regains spent legendary actions at the start of their turn.",
-				"actionsEntries": [
-					{
-						"name": "Shattering Strike (Costs 2 Actions)",
-						"entries": [
-							"Xy'loth makes one melee weapon attack. On a hit, the target must make a {@dc 22} Constitution saving throw or have one nonmagical item it is carrying destroyed."
-						]
-					},
-					{
-						"name": "Corrupting Gaze (Costs 1 Action)",
-						"entries": [
-							"Xy'loth targets one creature he can see within 60 feet of him. The target must succeed on a {@dc 22} Wisdom saving throw or take 22 ({@damage 4d10}) psychic damage and become poisoned until the end of its next turn."
-						]
-					}
-				]
-			},
+			"legendary": [
+				{
+					"name": "Shattering Strike (Costs 2 Actions)",
+					"entries": [
+						"Xy'loth makes one melee weapon attack. On a hit, the target must make a {@dc 22} Constitution saving throw or have one nonmagical item it is carrying destroyed."
+					]
+				},
+				{
+					"name": "Corrupting Gaze (Costs 1 Action)",
+					"entries": [
+						"Xy'loth targets one creature he can see within 60 feet of him. The target must succeed on a {@dc 22} Wisdom saving throw or take 22 ({@damage 4d10}) psychic damage and become poisoned until the end of its next turn."
+					]
+				}
+			],
 			"legendaryGroup": {
 				"name": "Xy'loth, the Archdemon",
-				"source": "VTRoSL"
+				"source": "VTRoSL1"
 			},
 			"trait": [
 				{
@@ -1998,7 +1979,7 @@
 			"immune": [
 				"radiant",
 				"psychic",
-				"bludgeoning, piercing, and slashing from nonmagical attacks"
+				"bludgeoning, piercing, slashing from nonmagical attacks"
 			],
 			"conditionImmune": [
 				"charmed",
@@ -2007,14 +1988,18 @@
 				"petrified"
 			],
 			"senses": [
-				"truesight 60 ft.",
-				"passive Perception 23"
+				"truesight 60 ft."
 			],
-			"languages": [
-				"all"
-			],
+			"languages": [],
 			"cr": "20",
 			"trait": [
+				{
+					"name": "Change Shape",
+					"entries": [
+						"Vaelithra can use her action to polymorph into a Medium humanoid she has seen, or back into her true form. Her statistics, other than her size, are the same in each form. Any equipment she is wearing or carrying isn't transformed. She reverts to her true form if she dies.",
+						"In her humanoid form, she appears as a striking but unassuming human woman with silver-streaked hair and eyes that occasionally flicker with an inner light. This form is her preferred way to interact with mortals, as it helps her remain inconspicuous while still maintaining an air of otherworldly grace."
+					]
+				},
 				{
 					"name": "Fragmented Divinity",
 					"entries": [
@@ -2024,7 +2009,7 @@
 				{
 					"name": "Innate Spellcasting",
 					"entries": [
-						"Vaelithra's spellcasting ability is Charisma (spell save DC 21). She can innately cast the following spells, requiring no material components:",
+						"Vaelithra's spellcasting ability is Charisma spell save {@dc 21}. She can innately cast the following spells, requiring no material components:",
 						"At will: {@spell hold person}, {@spell slow}, {@spell counterspell}",
 						"3/day each: {@spell banishment}, {@spell greater restoration}, {@spell wall of force}",
 						"1/day each: {@spell time stop}, {@spell foresight}"
@@ -2051,36 +2036,36 @@
 					]
 				},
 				{
-					"name": "Temporal Distortion (Recharge 5–6)",
+					"name": "Temporal Distortion",
+					"recharge": [
+						5,
+						6
+					],
 					"entries": [
 						"Vaelithra bends the flow of time in a 20-foot-radius sphere centered on a point she can see within 120 feet. Each creature in that area must succeed on a DC 21 Wisdom saving throw or be either aged (disadvantage on Strength and Dexterity checks and saving throws) or slowed (as the {@spell slow} spell) for 1 minute. The effect ends early if Vaelithra loses concentration (as if concentrating on a spell)."
 					]
 				}
 			],
-			"legendary": {
-				"actions": 3,
-				"actionsHeader": "Vaelithra can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. Vaelithra regains spent legendary actions at the start of her turn.",
-				"actionsEntries": [
-					{
-						"name": "Detect",
-						"entries": [
-							"Vaelithra makes a Wisdom (Perception) check."
-						]
-					},
-					{
-						"name": "Warp Step",
-						"entries": [
-							"Vaelithra teleports up to 30 feet to an unoccupied space she can see."
-						]
-					},
-					{
-						"name": "Chronal Glimpse (Costs 2 Actions)",
-						"entries": [
-							"Vaelithra forces a creature she can see within 30 feet to reroll an attack roll, saving throw, or ability check it just made. The creature must use the new roll."
-						]
-					}
-				]
-			},
+			"legendary": [
+				{
+					"name": "Detect",
+					"entries": [
+						"Vaelithra makes a Wisdom (Perception) check."
+					]
+				},
+				{
+					"name": "Warp Step",
+					"entries": [
+						"Vaelithra teleports up to 30 feet to an unoccupied space she can see."
+					]
+				},
+				{
+					"name": "Chronal Glimpse (Costs 2 Actions)",
+					"entries": [
+						"Vaelithra forces a creature she can see within 30 feet to reroll an attack roll, saving throw, or ability check it just made. The creature must use the new roll."
+					]
+				}
+			],
 			"languageTags": [
 				"C",
 				"A"
