@@ -206,7 +206,7 @@
 					"entries": [
 						"The adventure begins as the adventurers arrive in Dewanginokori under a torrential storm. Seeking warmth and shelter, they enter the Boar Smile Tavern, a bustling establishment packed full of travelers, locals, and laborers all waiting out the weather. With no empty tables left, the characters are forced to sit side by side at the bar, strangers drawn together by chance\u2014or perhaps fate.",
 						{
-							"type": "inset",
+							"type": "insetReadaloud",
 							"page": 2,
 							"entries": [
 								"It's Year 1 After Sundering, on the 1st of Aetheros, the village of Dewanginokori was silent as expected",
@@ -460,7 +460,7 @@
 										"The rain continues to fall in a heavy curtain outside, a steady drumming on the tavern roof. The world inside is warm and filled with the low murmur of conversation and the clinking of mugs.",
 										"Suddenly, the heavy oak door bursts open, and a gust of cold, wet air rushes in, along with a man drenched to the bone. His eyes are wide with panic and his face is streaked with rain and tears. The sound of his desperate scramble into the room, followed by his raw scream, is what shatters the quiet, forcing every conversation to an abrupt halt.",
 										{
-											"type": "inset",
+											"type": "insetReadaloud",
 											"entries": [
 												"'Please!' he cries, his voice thick with terror. 'My sister\u2014Elara! They took her!'",
 												"He clutches his chest before forcing himself to stand tall. 'They wore long gray robes, and they dragged her into the Silver Forest toward the old temple! My name is Gareth Blackwood, and I'll give you everything I have\u2014my family's entire inheritance! Just please, bring my sister Elara Blackwood home!'",
@@ -475,7 +475,7 @@
 									"name": "Into the Storm",
 									"entries": [
 										{
-											"type": "inset",
+											"type": "insetReadaloud",
 											"entries": [
 												"The tension from Gareth's plea dissipates as he leads you out of the tavern and into the unforgiving storm. The town's meager lights disappear behind you as you approach the dark, foreboding edge of the Silver Forest.",
 												"Here, at the treeline, Gareth stops. He turns to you, his face pale and eyes wide with terror, even more so than before.",
@@ -683,7 +683,7 @@
 					"name": "Epilogue",
 					"entries": [
 						{
-							"type": "inset",
+							"type": "insetReadaloud",
 							"name": "The Boar Smile Tavern Revisited",
 							"entries": [
 								"The rain pours heavily outside as thunder rattles the windows of the Boar Smile Tavern. Every table is full, leaving you no choice but to share one with strangers. The warmth of the hearth fills the room, carrying the sound of laughter and song.",
