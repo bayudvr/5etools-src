@@ -1,6 +1,6 @@
 export const ChronoGlimmerItem = {
    "name": "Chrono Glimmer",
-   "source": "MTW-TS",
+   "source": "MTW-VS",
    "page": 3,
    "edition": "one",
    "type": "W|MTW",

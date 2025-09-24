@@ -71,7 +71,7 @@ export const VaeilTheGodofTimeCreature = {
 	],
 	"legendaryGroup": {
 		"name": "Vaeil, The God of Time",
-		"source": "VTRoSL1"
+		"source": "MTW"
 	},
 	"trait": [
 		{

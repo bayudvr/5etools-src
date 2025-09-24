@@ -40,7 +40,7 @@
     "status": "ready",
     "edition": "one",
     "dateAdded": 1757462400000,
-    "dateLastModified": 1758688745190
+    "dateLastModified": 1758689351115
   },
   "adventure": [
     {
@@ -869,7 +869,7 @@
       "symbol": "A serene, all-seeing eye within a perfect clock, surrounded by the Ouroboros.",
       "entries": [
         "{@deity Vaeil|The Primordials|MTW} is the benevolent deity who brought order from primordial chaos and established the flow of time. He is the guardian of the timeline, ensuring that the grand design of the cosmos unfolds as it should.",
-        "While {@deity Vaeil|The Primordials|MTW} is often seen as a distant and impassive force, his influence is felt in the cycles of the seasons, the turning of the stars, and the natural progression of life and death. His followers, such as the {@creature Acolyte of Silver Light|VTRoSL1}, strive to maintain order, preserve knowledge, and protect the world from the disruptive influence of chaotic forces.",
+        "While {@deity Vaeil|The Primordials|MTW} is often seen as a distant and impassive force, his influence is felt in the cycles of the seasons, the turning of the stars, and the natural progression of life and death. His followers, such as the {@creature Acolyte of Silver Light|MTW-VS}, strive to maintain order, preserve knowledge, and protect the world from the disruptive influence of chaotic forces.",
         "{@deity Vaeil|The Primordials|MTW}'s power is not one of direct intervention, but of subtle guidance and correction. He acts through his devoted followers to restore balance and mend the tears in the fabric of reality caused by beings like {@creature Xy'loth, the Archdemon|MTW|Xyloth}. His greatest triumph was the ending of the {@adventure War of Sundering|MTW|war-of-sundering}, which he accomplished by resetting time, an act that fractured a part of his soul, creating the entity known as {@creature Vaelithra, Fragment of Vaeil|MTW|Vaelithra}."
       ]
     },
@@ -895,7 +895,7 @@
       "entries": [
         "{@creature Xy'loth, the Archdemon|MTW|Xyloth} is the primordial chaos that exists outside of time. It is not a being of flesh and blood but a malevolent force that seeks to unravel the orderly fabric of the multiverse, which was woven by {@deity Vaeil|The Primordials|MTW}.",
         "Unlike other demons who seek power or conquest, {@creature Xy'loth, the Archdemon|MTW|Xyloth}'s sole purpose is the ultimate unmaking of all things, returning them to the chaotic void from which it came. Its influence is insidious, working through whispers and subversion rather than brute force.",
-        "{@creature Xy'loth, the Archdemon|MTW|Xyloth} is the master of lies, twisting the faith of mortals, and turning order against itself. The {@creature Drow Cultist|VTRoSL1} in your adventure secretly worships {@creature Xy'loth, the Archdemon|MTW|Xyloth}, seeing its chaotic nature as true freedom from the gods' strictures. They believe that by bringing about the \"{@adventure Ruin of Silver Light|VTRoSL1|ruin-of-silver-light},\" they are paving the way for {@creature Xy'loth, the Archdemon|MTW|Xyloth}'s ultimate victory and the final liberation of all creation into pure chaos."
+        "{@creature Xy'loth, the Archdemon|MTW|Xyloth} is the master of lies, twisting the faith of mortals, and turning order against itself. The {@creature Acolyte of Silver Light|MTW-VS} in your adventure secretly worships {@creature Xy'loth, the Archdemon|MTW|Xyloth}, seeing its chaotic nature as true freedom from the gods' strictures. They believe that by bringing about the \"{@adventure Ruin of Silver Light|MTW-VS|ruin-of-silver-light},\" they are paving the way for {@creature Xy'loth, the Archdemon|MTW|Xyloth}'s ultimate victory and the final liberation of all creation into pure chaos."
       ]
     }
   ],
@@ -931,7 +931,7 @@
     },
     {
       "name": "Chrono Glimmer",
-      "source": "MTW-TS",
+      "source": "MTW-VS",
       "page": 3,
       "edition": "one",
       "type": "W|MTW",
@@ -1016,7 +1016,7 @@
     },
     {
       "name": "Heart of the Glacial Blade",
-      "source": "MTW-TS",
+      "source": "MTW-VS",
       "page": 3,
       "edition": "one",
       "type": "W|MTW",
@@ -1080,7 +1080,7 @@
       "weight": 0.1,
       "value": 25,
       "entries": [
-        "A small silver trinket carried by corrupted {@creature Acolyte of Silver Light|VTRoSL1}.",
+        "A small silver trinket carried by corrupted {@creature Acolyte of Silver Light|MTW-VS}.",
         "When held, it grants {@b advantage} on a single {@h}saving throw{@/h} against being {@condition frightened}. The charm then loses its magic."
       ]
     },
@@ -2663,7 +2663,7 @@
       ],
       "legendaryGroup": {
         "name": "Vaeil, The God of Time",
-        "source": "VTRoSL1"
+        "source": "MTW"
       },
       "trait": [
         {
@@ -2951,7 +2951,7 @@
       ],
       "legendaryGroup": {
         "name": "Xy'loth, the Archdemon",
-        "source": "VTRoSL1"
+        "source": "MTW"
       },
       "trait": [
         {

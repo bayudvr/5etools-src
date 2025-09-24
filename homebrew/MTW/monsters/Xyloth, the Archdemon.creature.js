@@ -74,7 +74,7 @@ export const XyloththeArchdemonCreature = {
 	],
 	"legendaryGroup": {
 		"name": "Xy'loth, the Archdemon",
-		"source": "VTRoSL1"
+		"source": "MTW"
 	},
 	"trait": [
 		{

@@ -1,6 +1,6 @@
 export const HeartoftheGlacialBladeItem = {
    "name": "Heart of the Glacial Blade",
-   "source": "MTW-TS",
+   "source": "MTW-VS",
    "page": 3,
    "edition": "one",
    "type": "W|MTW",
