@@ -11,3 +11,5 @@ export * from './Silver Charm.item.js';
 export * from './Silverleaf Ring.item.js';
 export * from './Silverlight Amulet.item.js';
 export * from './Whispering Feather.item.js';
+export * from './Chrono Glimer.item.js';
+export * from './Heart of the Glacial Blade.item.js';

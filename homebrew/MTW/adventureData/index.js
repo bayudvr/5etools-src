@@ -1,1 +1,1 @@
-export * from './VTRoSL.adventureData.js';
+export * from './VTRoSL/VTRoSL.adventureData.js';

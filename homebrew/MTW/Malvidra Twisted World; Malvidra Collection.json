@@ -40,7 +40,7 @@
     "status": "ready",
     "edition": "one",
     "dateAdded": 1757462400000,
-    "dateLastModified": 1758412800000
+    "dateLastModified": 1758685215586
   },
   "adventure": [
     {
@@ -930,6 +930,20 @@
       ]
     },
     {
+      "name": "Chrono Glimmer",
+      "source": "MTW-TS",
+      "page": 3,
+      "edition": "one",
+      "type": "W|MTW",
+      "rarity": "rare",
+      "weight": 0,
+      "value": 0,
+      "entries": [
+        "A glowing shard of crystallized moonlight, humming with powerful time magic.",
+        "Once per long rest, you may reverse time by 6 seconds (one round). The affected creature redoes its turn entirely, rerolling attacks, saving throws, and movement."
+      ]
+    },
+    {
       "name": "Cracked Hourglass Pendant",
       "source": "MTW-VS",
       "page": 30,
@@ -998,6 +1012,20 @@
         "While attuned, once per {@recharge long rest}, you can invoke its power to rewind a fleeting moment: when you or an ally within {@distance 30 feet} fails a {@h} saving throw, ability check, or attack roll, you can reroll it. The second result must be used.",
         "If shattered intentionally, the fragment releases a surge of divine time-energy. Each ally within {@distance 20 feet} may immediately take the {@action Help} action as a {@reaction}.",
         "The fragment hums with faint whispers of archives unwritten."
+      ]
+    },
+    {
+      "name": "Heart of the Glacial Blade",
+      "source": "MTW-TS",
+      "page": 3,
+      "edition": "one",
+      "type": "W|MTW",
+      "rarity": "very rare",
+      "weight": 1,
+      "value": 0,
+      "entries": [
+        "A jagged, crystalline shard that formed from the heart of Harann Nemmonis. It shines with a dim blue light and is unnaturally cold to the touch.",
+        "This shard can be forged into a sword or an axe. When used as a weapon, it deals an additional 1d6 cold and 1d6 piercing damage. The wielder is also able to ignore the movement penalties from difficult terrain composed of ice or snow."
       ]
     },
     {
@@ -1373,6 +1401,621 @@
       ]
     },
     {
+      "name": "Frost-Cursed Captain",
+      "size": [
+        "M"
+      ],
+      "type": "undead",
+      "source": "MTW-VS",
+      "alignment": [
+        "L",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 16,
+          "from": [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "12d8 + 48",
+        "average": 102
+      },
+      "speed": {
+        "walk": 30,
+        "swim": 40
+      },
+      "str": 18,
+      "dex": 15,
+      "con": 18,
+      "int": 14,
+      "wis": 13,
+      "cha": 16,
+      "passive": 14,
+      "cr": "5",
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "languages": [
+        "Common",
+        "understands the commands of Harann Nemmonis"
+      ],
+      "languageTags": [
+        "C"
+      ],
+      "save": {
+        "str": "+7",
+        "dex": "+5",
+        "con": "+7",
+        "int": "+5"
+      },
+      "skill": {
+        "perception": "+4"
+      },
+      "trait": [
+        {
+          "name": "Icy Demise",
+          "entries": [
+            "When the captain is reduced to 0 {@variantrule hit points|XPHB}, its body shatters into shards of ice. All creatures within 10 feet must succeed on a {@dc 10} {@skill Dexterity} saving throw or take {@damage 3d6} cold damage."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The captain makes two attacks: one with its Icy Trident and one with its Bite."
+          ]
+        },
+        {
+          "name": "Icy Trident",
+          "entries": [
+            "{@atk mw,rw} {@hit +7} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}11 ({@damage 2d6 + 4}) piercing damage plus {@damage 1d6} cold damage."
+          ]
+        },
+        {
+          "name": "Bite",
+          "entries": [
+            "{@atk mw} {@hit +7} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage."
+          ]
+        },
+        {
+          "name": "Chilling Roar {@recharge 5}",
+          "entries": [
+            "The captain roars, releasing a wave of cold. Each creature within 15 feet of the captain must succeed on a {@dc 13} {@skill Constitution} saving throw or be slowed until the end of its next turn."
+          ]
+        }
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "miscTags": [
+        "RW",
+        "MW",
+        "MLW",
+        "THW",
+        "AOE"
+      ],
+      "damageTags": [
+        "P"
+      ]
+    },
+    {
+      "name": "Frost-Cursed Chieftain",
+      "size": [
+        "S"
+      ],
+      "type": "aberration",
+      "source": "MTW-VS",
+      "alignment": [
+        "L",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 12,
+          "from": [
+            "{@item leather armor|xphb}"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "6d6",
+        "average": 21
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 7,
+      "dex": 15,
+      "con": 10,
+      "int": 14,
+      "wis": 10,
+      "cha": 8,
+      "passive": 10,
+      "cr": "1",
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "languages": [
+        "Common",
+        "understands the commands of Harann Nemmonis"
+      ],
+      "languageTags": [
+        "C"
+      ],
+      "trait": [
+        {
+          "name": "Icy Demise",
+          "entries": [
+            "When the chieftain is reduced to 0 {@variantrule hit points|XPBH}, its body explodes into shards of ice. All creatures within 5 feet must succeed on a {@dc 12} {@skill Dexterity} saving throw or take {@damage 1d8} cold damage"
+          ]
+        },
+        {
+          "name": "Inventions",
+          "entries": [
+            "The chieftain has a bag of tricks, allowing it to use one of the following abilities each turn as a bonus action.",
+            "- Glacial Glue: The chieftain throws a small container that explodes into a sticky, icy substance. One creature within 20 feet must succeed on a {@dc 12} {@skill Dexterity} saving throw or be {@condition restrained}. A creature can use its action to make a {@dc 12} {@skill Strength} check to end the effect.",
+            "- Frost Bomb: The chieftain throws a small orb that explodes in a 10-foot radius. Each creature in the area must succeed on a {@dc 12} {@skill Constitution} saving throw or take {@damage 2d6} cold damage."
+          ]
+        }
+      ],
+      "conditionInflict": [
+        "restrained"
+      ],
+      "miscTags": [
+        "MW",
+        "MLW",
+        "AOE"
+      ],
+      "action": [
+        {
+          "name": "Icy Dagger",
+          "entries": [
+            "{@atk mw} {@hit +4} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage plus {@damage 1d4} cold damage."
+          ]
+        }
+      ],
+      "damageTags": [
+        "P"
+      ]
+    },
+    {
+      "name": "Frost-Cursed Kobold",
+      "size": [
+        "S"
+      ],
+      "type": "aberration",
+      "source": "MTW-VS",
+      "alignment": [
+        "L",
+        "E"
+      ],
+      "ac": [
+        12
+      ],
+      "hp": {
+        "formula": "2d6 - 2",
+        "average": 5
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 7,
+      "dex": 15,
+      "con": 9,
+      "int": 8,
+      "wis": 7,
+      "cha": 8,
+      "passive": 8,
+      "cr": "1/8",
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "languages": [
+        "Common",
+        "understands the commands of Harann Nemmonis"
+      ],
+      "languageTags": [
+        "C"
+      ],
+      "trait": [
+        {
+          "name": "Pack Tactics",
+          "entries": [
+            "The kobold has advantage on an attack roll against a creature if at least one of the kobold's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+          ]
+        },
+        {
+          "name": "Icy Demise",
+          "entries": [
+            "When the kobold is reduced to 0 {@variantrule hit points|XPHB}, its body explodes into shards of ice. All creatures within 5 feet must succeed on a {@dc 10} {@skill Dexterity} saving throw or take {@damage 1d6} cold damage."
+          ]
+        }
+      ],
+      "traitTags": [
+        "Pack Tactics"
+      ],
+      "action": [
+        {
+          "name": "Icy Javelin",
+          "entries": [
+            "{@atk mw,rw} {@hit +4} to hit, reach 5 ft. or range 30/120 ft., one target. {@h}5 ({@damage 1d4 + 2}) piercing damage plus {@damage 1d4} cold damage."
+          ]
+        }
+      ],
+      "miscTags": [
+        "RW",
+        "MW",
+        "MLW",
+        "THW"
+      ],
+      "damageTags": [
+        "P"
+      ]
+    },
+    {
+      "name": "Frost-Cursed Mariner",
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "undead",
+        "note": "(Human)"
+      },
+      "source": "MTW-VS",
+      "alignment": [
+        "L",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 12,
+          "from": [
+            "{@item leather armor|xphb}"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "3d8 + 3",
+        "average": 16
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 13,
+      "dex": 12,
+      "con": 12,
+      "int": 10,
+      "wis": 10,
+      "cha": 10,
+      "passive": 10,
+      "cr": "1/2",
+      "languages": [
+        "Common",
+        "understands the commands of Harann Nemmonis"
+      ],
+      "languageTags": [
+        "C"
+      ],
+      "trait": [
+        {
+          "name": "Icy Demise",
+          "entries": [
+            "When the mariner is reduced to 0 {@variantrule hit points|XPHB}, its body shatters into shards of ice. All creatures within 5 feet must succeed on a {@dc 10} {@skill Dexterity} saving throw or take {@damage 1d4} cold damage."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Icy Cutlass",
+          "entries": [
+            "{@atk mw} {@hit +3} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) slashing damage plus {@damage 1d4} cold damage."
+          ]
+        }
+      ],
+      "damageTags": [
+        "S"
+      ],
+      "savingThrowForced": [
+        "dexterity"
+      ],
+      "miscTags": [
+        "MW"
+      ]
+    },
+    {
+      "name": "Hanann Nemmonis",
+      "group": [
+        "Chromatic Dragons"
+      ],
+      "source": "MTW",
+      "page": 329,
+      "size": [
+        "H"
+      ],
+      "type": {
+        "type": "dragon",
+        "tags": [
+          "chromatic"
+        ]
+      },
+      "alignment": [
+        "C",
+        "E"
+      ],
+      "ac": [
+        18
+      ],
+      "hp": {
+        "average": 200,
+        "formula": "16d12 + 96"
+      },
+      "speed": {
+        "walk": 40,
+        "burrow": 30,
+        "fly": 80,
+        "swim": 40
+      },
+      "initiative": {
+        "proficiency": 2
+      },
+      "str": 22,
+      "dex": 10,
+      "con": 22,
+      "int": 8,
+      "wis": 12,
+      "cha": 12,
+      "save": {
+        "dex": "+5",
+        "wis": "+6"
+      },
+      "skill": {
+        "perception": "+11",
+        "stealth": "+5"
+      },
+      "senses": [
+        "blindsight 60 ft.",
+        "darkvision 120 ft."
+      ],
+      "passive": 21,
+      "immune": [
+        "cold"
+      ],
+      "languages": [
+        "Common",
+        "Draconic"
+      ],
+      "cr": {
+        "cr": "13",
+        "xpLair": 11500
+      },
+      "spellcasting": [
+        {
+          "name": "Frightful Presence",
+          "type": "spellcasting",
+          "headerEntries": [
+            "The dragon casts {@spell Fear|XPHB}, requiring no Material components and using Charisma as the spellcasting ability (spell save {@dc 14}). The dragon can't take this action again until the start of its next turn."
+          ],
+          "legendary": {
+            "1": [
+              "{@spell Fear|XPHB}"
+            ]
+          },
+          "ability": "cha",
+          "displayAs": "legendary",
+          "hidden": [
+            "legendary"
+          ]
+        }
+      ],
+      "trait": [
+        {
+          "name": "Ice Walk",
+          "entries": [
+            "The dragon can move across and climb icy surfaces without needing to make an ability check. Additionally, {@variantrule Difficult Terrain|XPHB} composed of ice or snow doesn't cost it extra movement."
+          ]
+        },
+        {
+          "name": "Legendary Resistance (3/Day, or 4/Day in Lair)",
+          "entries": [
+            "If the dragon fails a saving throw, it can choose to succeed instead."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The dragon makes three Rend attacks."
+          ]
+        },
+        {
+          "name": "Rend",
+          "entries": [
+            "{@atkr m} {@hit 11}, reach 10 ft. {@h}13 ({@damage 2d6 + 6}) Slashing damage plus 4 ({@damage 1d8}) Cold damage."
+          ]
+        },
+        {
+          "name": "Cold Breath {@recharge 5}",
+          "entries": [
+            "{@actSave con} {@dc 19}, each creature in a 60-foot {@variantrule Cone [Area of Effect]|XPHB|Cone}. {@actSaveFail} 54 ({@damage 12d8}) Cold damage. {@actSaveSuccess} Half damage."
+          ]
+        }
+      ],
+      "legendaryActionsLair": 20,
+      "legendary": [
+        {
+          "name": "Blizzard Veil",
+          "entries": [
+            "Icy wind fills the chamber. All non-dragons must succeed on a {@actSave con} {@dc 15} or be {@condition blinded} until the end of their next turn."
+          ]
+        },
+        {
+          "name": "Shattering Ice",
+          "entries": [
+            "An icicle falls from the ceiling, targeting a random player ({@hit 10} to hit, {@damage 2d10} piercing + {@damage 2d10} cold damage)."
+          ]
+        },
+        {
+          "name": "Frozen Shackles",
+          "entries": [
+            "Frost creeps up from the floor, restraining one random creature ({@actSave str} {@dc 16} to break)."
+          ]
+        }
+      ],
+      "legendaryGroup": {
+        "name": "White Dragon",
+        "source": "XMM"
+      },
+      "environment": [
+        "arctic"
+      ],
+      "treasure": [
+        "arcana"
+      ],
+      "dragonAge": "adult",
+      "soundClip": {
+        "type": "external",
+        "url": "https://5e.tools/audio/bestiary/white-dragon.mp3"
+      },
+      "traitTags": [
+        "Legendary Resistances"
+      ],
+      "senseTags": [
+        "B",
+        "SD"
+      ],
+      "actionTags": [
+        "Breath Weapon",
+        "Multiattack"
+      ],
+      "languageTags": [
+        "C",
+        "DR"
+      ],
+      "spellcastingTags": [
+        "O"
+      ],
+      "miscTags": [
+        "MA",
+        "RCH"
+      ],
+      "conditionInflictSpell": [
+        "frightened"
+      ],
+      "hasFluff": true,
+      "hasFluffImages": true,
+      "token": {
+        "name": "Adult White Dragon",
+        "source": "XMM"
+      },
+      "fluff": {
+        "name": "Adult White Dragon",
+        "source": "XMM",
+        "entries": [
+          {
+            "type": "section",
+            "entries": [
+              "Adult white dragons claim large territories and are often the mightiest predators in those lands. While some lurk in their lairs for months, others regularly soar over their domains. When they spot something moving on the ice, they might swoop down to feed or extort food and offerings from sapient creatures."
+            ]
+          },
+          {
+            "type": "section",
+            "name": "White Dragons",
+            "entries": [
+              "{@i Dragons of Cold and Cruelty}",
+              {
+                "type": "list",
+                "style": "list-hang-notitle",
+                "items": [
+                  {
+                    "type": "item",
+                    "name": "Habitat:",
+                    "entry": "{@filter Arctic|bestiary|environment=arctic}"
+                  },
+                  {
+                    "type": "item",
+                    "name": "Treasure:",
+                    "entry": "{@table Random Magic Items - Arcana|XDMG|Arcana}"
+                  }
+                ]
+              },
+              "Among the most primal chromatic dragons, white dragons prioritize survival over all. Life is harsh and uncertain in the arctic expanses, glacial heights, and frozen seas where these dragons dwell. White dragons fiercely protect their territories, scouring the frigid regions for food and evidence of trespassers. Most white dragons ignore the plots of smaller creatures and other dragons, concerning themselves only with their own survival.",
+              "White dragons create lairs to defend themselves from other deadly arctic creatures and from dangerous natural conditions. Within these shelters, white dragons hoard testaments to their superiority, such as monstrous skulls, the gear of defeated rivals, and curiosities that capture their interest. To protect such treasure, white dragons coax ice to form over their hoards or sink their wealth in frigid pools. For white dragons, each piece of treasure embodies a victory—the details of which inflate as these dragons age.",
+              {
+                "type": "entries",
+                "name": "White Dragon Lairs",
+                "entries": [
+                  "White dragons brood in bitterly cold lairs clawed from stone and ice.",
+                  "The region containing an adult or ancient white dragon's lair is affected by its presence, creating the following effects:",
+                  {
+                    "type": "list",
+                    "style": "list-hang-notitle",
+                    "items": [
+                      {
+                        "type": "item",
+                        "name": "Frigid Cold",
+                        "entries": [
+                          "The area within 1 mile of the lair is an area of {@hazard extreme cold|XDMG}. Any water in that area is {@hazard frigid water|XDMG}. See the {@book Dungeon Master's Guide|DMG} for rules on extreme cold and frigid water."
+                        ]
+                      },
+                      {
+                        "type": "item",
+                        "name": "Glacial Gloom",
+                        "entries": [
+                          "The area within 1 mile of the lair is {@variantrule Lightly Obscured|XPHB} by chilly fog. Whenever a creature other than the dragon or one of its allies finishes a {@variantrule Long Rest|XPHB} in that area, that creature must succeed on a {@dc 15} Constitution saving throw or have its {@variantrule Speed|XPHB} reduced by 10 feet for 1 hour."
+                        ]
+                      }
+                    ]
+                  },
+                  "If the dragon dies or moves its lair elsewhere, these effects end immediately."
+                ]
+              }
+            ]
+          }
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "internal",
+              "path": "bestiary/XMM/White Dragon.webp"
+            },
+            "title": "An adult white dragon views all creatures in its territory as prey",
+            "credit": "Vance Kovacs"
+          }
+        ]
+      },
+      "shortName": "Hanann",
+      "isNamedCreature": true,
+      "damageTags": [
+        "C",
+        "S"
+      ],
+      "savingThrowForced": [
+        "constitution",
+        "strength"
+      ],
+      "savingThrowForcedSpell": [
+        "wisdom"
+      ],
+      "savingThrowForcedLegendary": [
+        "constitution"
+      ]
+    },
+    {
       "name": "High Priest of Silver Light",
       "source": "MTW-VS",
       "page": 1,
@@ -1594,6 +2237,285 @@
         }
       ],
       "conditionImmune": []
+    },
+    {
+      "name": "Rorin, the Shanty Singer",
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "note": "(Human)"
+      },
+      "source": "MTW-VS",
+      "alignment": [
+        "C",
+        "N"
+      ],
+      "ac": [
+        {
+          "ac": 12,
+          "from": [
+            "{@item padded armor|xphb}"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "5d8",
+        "average": 22
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 10,
+      "dex": 14,
+      "con": 11,
+      "int": 13,
+      "wis": 10,
+      "cha": 14,
+      "passive": 10,
+      "cr": "1/4",
+      "shortName": "Rorin",
+      "skill": {
+        "performance": "+4",
+        "persuasion": "+4"
+      },
+      "languages": [
+        "Common"
+      ],
+      "languageTags": [
+        "C"
+      ],
+      "trait": [
+        {
+          "name": "Sea Shanty",
+          "entries": [
+            "Rorin can use a bonus action to sing a shanty. One friendly creature he can see within 30 feet gains temporary hit points equal to his proficiency bonus, or advantage on its next attack roll. He can do this a number of times equal to his Charisma modifier (minimum of 1). He regains all expended uses after a long rest."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Dagger",
+          "entries": [
+            "{@atk mw,rw} {@hit +4} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}4 ({@damage 1d4 + 2}) Piercing damage."
+          ]
+        },
+        {
+          "name": "Sling",
+          "entries": [
+            "{@atk rw} {@hit +4} to hit, range 30/120 ft., one target. {@h}4 ({@damage 1d4 + 2}) Bludgeoning damage."
+          ]
+        }
+      ],
+      "miscTags": [
+        "RW",
+        "MW",
+        "MLW",
+        "THW",
+        "RNG"
+      ],
+      "attachedItems": [
+        "dagger|phb",
+        "sling|phb"
+      ],
+      "damageTags": [
+        "B",
+        "P"
+      ],
+      "isNPC": true
+    },
+    {
+      "name": "Silas, the Half-Orc Cook",
+      "size": [
+        "M"
+      ],
+      "type": "aberration",
+      "source": "MTW-VS",
+      "alignment": [
+        "C",
+        "N"
+      ],
+      "ac": [
+        {
+          "ac": 13,
+          "from": [
+            "{@item leather armor|xphb}"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "6d8 + 18",
+        "average": 45
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 16,
+      "dex": 10,
+      "con": 17,
+      "int": 9,
+      "wis": 12,
+      "cha": 10,
+      "passive": 11,
+      "cr": "1",
+      "shortName": "Silas",
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "languages": [
+        "Common",
+        "Orc"
+      ],
+      "languageTags": [
+        "C",
+        "O"
+      ],
+      "trait": [
+        {
+          "name": "Relentless Endurance",
+          "entries": [
+            "When Silas is reduced to 0 hit points, he can drop to 1 hit point instead. Once he uses this ability, he can't use it again until he finishes a long rest."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Cleaver",
+          "entries": [
+            "{@atk mw} {@hit +5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) slashing damage."
+          ]
+        },
+        {
+          "name": "Throwing Knife",
+          "entries": [
+            "{@atk rw} {@hit +2} to hit, range 20/60 ft., one target. {@h}3 ({@damage 1d4}) piercing damage"
+          ]
+        }
+      ],
+      "miscTags": [
+        "MW",
+        "RW"
+      ],
+      "isNpc": true,
+      "damageTags": [
+        "P",
+        "S"
+      ]
+    },
+    {
+      "name": "Captain Thania Schmidt",
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "note": "(Human)"
+      },
+      "source": "MTW-VS",
+      "alignment": [
+        "C",
+        "N"
+      ],
+      "ac": [
+        {
+          "ac": 17,
+          "from": [
+            "{@item studded leather armor|xphb}, parrying cutlass"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "12d8 + 24",
+        "average": 78
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 14,
+      "dex": 18,
+      "con": 15,
+      "int": 12,
+      "wis": 14,
+      "cha": 16,
+      "passive": 15,
+      "cr": "5",
+      "shortName": "Thania",
+      "languages": [
+        "Common"
+      ],
+      "languageTags": [
+        "C"
+      ],
+      "save": {
+        "dex": "+7",
+        "wis": "+5"
+      },
+      "skill": {
+        "acrobatics": "+7",
+        "deception": "+6",
+        "intimidation": "+6",
+        "perception": "+5"
+      },
+      "trait": [
+        {
+          "name": "Action Surge (Recharges after a Short or Long Rest)",
+          "entries": [
+            "On her turn, Thania can take one additional action."
+          ]
+        },
+        {
+          "name": "Parry",
+          "entries": [
+            "Thania adds 2 to her AC against one melee attack that would hit her. To do so, she must see the attacker and be wielding a melee weapon."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "Thania makes three attacks: two with her Cutlass and one with her Hand Crossbow."
+          ]
+        },
+        {
+          "name": "Cutlass",
+          "entries": [
+            "{@atk mw} {@hit +7} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) slashing damage."
+          ]
+        },
+        {
+          "name": "Hand Crossbow",
+          "entries": [
+            "{@atk rw} {@hit +7} to hit, range 30/120 ft., one target. {@h}7 ({@damage 1d6 + 4}) Piercing damage."
+          ]
+        },
+        {
+          "name": "Gutsy Command {@recharge 5}",
+          "entries": [
+            "Thania chooses a friendly creature she can see within 30 feet. The creature can use its reaction to make one weapon attack or to move up to its speed."
+          ]
+        }
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "miscTags": [
+        "MW",
+        "RW",
+        "RNG"
+      ],
+      "attachedItems": [
+        "hand crossbow|phb"
+      ],
+      "isNpc": true,
+      "damageTags": [
+        "P",
+        "S"
+      ]
     },
     {
       "name": "The Abyssal Maw",

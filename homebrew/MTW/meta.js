@@ -10,5 +10,5 @@ export const meta = {
 	"status": "ready",
 	"edition": "one",
 	"dateAdded": new Date("2025-09-10").getTime(),
-	"dateLastModified": new Date("2025-09-21").getTime()
+	"dateLastModified": new Date().getTime()
 }
