@@ -26,5 +26,7 @@ const finalData = {
 	spell: Object.values(Spells)
 }
 
-fs.writeFileSync(outPath, JSON.stringify(finalData, null, 2));
-console.log(`✅ ${outPath} generated!`);
+export function buildMTW () {
+	fs.writeFileSync(outPath, JSON.stringify(finalData, null, 2));
+	console.log(`✅ ${outPath} generated!`);
+}

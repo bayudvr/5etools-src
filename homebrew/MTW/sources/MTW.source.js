@@ -8,8 +8,8 @@ export const MTWSource = {
 	"convertedBy": [
 		"M Bayu Devara"
 	],
-	"color": "82ff80",
-	"colorNight": "008528",
+	"color": "FFDA47",
+	"colorNight": "FFDA47",
 	"version": "1.0.0",
 	"dateReleased": "2025-09-10"
 }

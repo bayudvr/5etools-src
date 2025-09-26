@@ -10,6 +10,6 @@ export const BlessedCandleItem = {
 	"entries": [
 		"A white candle with faint silver runes.",
 		"When lit, it sheds bright light in a 10-foot radius and dim light for an additional 10 feet.",
-		"{@creaturetype fiend|fiends} within the bright light have {@b disadvantage} on {@skill Stealth} checks."
+		"fiends within the bright light have {@b disadvantage} on {@skill Stealth} checks."
 	]
 }
