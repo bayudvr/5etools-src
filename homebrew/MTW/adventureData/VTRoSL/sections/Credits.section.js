@@ -5,7 +5,7 @@ export const CreditsSection = {
 		{
 			"type": "list",
 			"items": [
-				"Malvidra Collection; Malvidra Twisted World written by Matthew Mercer and published by Critical Role Publishing.",
+				"Malvidra Collection; Malvidra Twisted World written by M Bayu Devara.",
 				"This document was created by using the Homebrewery JSON schema and the Homebrewery JSON Editor."
 			]
 		}
