@@ -40,7 +40,7 @@
     "status": "ready",
     "edition": "one",
     "dateAdded": 1757462400000,
-    "dateLastModified": 1759118545410
+    "dateLastModified": 1759119624179
   },
   "adventure": [
     {
@@ -49,6 +49,10 @@
       "abbreviation": "VTRoSL",
       "source": "MTW-VS",
       "group": "supplement",
+      "cover": {
+        "type": "external",
+        "url": "https://i.imgur.com/s7Mbjb8.jpeg"
+      },
       "published": "2025-09-19",
       "author": "Malvidra Twisted World",
       "storyline": "One Shot Adventure",

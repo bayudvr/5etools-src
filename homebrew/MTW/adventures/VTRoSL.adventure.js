@@ -4,6 +4,10 @@ export const VTRoSL = {
 	"abbreviation": "VTRoSL",
 	"source": "MTW-VS",
 	"group": "supplement",
+	"cover": {
+		"type": "external",
+		"url": "https://i.imgur.com/s7Mbjb8.jpeg"
+	},
 	"published": "2025-09-19",
 	"author": "Malvidra Twisted World",
 	"storyline": "One Shot Adventure",
@@ -11,8 +15,7 @@ export const VTRoSL = {
 		"start": 3,
 		"end": 3
 	},
-	"contents": [
-		{
+	"contents": [{
 			"name": "Introduction",
 			"headers": [
 				"Running the Adventure",
