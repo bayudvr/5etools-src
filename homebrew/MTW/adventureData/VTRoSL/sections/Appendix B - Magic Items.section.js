@@ -154,44 +154,59 @@ export const AppendixBMagicItemsSection = {
 		}
 
 	}, {
-		"name": "Ashen Token",
-		"source": "MTW-VS",
-		"page": 28,
-		"edition": "one",
-		"type": "W|MTW",
-		"rarity": "common",
-		"weight": 0,
-		"value": 10,
-		"entries": [
-			"A small disk of charred ash pressed into a token.",
-			"Once, you may automatically succeed on a single DC 10 Survival check."
-		]
+		"type": "statblockInline",
+		"style": "inset",
+		"dataType": "item",
+		"data": {
+			"name": "Ashen Token",
+			"source": "MTW-VS",
+			"page": 28,
+			"edition": "one",
+			"type": "W|MTW",
+			"rarity": "common",
+			"weight": 0,
+			"value": 10,
+			"entries": [
+				"A small disk of charred ash pressed into a token.",
+				"Once, you may automatically succeed on a single DC 10 Survival check."
+			]
+		}
 	}, {
-		"name": "Hollow Coin",
-		"source": "MTW-VS",
-		"page": 29,
-		"edition": "one",
-		"type": "W|MTW",
-		"rarity": "common",
-		"weight": 0,
-		"value": 1,
-		"entries": [
-			"A strange coin with both sides hollowed out.",
-			"Before making a roll, you may flip the coin. Heads: +2 bonus. Tails: –2 penalty. You must accept the result."
-		]
+		"type": "statblockInline",
+		"style": "inset",
+		"dataType": "item",
+		"data":{
+			"name": "Hollow Coin",
+			"source": "MTW-VS",
+			"page": 29,
+			"edition": "one",
+			"type": "W|MTW",
+			"rarity": "common",
+			"weight": 0,
+			"value": 1,
+			"entries": [
+				"A strange coin with both sides hollowed out.",
+				"Before making a roll, you may flip the coin. Heads: +2 bonus. Tails: –2 penalty. You must accept the result."
+			]
+		}
 	}, {
-		"name": "Cracked Hourglass Pendant",
-		"source": "MTW-VS",
-		"page": 30,
-		"edition": "one",
-		"type": "W|MTW",
-		"rarity": "common",
-		"weight": 0.2,
-		"value": 35,
-		"entries": [
-			"A pendant shaped like a cracked hourglass.",
-			"Once per day, you can delay the effect of a condition (such as {@condition poisoned}) for 1 minute before it takes hold."
-		]
+		"type": "statblockInline",
+		"style": "inset",
+		"dataType": "item",
+		"data": {
+			"name": "Cracked Hourglass Pendant",
+			"source": "MTW-VS",
+			"page": 30,
+			"edition": "one",
+			"type": "W|MTW",
+			"rarity": "common",
+			"weight": 0.2,
+			"value": 35,
+			"entries": [
+				"A pendant shaped like a cracked hourglass.",
+				"Once per day, you can delay the effect of a condition (such as {@condition poisoned}) for 1 minute before it takes hold."
+			]
+		}
 	}, {
 		"type": "statblockInline",
 		"style": "inset",
