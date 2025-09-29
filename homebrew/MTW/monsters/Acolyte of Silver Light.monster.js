@@ -34,35 +34,37 @@ export const AcolyteofSilverLightMonster = {
 		"Undercommon"
 	],
 	"cr": "1/4",
-	"spellcasting": [
-		{
-			"name": "Spellcasting",
-			"headerEntries": [
-				"The acolyte is a 1st-level spellcaster. His spellcasting ability is Wisdom (spell save {@dc 11}, {@hit 3} to hit with spell attacks). He has the following cleric spells prepared:"
-			],
-			"spells": {
-				"0": {
-					"spells": [
-						"sacred flame"
-					]
-				},
-				"1": {
-					"slots": 2,
-					"spells": [
-						"bane",
-						"command"
-					]
-				}
+	"spellcasting": [{
+		"name": "Spellcasting",
+		"headerEntries": [
+			"The acolyte is a 1st-level spellcaster. His spellcasting ability is Wisdom (spell save {@dc 11}, {@hit 3} to hit with spell attacks). He has the following cleric spells prepared:"
+		],
+		"spells": {
+			"0": {
+				"spells": [
+					"sacred flame"
+				]
+			},
+			"1": {
+				"slots": 2,
+				"spells": [
+					"bane",
+					"command"
+				]
 			}
 		}
-	],
-	"action": [
-		{
-			"name": "Dagger",
-			"entries": [
-				"{@atk mw} {@hit 3}, reach 5 ft., one target. Hit: 3 ({@damage 1d4 + 1}) piercing damage."
-			]
-		}
-	],
-	"conditionImmune": []
+	}],
+	"action": [{
+		"name": "Dagger",
+		"entries": [
+			"{@atk mw} {@hit 3}, reach 5 ft., one target. Hit: 3 ({@damage 1d4 + 1}) piercing damage."
+		]
+	}],
+	"conditionImmune": [],
+	"hasFluff": true,
+	"hasFluffImages": true,
+	"tokenHref": {
+		"type": "external",
+		"url": "https://i.imgur.com/L64ROVN.png"
+	}
 }

@@ -4,6 +4,7 @@ import * as Deities from './deities/index.js';
 import * as Items from './items/index.js';
 import * as ItemTypes from './itemTypes/index.js';
 import * as Monsters from './monsters/index.js';
+import * as MonsterFluffs from './monsterFluffs/index.js';
 import * as Spells from './spells/index.js';
 import { meta } from './meta.js';
 import { fileURLToPath } from "url";
@@ -23,6 +24,7 @@ const finalData = {
 	item: Object.values(Items),
 	itemType: Object.values(ItemTypes),
 	monster: Object.values(Monsters),
+	monsterFluff: Object.values(MonsterFluffs),
 	spell: Object.values(Spells)
 }
 

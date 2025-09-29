@@ -40,7 +40,7 @@
     "status": "ready",
     "edition": "one",
     "dateAdded": 1757462400000,
-    "dateLastModified": 1759122417492
+    "dateLastModified": 1759134557026
   },
   "adventure": [
     {
@@ -2402,7 +2402,13 @@
           ]
         }
       ],
-      "conditionImmune": []
+      "conditionImmune": [],
+      "hasFluff": true,
+      "hasFluffImages": true,
+      "tokenHref": {
+        "type": "external",
+        "url": "https://i.imgur.com/L64ROVN.png"
+      }
     },
     {
       "name": "Demolias Nogard",
@@ -4201,6 +4207,24 @@
         "MW",
         "RD",
         "W"
+      ]
+    }
+  ],
+  "monsterFluff": [
+    {
+      "name": "Acolyte of Silver Light",
+      "source": "MTW-VS",
+      "entries": [
+        "TING TONG TENG"
+      ],
+      "images": [
+        {
+          "type": "image",
+          "href": {
+            "type": "external",
+            "url": "https://i.imgur.com/KAY6aVp.jpeg"
+          }
+        }
       ]
     }
   ],
