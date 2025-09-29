@@ -6,7 +6,7 @@ export const VTRoSL = {
 	"group": "supplement",
 	"cover": {
 		"type": "external",
-		"url": "https://i.imgur.com/Kh7tY49.png"
+		"url": "https://i.imgur.com/TtjK4rP.png"
 	},
 	"published": "2025-09-19",
 	"author": "Malvidra Twisted World",
