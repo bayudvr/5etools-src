@@ -69,5 +69,11 @@ export const TheAbyssalMawMonster = {
 		"charmed",
 		"frightened",
 		"exhaustion"
-	]
+	],
+	"hasFluff": true,
+	"hasFluffImages": true,
+	"tokenHref": {
+		"type": "external",
+		"url": "https://i.imgur.com/nkpEcXP.png"
+	}
 }

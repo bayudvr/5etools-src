@@ -40,7 +40,7 @@
     "status": "ready",
     "edition": "one",
     "dateAdded": 1757462400000,
-    "dateLastModified": 1759134557026
+    "dateLastModified": 1759203691443
   },
   "adventure": [
     {
@@ -3350,7 +3350,13 @@
       "miscTags": [
         "MW"
       ],
-      "conditionImmune": []
+      "conditionImmune": [],
+      "hasFluff": true,
+      "hasFluffImages": true,
+      "tokenHref": {
+        "type": "external",
+        "url": "https://i.imgur.com/V2bghsd.png"
+      }
     },
     {
       "name": "Priest of Silver Light",
@@ -3443,7 +3449,13 @@
           ]
         }
       ],
-      "conditionImmune": []
+      "conditionImmune": [],
+      "hasFluff": true,
+      "hasFluffImages": true,
+      "tokenHref": {
+        "type": "external",
+        "url": "https://i.imgur.com/HlB2CXz.png"
+      }
     },
     {
       "name": "Rorin, the Shanty Singer",
@@ -3795,7 +3807,13 @@
         "charmed",
         "frightened",
         "exhaustion"
-      ]
+      ],
+      "hasFluff": true,
+      "hasFluffImages": true,
+      "tokenHref": {
+        "type": "external",
+        "url": "https://i.imgur.com/nkpEcXP.png"
+      }
     },
     {
       "name": "Vaeil, The God of Time",
@@ -4215,7 +4233,8 @@
       "name": "Acolyte of Silver Light",
       "source": "MTW-VS",
       "entries": [
-        "TING TONG TENG"
+        "A fellow of loyal servant to the God of Time and keper of the Archive, {@deity Vaeil|the primordials|MTW}, under the guidance of the Priest of Silver Light ranks, they submit to {@deity Vaeil|the primordials|MTW}.",
+        "Their attire is consist of a grey light robe, they always carry a dagger on their person"
       ],
       "images": [
         {
@@ -4223,6 +4242,56 @@
           "href": {
             "type": "external",
             "url": "https://i.imgur.com/KAY6aVp.jpeg"
+          }
+        }
+      ]
+    },
+    {
+      "name": "High Priest of Silver Light",
+      "source": "MTW-VS",
+      "entries": [
+        "The hiehest rank of the Silver Light cultist, their influence alone enough to move the acolytes at once.",
+        "They're a 5th level {@i spellcaster}"
+      ],
+      "images": [
+        {
+          "type": "image",
+          "href": {
+            "type": "external",
+            "url": "https://i.imgur.com/t9ZqqBB.jpeg"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Priest of Silver Light",
+      "source": "MTW-VS",
+      "entries": [
+        "One of the high ranks of the Silver Light cultist, their influence alone enough to move the acolytes at once.",
+        "They're a 5th level {@i spellcaster}"
+      ],
+      "images": [
+        {
+          "type": "image",
+          "href": {
+            "type": "external",
+            "url": "https://i.imgur.com/pKMzlI6.jpeg"
+          }
+        }
+      ]
+    },
+    {
+      "name": "The Abyssal Maw",
+      "source": "MTW-VS",
+      "entries": [
+        "An abomination and the loyal pet of {@deity Xy'loth|demon lords|MTW}"
+      ],
+      "images": [
+        {
+          "type": "image",
+          "href": {
+            "type": "external",
+            "url": "https://i.imgur.com/42kIzHO.jpeg"
           }
         }
       ]

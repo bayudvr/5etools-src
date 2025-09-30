@@ -89,5 +89,11 @@ export const PriestofSilverLightMonster = {
 			]
 		}
 	],
-	"conditionImmune": []
+	"conditionImmune": [],
+	"hasFluff": true,
+	"hasFluffImages": true,
+	"tokenHref": {
+		"type": "external",
+		"url": "https://i.imgur.com/HlB2CXz.png"
+	}
 }

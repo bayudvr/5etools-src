@@ -126,5 +126,11 @@ export const HighPriestofSilverLightMonster = {
 	"miscTags": [
 		"MW"
 	],
-	"conditionImmune": []
+	"conditionImmune": [],
+	"hasFluff": true,
+	"hasFluffImages": true,
+	"tokenHref": {
+		"type": "external",
+		"url": "https://i.imgur.com/V2bghsd.png"
+	}
 }
