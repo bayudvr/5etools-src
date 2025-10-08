@@ -3,7 +3,7 @@ export const HanannNemmonisMonster = {
 	"group": [
 		"Chromatic Dragons"
 	],
-	"source": "MTW",
+	"source": "MTW-VS",
 	"page": 329,
 	"size": [
 		"H"
