@@ -1,5 +1,5 @@
 export const HanannNemmonisMonster = {
-	"name": "Hanann Nemmonis",
+	"name": "Harann Nemmonis",
 	"group": [
 		"Chromatic Dragons"
 	],

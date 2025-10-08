@@ -15,3 +15,4 @@ export * from './FrostCursedKobold.monster.js'
 export * from './FrostCursedCaptain.monster.js';
 export * from './FrostCursedChieftain.monster.js';
 export * from './HanannNemmonis.monster.js';
+export * from './Renata.npc.js';
