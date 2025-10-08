@@ -3,6 +3,7 @@ export * from './Captain Thania Schmidt.npc.js';
 export * from './Demolias Nogard.npc.js';
 export * from './Diane Serpent.npc.js';
 export * from './High Priest of Silver Light.monster.js';
+export * from './Kaelen.npc.js';
 export * from './Priest of Silver Light.monster.js';
 export * from './Rorin the Shanty Singer.npc.js';
 export * from './The Abyssal Maw.monster.js';

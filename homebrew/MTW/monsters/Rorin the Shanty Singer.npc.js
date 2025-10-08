@@ -1,5 +1,6 @@
 export const RorintheShantySingerNPC = {
 	"name": "Rorin, the Shanty Singer",
+	"shortName":"Rorin",
 	"size": [
 		"M"
 	],

@@ -1,5 +1,6 @@
 export const SilasTheHalfOrcCookNPC = {
 	"name": "Silas, the Half-Orc Cook",
+	"shortName":"Silas",
 	"size": [
 		"M"
 	],
