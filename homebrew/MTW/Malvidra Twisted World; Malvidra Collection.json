@@ -40,7 +40,7 @@
     "status": "ready",
     "edition": "one",
     "dateAdded": 1757462400000,
-    "dateLastModified": 1759943078080
+    "dateLastModified": 1760027484570
   },
   "adventure": [
     {
@@ -213,156 +213,335 @@
       "data": [
         {
           "type": "section",
-          "name": "Introduction",
+          "name": "INTRODUCTION",
           "entries": [
             {
               "type": "section",
               "name": "Running the Adventure",
               "entries": [
-                "This section is intended only for the {@b Dungeon Master (DM)}. It contains the core framework, necessary resources, and the full background for the adventure."
+                "This adventure is intended for the {@b Dungeon Master (DM)} and assumes familiarity with the {@b Fifth Edition} core rules. The following section introduces the tone, world context, and framework for running {@b {@i Vaelithra–Into Raijinsho}} within the {@b Malvidra Twisted World} setting.",
+                "This module emphasizes {@b exploration and survival} rather than extended combat—each encounter is deliberate, deadly, and meant to be memorable. The focus lies on the island's oppressive cold, the eerie stillness of a forgotten people, and the divine mystery lurking beneath the ice."
               ]
             },
             {
               "type": "section",
               "name": "Overview",
               "entries": [
-                "{@b {@i Vaelithra - Into Raijinsho}} is a high-level one-shot designed for a party of four to six characters of {@b Level 9}. The adventure combines environmental survival, tense negotiation, and a climactic confrontation with a formidable Adult White Dragon, all while advancing a secret, divine meta-plot.",
+                "{@b {@i Vaelithra–Into Raijinsho}} is a high-level one-shot designed for {@b Level 7–9} characters, though it is best experienced at {@b Level 9} for full narrative and mechanical tension. It serves as both a standalone expedition and a key part of the ongoing {@b Vaelithra Saga}, where fragments of the shattered god {@b Vaeil} appear across time and space.",
                 {
                   "type": "list",
                   "items": [
-                    "{@b Author/Universe:} Malvidra Twisted World",
-                    "{@b World:} {@b Dewanegara}",
-                    "{@b Focus:} {@b Survival} (Extreme Cold), {@b Exploration} (Labyrinthine Lair), and {@b High-Level Combat}.",
-                    "{@b Timeline:} {@b 6th Sol'thara, Sylvryn Day, Year 35 A.S. (After Sundering)}."
-                  ]
-                },
-                {
-                  "type": "entries",
-                  "name": "Required Materials",
-                  "entries": [
-                    "To run this adventure, the DM will need access to the core Fifth Edition rulebooks for rules on extreme environments and general mechanics. {@b Note:} Custom stat blocks will be required for the corrupted minions and specialized {@b Dragon-Kin Soldiers}.",
-                    {
-                      "type": "table",
-                      "colLabels": [
-                        "Resource Book",
-                        "Key Content to Prepare",
-                        "Purpose for this Adventure"
-                      ],
-                      "colStyles": [
-                        "text-align-left col-2",
-                        "text-align-left col-4",
-                        "text-align-left col-6"
-                      ],
-                      "rows": [
-                        [
-                          "Player's Handbook (PHB)",
-                          "Core Rules, Spells, Skill Checks",
-                          "Essential for all player abilities and rules mechanics."
-                        ],
-                        [
-                          "Dungeon Master's Guide (DMG)",
-                          "Extreme Cold (p. 110), Creating Monster Stat Blocks, Treasure",
-                          "Crucial for tracking the perpetual winter and balancing the homebrewed enemy challenges."
-                        ],
-                        [
-                          "Monster Manual (MM)",
-                          "Adult White Dragon (CR 13) as a base, Reference Stat Blocks",
-                          "Contains the core mechanics for the final boss and templates for building the corrupted minions."
-                        ]
-                      ]
-                    }
+                    "{@b Author / Universe:} Malvidra Twisted World",
+                    "{@b World:} Dewanegara",
+                    "{@b Primary Themes:} {@i Exploration (Frozen Island), Survival (Extreme Cold), Divine Mystery}",
+                    "{@b Tone:} Harsh isolation, hidden divinity, and brief warmth in the dark",
+                    "{@b Timeline:} 6th Sol'thara, Sylvryn Day, Year 35 A.S. (After Sundering)"
                   ]
                 }
               ]
             },
             {
               "type": "section",
-              "name": "Adventure Background",
+              "name": "Adventure Summary",
               "entries": [
-                {
-                  "type": "entries",
-                  "name": "The Sundering War and Vaeil's Intervention",
-                  "entries": [
-                    "The world of {@b Dewanegara} was once ravaged by the {@b Sundering War}, a prolonged conflict fought between the Gods and the Demons. {@b Vaeil}, the God of Time and Keeper of the Archives, stood apart, observing the destructive stalemate. Concerned that the war would end in a mutual catastrophe, Vaeil intervened, subtly manipulating the currents of time to create a decisive outcome: the Gods emerged as the victors, while the Demons were spared total annihilation.",
-                    "This manipulation, however, was known to powerful entities on both sides. The Gods, intent on preserving {@b Vaeil's Rewritten Archives} to secure their victory, and the Demons, seeking to control the Archives to seize power, both coveted Vaeil's domain. To safeguard his work and the balance he created, {@b Vaeil shattered his own soul into twelve fragments, known as the Vaelithra}, scattering them across Dewanegara and sometimes even beyond time."
-                  ]
-                },
-                {
-                  "type": "entries",
-                  "name": "The Vaelithra Fragments",
-                  "entries": [
-                    "{@b These twelve Vaelithra fragments} have manifested in diverse forms—as items, locations, living beings, or even spirits attached to a host. They are key to Vaeil's eventual return and the final struggle for the Archives.",
-                    {
-                      "type": "list",
-                      "items": [
-                        "{@b The Koi Vaelithra (Fragment Two):} This fragment has taken the form of a shimmering, silvery {@b Koi Fish} and resides in an ancient, enchanted pool deep within {@b Raijinsho Island}. Its ancient magical nature keeps the pool warm and completely unaffected by the tremendous dragon chill. {@b This is the true objective of the guiding fragment, Renata.}",
-                        "{@b The Human Vaelithra (Guiding Fragment):} The {@b Newspaper Girl} who approaches the party is a critical Vaelithra entity. She is tasked with appearing in sequential adventures to guide heroes to the locations of the other eleven fragments, paving the way for a larger, long-term campaign about Vaeil's return."
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "entries",
-                  "name": "Harann's Reign of Terror",
-                  "entries": [
-                    "{@b Harann Nemmonis}, a cruel {@b Adult White Dragon}, has claimed Raijinsho Island as her territory. Her magical control over the environment is absolute, locking the island in a lethal perpetual winter.",
-                    {
-                      "type": "list",
-                      "items": [
-                        "{@b Dragon's Forces:} Harann's strength lies in utilizing the corpses of her failed enemies. Raiders who couldn't defeat her have been twisted into {@b Frost-Cursed Mariners}—mindless automatons that patrol the exterior. Her skilled forces consist of organized, fanatic {@b Dragon-Kin Soldiers} who guard the winding cave complex.",
-                        {
-                          "type": "list",
-                          "items": [
-                            "{@b {@i DM Guide for Stat Blocks:}} Use base {@b Zombie} or {@b Ghoul} stat blocks, but grant them {@b Resistance} to {@i Cold damage} and an ability to impose {@b Disadvantage} on a target's next saving throw after a successful melee attack."
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
+                "The adventurers are drawn into the service of {@b Captain Thania Schmidt}, a hardened pirate chasing an old legend of the {@b Sacred Eye}—a brotherhood of thieves who once ruled the seas around Thundrum City. Her goal is simple: raid the long-lost treasure vault beneath {@b Raijinsho Island}, now home to the feared {@b White Dragon Harann Nemmonis}.",
+                "Yet fate weaves deeper threads.",
+                "A mysterious {@b Sea Urchin Newspaper Girl}, {@i Renata}, guides them not for gold, but for destiny. She is no mortal messenger, but a {@b Vaelithra Fragment}, a shard of the God of Time, here to preserve the sacred balance by freeing Raijinsho from Harann's grasp before divine corruption consumes it forever.",
+                "The heroes must brave a voyage through lethal cold, mistrustful pirates, and a labyrinth of ice—to find not only treasure, but the {@b Koi Vaelithra}, a sacred fragment of time itself."
               ]
             },
             {
               "type": "section",
-              "name": "Adventure Outline",
+              "name": "DM's Goals",
               "entries": [
-                "The party is hired by Captain Thania Schmidt under the false pretense of gold, as she seeks to exploit the adventurers' power to claim the dragon's {@b conventional wealth (gold and gems)}. Unbeknownst to them and the Captain, their involvement fulfills a divine summons orchestrated by the {@b Human Vaelithra, Renata}, whose sole goal is to retrieve the {@b Koi Vaelithra}.",
+                "Running {@i Into Raijinsho} means balancing {@b environmental dread} and {@b divine awe}:",
+                "1. {@b Build isolation.} The cold is as much an enemy as the dragon.",
+                "2. {@b Pace tension.} Use exploration and crew tension to let the fear breathe.",
+                "3. {@b Deliver wonder.} The encounter with the Koi Vaelithra should feel sacred, like touching eternity.",
+                "Let your players feel both {@i fragility and purpose.}"
+              ]
+            },
+            {
+              "type": "section",
+              "name": "Scaling the Adventure",
+              "entries": [
                 {
                   "type": "table",
                   "colLabels": [
-                    "Chapter",
-                    "Title",
-                    "Focus"
+                    "Party Level",
+                    "Adjustment Notes"
                   ],
                   "colStyles": [
-                    "text-align-left col-1",
-                    "text-align-left col-3",
-                    "text-align-left col-8"
+                    "text-align-left col-2",
+                    "text-align-left col-10"
                   ],
                   "rows": [
                     [
-                      "Chapter 1",
-                      "The Hook at Thundrum Port",
-                      "Social Interaction and Roleplaying (Act 0). Negotiation, lore introduction, and the subtle influence of the Human Vaelithra."
+                      "**Level 7**",
+                      "Reduce the number of Frost-Cursed minions by one per encounter. Consider making Harann's HP threshold for retreat 25% higher."
                     ],
                     [
-                      "Chapter 2",
-                      "The Journey and the Cold",
-                      "Environmental Challenge. The 48-hour sea voyage, testing the party with Extreme Cold rules and high tension with the pirate crew."
+                      "**Level 8**",
+                      "Default difficulty. Encounters as written."
                     ],
                     [
-                      "Chapter 3",
-                      "Into the Labyrinth of Ice",
-                      "Exploration and Combat. Navigating the frozen sea, battling the corrupted minions, exploring the icy caves, and the climactic encounter with Harann Nemmonis and the discovery of the Koi Vaelithra."
+                      "**Level 9**",
+                      "Add one additional Frost-Cursed elite or minor environmental hazard in each chapter. The voyage may feature an extra divine omen from Renata."
                     ]
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "name": "Required Materials",
+              "entries": [
+                "To run this adventure, you'll need the {@b Player's Handbook (PHB)}, {@b Dungeon Master's Guide (DMG)}, and {@b Monster Manual (MM)}.",
+                "Custom monsters—{@b Frost-Cursed Mariners}, {@b Frost-Cursed Soldiers}, and {@b Dragon-Kin Variants}—should be prepared beforehand or substituted with similar CR foes from the MM.",
+                {
+                  "type": "table",
+                  "colLabels": [
+                    "Resource Book",
+                    "Key Content",
+                    "Purpose"
+                  ],
+                  "colStyles": [
+                    "text-align-left col-3",
+                    "text-align-left col-5",
+                    "text-align-left col-3"
+                  ],
+                  "rows": [
+                    [
+                      "**Player's Handbook (PHB)**",
+                      "Core rules, spells, ability checks",
+                      "Standard player actions"
+                    ],
+                    [
+                      "**Dungeon Master's Guide (DMG)**",
+                      "Extreme Cold (p.110), creating monsters, treasure tables",
+                      "Managing the cold and loot balance"
+                    ],
+                    [
+                      "**Monster Manual (MM)**",
+                      "White Dragon (CR 13) base, undead & humanoid templates",
+                      "Reference for Harann and her minions"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "name": "Content Warning",
+              "entries": [
+                "This adventure features {@b environmental survival}, {@b themes of death and decay}, and {@b divine manipulation}.",
+                "It is not a tale of radiant heroism, but of endurance, faith, and the faint warmth that refuses to die in endless frost."
+              ]
+            },
+            {
+              "type": "section",
+              "name": "ADVENTURE BACKGROUND",
+              "entries": [
+                {
+                  "type": "entries",
+                  "name": "The Sundering War and Vaeil's Fractured Legacy",
+                  "entries": [
+                    "The world of {@b Dewanegara} still bears the scars of the {@b Sundering War}—the cosmic conflict that tore heaven and earth apart. It was a war not of armies, but of {@i belief itself}, where gods and demons bled through the seams of time to seize control of the mortal world.",
+                    "When the war reached its climax, {@b Vaeil}, the {@b God of Time and Keeper of the Archives}, saw the threads of reality unraveling. Neither side would relent, and both were doomed to mutual extinction. To preserve existence, Vaeil broke the laws of his own domain—rewriting history.",
+                    "He shaped an outcome where the gods won... but at the cost of the world's balance. His interference was forbidden, and so, as punishment and penance, he shattered his essence into twelve divine shards known as the {@b Vaelithra}. Each fragment carried a sliver of his divine will and memory, scattered across worlds and time.",
+                    "Some took the form of relics, some of spirits, and some—like the {@b Human Vaelithra, Renata}—became living avatars bound by purpose: to weave moments where fate might once again turn toward harmony."
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "The Island of Raijinsho",
+                  "entries": [
+                    "Once, {@b Raijinsho Island} was not a wasteland of frost and death, but a place of quiet devotion. Its people lived in harmony with the storms that circled their shores, worshipping the {@b Serpent God of Health and Envy}—a patron of renewal through hardship.",
+                    "Their faith taught that envy, when tempered, could drive the sick to seek healing and the weak to seek strength. Shrines carved into the cliffs once shimmered with offerings of jade, coral, and carved fangs representing rebirth through struggle.",
+                    "Among these denizens thrived a notorious yet noble band of pirates known as the {@b Sacred Eye}. Though branded criminals by Thundrum City's rulers, they were protectors of the seas, shielding travelers and local traders from slavers and monsters alike. The Sacred Eye built their stronghold within the caverns of Raijinsho—half sanctuary, half treasure vault.",
+                    "When the {@b Sundering's aftermath} twisted magic and weather across Dewanegara, the Sacred Eye vanished, leaving their treasures buried beneath the island's waves and their oaths buried in history."
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "Harann Nemmonis—The Frost Sovereign",
+                  "entries": [
+                    "In the void of that disappearance came {@b Harann Nemmonis}, a cruel {@b Adult White Dragon} drawn by the whisper of lingering magic and the promise of dominion. She claimed Raijinsho as her eternal lair, her will manifesting as an endless, supernatural winter that choked all warmth from sea and sky.",
+                    "Her cruelty is not born of madness but {@i entitlement}—she views herself as a god of the new age, the rightful successor to the Serpent whose temples she desecrated. Her breath froze the shrines, her claws tore through the vaults, and her curse bound the dead to her service.",
+                    "Those who tried to reclaim the Sacred Eye's treasure—pirates, mercenaries, even knights—fell to her blizzard. Their corpses became {@b Frost-Cursed Mariners}, servants bound by her magic to guard her hoard for eternity.",
+                    "Raijinsho became a graveyard of greed."
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "The Koi Vaelithra—Fragment of Warm Eternity",
+                  "entries": [
+                    "Hidden deep beneath the frozen caverns lies one of Vaeil's divine shards: the {@b Koi Vaelithra}. This fragment manifests as a silver-scaled koi spirit that swims within a magically warm subterranean pond—untouched by Harann's frost.",
+                    "The Koi's power preserves a small circle of serenity, a final remnant of the Serpent God's domain. Its divine energy continually resists Harann's control, and if fully awakened, could {@i restore the island's natural balance}—but the dragon's corruption grows stronger each year.",
+                    "The {@b Human Vaelithra, Renata}, foresaw this decay through the Archives of Time. To preserve the fragment and Raijinsho's sanctity, she {@i stepped backward through time itself}, appearing in the current age to orchestrate one decisive event: the removal of Harann Nemmonis.",
+                    "By weaving mortal greed, divine design, and the illusion of coincidence, Renata ensures that a band of capable adventurers will board Captain Thania's ship at the right moment—unknowingly answering a god's summons hidden within a pirate's bargain."
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "The Divine Threads of Purpose",
+                  "entries": [
+                    "This is not a story of divine prophecy fulfilled, but of mortals entangled in one.",
+                    "Renata's motives are not kindness—they are necessity. The Vaelithra cannot act directly without collapsing time's flow, so she sets mortals into motion, {@i sacrificing their comfort for continuity}.",
+                    "Those who follow her will walk the thin edge between survival and sanctity.",
+                    "Those who defy her will still play their part.",
+                    "For in Vaeil's grand design, {@b fate is not a promise—it's a pattern.}"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "name": "ADVENTURE OUTLINE",
+              "entries": [
+                "The adventure begins not with destiny declared, but with {@b a rumor sold for gold}—and a divine thread hiding beneath it.",
+                "{@b Captain Thania Schmidt}, a ruthless yet pragmatic pirate, seeks to reclaim the legendary treasure of the {@b Sacred Eye}, a mythic crew once said to have buried their greatest wealth beneath {@b Raijinsho Island}. Her ambitions are far from noble—she only desires the gold, gems, and spoils the dragon guards.",
+                "But this particular raid is not chance. It is the quiet design of {@b Renata}, the {@b Human Vaelithra}, who disguised herself as a humble newspaper girl to ensure the right heroes take Thania's bait. Her true purpose is divine: to restore Raijinsho to its living color, and to protect the {@b Koi Vaelithra} from being forever entombed under Harann's frost.",
+                "Unbeknownst to Thania or her crew, the voyage itself fulfills a {@b temporal ripple}—one Renata planted long ago when she traveled back through the Archives to undo the future where Raijinsho remains dead and silent.",
+                {
+                  "type": "entries",
+                  "name": "The Sacred Eye's Echo",
+                  "entries": [
+                    "For centuries, the legend of the Sacred Eye persisted among pirates of {@b Thundrum City}, whispered in taverns thick with salt and deceit. The story tells of a final voyage, where the crew hid their treasure beneath the Serpent God's temple on Raijinsho.",
+                    "When the island froze under Harann's dominion, countless captains sought the gold, but none returned. Their names faded into ice-bound ghosts—the first of the {@b Frost-Cursed Mariners}.",
+                    "Thania's {@b first mate, Kaelen}, lost a brother in one of those doomed expeditions. It's why Thania waited—gathering information, salvaging charts, and stealing old logbooks until she was certain she knew where the dragon slept.",
+                    "Now, with desperation biting harder than the cold, she has decided it's time to strike—so long as she finds others foolish or strong enough to serve as her vanguard."
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "Renata's Orchestration",
+                  "entries": [
+                    "Renata does not stumble upon the adventurers.",
+                    "She finds them deliberately, standing upon the docks of {@b Thundrum Port} as the world drifts toward one of its repeating points of collapse.",
+                    "Through her mortal guise, she plants curiosity, temptation, and the faint pulse of divine urgency in the hearts of the party. To her, they are not chosen {@i heroes}, but variables—souls that must move, or time itself will stagnate.",
+                    "The players will see her as a quiet, strange girl clutching a bundle of newspapers. Only later will they realize her words shaped their path long before they set sail."
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "Adventure Progression Overview",
+                  "entries": [
+                    {
+                      "type": "table",
+                      "colLabels": [
+                        "Chapter",
+                        "Title",
+                        "Focus"
+                      ],
+                      "colStyles": [
+                        "text-align-left col-1",
+                        "text-align-left col-3",
+                        "text-align-left col-8"
+                      ],
+                      "rows": [
+                        [
+                          "**Chapter 1**",
+                          "*The Hook at Thundrum Port*",
+                          "Social interaction, roleplay, and negotiation. Introduction to Thania, Renata, and the pirate contract."
+                        ],
+                        [
+                          "**Chapter 2**",
+                          "*The Journey and the Cold*",
+                          "Environmental survival and interpersonal tension aboard the *Glowing Gate*. Tests the party's endurance, leadership, and trust."
+                        ],
+                        [
+                          "**Chapter 3**",
+                          "*Into the Labyrinth of Ice*",
+                          "Exploration and tactical combat. Crossing the frozen sea, navigating the labyrinth, and confronting Harann Nemmonis to reclaim Raijinsho."
+                        ]
+                      ]
+                    },
+                    "Each chapter should flow like a heartbeat: slow and heavy before a sudden, powerful surge. Allow silence to fill the gaps between action—it's in those moments the divine threads hum the loudest."
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "Primary Objectives",
+                  "entries": [
+                    {
+                      "type": "list",
+                      "items": [
+                        "{@b Defeat or drive away Harann Nemmonis}, ending her dominion over Raijinsho Island.",
+                        "{@b Locate and secure the Koi Vaelithra}, ensuring its divine protection.",
+                        "{@b Survive the extreme cold} and maintain crew morale through the voyage.",
+                        "{@b Fulfill (or betray)} the pirate contract, shaping the group's reputation across Thundrum and the seas beyond."
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "Secondary Objectives and Roleplay Hooks",
+                  "entries": [
+                    {
+                      "type": "table",
+                      "colLabels": [
+                        "Objective",
+                        "Description"
+                      ],
+                      "colStyles": [
+                        "text-align-left col-2",
+                        "text-align-left col-10"
+                      ],
+                      "rows": [
+                        [
+                          "**Rebuild Trust**",
+                          "The pirates distrust outsiders. Winning their respect can secure supplies, safety, or hidden lore."
+                        ],
+                        [
+                          "**Sacred Eye Lore**",
+                          "Fragments of journals, carvings, and frozen bodies reveal hints of the Sacred Eye's final stand—and the fate of Kaelen's brother."
+                        ],
+                        [
+                          "**Divine Insight**",
+                          "Renata may appear briefly in dreams, giving cryptic visions about \"the silver scale beneath the endless white.\""
+                        ],
+                        [
+                          "**Greed vs. Duty**",
+                          "Thania's deal favors profit; the Vaelithra's path favors salvation. The players must decide which voice they follow."
+                        ]
+                      ]
+                    }
                   ]
                 },
                 {
                   "type": "entries",
                   "name": "Getting Started",
                   "entries": [
-                    "The adventure begins with the party established as capable adventurers, perhaps resting or resupplying, at the docks of {@b Thundrum Port} on the {@b 6th Sol'thara, Sylvryn Day}.",
-                    "The DM should begin the session by reading or paraphrasing the opening description for {@b Chapter 1: The Hook at Thundrum Port}."
+                    "The adventure begins on the {@b docks of Thundrum Port}, where the adventurers are resting, resupplying, or searching for new work. It's {@b Sylvryn Day}, and the harbor thrums with life—hawkers shouting, sailors brawling, the clang of chains and the hiss of steamships venting on the tide.",
+                    "There's no panic, no omen—just another day in a city that survives on salt and sin. Yet, for a reason none of them can name, the wind feels... expectant. The chill that brushes across their skin lingers longer than it should, as though the sea itself is holding its breath.",
+                    {
+                      "type": "inset",
+                      "entries": [
+                        "{@b Read-Aloud Text:}",
+                        "The docks of {@b Thundrum Port} are loud and bright beneath the late morning sun. Fishmongers haggle, gulls scream overhead, and the sharp tang of brine and ale fills the air. Amidst the crowd, a calm voice cuts through the noise—",
+                        "\"News from the northern seas!\"",
+                        "A {@b young newspaper girl} stands at the edge of the pier, her coat patched and boots scuffed. Her eyes, a pale silver, shimmer faintly as she scans the crowd. Then she looks directly at you and smiles—as if she's been waiting all along."
+                      ]
+                    },
+                    "This quiet arrival replaces the expected chaos of Thundrum with something subtler: the feeling that fate has just turned its gaze.",
+                    "Renata's presence in this perfectly ordinary day marks the moment the adventurers' story begins to unravel the stillness of time itself."
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "Structure of Play",
+                  "entries": [
+                    {
+                      "type": "list",
+                      "items": [
+                        "{@b Act I–The Hook (Roleplay):} Renata delivers the message and draws the adventurers into Thania's contract.",
+                        "{@b Act II–The Voyage (Tension & Survival):} The party endures the cold, growing distrust, and the first touch of the dragon's influence.",
+                        "{@b Act III–The Ice (Exploration & Combat):} The final confrontation and the discovery of the Koi Vaelithra.",
+                        "{@b Act IV–The Thaw (Resolution):} The dragon's defeat lifts the curse, setting the stage for the next fragment."
+                      ]
+                    }
                   ]
                 }
               ]
@@ -371,110 +550,91 @@
         },
         {
           "type": "section",
-          "name": "Chapter 1: The Hook at Thundrum Port",
+          "name": "Chapter 1 - Hook At Thundrum Port",
           "entries": [
             {
               "type": "section",
-              "name": "The Unlikely Messenger",
+              "name": "The Docks of Fate",
               "entries": [
-                "The adventure begins with the party established at the docks.",
                 {
                   "type": "inset",
                   "entries": [
                     "{@b Read-Aloud Text:}",
-                    "The docks of {@b Thundrum Port} are a tempest of activity on this {@b Sylvryn Day}. The air is thick with the smells of drying salt, burning tar, and the sweat of laborers. Amidst the chaos of pirate and merchant vessels, a youthful, slightly built {@b sea urchin newspaper girl} makes her way directly toward you. Her clothes are common and slightly damp, and she clutches a small stack of papers under one arm. Her eyes are strikingly light—a cool, pale silver that seems to hold a wisdom far older than her apparent age—and she offers a concise, intense greeting."
+                    "The docks of {@b Thundrum Port} are alive with chaos and commerce. Dockhands shout, gulls scream, and the air smells of brine, sweat, and spilled ale. A ship's bell rings in the distance as sailors haul crates of spice and contraband beneath the morning sun.",
+                    "The day feels ordinary—too ordinary. Even the chill that lingers on the wind seems only the work of the season, not the warning of something greater. Yet beneath the noise, the rhythm of the harbor feels... waiting."
                   ]
                 },
+                "This chapter introduces the players to {@b Renata} (the Human Vaelithra) and {@b Captain Thania Schmidt}, setting the hook for their voyage to Raijinsho."
+              ]
+            },
+            {
+              "type": "section",
+              "name": "A Subtle Intrusion",
+              "entries": [
+                "As the players navigate the port—whether restocking, seeking work, or boasting of past victories—one voice cuts through the din.",
                 {
-                  "type": "entries",
-                  "name": "DM Information",
+                  "type": "inset",
                   "entries": [
-                    "The {@b Sea Urchin Newspaper Girl} is the {@b Human Vaelithra} named {@b Renata} fragment. She was specifically hired by {@b Captain Thania Schmidt} but took the job only to orchestrate this meeting. Use {@b Scout} statistics but replace Shortbow proficiency with proficiency in {@b Persuasion} and {@b Insight}, and the ability to cast {@i Guidance} once per short rest.",
-                    "Her primary goal is to ensure the party accepts the contract and sets sail.",
-                    {
-                      "type": "list",
-                      "items": [
-                        "{@b Dialogue Cue:} The Vaelithra is straightforward and professional about the job, but her enthusiasm for {@i this particular raid} is unnervingly high. If the party asks who pays her, she replies honestly, \"Captain Thania Schmidt hired me to deliver a message to the strongest looking crew. I am just making sure I deliver it to the right people.\"",
-                        "{@b The Divine Pitch:} Her message is simple but emphasizes the cosmic stakes she knows are hidden: \"Captain Schmidt offers {@b $50\\%$ of the magic items} from the White Dragon's lair. But that dragon is a world-changer. If anyone is going to face it, the fate of many people—maybe even the {@b balance of the Sundering} itself—{@b rests on people like you}.\"",
-                        "{@b Subtle Influence:} If a player attempts an {@b Insight check (DC 18)}, they sense a strange, deep-seated urgency in her, as if the clock is ticking on a matter far grander than pirate gold. The DM may grant a point of {@b Inspiration} to any character who hesitates but decides to follow her lead, representing the Vaelithra's subtle push of fate."
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "entries",
-                  "name": "Development",
-                  "entries": [
-                    "If the party agrees to hear the full offer, the Vaelithra nods and points toward the {@b Glowing Gate} a few docks over, but pauses to allow the party a chance to discuss."
+                    "{@b Read-Aloud Text:}",
+                    "\"News from the northern seas!\"",
+                    "The cry is clear, carried not by desperation but precision. A small {@b newspaper girl} stands at the end of the pier, a stack of papers under one arm. Her clothes are plain, her boots worn from salt, yet her silver-gray eyes gleam like still water catching sunlight.",
+                    "She studies your group for only a moment before approaching with unnerving certainty."
                   ]
                 }
               ]
             },
             {
               "type": "section",
-              "name": "The Moment to Prepare (Act 0)",
+              "name": "The Unlikely Messenger",
               "entries": [
-                "The {@b Sea Urchin Newspaper Girl} has delivered her pitch and given the party directions to the {@i Glowing Gate}, but she pauses, leaving the final few feet of the journey to the players.",
+                "Renata wastes no time. Her tone is polite but focused, as though reciting something that has already happened.",
                 {
                   "type": "inset",
                   "entries": [
                     "{@b Read-Aloud Text:}",
-                    "The sea urchin nods once, her strange silver eyes fixed on your group, and points toward a battered caravel, the {@b Glowing Gate}, a few docks down. \"She's waiting. You should talk now before you approach.\" With that, she turns and darts back into the crowd, leaving you with the heavy knowledge of the dragon's challenge and the unsettling feeling that she knows far more than she let on. The time is yours to prepare before you commit to {@b Captain Thania Schmidt's} raid."
+                    "\"Captain Thania Schmidt of the {@i Glowing Gate} seeks a capable crew for a northern expedition—{@i Raijinsho Island.}",
+                    "She pays in gold and allows half share of any {@i magic relics} found on-site. Departure: next high tide.\"",
+                    "She pauses, her gaze sharpening. \"She's not hiring dreamers. You look... real enough.\""
                   ]
                 },
                 {
                   "type": "entries",
+                  "name": "DM Information",
                   "entries": [
                     {
-                      "type": "entries",
-                      "name": "DM Information",
-                      "entries": [
-                        "This is the core roleplaying and bonding segment of the chapter. Encourage the players to discuss the extreme danger of facing an {@b Adult White Dragon (CR 13)} and the peculiar nature of the messenger. This is also the point where players can leverage their character's knowledge to uncover the deeper lore of {@b Dewanegara}.",
-                        "Encourage players to make an Intelligence (History), Intelligence (Religion), or Wisdom (Survival) check to recall information about the world.",
-                        {
-                          "type": "table",
-                          "colLabels": [
-                            "Skill Check",
-                            "DC",
-                            "Information Revealed (Share only ONE of these per successful check)"
-                          ],
-                          "colStyles": [
-                            "text-align-left col-2",
-                            "text-align-left col-1 text-center",
-                            "text-align-left col-9"
-                          ],
-                          "rows": [
-                            [
-                              "Intelligence (History)",
-                              "DC 13",
-                              "The Sundering (35 A.S.) fractured the natural order of the world. Areas like Raijinsho Island, where the weather is magically fixed and unnatural, often become strongholds for powerful creatures, attracting greater dangers."
-                            ],
-                            [
-                              "Intelligence (History)",
-                              "DC 18",
-                              "The Sundering was secretly ended by the God of Time, Vaeil, who manipulated the past. This act of rewriting the Archives made both the Gods and the Demons interested in controlling those fragments of time—the Vaelithra."
-                            ],
-                            [
-                              "Intelligence (Religion)",
-                              "DC 15",
-                              "The god Vaeil shattered his soul into twelve Vaelithra fragments to prevent his work from being undone. To have encountered a Vaelithra means your path has intersected with a key event in the world's survival."
-                            ],
-                            [
-                              "Wisdom (Survival)",
-                              "DC 16",
-                              "White Dragons are the most cruel and avaricious of the chromatics. Their magic makes their territory lethally cold, and the whispers around Raijinsho claim any injury sustained on the island tends to fester and heal slowly."
-                            ]
-                          ]
-                        }
+                      "type": "list",
+                      "items": [
+                        "{@b Identity:} Renata is the {@b Human Vaelithra}, a living shard of Vaeil, manifesting in mortal guise.",
+                        "{@b Stat Base:} {@i Scout} (MM p. 349), modified with {@b Persuasion +5}, {@b Insight +4}, and the ability to cast {@i Guidance} once per short rest.",
+                        "{@b Goal:} Ensure the party accepts Thania's contract and boards before the next tide.",
+                        "{@b Atmosphere Cue:} The nearby gulls quiet as she speaks. The air feels still, as if the sea is holding its breath."
                       ]
                     },
-                    {
-                      "type": "entries",
-                      "name": "Development",
-                      "entries": [
-                        "The players should determine their strategy: how to approach the negotiation, who will speak, and what they will demand. Once the players signal they have finished their discussion, they move on to the ship and the next scene."
-                      ]
-                    }
+                    "A successful {@b Insight (DC 18)} reveals something timeless behind her calm demeanor—an echo of memory far older than her years. Reward recognition with {@b Inspiration}."
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "name": "A Moment to Prepare (Act 0)",
+              "entries": [
+                "Renata points toward a ship moored a few piers away—a battered caravel with patched sails and a painted name barely legible: {@i The Glowing Gate.}",
+                {
+                  "type": "inset",
+                  "entries": [
+                    "{@b Read-Aloud Text:}",
+                    "\"She's waiting. If you're interested, tell her Renata sent you.\"",
+                    "The girl's silver eyes linger for a heartbeat longer, then she slips into the crowd. One blink—and she's gone, as if she'd never been there."
+                  ]
+                },
+                "Players may use this moment to roleplay freely—decide whether to trust the offer, question locals, or make lore checks to recall Raijinsho's history or the Sacred Eye pirates (use your original DC table here).",
+                "If they ask around, common folk dismiss the rumor:",
+                {
+                  "type": "inset",
+                  "entries": [
+                    "\"Raijinsho? Nobody sails there now. Ice took it years ago.\"",
+                    "\"Captain Schmidt? She's mad—but she pays well if you live long enough to collect.\""
                   ]
                 }
               ]
@@ -483,142 +643,44 @@
               "type": "section",
               "name": "The Pirate's Terms",
               "entries": [
-                "The {@b Sea Urchin Vaelithra} has done her part. Now the adventurers must commit to the contract with the pirate captain.",
                 {
                   "type": "inset",
                   "entries": [
                     "{@b Read-Aloud Text:}",
-                    "The {@b Glowing Gate} is a ship that has seen too much hard living. Its hull shows patched wood, and its rigging is frayed—a genuine pirate vessel, not a pleasure craft. Standing on the worn deck is {@b Captain Thania Schmidt}. She is a compact woman, dressed in rough leather and armed with two cutlasses belted across her waist. Her face is a map of scars and sun exposure, and her eyes, devoid of any empathy, are impatient. She nods curtly toward the dock, having seen the newspaper girl dart away, and gestures you aboard. \"Don't waste my time. The offer is simple.\""
+                    "The {@i Glowing Gate} lists lazily against the pier, her hull patched and her figurehead weathered beyond recognition. A short, powerfully built woman waits at the gangplank—sun-browned, scarred, and unimpressed.",
+                    "\"You the ones Renata sent?\" she says without greeting. \"Good. Saves me shouting.\""
                   ]
                 },
                 {
                   "type": "entries",
                   "name": "DM Information",
                   "entries": [
-                    "{@b Captain Thania Schmidt} (use {@b Bandit Captain} statistics, with a high {@b Wisdom (Insight)} modifier of +4) is a ruthless, desperate pragmatist. {@b She is only motivated by conventional wealth (gold, gems, tradable goods)}, not arcane or magical artifacts. She views magic items as dangerous, unpredictable, or difficult to fence.",
+                    "{@b Captain Thania Schmidt} uses {@i Bandit Captain} stats with {@b Wisdom (Insight) +4}.",
+                    "She's pragmatic, mercenary-minded, and deeply superstitious, though she hides it under cynicism.",
+                    "She doesn't trust magic, and sees the adventurers as expendable muscle.",
                     {
-                      "type": "list",
-                      "items": [
-                        "{@b Dialogue Cue:} Thania is brief and focused only on the raid logistics and payment.",
-                        "{@b The Contract:} \"It's a smash-and-grab on {@b Raijinsho Island}. My crew gets us to the safe drop-off point and secures the perimeter for the escape. Your job is the cave—{@b the Frost-Cursed Mariners, the Dragon-Kin Soldiers, the traps, and the final fight with Harann Nemmonis.}\"",
-                        "{@b Payment Terms (Crucial Motivation):} \"The payment is {@i *$50\\%$ of any }magic items{@i  or }unique artifacts{@i  you pull from that central lair*}. {@b We take the bulk of the gold, gems, and common valuables.} Those fancy magical trinkets are more trouble than they're worth to me, but you mercenaries seem to love them. {@b I want the coin.} That's the deal. Say yes or no. I sail at the next high tide.\"",
-                        "{@b Negotiation:} Thania's terms are harsh, but fair for a pirate of her standing. Any {@b Charisma (Persuasion)} checks to increase the {@i magic item} share must beat her {@b Wisdom (Insight) DC 17}. If the party presses too hard for the gold share, she becomes hostile and might even draw a weapon, threatening to find a less greedy group."
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "entries",
-                  "name": "Failure and Lore (Revised)",
-                  "entries": [
-                    "If the party attempts to deceive {@b Captain Thania} (and fail the necessary checks) or if they try to reject the contract outright, the {@b Human Vaelithra} (Newspaper Girl) will intercede to ensure the mission goes forward.",
-                    {
-                      "type": "list",
-                      "items": [
-                        "{@b Refusal:} If the party flatly refuses the mission, the Sea Urchin Vaelithra reappears instantly. She will not plead or beg. Instead, she will use her subtle divine influence and knowledge of time to change the circumstances.",
+                      "type": "entries",
+                      "name": "Dialogue Highlights",
+                      "entries": [
                         {
                           "type": "list",
                           "items": [
-                            "{@b Vaelithra Intervention:} The Vaelithra looks directly at the most vocal character and, using the power of {@i Guidance}, suggests a single, crucial term that Thania might accept, such as guaranteeing that the party gets $50\\%$ of the magic items {@b and} a guaranteed $5,000$ gold pieces payout upon return, regardless of the dragon's main gold pile.",
-                            "She then quickly says, \"She will agree to that. You must go,\" before vanishing again into the crowd.",
-                            "Thania, startled by the Vaelithra's sudden return and demand, is momentarily unnerved. The DM should give the party {@b Advantage} on their next {@b Charisma (Persuasion)} check if they immediately counter with the Vaelithra's suggested term. Thania, realizing the messenger is more than she seems, will grudgingly accept the new term to rid herself of the unsettling girl."
+                            "\"It's simple. You help me clear the island of that overgrown lizard and her frost-ridden dead, we split the spoils.\"",
+                            "\"You take half the {@i magic stuff}—scrolls, crystals, whatever nonsense you fancy. I take coin, gems, and trade goods.\"",
+                            "\"You want gold? Prove you'll live to spend it.\""
                           ]
                         }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "entries",
-                  "name": "Departure Timeline",
-                  "entries": [
-                    "If the party agrees, Thania directs them to her skeptical first mate, Kaelen, for basic supplies and a final word: \"Good. We sail in {@b less than an hour}. Get your gear and get ready to freeze. I won't wait for latecomers.\""
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "section",
-          "name": "Chapter 2: The Journey and the Cold",
-          "entries": [
-            "This chapter covers the two-day, high-tension voyage to {@b Raijinsho Island}. It is designed to drain some of the party's resources (spells, hit dice) through environmental challenges and establish the mistrust between the adventurers and the pirate crew.",
-            {
-              "type": "section",
-              "name": "Setting Sail",
-              "entries": [
-                "The adventure immediately shifts from negotiation to preparation.",
-                {
-                  "type": "inset",
-                  "entries": [
-                    "{@b Read-Aloud Text:}",
-                    "The docks of {@b Thundrum Port} fall away behind you as the {@b Glowing Gate} is quickly maneuvered out into the open water. The ship is sturdy, but loud—every timber groans as the vessel catches the wind. Captain Thania gives you a single, grim nod as the sun begins its slow descent. You have approximately {@b forty-eight hours} of travel ahead. With every league sailed, the air grows colder, and the sea becomes darker and more turbulent, building a palpable sense of dread as you head toward the magically frozen silhouette of {@b Raijinsho Island}."
-                  ]
-                },
-                {
-                  "type": "entries",
-                  "name": "DM Information",
-                  "entries": [
-                    "The journey takes 48 hours. The focus here should be on the relentless, creeping danger of the environment."
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "section",
-              "name": "The Chill of Nemmonis",
-              "entries": [
-                "As the {@i Glowing Gate} nears the island, it enters the {@b Regional Effects} of the Adult White Dragon, {@b Harann Nemmonis}. The cold is unnaturally intense and punishing.",
-                {
-                  "type": "list",
-                  "items": [
-                    "{@b The First Day (The Watch):} During the first 24 hours of the voyage, the air temperature drops drastically. All characters are considered to be in an area of {@b Cold Weather}. Characters who are not wearing {@b cold weather gear} or protected by magic suffer {@b Disadvantage} on {@b Ability Checks} that rely on {@b Dexterity}.",
-                    "{@b The Second Day (Extreme Cold):} After the first 24 hours, the crew is sailing in an area of {@b Extreme Cold}.",
-                    {
-                      "type": "list",
-                      "items": [
-                        "{@b DM Rule:} Refer to the {@b Dungeon Master's Guide (DMG)}, {@i Chapter 5: Adventure Environments} for the rules on {@b Extreme Cold (p. 110)}. Characters must succeed on a {@b DC 10 Constitution saving throw} at the end of each hour or gain one level of {@b Exhaustion}. Those wearing cold weather gear or protected by magic automatically succeed. This resource drain is meant to make the initial landing on Raijinsho feel earned and desperate."
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "section",
-              "name": "First Contact (Foreshadowing Skirmish)",
-              "entries": [
-                "On the second night, roughly 36 hours into the voyage, the {@i Glowing Gate} drifts close enough to the {@b frozen sea} to be noticed by the dragon's corrupted minions. This encounter provides the party with their first taste of Harann's army.",
-                {
-                  "type": "inset",
-                  "entries": [
-                    "{@b Read-Aloud Text:}",
-                    "You are deep into the second night. The ship is encased in a crust of frost, and the constant moan of the wind is broken by the creak of the hull fighting the waves. Suddenly, the lookout shouts a warning. In the gloom, figures are pulling themselves out of the frigid water onto the ship's railing—their skin is the color of old ice, and their movements are stiff, unnatural, driven by something other than life."
-                  ]
-                },
-                {
-                  "type": "entries",
-                  "name": "DM Information",
-                  "entries": [
-                    "Run this as a brief, desperate encounter.",
-                    {
-                      "type": "list",
-                      "items": [
-                        "{@b Enemies:} Deploy {@b two to three} of {@b Frost-Cursed Mariner}.",
-                        "{@b Objective:} This is not a major combat, but a quick defense. The {@b Frost-Cursed Mariner} aim to kill or disable the closest living crew member, proving that the dragon's influence extends far out to sea.",
-                        "{@b Tension:} Captain Thania (or her crew) will shout for the adventurers to handle the threat, focusing on protecting the ship's rigging and helm rather than engaging directly."
                       ]
                     },
                     {
                       "type": "entries",
-                      "name": "Development",
+                      "name": "Negotiation",
                       "entries": [
-                        "The fight should be over quickly. Once the corrupted minions are defeated (and they do not surrender), their icy bodies shatter and dissolve back into the frigid sea.",
                         {
                           "type": "list",
                           "items": [
-                            "{@b Lore Drop:} Captain Thania approaches afterward, clearly shaken. \"Those are the damned fools who failed to raid her five years ago. Harann uses their corpses to guard her borders. Kill them quickly, or they'll turn you into one of them.\" This confirms the fate of failed raiders and reinforces the terrifying scope of the dragon's power."
+                            "{@b Persuasion DC 17:} Thania grudgingly adds a {@b 5,000 gp guaranteed payout} upon return.",
+                            "{@b Failure:} She grows cold and dismissive, but Renata's later intervention (see below) ensures the voyage still proceeds."
                           ]
                         }
                       ]
@@ -629,29 +691,80 @@
             },
             {
               "type": "section",
-              "name": "The Crew's Grudges",
+              "name": "Vaelithra Intervention (Fail-Safe)",
               "entries": [
-                "The party is traveling with pirates who resent sharing the hard-won treasure with mercenaries. This provides roleplaying opportunities and tension.",
-                "{@b First Mate Kaelen} (use {@b Bandit} statistics with {@b Advantage} on Intimidation checks) is the most vocal opponent.)",
+                "If negotiations collapse or the party refuses:",
                 {
-                  "type": "list",
-                  "items": [
-                    "{@b Roleplaying Note:} Kaelen is openly contemptuous. She believes the party will doom the ship and should not receive the share of magic items.",
-                    "{@b Confrontation:} At some point during the journey, Kaelen confronts the party, likely at dinner or during a cold shift on deck. She accuses them of cowardice or greed.",
-                    {
-                      "type": "list",
-                      "items": [
-                        "{@b Options:} The party can respond with {@b Charisma (Intimidation)} or {@b Charisma (Persuasion)} (both {@b DC 15}) to shut her down or ease tensions. A failure results in Kaelen sulking and refusing to share information. A success sees Kaelen grudgingly respect the adventurers and share a final, key piece of local knowledge: \"The {@b Dragon-Kin Soldiers} carry horns. If they blow them, the ice will {@i shift}.\""
-                      ]
-                    }
+                  "type": "inset",
+                  "entries": [
+                    "{@b Read-Aloud Text:}",
+                    "The world freezes—not metaphorically, but truly. The breeze stops mid-whisper, gulls hang suspended in the air, and even the surf halts in mid-splash.",
+                    "Renata stands again at the dock's edge, voice calm but undeniable:",
+                    "\"Five thousand gold upon return. That will satisfy you both.\"",
+                    "Time resumes, leaving only the faint scent of ozone. Thania blinks, shudders, and nods as though it were her own idea."
                   ]
                 },
+                "Grant {@b Advantage} on the next {@b Persuasion} roll; Thania reluctantly agrees."
+              ]
+            },
+            {
+              "type": "section",
+              "name": "Departure Timeline",
+              "entries": [
+                "Once the deal is struck:",
                 {
-                  "type": "entries",
-                  "name": "Development",
+                  "type": "inset",
                   "entries": [
-                    "The 48 hours conclude as the {@i Glowing Gate} is forced to halt its progress. The water is no longer liquid, but a jagged, impossibly wide sheet of ancient, frozen sea.",
-                    "The characters are now ready to disembark and face the final chapter."
+                    "{@b Read-Aloud Text:}",
+                    "\"Good,\" Thania says curtly. \"We sail before the tide turns. Pack what you need, say your prayers, and don't be late. Raijinsho won't wait for anyone.\""
+                  ]
+                },
+                "The ship prepares swiftly. Dockhands load the last crates, Kaelen shouts orders from the rigging, and the city noise fades beneath the growing roar of the sea.",
+                "When the {@i Glowing Gate} finally casts off, the light of {@b Sylvryn Day} glints across the waves like fractured glass—bright, beautiful, and fleeting."
+              ]
+            },
+            {
+              "type": "section",
+              "name": "NPC Quick Reference",
+              "entries": [
+                {
+                  "type": "table",
+                  "colLabels": [
+                    "NPC",
+                    "Trait",
+                    "Ideal",
+                    "Bond",
+                    "Flaw"
+                  ],
+                  "colStyles": [
+                    "text-align-left col-2",
+                    "text-align-left col-2 text-center",
+                    "text-align-left col-3",
+                    "text-align-left col-2",
+                    "text-align-left col-3"
+                  ],
+                  "rows": [
+                    [
+                      "**Renata (Vaelithra)**",
+                      "Calm, enigmatic",
+                      "Preservation of time's balance",
+                      "Bound to the Koi Fragment",
+                      "Cannot directly alter fate"
+                    ],
+                    [
+                      "**Captain Thania Schmidt**",
+                      "Stern, practical",
+                      "Profit and survival",
+                      "Protects her crew's legacy",
+                      "Distrusts magic and sentiment"
+                    ],
+                    [
+                      "**Kaelen, First Mate**",
+                      "Bitter, pragmatic",
+                      "Avenge brother lost on Raijinsho",
+                      "Loyal to Thania",
+                      "Quick-tempered toward outsiders"
+                    ]
                   ]
                 }
               ]
@@ -660,117 +773,178 @@
         },
         {
           "type": "section",
-          "name": "Chapter 3: Into the Labyrinth of Ice",
+          "name": "Chapter 2 - The Journey and The Cold",
           "entries": [
-            "This final chapter is split into two phases: the grueling trek across the frozen sea and shore, and the descent into the labyrinthine lair itself.",
             {
               "type": "section",
-              "name": "Phase 1: The Frozen Approach",
+              "name": "Setting Sail",
               "entries": [
-                "This phase begins the moment the party disembarks and involves a long sequence of skill challenges and combat encounters across the vast, frozen landscape before they reach the relative safety of the main cave entrance.",
+                {
+                  "type": "inset",
+                  "entries": [
+                    "{@b Read-Aloud Text:}",
+                    "The {@b Glowing Gate} groans away from {@b Thundrum Port}, its weathered hull cutting into the turbulent waves. The noise of the city fades fast, replaced by the creak of timber and the snap of patched sails. The air, though still early in the day, has a brittle, chilling edge—the first, subtle touch of the dragon's dominion. {@b Captain Thania Schmidt} gives you a single, grim nod. \"Forty-eight hours to Raijinsho,\" she says, her voice hard. \"If the cold doesn't kill you, my crew might.\""
+                  ]
+                },
+                "The voyage to {@b Raijinsho Island} is a two-day (48-hour) test of endurance. This chapter is designed to:",
+                "1.  {@b Drain Resources:} Challenge the party's ability to stay warm and alert.",
+                "2.  {@b Build Tension:} Establish the mistrust between the adventurers and the pirate crew.",
+                "3.  {@b Foreshadow the Dragon:} Introduce the unnatural cold and Harann's icy minions.",
                 {
                   "type": "entries",
-                  "name": "Disembarking onto the Ice",
+                  "name": "Environmental Rules: The Chill of Nemmonis",
+                  "entries": [
+                    "As the ship nears the {@b Adult White Dragon's (Harann Nemmonis')} domain, the cold is intensified by her ancient, corrupt magic.",
+                    "The environment progresses in danger over the 48-hour period. Use or adapt the following:",
+                    {
+                      "type": "table",
+                      "colLabels": [
+                        "Phase",
+                        "Hours Elapsed",
+                        "Condition",
+                        "Effects (DMG p. 110 Adaptation)"
+                      ],
+                      "colStyles": [
+                        "text-align-left col-1",
+                        "text-align-left col-1 text-center",
+                        "text-align-left col-3",
+                        "text-align-left col-7"
+                      ],
+                      "rows": [
+                        [
+                          "**1. Biting Cold**",
+                          "0–12 h",
+                          "A relentless wind from the north.",
+                          "Creatures without **cold weather gear** suffer **Disadvantage** on **Dexterity (Acrobatics)** and **Wisdom (Perception)** checks."
+                        ],
+                        [
+                          "**2. Severe Cold**",
+                          "12–24 h",
+                          "Dense, chilling mist. Breath fogs instantly.",
+                          "Each hour, a creature not protected must make a **DC 10 Constitution saving throw** or gain one level of **Exhaustion**."
+                        ],
+                        [
+                          "**3. Extreme Cold**",
+                          "24–48 h",
+                          "Sleet, frost, and near-freezing sea spray.",
+                          "The **Constitution saving throw DC rises to 12**. Failure results in gaining one level of **Exhaustion** AND taking **2d6 Cold damage**."
+                        ]
+                      ]
+                    },
+                    "Encourage players to ration firewood, spell slots, and food. Warmth becomes a crucial resource."
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "Voyage Random Encounter and Omen Table",
+                  "entries": [
+                    "Roll 1d6 every 6–8 hours, or when the party rests, to inject tension and flavor.",
+                    {
+                      "type": "table",
+                      "colLabels": [
+                        "d6",
+                        "Event",
+                        "Description"
+                      ],
+                      "colStyles": [
+                        "col-1 text-center",
+                        "text-align-left col-2 text-center",
+                        "text-align-left col-9"
+                      ],
+                      "rows": [
+                        [
+                          "1",
+                          "**Ghost Fog**",
+                          "Visibility drops to 15 feet. Figures seem to move within the mist, but they vanish when approached. A creature making a successful **Wisdom (Perception) DC 14** check sees a faint, stylized **Koi symbol** briefly flicker in the gloom."
+                        ],
+                        [
+                          "2",
+                          "**Frost Bloom**",
+                          "A sudden, unnatural rime flowers across metal and cloth. Anyone using a metallic weapon or wearing heavy armor must scrape the frost off (costing 10 minutes) or suffer **Disadvantage** on their next **Attack Roll** due to brittle ice."
+                        ],
+                        [
+                          "3",
+                          "**Crew Argument**",
+                          "**Kaelen**, the First Mate, violently accuses a deckhand of hearing the \"ice whisper.\" A successful **Charisma (Persuasion) DC 15** check can calm the crew; failure leads to lasting **Distrust** from the pirates towards the party."
+                        ],
+                        [
+                          "4",
+                          "**Renata's Dream**",
+                          "During a long rest, one PC has a vivid dream of a **silver-scaled Koi** swimming through black ice toward a source of deep, subterranean warmth. The PC wakes with a sense of quiet purpose and gains **Advantage** on their next saving throw against cold."
+                        ],
+                        [
+                          "5",
+                          "**Drifting Wreck**",
+                          "The *Glowing Gate* passes the remains of a doomed expedition. An active search (**Intelligence (Investigation) DC 14**) of the wreckage uncovers frozen corpses branded with the **Sacred Eye** symbol, confirming the fate of past raiders and foreshadowing the Frost-Cursed."
+                        ],
+                        [
+                          "6",
+                          "**Silent Strike**",
+                          "A sudden bolt of solid ice, a **frozen lightning** strike, crashes into the sea, rocking the ship and showering the deck with shards. All on deck must succeed on a **DC 13 Dexterity saving throw** or take **1d6 piercing damage**."
+                        ]
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "Roleplay Thread: Kaelen's Grudge",
+                  "entries": [
+                    "During the second day, when the cold has fully set in, {@b Kaelen} (Bandit stats) will approach the party. Her tension comes from a deep, personal source—the death of her brother.",
+                    {
+                      "type": "inset",
+                      "entries": [
+                        "{@b Read-Aloud Text:}",
+                        "Kaelen leans on the frozen railing, her breath smoking in the wind. She doesn't look at you. \"My brother went after that island five years ago. He thought the {@b Sacred Eye's} gold was waiting for him. Harann sent back his body, frozen solid to a piece of driftwood.\"",
+                        "Her jaw tightens. \"So forgive me if I don't cheer for you high-and-mighty heroes chasing ghosts and magic. I hope you're better fighters than he was, or we'll all end up Frost-Cursed.\""
+                      ]
+                    },
+                    "{@b Insight DC 13} reveals that her contempt is a mask for her grief and fear; she is intensely loyal to Captain Thania. A successful {@b Charisma (Persuasion) DC 15} check, or a genuinely empathetic response, will soften her tone.",
+                    "{@b Success:} Kaelen grudgingly respects the party's mettle. She shares a final, critical piece of lore: {@b \"The Dragon-Kin Soldiers carry horns. They use them to shift the ice and block tunnels. If you hear the horn, change your plan.\"}",
+                    "{@b Failure:} Kaelen remains suspicious and distrustful, making it harder to secure supplies or help from the pirate crew later on."
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "A Silence on the Waves",
                   "entries": [
                     {
                       "type": "inset",
                       "entries": [
                         "{@b Read-Aloud Text:}",
-                        "The {@b Glowing Gate} groans to a halt. The sea ahead is no longer water, but a vast, terrifying expanse of ancient, jagged ice—the {@b frozen sea} that protects Raijinsho Island. The island itself is a mountain of blinding white, shrouded by thick, swirling clouds that whip snow across the deck. Captain Thania hands you a coil of rope and a grim look. \"The ice is treacherous. The shore is a long walk, and the dragon's territory is everywhere. Good luck, mercenaries. We'll be waiting for your signal.\""
+                        "The second night bleeds into gray morning. The fog thickens until the horizon vanishes, and the {@i Glowing Gate} feels like it's sailing through milk. The air grows so still that even the sails sag.",
+                        "Then, faintly, the sound of bells—soft, rhythmic, impossibly close—rings through the mist."
                       ]
-                    }
+                    },
+                    "A {@b DC 15 Perception check} reveals ghostly shapes drifting on the water ahead: another ship, iced over and partially submerged.",
+                    "If approached, the deck bears the sigil of the {@b Sacred Eye} carved into frozen wood."
                   ]
                 },
                 {
                   "type": "entries",
-                  "name": "The Treacherous Sea",
+                  "name": "Encounter: *The Frost-Cursed Mariners*",
                   "entries": [
-                    "The distance from the ship to the island shore is roughly {@b half a mile} of frozen sea. The constant wind and ice ensure the {@b Extreme Cold} rules (DMG p. 110) remain in effect throughout this phase.",
+                    "{@b Setup:}",
+                    "Four to six undead sailors (use {@i Wight} or {@i Ghoul} stats, tinted by frost). They are remnants of Thania's predecessors—pirates who sought the Sacred Eye treasure decades ago. Their eyes glow faint blue, their flesh stiff as glass.",
                     {
-                      "type": "list",
-                      "items": [
-                        "{@b Skill Challenge (Navigation):} To cross the frozen sea quickly and safely, the party must succeed on a series of skill checks. Require the party to collectively achieve {@b 6 successes} before accumulating 3 failures.",
-                        {
-                          "type": "list",
-                          "items": [
-                            "{@b Available Checks (DC 15):} {@b Wisdom (Survival)} to find stable paths; {@b Strength (Athletics)} to climb over high ice ridges; {@b Intelligence (Nature)} to predict thin ice; {@b Dexterity (Acrobatics)} to traverse slippery patches."
-                          ]
-                        },
-                        "{@b Consequences of Failure:} If the party accumulates 3 failures, they fall into a hidden crevasse or trigger a patch of thin ice. They take {@b 2d6 bludgeoning damage} from the fall and must spend one round stabilizing before climbing out."
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "entries",
-                  "name": "Ambush: The Corrupted Patrol",
-                  "entries": [
-                    "Midway across the frozen sea, the party is attacked by the dragon's mindless sentinels.",
-                    {
-                      "type": "list",
-                      "items": [
-                        "{@b Enemies:} {@b Three Frost-Cursed Mariners} and {@b One Frost-Cursed Captain}.",
-                        "{@b The Dragon's Eye:} During the combat, the DM should briefly describe a shadow passing far overhead—a fleeting sign that {@b Harann Nemmonis} is aware of the intruders, though she is too arrogant to intervene personally at this distance."
+                      "type": "inset",
+                      "entries": [
+                        "{@b Read-Aloud Text (Combat Intro):}",
+                        "The shapes on the deck move—slow, deliberate. Ice cracks as they turn toward you.",
+                        "The first raises its head. Frost falls from its beard in sheets.",
+                        "\"{@i You came for gold...}\" it rasps. \"{@i So did we.}\""
                       ]
                     },
                     {
                       "type": "entries",
-                      "name": "Frozen Corpse Loot Table",
+                      "name": "Combat Notes",
                       "entries": [
-                        "After combat or during their exploration, players may search the bodies of the {@b Frost-Cursed Mariner} or other partially frozen corpses they spot in the ice. Roll on the table below to determine what grim scraps of previous expeditions they uncover.",
                         {
-                          "type": "table",
-                          "colLabels": [
-                            "d10",
-                            "Item Found",
-                            "Description"
-                          ],
-                          "colStyles": [
-                            "col-1 text-center",
-                            "text-align-left col-2",
-                            "text-align-left col-9"
-                          ],
-                          "rows": [
-                            [
-                              "1-3",
-                              "Frozen Rags",
-                              "The corpse is stripped bare and frozen solid. You find nothing of value."
-                            ],
-                            [
-                              "4",
-                              "Survival Rations",
-                              "A single ration of frozen ship biscuits, still edible."
-                            ],
-                            [
-                              "5",
-                              "5d6 Copper Pieces",
-                              "A handful of worthless, frozen coins fused into the corpse's belt."
-                            ],
-                            [
-                              "6",
-                              "Broken Tool",
-                              "A frozen, non-magical climbing pick. The metal is brittle and will likely snap if used in any demanding way."
-                            ],
-                            [
-                              "7",
-                              "Tattered Journal Page (Lore)",
-                              "A single, frozen page detailing a desperate final entry about \"the horns\" or \"the whispers in the ice,\" warning about the Dragon-Kin Soldiers."
-                            ],
-                            [
-                              "8",
-                              "Potent Antifreeze",
-                              "A small vial of strong Dwarven spirits that gives one character Advantage on their next DC 10 Constitution saving throw against Extreme Cold."
-                            ],
-                            [
-                              "9",
-                              "Small Gemstone",
-                              "A polished, but chillingly cold quartz (worth 50 gp) clutched in the corpse's hand."
-                            ],
-                            [
-                              "10",
-                              "Scroll of Protection from Energy",
-                              "A water-damaged scroll that is still legible. It has the Protection from Energy spell (Cold only)."
-                            ]
+                          "type": "list",
+                          "items": [
+                            "{@b Environment:} Slippery frozen deck (Dex Save DC 12 or fall prone if dashing).",
+                            "{@b Tactics:} They drag intruders into the freezing water (Grapple DC 13 → Con Save DC 14 or take 2d6 cold dmg each turn).",
+                            "{@b Twist:} On the third round, Kaelen recognizes one of them—her brother."
                           ]
                         }
                       ]
@@ -779,18 +953,164 @@
                 },
                 {
                   "type": "entries",
-                  "name": "The Snow-Covered Shore",
+                  "name": "Kaelen's Moment",
                   "entries": [
-                    "After successfully crossing the frozen sea, the party reaches the shore—a wide, flat beach now buried under deep, uneven snow.",
+                    "If Kaelen is present, she freezes mid-fight.",
+                    {
+                      "type": "inset",
+                      "entries": [
+                        "{@b Read-Aloud Text:}",
+                        "Her sword lowers. Her lips part but no sound comes out.",
+                        "\"...Brother?\"",
+                        "The creature twitches, then lunges—not out of hate, but reflex. Its eyes flicker with a moment of pain before the frost claims it again."
+                      ]
+                    },
+                    "{@b Player Choice Moment:}",
                     {
                       "type": "list",
                       "items": [
-                        "{@b Environmental Challenge:} The deep snow makes movement difficult. Treat the entire shoreline as {@b difficult terrain}.",
-                        "{@b Encounter:} Guarding the central entrance to the {@b Cave Labyrinth} are the Dragon's organized soldiers.",
+                        "A {@b Persuasion DC 17} or {@b Religion DC 15} can help Kaelen strike the final blow with peace.",
+                        "Failure causes her to hesitate, leaving her open to attack (auto-hit for 2d6 cold)."
+                      ]
+                    },
+                    "When the undead falls, the ice around it melts slightly, revealing a {@b rusted locket} engraved with the Serpent symbol—foreshadowing the Koi Vaelithra's power."
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "Aftermath",
+                  "entries": [
+                    "The {@i Glowing Gate} drifts in silence. The fog seems heavier after the fight, pressing close like a held breath.",
+                    "Thania orders the remains burned with black powder, her voice flat.",
+                    "Kaelen says nothing, only stares at the melting ice where her brother fell.",
+                    "If the players comfort her or help with the ritual, she will later defend them fiercely against Thania's doubts—a trust that can change the tone of Chapter 3 entirely."
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "Reward",
+                  "entries": [
+                    {
+                      "type": "list",
+                      "items": [
+                        "{@b 500 XP each} (for mercy, combat, or giving peace).",
+                        "The {@b Locket of the Serpent Eye}:",
                         {
                           "type": "list",
                           "items": [
-                            "{@b Enemies:} {@b Two Frost-Cursed Kobold} and {@b Two Frost-Cursed Chieftain}. They utilize {@b Hit-and-Run} tactics, focusing on harassing the party and retreating into the caves if severely threatened, ready to ambush again inside."
+                            "Once per long rest, as a bonus action, the bearer may gain {@b Resistance to Cold Damage for 1 minute}.",
+                            "When used, it glows faintly—a pulse of the Vaelithra's warmth."
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "Transition: The Ice Horizon",
+                  "entries": [
+                    {
+                      "type": "inset",
+                      "entries": [
+                        "{@b Read-Aloud Text:}",
+                        "Hours later, the mist parts just enough to reveal the impossible—a stretch of solid ice spanning the ocean ahead. Beyond it, jagged peaks pierce the clouds. Lightning flickers through them in total silence.",
+                        "\"Raijinsho,\" Thania murmurs, gripping the rail.",
+                        "The ship slows, hull grinding against the first rim of frost."
+                      ]
+                    },
+                    "The crew begins preparations to disembark, their breath already turning to mist.",
+                    "Renata appears on deck for the first time since departure, her silver eyes faintly glowing in the dim light.",
+                    "Without a word, she gazes toward the island, as though staring into her own reflection."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "name": "Chapter 3 - Into The Labyrinth of Ice",
+          "entries": [
+            "This final chapter features the exploration of {@b Raijinsho Island}, the confrontation with {@b Harann Nemmonis}, and the discovery of the {@b Koi Vaelithra}.",
+            {
+              "type": "section",
+              "name": "Phase 1: The Frozen Approach",
+              "entries": [
+                "The ship is forced to halt where the water becomes a vast, jagged expanse of {@b frozen sea}.",
+                {
+                  "type": "inset",
+                  "entries": [
+                    "{@b Read-Aloud Text:}",
+                    "The sea has become a nightmare. The water is no longer fluid, but a sheet of ancient, jagged ice that stretches for a mile, a vast, silent plain of danger. {@b Captain Thania} hands you a coil of rope and a grim look. \"This is where we part ways, mercenaries. Good luck. We'll be waiting for your signal.\""
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "The Treacherous Sea (Skill Challenge)",
+                  "entries": [
+                    "The half-mile journey across the frozen sea maintains the {@b Extreme Cold} rules (DC 12 Con save/hour, 2d6 Cold damage on failure). To safely and quickly reach the island shore, the party must collectively achieve {@b 6 successes} before accumulating 3 failures.",
+                    {
+                      "type": "table",
+                      "colLabels": [
+                        "Available Checks (DC 15)",
+                        "Purpose"
+                      ],
+                      "colStyles": [
+                        "text-align-left col-4",
+                        "text-align-left col-8"
+                      ],
+                      "rows": [
+                        [
+                          "**Wisdom (Survival)**",
+                          "To find stable paths and navigate by the shifting winds."
+                        ],
+                        [
+                          "**Strength (Athletics)**",
+                          "To climb over high, slippery ice ridges and secure ropes."
+                        ],
+                        [
+                          "**Intelligence (Nature)**",
+                          "To predict thin ice or weak points in the sea."
+                        ],
+                        [
+                          "**Dexterity (Acrobatics)**",
+                          "To traverse slick, uneven patches without falling."
+                        ]
+                      ]
+                    },
+                    "{@b Consequence of 3 Failures:} The party falls into a hidden crevasse or triggers a patch of thin ice. They take {@b 2d6 bludgeoning damage} from the fall and must spend one round stabilizing and climbing out (using a DC 13 Athletics check).",
+                    {
+                      "type": "entries",
+                      "name": "Ambush: The Corrupted Patrol",
+                      "entries": [
+                        "Midway across the ice, the party is attacked.",
+                        {
+                          "type": "list",
+                          "items": [
+                            "{@b Enemies:} {@b Three Frost-Cursed Mariner} and {@b One Frost-Cursed Captain}.",
+                            "{@b Dragon's Foreshadowing:} During the combat, a shadow should pass briefly overhead—a fleeting sign that {@b Harann Nemmonis} is aware of the intruders, though she is too arrogant to intervene personally at this distance."
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "entries",
+                      "name": "Frozen Corpse Loot (Reinforce Survival)",
+                      "entries": [
+                        "Allow players to search one or two frozen corpses they pass along the way (use the loot table from the {@i Story Outline.md} file). The most useful find would be the {@i *Scroll of }Protection from Energy{@b * (Cold only) or the }Potent Antifreeze** to help with the Extreme Cold saves."
+                      ]
+                    },
+                    {
+                      "type": "entries",
+                      "name": "The Snow-Covered Shore",
+                      "entries": [
+                        "The party reaches a wide beach buried under deep snow, which counts as {@b difficult terrain}. Guarding the central entrance to the {@b Cave Labyrinth} are the dragon's organized forces.",
+                        {
+                          "type": "list",
+                          "items": [
+                            "{@b Enemies:} {@b Two Frost-Cursed Kobold} and {@b Two Frost-Cursed Soldier} (use {@i Ogre} or {@i Berserker} stats with cold resistance).",
+                            "{@b Tactics:} The soldiers utilize {@b Hit-and-Run} tactics, harassing the party and retreating into the caves if severely threatened, ready to ambush again inside."
                           ]
                         }
                       ]
@@ -803,35 +1123,39 @@
               "type": "section",
               "name": "Phase 2: The Cave Labyrinth",
               "entries": [
-                "Once the party enters the main cave system, they begin the dungeon crawl toward the final lair. The labyrinth is a maze of slick, ice-covered tunnels and larger chambers that once served a community living beneath the island's volcanic core—now silent and frozen.",
+                "The party has successfully crossed the {@b Treacherous Sea} and navigated the initial snow-covered shore. They stand at the mouth of the ice-cave labyrinth.",
                 {
                   "type": "entries",
-                  "name": "Environmental Hazard: The Whisper of Ice",
+                  "name": "Encounter 1: The Serpent's Heart Lock (Puzzle/Bypass)",
                   "entries": [
-                    {
-                      "type": "list",
-                      "items": [
-                        "{@b Difficult Terrain:} Treat all non-chamber areas as {@b difficult terrain} due to the slick ice.",
-                        "{@b Slippery Surfaces:} Any time a character moves more than half their speed, they must succeed on a {@b DC 10 Dexterity (Acrobatics) check} or fall prone.",
-                        "{@b Illusory Frost:} Treat all areas beyond 60 feet as {@b lightly obscured}."
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "entries",
-                  "name": "Frozen Treasures and the Failed Raid",
-                  "entries": [
+                    "This encounter happens immediately upon entering the cave.",
+                    "The first tunnel segment is a short, slick path leading to a choice: an immediate, narrow path to the right, or the main, wide tunnel straight ahead.",
                     {
                       "type": "entries",
-                      "name": "The Frozen Chest",
+                      "name": "The Koi Vaelithra Lock (The Right Path)",
                       "entries": [
-                        "In a medium-sized tunnel junction, the party discovers a chest fused into a sheet of ice.",
+                        {
+                          "type": "inset",
+                          "entries": [
+                            "{@b Read-Aloud Text:}",
+                            "The narrow tunnel to your right terminates quickly at a solid door of {@b obsidian and bronze}, unlike the ice and rock everywhere else. Carved into its surface is an ancient {@b coiled serpent}, the symbol of the {@b Serpent God of Health and Envy}. There are no handles, only shallow indentations on the serpent's scales, and the air here is faintly, unnaturally warm. This path is clearly sealed and untouched by the dragon's presence."
+                          ]
+                        },
                         {
                           "type": "list",
                           "items": [
-                            "{@b Challenge:} The chest is covered in {@b 2 inches of solid ice}. Characters must spend time or resources to free it. Requires {@b 10 minutes} of sustained effort (and four successful {@b DC 15 Strength (Athletics)} checks) to free the chest.",
-                            "{@b Loot:} The chest holds a minor reward: {@b 500 gp} worth of mixed, frozen currency and {@b two Potions of Greater Healing}."
+                            "{@b The Problem:} This door leads to the {@b trap-free way} to the {@b Koi Vaelithra} in the {@b Warm Pond}, but it is sealed by the ancient denizen's {@b Geothermal Lock}.",
+                            "{@b The Key:} The puzzle requires diverting the cave's natural geothermal energy.",
+                            "{@b Solution (DC 15 Intelligence Checks):}",
+                            {
+                              "type": "list",
+                              "items": [
+                                "A successful {@b DC 15 Intelligence (Investigation)} check reveals three specific scales on the carving that act as pressure points, and a sequence of lights/glyph patterns around the serpent's eyes.",
+                                "A successful {@b DC 15 Intelligence (Arcana)} check determines the correct {@b lever sequence} needed to divert the geothermal energy from a hidden source, triggering the door."
+                              ]
+                            },
+                            "{@b Success:} The bronze door {@i hisses} open, revealing a short, clear, {@b trap-free tunnel} leading directly to the {@b Warm Pond} where the {@b Koi Vaelithra} waits. {@i (Note: Players should be encouraged to complete the main objective first, but this is a clear-cut victory path if they choose it.)}",
+                            "{@b Failure:} A failed check results in a temporary jet of harmless steam. The party must wait {@b ten minutes} before attempting the check again."
                           ]
                         }
                       ]
@@ -840,71 +1164,93 @@
                 },
                 {
                   "type": "entries",
-                  "name": "The Old Denizens: The Geothermal Locks (Puzzle)",
+                  "name": "Encounter 2: The Pirate's Trap (The Labyrinthine Path)",
                   "entries": [
-                    "The winding tunnels occasionally reveal ancient, carved stone that predates the dragon, hinting at a former sanctuary. This can be solved to gain a tactical advantage or a minor reward.",
+                    "The party continues down the main, wider tunnel straight ahead, which appears to be the most heavily used path.",
                     {
                       "type": "entries",
-                      "name": "Puzzle: The Warm Path",
+                      "name": "The Frozen Treasure Repository (Wide Area / Hexagonal Room)",
                       "entries": [
-                        "In a large central chamber, three paths lead deeper into the labyrinth. Two are choked with ice; the third is clear but marked by an ominous dragon claw scratch (Path C, the direct way to Harann).",
+                        {
+                          "type": "inset",
+                          "entries": [
+                            "{@b Read-Aloud Text:}",
+                            "The main passage widens here, and a tunnel to the left leads into a {@b hexagonal chamber}. This space was clearly once a storage room for the {@b Sacred Eye} pirates. The walls are lined with empty, broken weapon racks and scattered debris, all covered in a thick layer of frost. In the center, a huge, black {@b ship's chest} is completely encased in a shimmering dome of ancient, {@b magically-reinforced ice}."
+                          ]
+                        },
                         {
                           "type": "list",
                           "items": [
-                            "{@b The Problem:} The two ice-choked paths (A and B) lead to a hidden stash or a bypass. The paths are sealed by a mechanical lock hidden on a carving of a great, coiled serpent (the denizens' original protector). A successful {@b DC 15 Intelligence (Investigation)} check reveals faint glyphs under the ice-slick, suggesting the path was once warmed by geothermal heat.",
-                            "{@b The Solution:} A successful {@b DC 15 Intelligence (Arcana or Investigation)} check allows a character to activate the {@b Geothermal Lock} (a pressure/lever puzzle related to the serpent's scales). This action melts the ice from one of the choked paths (DM's choice: {@b Path A} leads to minor treasure; {@b Path B} leads to a direct, trap-free route to the lair)."
+                            "{@b Risk/Reward:} The {@b Frozen Chest} inside contains the {@b small hoard of treasures} (500 gp and two {@i Potions of Greater Healing}).",
+                            "{@b The Trap Trigger:} The hexagonal room is a tripwire. {@b Harann's minions} are not stupid; they know raiders always go for the loot first. As soon as the party begins to {@i attempt to free the chest} (takes 10 minutes of effort) or enters the {@b tunnel directly in front of the hexagonal room}, the ambush is sprung."
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "entries",
+                      "name": "The Dragon-Kin Ambush (Tunnel Beyond the Hexagonal Room)",
+                      "entries": [
+                        "This combat encounter should occur in the {@b tunnel area in front of the hexagonal room} (or {@i after} it, as you described). This makes retreat difficult and focuses the fight in a choke point.",
+                        {
+                          "type": "list",
+                          "items": [
+                            "{@b Enemies:} {@b Two Frost-Cursed Kobold} (to harass/distract), {@b One Frost-Cursed Ogre}, and {@b One Frost-Cursed Chieftain}.",
+                            "{@b Tactics:} The Chieftain orders the Ogre to hold the tunnel entrance while the Kobolds use ranged attacks or try to flank. The Chieftain focuses on using the environment.",
+                            "{@b The Hazard:} The Dragon-Kin know this tunnel is rigged. The Chieftain can use a {@b Minor Lair Action} (once per round, on its initiative count) to trigger a partial {@b ceiling collapse} of ice (DC 14 Dexterity Save or take 3d6 bludgeoning damage and be restrained by ice shards).",
+                            "{@b Loot & Lore:} The defeated {@i Frost-Cursed Chieftain} drops the {@b Dragon-Kin Warhorn}. The horn is cracked, but a successful {@b DC 15 Charisma (Performance)} check allows it to be used once to cause a {@b minor cave-in} or to scare off minor minions, confirming Kaelen's warning."
                           ]
                         }
                       ]
                     }
                   ]
-                },
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "name": "Phase 3: The Climax",
+              "entries": [
+                "After defeating the ambush and passing through the tunnels, the path leads directly up to the final area.",
                 {
                   "type": "entries",
-                  "name": "The Dragon's New Defenses",
+                  "name": "The Lair Entrance",
                   "entries": [
-                    {
-                      "type": "entries",
-                      "name": "Guard Patrol: Dragon-Kin Ambush",
-                      "entries": [
-                        "In a long, straight tunnel that shows signs of recent, meticulous cleanup, the Dragon-Kin Soldiers have set a defensive line.",
-                        {
-                          "type": "list",
-                          "items": [
-                            "{@b Enemies:} {@b Two Frost-Cursed Kobold} and {@b One Frost-Cursed Ogre} (homebrewed cold-resistant fighters).",
-                            "{@b Traps:} The soldiers have rigged a tripwire connected to a chute that releases a torrent of {@b sharp, icy shards} (a homebrew hazard, dealing {@b 3d6 piercing damage} on a failed {@b DC 14 Dexterity saving throw}). The Dragon-Kin are positioned behind ice barriers, giving them {@b three-quarters cover} from the party.",
-                            "{@b Loot:} A defeated Dragon-Kin may drop a {@b Dragon-Kin Warhorn}, which the party can use (see development later)."
-                          ]
-                        }
-                      ]
-                    }
+                    "This final segment is the last stretch of the main tunnel leading up to the large circular chamber. The {@b Extreme Cold} rules should be at their most punishing here."
                   ]
                 },
                 {
                   "type": "entries",
-                  "name": "The Dragon's Lair Entrance",
+                  "name": "The Final Confrontation: Harann Nemmonis",
                   "entries": [
-                    "The final path (likely Path C or the successful Path B) leads to a massive, cavernous entrance, reeking of ozone, death, and frozen fish.",
-                    {
-                      "type": "list",
-                      "items": [
-                        "{@b Final Encounter:} The party has reached the main lair of {@b Harann Nemmonis}."
-                      ]
-                    }
+                    "The party enters the large, circular top chamber—the main lair of {@b Harann Nemmonis} (Adult White Dragon, CR 13). The confrontation proceeds as planned."
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "name": "Phase 4: The True Objective (The Koi Vaelithra)",
+              "entries": [
+                "After the dragon is defeated or fled, the party can now safely use the {@b Geothermal Lock} and access the secret path.",
+                {
+                  "type": "list",
+                  "items": [
+                    "{@b The Warm Pool:} The door from the first chamber leads to the warm, geothermally fed chamber.",
+                    "{@b The Silver Scale:} The {@b Koi Vaelithra} floats in the water, leaving behind the {@b Silver Scale} (the fragment) for the players, granting {@b Resistance to Cold Damage} for 24 hours (the divine boon)."
                   ]
                 },
+                "This revised flow honors the specificity of your map, ensuring a smooth and logical progression through the lair. Let me know if you would like me to detail the {@b Epilogue} next!",
                 {
                   "type": "entries",
-                  "name": "The True Objective: The Koi Vaelithra (Post-Harann)",
+                  "name": "The Divine Boon and Fail-Safe",
                   "entries": [
-                    "{@b {@i (DM Note: This location is the true objective of the guiding Vaelithra fragment, Renata. It is not found until after the dragon is defeated or forced to flee.)}}",
-                    "Located in a small, hidden tunnel leading from behind the dragon's main treasure room, the party discovers a simple sheet of ice sealing a doorway.",
                     {
                       "type": "list",
                       "items": [
-                        "{@b Discovery:} A character who succeeds on a {@b DC 17 Wisdom (Perception)} or {@b Intelligence (Investigation)} check notices that this sheet of ice bears no dragon claw marks, and the ice looks thin—as if the dragon was never aware of its seam. {@b Renata may have subtly provided a clue near the main lair entrance (e.g., a faint, stylized Koi symbol scratched into the ground).}",
-                        "{@b The Pond:} The tunnel opens up into a small, naturally warm chamber (a comfortable 50°F / 10°C). In the center is a small, crystal-clear pool fed by a hidden geothermal source. Floating within the pool is the shimmering, silvery {@b Koi Vaelithra}. The Koi's divine essence is palpable, offering a moment of quiet peace amidst the ruin.",
-                        "{@b The Reward:} The {@b Koi Vaelithra} will make a single, clear mental contact with the nearest character, transmitting vital, cryptic information about the next Vaelithra fragment, essentially providing the hook for the next adventure in the campaign. The party can then collect the {@b magic items} from Harann's main hoard, fulfilling their contract with Captain Thania."
+                        "{@b Boon:} The Koi emits a subtle, powerful energy. Any character who touches the water or the {@b Silver Scale} (see below) gains {@b Resistance to Cold Damage} for the next 24 hours.",
+                        "{@b The Silver Scale:} The party finds a single {@b Silver Scale} left on the edge of the pool. This is the {@b Koi Vaelithra} fragment itself.",
+                        "{@b DM Fail-Safe (If TPK is imminent):} If the party is wiped out or in dire need of help during the fight with Harann, the {@b Koi Vaelithra} freezes time. It appears before the players, restoring their resources to a {@b Long Rest} state while their enemies remain frozen. The Koi then whispers its cryptic message about the next fragment and leaves the {@b Silver Scale} as a sign before time resumes. This maintains narrative continuity despite a near-defeat."
                       ]
                     }
                   ]
@@ -913,61 +1259,99 @@
             }
           ]
         },
-        {
-          "type": "section",
-          "name": "Epilogue",
-          "entries": [
-            "This section concludes the adventure and provides a bridge to the next part of the {@b Malvidra Twisted World} narrative.",
-            {
-              "type": "entries",
-              "name": "The Retreat",
-              "entries": [
-                "Whether {@b Harann Nemmonis} was slain, or simply dealt enough damage to retreat into her deeper lair, the outcome is the same: The magical field of perpetual winter over Raijinsho Island immediately begins to fail.",
-                "The party now has time to successfully harvest the agreed-upon $50\\%$ share of the {@b magic items and unique artifacts} from the dragon's main hoard, fulfilling their contract with {@b Captain Thania Schmidt}.",
-                "The party then signals the {@i Glowing Gate}, which quickly approaches the rapidly melting shore to collect the adventurers.",
-                {
-                  "type": "inset",
-                  "entries": [
-                    "{@b Read-Aloud Text:}",
-                    "The moment the dragon's power breaks, the entire island sighs. The magical, unnatural cold lifts, causing frozen waterfalls to cascade down the cliffs and thick layers of rime to fall from the rigging of the {@i Glowing Gate}. The sky is suddenly clear, and birds circle overhead, filling the air with sound and color long absent from Raijinsho. {@b Captain Thania Schmidt} keeps her word, nodding stiffly as her crew confirms the magical haul. They set sail immediately, singing shanties of victory and treasure."
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "entries",
-              "name": "The Guiding Fragment",
-              "entries": [
-                "As the adventurers prepare to leave the island, the {@b Human Vaelithra}—who somehow managed to make the journey and return—approaches the party one last time, away from the celebration of the pirates.",
-                {
-                  "type": "inset",
-                  "entries": [
-                    "{@b Read-Aloud Text:}",
-                    "You find the {@b Human Vaelithra}—still disguised as the sea urchin newspaper girl—standing quietly near the newly thawed beach. Her small hands clutch the leather notebook she always carries, and her eyes shimmer with pride and something deeper, older, now that the immediate danger is past. She offers a small, knowing smile."
-                  ]
-                },
-                "She then delivers her final, cryptic message:",
-                {
-                  "type": "inset",
-                  "entries": [
-                    "{@b Human Vaelithra:} \"The shard is safe again. One out of ten—\"",
-                    "She freezes mid-sentence, her eyes widening ever so slightly. Then she forces a laugh, correcting herself quickly:",
-                    "{@b Human Vaelithra:} \"Eleven. One out of eleven remain. Forgive me. Sometimes... I lose count.\""
-                  ]
-                },
-                "An odd stillness follows the correction, like the sea itself is listening. If the party asks her what she means, she will dodge the question with a childlike grin, but her mask falters—just for a moment.",
-                "As she turns and walks toward the horizon, she adds quietly, almost to herself:",
-                {
-                  "type": "inset",
-                  "entries": [
-                    "{@b Human Vaelithra:} \"When the last is found, I will finally... come back.\""
-                  ]
-                },
-                "The adventurers are left with gold, glory, and questions that echo louder than any dragon's roar. The sails of the {@i Glowing Gate} rise once more, catching a warm, welcoming wind. But the players now know their journey for coin has evolved into a vital quest for the survival of {@b Dewanegara}."
-              ]
-            }
-          ]
-        }
+        [
+          {
+            "type": "section",
+            "name": "EPILOGUE",
+            "entries": [
+              {
+                "type": "section",
+                "name": "The Thaw and The Treasure",
+                "entries": [
+                  "The moment {@b Harann Nemmonis} is defeated, the ancient, corrupt magic she used to enforce the perpetual winter shatters.",
+                  {
+                    "type": "inset",
+                    "entries": [
+                      "{@b Read-Aloud Text:}",
+                      "As the dragon's dark influence vanishes, the entire island seems to take a collective sigh. The air warms perceptibly, and the low, constant moan of the wind dies away. The {@i Glowing Gate} is freed from its icy cage. {@b Captain Thania} waves you over, the promise of coin gleaming in her eyes."
+                    ]
+                  },
+                  "{@b Resolution:}",
+                  {
+                    "type": "list",
+                    "items": [
+                      "{@b The Payout:} Captain Thania Schmidt keeps her word. The party receives the {@b 5,000 gp guaranteed payout}. Any {@b Magic Items} the party recovered (including the {@b Silver Scale} of the Koi Vaelithra) are their personal spoils."
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "section",
+                "name": "The Guiding Fragment's Final Word (The Critical Interaction)",
+                "entries": [
+                  "The scene is set for a brief, final conversation. {@b Renata} finds the party {@i before} they board the ship, away from the pirates.",
+                  {
+                    "type": "inset",
+                    "entries": [
+                      "{@b Read-Aloud Text:}",
+                      "You are walking back to the shore when the urchin girl, {@b Renata}, steps out from behind a newly thawed stack of cargo. Her clothes are ragged, but her eyes—those unnervingly silver eyes—shine with a deep, powerful relief you've never seen on a child. She offers a small, knowing smile, clutching her worn leather notebook."
+                    ]
+                  },
+                  "{@b Renata:} \"You have the shard now, yes? Good. You must hold on to it. Not for the gold, but for the life it can bring back to this world. That makes it... {@b Two of Twe—}\"",
+                  "She cuts off instantly, a flicker of panic crossing her face before she forces a quick, sharp laugh that doesn't quite reach her eyes.",
+                  "{@b Renata:} \"—I mean, {@b Two of Eleven}. Forgive me. Sometimes I lose count.\"",
+                  "An unsettling stillness follows the correction. The players have a chance to act here.",
+                  {
+                    "type": "entries",
+                    "entries": [
+                      {
+                        "type": "entries",
+                        "name": "Player Interaction: Pressing the Guide",
+                        "entries": [
+                          "Any character who makes a {@b DC 16 Insight check} realizes the panic was genuine and that the number {@b Twelve} was the truth, but the second number, {@b Eleven}, was a conscious, protective lie.",
+                          "If the players choose to confront her, they can use their social skills:",
+                          {
+                            "type": "table",
+                            "colLabels": [
+                              "Action",
+                              "Skill Check (DC 16)",
+                              "Outcome"
+                            ],
+                            "colStyles": [
+                              "text-align-left col-2",
+                              "text-align-left col-2 text-center",
+                              "text-align-left col-8"
+                            ],
+                            "rows": [
+                              [
+                                "**Gentle Inquiry**",
+                                "**Charisma (Persuasion)**",
+                                "**Success:** She briefly lowers her guard. \"They made me forget, but they can't make me unknow. There are **twelve** pieces. And I am **one** of them. Tell no one.\" She then delivers the hint (see below) and disappears."
+                              ],
+                              [
+                                "**Forceful Demand**",
+                                "**Charisma (Intimidation)**",
+                                "**Success:** She flinches but stands her ground. \"I am only a messenger, and I am telling you only what you *need* to know.\" She then delivers the hint (see below) and is immediately gone, fleeing in distress."
+                              ],
+                              [
+                                "**Failure (Any Check)**",
+                                "—",
+                                "She maintains her mask. \"It's just a game I play! I told you, I lose count.\" She quickly delivers the hint and fades into the breeze before they can press her again."
+                              ]
+                            ]
+                          },
+                          "Regardless of the outcome, she concludes with the hook for the next adventure:",
+                          "{@b Renata:} \"The next fragment is not ice and cold. Look for the {@b Mask of the Harlequin}. It is worn by a Warlock's phantom, hidden inside the {@b Violet Carnival's Demiplane}—a place of false mirrors and fleeting joy.\"",
+                          "She gives a final, silent nod and fades into the crisp ocean breeze, leaving the party with more gold, a piece of a shattered god, and the shocking realization that their innocent guide is, herself, one of the divine fragments. The sails of the {@i Glowing Gate} rise, and the journey continues."
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       ]
     },
     {

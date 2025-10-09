@@ -1,116 +1,254 @@
 export const Chapter2Section = {
 	"type": "section",
-	"name": "Chapter 2: The Journey and the Cold",
+	"name": "Chapter 2 - The Journey and The Cold",
 	"entries": [
-		"This chapter covers the two-day, high-tension voyage to {@b Raijinsho Island}. It is designed to drain some of the party's resources (spells, hit dice) through environmental challenges and establish the mistrust between the adventurers and the pirate crew.",
 		{
 			"type": "section",
 			"name": "Setting Sail",
 			"entries": [
-				"The adventure immediately shifts from negotiation to preparation.",
 				{
 					"type": "inset",
 					"entries": [
 						"{@b Read-Aloud Text:}",
-						"The docks of {@b Thundrum Port} fall away behind you as the {@b Glowing Gate} is quickly maneuvered out into the open water. The ship is sturdy, but loud\u2014every timber groans as the vessel catches the wind. Captain Thania gives you a single, grim nod as the sun begins its slow descent. You have approximately {@b forty-eight hours} of travel ahead. With every league sailed, the air grows colder, and the sea becomes darker and more turbulent, building a palpable sense of dread as you head toward the magically frozen silhouette of {@b Raijinsho Island}."
+						"The {@b Glowing Gate} groans away from {@b Thundrum Port}, its weathered hull cutting into the turbulent waves. The noise of the city fades fast, replaced by the creak of timber and the snap of patched sails. The air, though still early in the day, has a brittle, chilling edge\u2014the first, subtle touch of the dragon's dominion. {@b Captain Thania Schmidt} gives you a single, grim nod. \"Forty-eight hours to Raijinsho,\" she says, her voice hard. \"If the cold doesn't kill you, my crew might.\""
+					]
+				},
+				"The voyage to {@b Raijinsho Island} is a two-day (48-hour) test of endurance. This chapter is designed to:",
+				"1.  {@b Drain Resources:} Challenge the party's ability to stay warm and alert.",
+				"2.  {@b Build Tension:} Establish the mistrust between the adventurers and the pirate crew.",
+				"3.  {@b Foreshadow the Dragon:} Introduce the unnatural cold and Harann's icy minions.",
+				{
+					"type": "entries",
+					"name": "Environmental Rules: The Chill of Nemmonis",
+					"entries": [
+						"As the ship nears the {@b Adult White Dragon's (Harann Nemmonis')} domain, the cold is intensified by her ancient, corrupt magic.",
+						"The environment progresses in danger over the 48-hour period. Use or adapt the following:",
+						{
+							"type": "table",
+							"colLabels": [
+								"Phase",
+								"Hours Elapsed",
+								"Condition",
+								"Effects (DMG p. 110 Adaptation)"
+							],
+							"colStyles": [
+								"text-align-left col-1",
+								"text-align-left col-1 text-center",
+								"text-align-left col-3",
+								"text-align-left col-7"
+							],
+							"rows": [
+								[
+									"**1. Biting Cold**",
+									"0\u201312 h",
+									"A relentless wind from the north.",
+									"Creatures without **cold weather gear** suffer **Disadvantage** on **Dexterity (Acrobatics)** and **Wisdom (Perception)** checks."
+								],
+								[
+									"**2. Severe Cold**",
+									"12\u201324 h",
+									"Dense, chilling mist. Breath fogs instantly.",
+									"Each hour, a creature not protected must make a **DC 10 Constitution saving throw** or gain one level of **Exhaustion**."
+								],
+								[
+									"**3. Extreme Cold**",
+									"24\u201348 h",
+									"Sleet, frost, and near-freezing sea spray.",
+									"The **Constitution saving throw DC rises to 12**. Failure results in gaining one level of **Exhaustion** AND taking **2d6 Cold damage**."
+								]
+							]
+						},
+						"Encourage players to ration firewood, spell slots, and food. Warmth becomes a crucial resource."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "DM Information",
+					"name": "Voyage Random Encounter and Omen Table",
 					"entries": [
-						"The journey takes 48 hours. The focus here should be on the relentless, creeping danger of the environment."
-					]
-				}
-			]
-		},
-		{
-			"type": "section",
-			"name": "The Chill of Nemmonis",
-			"entries": [
-				"As the {@i Glowing Gate} nears the island, it enters the {@b Regional Effects} of the Adult White Dragon, {@b Harann Nemmonis}. The cold is unnaturally intense and punishing.",
-				{
-					"type": "list",
-					"items": [
-						"{@b The First Day (The Watch):} During the first 24 hours of the voyage, the air temperature drops drastically. All characters are considered to be in an area of {@b Cold Weather}. Characters who are not wearing {@b cold weather gear} or protected by magic suffer {@b Disadvantage} on {@b Ability Checks} that rely on {@b Dexterity}.",
-						"{@b The Second Day (Extreme Cold):} After the first 24 hours, the crew is sailing in an area of {@b Extreme Cold}.",
+						"Roll 1d6 every 6\u20138 hours, or when the party rests, to inject tension and flavor.",
 						{
-							"type": "list",
-							"items": [
-								"{@b DM Rule:} Refer to the {@b Dungeon Master's Guide (DMG)}, {@i Chapter 5: Adventure Environments} for the rules on {@b Extreme Cold (p. 110)}. Characters must succeed on a {@b DC 10 Constitution saving throw} at the end of each hour or gain one level of {@b Exhaustion}. Those wearing cold weather gear or protected by magic automatically succeed. This resource drain is meant to make the initial landing on Raijinsho feel earned and desperate."
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Event",
+								"Description"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"text-align-left col-2 text-center",
+								"text-align-left col-9"
+							],
+							"rows": [
+								[
+									"1",
+									"**Ghost Fog**",
+									"Visibility drops to 15 feet. Figures seem to move within the mist, but they vanish when approached. A creature making a successful **Wisdom (Perception) DC 14** check sees a faint, stylized **Koi symbol** briefly flicker in the gloom."
+								],
+								[
+									"2",
+									"**Frost Bloom**",
+									"A sudden, unnatural rime flowers across metal and cloth. Anyone using a metallic weapon or wearing heavy armor must scrape the frost off (costing 10 minutes) or suffer **Disadvantage** on their next **Attack Roll** due to brittle ice."
+								],
+								[
+									"3",
+									"**Crew Argument**",
+									"**Kaelen**, the First Mate, violently accuses a deckhand of hearing the \"ice whisper.\" A successful **Charisma (Persuasion) DC 15** check can calm the crew; failure leads to lasting **Distrust** from the pirates towards the party."
+								],
+								[
+									"4",
+									"**Renata's Dream**",
+									"During a long rest, one PC has a vivid dream of a **silver-scaled Koi** swimming through black ice toward a source of deep, subterranean warmth. The PC wakes with a sense of quiet purpose and gains **Advantage** on their next saving throw against cold."
+								],
+								[
+									"5",
+									"**Drifting Wreck**",
+									"The *Glowing Gate* passes the remains of a doomed expedition. An active search (**Intelligence (Investigation) DC 14**) of the wreckage uncovers frozen corpses branded with the **Sacred Eye** symbol, confirming the fate of past raiders and foreshadowing the Frost-Cursed."
+								],
+								[
+									"6",
+									"**Silent Strike**",
+									"A sudden bolt of solid ice, a **frozen lightning** strike, crashes into the sea, rocking the ship and showering the deck with shards. All on deck must succeed on a **DC 13 Dexterity saving throw** or take **1d6 piercing damage**."
+								]
 							]
 						}
 					]
-				}
-			]
-		},
-		{
-			"type": "section",
-			"name": "First Contact (Foreshadowing Skirmish)",
-			"entries": [
-				"On the second night, roughly 36 hours into the voyage, the {@i Glowing Gate} drifts close enough to the {@b frozen sea} to be noticed by the dragon's corrupted minions. This encounter provides the party with their first taste of Harann's army.",
+				},
 				{
-					"type": "inset",
+					"type": "entries",
+					"name": "Roleplay Thread: Kaelen's Grudge",
 					"entries": [
-						"{@b Read-Aloud Text:}",
-						"You are deep into the second night. The ship is encased in a crust of frost, and the constant moan of the wind is broken by the creak of the hull fighting the waves. Suddenly, the lookout shouts a warning. In the gloom, figures are pulling themselves out of the frigid water onto the ship's railing\u2014their skin is the color of old ice, and their movements are stiff, unnatural, driven by something other than life."
+						"During the second day, when the cold has fully set in, {@b Kaelen} (Bandit stats) will approach the party. Her tension comes from a deep, personal source\u2014the death of her brother.",
+						{
+							"type": "inset",
+							"entries": [
+								"{@b Read-Aloud Text:}",
+								"Kaelen leans on the frozen railing, her breath smoking in the wind. She doesn't look at you. \"My brother went after that island five years ago. He thought the {@b Sacred Eye's} gold was waiting for him. Harann sent back his body, frozen solid to a piece of driftwood.\"",
+								"Her jaw tightens. \"So forgive me if I don't cheer for you high-and-mighty heroes chasing ghosts and magic. I hope you're better fighters than he was, or we'll all end up Frost-Cursed.\""
+							]
+						},
+						"{@b Insight DC 13} reveals that her contempt is a mask for her grief and fear; she is intensely loyal to Captain Thania. A successful {@b Charisma (Persuasion) DC 15} check, or a genuinely empathetic response, will soften her tone.",
+						"{@b Success:} Kaelen grudgingly respects the party's mettle. She shares a final, critical piece of lore: {@b \"The Dragon-Kin Soldiers carry horns. They use them to shift the ice and block tunnels. If you hear the horn, change your plan.\"}",
+						"{@b Failure:} Kaelen remains suspicious and distrustful, making it harder to secure supplies or help from the pirate crew later on."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "DM Information",
+					"name": "A Silence on the Waves",
 					"entries": [
-						"Run this as a brief, desperate encounter.",
 						{
-							"type": "list",
-							"items": [
-								"{@b Enemies:} Deploy {@b two to three} of {@b Frost-Cursed Mariner}.",
-								"{@b Objective:} This is not a major combat, but a quick defense. The {@b Frost-Cursed Mariner} aim to kill or disable the closest living crew member, proving that the dragon's influence extends far out to sea.",
-								"{@b Tension:} Captain Thania (or her crew) will shout for the adventurers to handle the threat, focusing on protecting the ship's rigging and helm rather than engaging directly."
+							"type": "inset",
+							"entries": [
+								"{@b Read-Aloud Text:}",
+								"The second night bleeds into gray morning. The fog thickens until the horizon vanishes, and the {@i Glowing Gate} feels like it's sailing through milk. The air grows so still that even the sails sag.",
+								"Then, faintly, the sound of bells\u2014soft, rhythmic, impossibly close\u2014rings through the mist."
+							]
+						},
+						"A {@b DC 15 Perception check} reveals ghostly shapes drifting on the water ahead: another ship, iced over and partially submerged.",
+						"If approached, the deck bears the sigil of the {@b Sacred Eye} carved into frozen wood."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Encounter: *The Frost-Cursed Mariners*",
+					"entries": [
+						"{@b Setup:}",
+						"Four to six undead sailors (use {@i Wight} or {@i Ghoul} stats, tinted by frost). They are remnants of Thania's predecessors\u2014pirates who sought the Sacred Eye treasure decades ago. Their eyes glow faint blue, their flesh stiff as glass.",
+						{
+							"type": "inset",
+							"entries": [
+								"{@b Read-Aloud Text (Combat Intro):}",
+								"The shapes on the deck move\u2014slow, deliberate. Ice cracks as they turn toward you.",
+								"The first raises its head. Frost falls from its beard in sheets.",
+								"\"{@i You came for gold...}\" it rasps. \"{@i So did we.}\""
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Development",
+							"name": "Combat Notes",
 							"entries": [
-								"The fight should be over quickly. Once the corrupted minions are defeated (and they do not surrender), their icy bodies shatter and dissolve back into the frigid sea.",
 								{
 									"type": "list",
 									"items": [
-										"{@b Lore Drop:} Captain Thania approaches afterward, clearly shaken. \"Those are the damned fools who failed to raid her five years ago. Harann uses their corpses to guard her borders. Kill them quickly, or they'll turn you into one of them.\" This confirms the fate of failed raiders and reinforces the terrifying scope of the dragon's power."
+										"{@b Environment:} Slippery frozen deck (Dex Save DC 12 or fall prone if dashing).",
+										"{@b Tactics:} They drag intruders into the freezing water (Grapple DC 13 → Con Save DC 14 or take 2d6 cold dmg each turn).",
+										"{@b Twist:} On the third round, Kaelen recognizes one of them\u2014her brother."
 									]
 								}
 							]
 						}
 					]
-				}
-			]
-		},
-		{
-			"type": "section",
-			"name": "The Crew's Grudges",
-			"entries": [
-				"The party is traveling with pirates who resent sharing the hard-won treasure with mercenaries. This provides roleplaying opportunities and tension.",
-				"{@b First Mate Kaelen} (use {@b Bandit} statistics with {@b Advantage} on Intimidation checks) is the most vocal opponent.)",
+				},
 				{
-					"type": "list",
-					"items": [
-						"{@b Roleplaying Note:} Kaelen is openly contemptuous. She believes the party will doom the ship and should not receive the share of magic items.",
-						"{@b Confrontation:} At some point during the journey, Kaelen confronts the party, likely at dinner or during a cold shift on deck. She accuses them of cowardice or greed.",
+					"type": "entries",
+					"name": "Kaelen's Moment",
+					"entries": [
+						"If Kaelen is present, she freezes mid-fight.",
+						{
+							"type": "inset",
+							"entries": [
+								"{@b Read-Aloud Text:}",
+								"Her sword lowers. Her lips part but no sound comes out.",
+								"\"...Brother?\"",
+								"The creature twitches, then lunges\u2014not out of hate, but reflex. Its eyes flicker with a moment of pain before the frost claims it again."
+							]
+						},
+						"{@b Player Choice Moment:}",
 						{
 							"type": "list",
 							"items": [
-								"{@b Options:} The party can respond with {@b Charisma (Intimidation)} or {@b Charisma (Persuasion)} (both {@b DC 15}) to shut her down or ease tensions. A failure results in Kaelen sulking and refusing to share information. A success sees Kaelen grudgingly respect the adventurers and share a final, key piece of local knowledge: \"The {@b Dragon-Kin Soldiers} carry horns. If they blow them, the ice will {@i shift}.\""
+								"A {@b Persuasion DC 17} or {@b Religion DC 15} can help Kaelen strike the final blow with peace.",
+								"Failure causes her to hesitate, leaving her open to attack (auto-hit for 2d6 cold)."
+							]
+						},
+						"When the undead falls, the ice around it melts slightly, revealing a {@b rusted locket} engraved with the Serpent symbol\u2014foreshadowing the Koi Vaelithra's power."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Aftermath",
+					"entries": [
+						"The {@i Glowing Gate} drifts in silence. The fog seems heavier after the fight, pressing close like a held breath.",
+						"Thania orders the remains burned with black powder, her voice flat.",
+						"Kaelen says nothing, only stares at the melting ice where her brother fell.",
+						"If the players comfort her or help with the ritual, she will later defend them fiercely against Thania's doubts\u2014a trust that can change the tone of Chapter 3 entirely."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Reward",
+					"entries": [
+						{
+							"type": "list",
+							"items": [
+								"{@b 500 XP each} (for mercy, combat, or giving peace).",
+								"The {@b Locket of the Serpent Eye}:",
+								{
+									"type": "list",
+									"items": [
+										"Once per long rest, as a bonus action, the bearer may gain {@b Resistance to Cold Damage for 1 minute}.",
+										"When used, it glows faintly\u2014a pulse of the Vaelithra's warmth."
+									]
+								}
 							]
 						}
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Development",
+					"name": "Transition: The Ice Horizon",
 					"entries": [
-						"The 48 hours conclude as the {@i Glowing Gate} is forced to halt its progress. The water is no longer liquid, but a jagged, impossibly wide sheet of ancient, frozen sea.",
-						"The characters are now ready to disembark and face the final chapter."
+						{
+							"type": "inset",
+							"entries": [
+								"{@b Read-Aloud Text:}",
+								"Hours later, the mist parts just enough to reveal the impossible\u2014a stretch of solid ice spanning the ocean ahead. Beyond it, jagged peaks pierce the clouds. Lightning flickers through them in total silence.",
+								"\"Raijinsho,\" Thania murmurs, gripping the rail.",
+								"The ship slows, hull grinding against the first rim of frost."
+							]
+						},
+						"The crew begins preparations to disembark, their breath already turning to mist.",
+						"Renata appears on deck for the first time since departure, her silver eyes faintly glowing in the dim light.",
+						"Without a word, she gazes toward the island, as though staring into her own reflection."
 					]
 				}
 			]

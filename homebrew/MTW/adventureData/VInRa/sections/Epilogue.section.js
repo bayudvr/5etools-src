@@ -1,55 +1,94 @@
-export const EpilogueSection = {
-	"type": "section",
-	"name": "Epilogue",
-	"entries": [
-		"This section concludes the adventure and provides a bridge to the next part of the {@b Malvidra Twisted World} narrative.",
-		{
-			"type": "entries",
-			"name": "The Retreat",
-			"entries": [
-				"Whether {@b Harann Nemmonis} was slain, or simply dealt enough damage to retreat into her deeper lair, the outcome is the same: The magical field of perpetual winter over Raijinsho Island immediately begins to fail.",
-				"The party now has time to successfully harvest the agreed-upon $50\\%$ share of the {@b magic items and unique artifacts} from the dragon's main hoard, fulfilling their contract with {@b Captain Thania Schmidt}.",
-				"The party then signals the {@i Glowing Gate}, which quickly approaches the rapidly melting shore to collect the adventurers.",
-				{
-					"type": "inset",
-					"entries": [
-						"{@b Read-Aloud Text:}",
-						"The moment the dragon's power breaks, the entire island sighs. The magical, unnatural cold lifts, causing frozen waterfalls to cascade down the cliffs and thick layers of rime to fall from the rigging of the {@i Glowing Gate}. The sky is suddenly clear, and birds circle overhead, filling the air with sound and color long absent from Raijinsho. {@b Captain Thania Schmidt} keeps her word, nodding stiffly as her crew confirms the magical haul. They set sail immediately, singing shanties of victory and treasure."
-					]
-				}
-			]
-		},
-		{
-			"type": "entries",
-			"name": "The Guiding Fragment",
-			"entries": [
-				"As the adventurers prepare to leave the island, the {@b Human Vaelithra}\u2014who somehow managed to make the journey and return\u2014approaches the party one last time, away from the celebration of the pirates.",
-				{
-					"type": "inset",
-					"entries": [
-						"{@b Read-Aloud Text:}",
-						"You find the {@b Human Vaelithra}\u2014still disguised as the sea urchin newspaper girl\u2014standing quietly near the newly thawed beach. Her small hands clutch the leather notebook she always carries, and her eyes shimmer with pride and something deeper, older, now that the immediate danger is past. She offers a small, knowing smile."
-					]
-				},
-				"She then delivers her final, cryptic message:",
-				{
-					"type": "inset",
-					"entries": [
-						"{@b Human Vaelithra:} \"The shard is safe again. One out of ten\u2014\"",
-						"She freezes mid-sentence, her eyes widening ever so slightly. Then she forces a laugh, correcting herself quickly:",
-						"{@b Human Vaelithra:} \"Eleven. One out of eleven remain. Forgive me. Sometimes... I lose count.\""
-					]
-				},
-				"An odd stillness follows the correction, like the sea itself is listening. If the party asks her what she means, she will dodge the question with a childlike grin, but her mask falters\u2014just for a moment.",
-				"As she turns and walks toward the horizon, she adds quietly, almost to herself:",
-				{
-					"type": "inset",
-					"entries": [
-						"{@b Human Vaelithra:} \"When the last is found, I will finally... come back.\""
-					]
-				},
-				"The adventurers are left with gold, glory, and questions that echo louder than any dragon's roar. The sails of the {@i Glowing Gate} rise once more, catching a warm, welcoming wind. But the players now know their journey for coin has evolved into a vital quest for the survival of {@b Dewanegara}."
-			]
-		}
-	]
-}
+export const EpilogueSection = [
+	{
+		"type": "section",
+		"name": "EPILOGUE",
+		"entries": [
+			{
+				"type": "section",
+				"name": "The Thaw and The Treasure",
+				"entries": [
+					"The moment {@b Harann Nemmonis} is defeated, the ancient, corrupt magic she used to enforce the perpetual winter shatters.",
+					{
+						"type": "inset",
+						"entries": [
+							"{@b Read-Aloud Text:}",
+							"As the dragon's dark influence vanishes, the entire island seems to take a collective sigh. The air warms perceptibly, and the low, constant moan of the wind dies away. The {@i Glowing Gate} is freed from its icy cage. {@b Captain Thania} waves you over, the promise of coin gleaming in her eyes."
+						]
+					},
+					"{@b Resolution:}",
+					{
+						"type": "list",
+						"items": [
+							"{@b The Payout:} Captain Thania Schmidt keeps her word. The party receives the {@b 5,000 gp guaranteed payout}. Any {@b Magic Items} the party recovered (including the {@b Silver Scale} of the Koi Vaelithra) are their personal spoils."
+						]
+					}
+				]
+			},
+			{
+				"type": "section",
+				"name": "The Guiding Fragment's Final Word (The Critical Interaction)",
+				"entries": [
+					"The scene is set for a brief, final conversation. {@b Renata} finds the party {@i before} they board the ship, away from the pirates.",
+					{
+						"type": "inset",
+						"entries": [
+							"{@b Read-Aloud Text:}",
+							"You are walking back to the shore when the urchin girl, {@b Renata}, steps out from behind a newly thawed stack of cargo. Her clothes are ragged, but her eyes\u2014those unnervingly silver eyes\u2014shine with a deep, powerful relief you've never seen on a child. She offers a small, knowing smile, clutching her worn leather notebook."
+						]
+					},
+					"{@b Renata:} \"You have the shard now, yes? Good. You must hold on to it. Not for the gold, but for the life it can bring back to this world. That makes it... {@b Two of Twe\u2014}\"",
+					"She cuts off instantly, a flicker of panic crossing her face before she forces a quick, sharp laugh that doesn't quite reach her eyes.",
+					"{@b Renata:} \"\u2014I mean, {@b Two of Eleven}. Forgive me. Sometimes I lose count.\"",
+					"An unsettling stillness follows the correction. The players have a chance to act here.",
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Player Interaction: Pressing the Guide",
+								"entries": [
+									"Any character who makes a {@b DC 16 Insight check} realizes the panic was genuine and that the number {@b Twelve} was the truth, but the second number, {@b Eleven}, was a conscious, protective lie.",
+									"If the players choose to confront her, they can use their social skills:",
+									{
+										"type": "table",
+										"colLabels": [
+											"Action",
+											"Skill Check (DC 16)",
+											"Outcome"
+										],
+										"colStyles": [
+											"text-align-left col-2",
+											"text-align-left col-2 text-center",
+											"text-align-left col-8"
+										],
+										"rows": [
+											[
+												"**Gentle Inquiry**",
+												"**Charisma (Persuasion)**",
+												"**Success:** She briefly lowers her guard. \"They made me forget, but they can't make me unknow. There are **twelve** pieces. And I am **one** of them. Tell no one.\" She then delivers the hint (see below) and disappears."
+											],
+											[
+												"**Forceful Demand**",
+												"**Charisma (Intimidation)**",
+												"**Success:** She flinches but stands her ground. \"I am only a messenger, and I am telling you only what you *need* to know.\" She then delivers the hint (see below) and is immediately gone, fleeing in distress."
+											],
+											[
+												"**Failure (Any Check)**",
+												"\u2014",
+												"She maintains her mask. \"It's just a game I play! I told you, I lose count.\" She quickly delivers the hint and fades into the breeze before they can press her again."
+											]
+										]
+									},
+									"Regardless of the outcome, she concludes with the hook for the next adventure:",
+									"{@b Renata:} \"The next fragment is not ice and cold. Look for the {@b Mask of the Harlequin}. It is worn by a Warlock's phantom, hidden inside the {@b Violet Carnival's Demiplane}\u2014a place of false mirrors and fleeting joy.\"",
+									"She gives a final, silent nod and fades into the crisp ocean breeze, leaving the party with more gold, a piece of a shattered god, and the shocking realization that their innocent guide is, herself, one of the divine fragments. The sails of the {@i Glowing Gate} rise, and the journey continues."
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+]
+
