@@ -37,16 +37,16 @@ export const Chapter2Section = {
 						],
 						"rows": [
 							[
-								"**1. Biting Cold**",
+								"{@b 1. Biting Cold }",
 								"0\u201312 h",
 								"A relentless wind from the north.",
-								"Creatures without **cold weather gear** suffer **Disadvantage** on **Dexterity (Acrobatics)** and **Wisdom (Perception)** checks."
+								"Creatures without **cold weather gear** suffer {@b Disadvantage } on {@b {@ability Dexterity} ({@skill Acrobatics}) } and {@b {@ability Wisdom} ({@skill Perception}) } checks."
 							],
 							[
-								"**2. Severe Cold**",
+								"{@b 2. Severe Cold }",
 								"12\u201324 h",
 								"Dense, chilling mist. Breath fogs instantly.",
-								"Each hour, a creature not protected must make a **DC 10 Constitution saving throw** or gain one level of **Exhaustion**."
+								"Each hour, a creature not protected must make a {@b {@dc 10} {@abilty Constitution} saving throw } or gain one level of **Exhaustion**."
 							],
 							[
 								"**3. Extreme Cold**",
