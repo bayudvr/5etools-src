@@ -1,13 +1,11 @@
 export const Chapter1Section = {
 	"type": "section",
 	"name": "Chapter 1 - Hook At Thundrum Port",
-	"entries": [
-		{
+	"entries": [{
 			"type": "section",
 			"name": "The Docks of Fate",
-			"entries": [
-				{
-					"type": "inset",
+			"entries": [{
+					"type": "insetReadaloud",
 					"entries": [
 						"{@b Read-Aloud Text:}",
 						"The docks of {@b Thundrum Port} are alive with chaos and commerce. Dockhands shout, gulls scream, and the air smells of brine, sweat, and spilled ale. A ship's bell rings in the distance as sailors haul crates of spice and contraband beneath the morning sun.",
@@ -23,7 +21,7 @@ export const Chapter1Section = {
 			"entries": [
 				"As the players navigate the port\u2014whether restocking, seeking work, or boasting of past victories\u2014one voice cuts through the din.",
 				{
-					"type": "inset",
+					"type": "insetReadaloud",
 					"entries": [
 						"{@b Read-Aloud Text:}",
 						"\"News from the northern seas!\"",
@@ -39,7 +37,7 @@ export const Chapter1Section = {
 			"entries": [
 				"Renata wastes no time. Her tone is polite but focused, as though reciting something that has already happened.",
 				{
-					"type": "inset",
+					"type": "insetReadaloud",
 					"entries": [
 						"{@b Read-Aloud Text:}",
 						"\"Captain Thania Schmidt of the {@i Glowing Gate} seeks a capable crew for a northern expedition\u2014{@i Raijinsho Island.}",
@@ -50,8 +48,7 @@ export const Chapter1Section = {
 				{
 					"type": "entries",
 					"name": "DM Information",
-					"entries": [
-						{
+					"entries": [{
 							"type": "list",
 							"items": [
 								"{@b Identity:} Renata is the {@b Human Vaelithra}, a living shard of Vaeil, manifesting in mortal guise.",
@@ -60,7 +57,7 @@ export const Chapter1Section = {
 								"{@b Atmosphere Cue:} The nearby gulls quiet as she speaks. The air feels still, as if the sea is holding its breath."
 							]
 						},
-						"A successful {@b Insight (DC 18)} reveals something timeless behind her calm demeanor\u2014an echo of memory far older than her years. Reward recognition with {@b Inspiration}."
+						"A successful {@b {@skill Insight} ({@dc 18})} reveals something timeless behind her calm demeanor\u2014an echo of memory far older than her years. Reward recognition with {@b Inspiration}."
 					]
 				}
 			]
@@ -71,7 +68,7 @@ export const Chapter1Section = {
 			"entries": [
 				"Renata points toward a ship moored a few piers away\u2014a battered caravel with patched sails and a painted name barely legible: {@i The Glowing Gate.}",
 				{
-					"type": "inset",
+					"type": "insetReadaloud",
 					"entries": [
 						"{@b Read-Aloud Text:}",
 						"\"She's waiting. If you're interested, tell her Renata sent you.\"",
@@ -81,7 +78,7 @@ export const Chapter1Section = {
 				"Players may use this moment to roleplay freely\u2014decide whether to trust the offer, question locals, or make lore checks to recall Raijinsho's history or the Sacred Eye pirates (use your original DC table here).",
 				"If they ask around, common folk dismiss the rumor:",
 				{
-					"type": "inset",
+					"type": "insetReadaloud",
 					"entries": [
 						"\"Raijinsho? Nobody sails there now. Ice took it years ago.\"",
 						"\"Captain Schmidt? She's mad\u2014but she pays well if you live long enough to collect.\""
@@ -92,9 +89,8 @@ export const Chapter1Section = {
 		{
 			"type": "section",
 			"name": "The Pirate's Terms",
-			"entries": [
-				{
-					"type": "inset",
+			"entries": [{
+					"type": "insetReadaloud",
 					"entries": [
 						"{@b Read-Aloud Text:}",
 						"The {@i Glowing Gate} lists lazily against the pier, her hull patched and her figurehead weathered beyond recognition. A short, powerfully built woman waits at the gangplank\u2014sun-browned, scarred, and unimpressed.",
@@ -111,29 +107,25 @@ export const Chapter1Section = {
 						{
 							"type": "entries",
 							"name": "Dialogue Highlights",
-							"entries": [
-								{
-									"type": "list",
-									"items": [
-										"\"It's simple. You help me clear the island of that overgrown lizard and her frost-ridden dead, we split the spoils.\"",
-										"\"You take half the {@i magic stuff}\u2014scrolls, crystals, whatever nonsense you fancy. I take coin, gems, and trade goods.\"",
-										"\"You want gold? Prove you'll live to spend it.\""
-									]
-								}
-							]
+							"entries": [{
+								"type": "list",
+								"items": [
+									"\"It's simple. You help me clear the island of that overgrown lizard and her frost-ridden dead, we split the spoils.\"",
+									"\"You take half the {@i magic stuff}\u2014scrolls, crystals, whatever nonsense you fancy. I take coin, gems, and trade goods.\"",
+									"\"You want gold? Prove you'll live to spend it.\""
+								]
+							}]
 						},
 						{
 							"type": "entries",
 							"name": "Negotiation",
-							"entries": [
-								{
-									"type": "list",
-									"items": [
-										"{@b Persuasion DC 17:} Thania grudgingly adds a {@b 5,000 gp guaranteed payout} upon return.",
-										"{@b Failure:} She grows cold and dismissive, but Renata's later intervention (see below) ensures the voyage still proceeds."
-									]
-								}
-							]
+							"entries": [{
+								"type": "list",
+								"items": [
+									"{@b {@skill Persuasion} {@dc 17}:} Thania grudgingly adds a {@b 5,000 gp guaranteed payout} upon return.",
+									"{@b Failure:} She grows cold and dismissive, but Renata's later intervention (see below) ensures the voyage still proceeds."
+								]
+							}]
 						}
 					]
 				}
@@ -145,7 +137,7 @@ export const Chapter1Section = {
 			"entries": [
 				"If negotiations collapse or the party refuses:",
 				{
-					"type": "inset",
+					"type": "insetReadaloud",
 					"entries": [
 						"{@b Read-Aloud Text:}",
 						"The world freezes\u2014not metaphorically, but truly. The breeze stops mid-whisper, gulls hang suspended in the air, and even the surf halts in mid-splash.",
@@ -163,7 +155,7 @@ export const Chapter1Section = {
 			"entries": [
 				"Once the deal is struck:",
 				{
-					"type": "inset",
+					"type": "insetReadaloud",
 					"entries": [
 						"{@b Read-Aloud Text:}",
 						"\"Good,\" Thania says curtly. \"We sail before the tide turns. Pack what you need, say your prayers, and don't be late. Raijinsho won't wait for anyone.\""
@@ -176,48 +168,46 @@ export const Chapter1Section = {
 		{
 			"type": "section",
 			"name": "NPC Quick Reference",
-			"entries": [
-				{
-					"type": "table",
-					"colLabels": [
-						"NPC",
-						"Trait",
-						"Ideal",
-						"Bond",
-						"Flaw"
+			"entries": [{
+				"type": "table",
+				"colLabels": [
+					"NPC",
+					"Trait",
+					"Ideal",
+					"Bond",
+					"Flaw"
+				],
+				"colStyles": [
+					"text-align-left col-2",
+					"text-align-left col-2 text-center",
+					"text-align-left col-3",
+					"text-align-left col-2",
+					"text-align-left col-3"
+				],
+				"rows": [
+					[
+						"Renata (Vaelithra)",
+						"Calm, enigmatic",
+						"Preservation of time's balance",
+						"Bound to the Koi Fragment",
+						"Cannot directly alter fate"
 					],
-					"colStyles": [
-						"text-align-left col-2",
-						"text-align-left col-2 text-center",
-						"text-align-left col-3",
-						"text-align-left col-2",
-						"text-align-left col-3"
+					[
+						"Captain Thania Schmidt",
+						"Stern, practical",
+						"Profit and survival",
+						"Protects her crew's legacy",
+						"Distrusts magic and sentiment"
 					],
-					"rows": [
-						[
-							"**Renata (Vaelithra)**",
-							"Calm, enigmatic",
-							"Preservation of time's balance",
-							"Bound to the Koi Fragment",
-							"Cannot directly alter fate"
-						],
-						[
-							"**Captain Thania Schmidt**",
-							"Stern, practical",
-							"Profit and survival",
-							"Protects her crew's legacy",
-							"Distrusts magic and sentiment"
-						],
-						[
-							"**Kaelen, First Mate**",
-							"Bitter, pragmatic",
-							"Avenge brother lost on Raijinsho",
-							"Loyal to Thania",
-							"Quick-tempered toward outsiders"
-						]
+					[
+						"Kaelen, First Mate",
+						"Bitter, pragmatic",
+						"Avenge brother lost on Raijinsho",
+						"Loyal to Thania",
+						"Quick-tempered toward outsiders"
 					]
-				}
-			]
+				]
+			}]
 		}
 	]
 }

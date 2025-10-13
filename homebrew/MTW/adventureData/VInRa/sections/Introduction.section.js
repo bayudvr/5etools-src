@@ -1,8 +1,7 @@
 export const IntroductionSection = {
 	"type": "section",
-	"name": "INTRODUCTION",
-	"entries": [
-		{
+	"name": "Introduction",
+	"entries": [{
 			"type": "section",
 			"name": "Running the Adventure",
 			"entries": [
@@ -31,9 +30,9 @@ export const IntroductionSection = {
 			"type": "section",
 			"name": "Adventure Summary",
 			"entries": [
-				"The adventurers are drawn into the service of {@b Captain Thania Schmidt}, a hardened pirate chasing an old legend of the {@b Sacred Eye}\u2014a brotherhood of thieves who once ruled the seas around Thundrum City. Her goal is simple: raid the long-lost treasure vault beneath {@b Raijinsho Island}, now home to the feared {@b White Dragon Harann Nemmonis}.",
+				"The adventurers are drawn into the service of {@b Captain {@creature Thania Schmidt|MTW-VS}}, a hardened pirate chasing an old legend of the {@b Sacred Eye}\u2014a brotherhood of thieves who once ruled the seas around Thundrum City. Her goal is simple: raid the long-lost treasure vault beneath {@b Raijinsho Island}, now home to the feared {@b White Dragon {@creature Harann Nemmonis|MTW-VS}}.",
 				"Yet fate weaves deeper threads.",
-				"A mysterious {@b Sea Urchin Newspaper Girl}, {@i Renata}, guides them not for gold, but for destiny. She is no mortal messenger, but a {@b Vaelithra Fragment}, a shard of the God of Time, here to preserve the sacred balance by freeing Raijinsho from Harann's grasp before divine corruption consumes it forever.",
+				"A mysterious {@b Sea Urchin Newspaper Girl}, {@i {@creature Renata|MTW-VS}}, guides them not for gold, but for destiny. She is no mortal messenger, but a {@b {@creature Vaelithra, Fragment of Vaeil|MTW|Vaelithra} Fragment}, a shard of the God of Time, here to preserve the sacred balance by freeing Raijinsho from Harann's grasp before divine corruption consumes it forever.",
 				"The heroes must brave a voyage through lethal cold, mistrustful pirates, and a labyrinth of ice\u2014to find not only treasure, but the {@b Koi Vaelithra}, a sacred fragment of time itself."
 			]
 		},
@@ -51,40 +50,38 @@ export const IntroductionSection = {
 		{
 			"type": "section",
 			"name": "Scaling the Adventure",
-			"entries": [
-				{
-					"type": "table",
-					"colLabels": [
-						"Party Level",
-						"Adjustment Notes"
+			"entries": [{
+				"type": "table",
+				"colLabels": [
+					"Party Level",
+					"Adjustment Notes"
+				],
+				"colStyles": [
+					"text-align-left col-2",
+					"text-align-left col-10"
+				],
+				"rows": [
+					[
+						"{@b Level 7}",
+						"Reduce the number of Frost-Cursed minions by one per encounter. Consider making Harann's HP threshold for retreat 25% higher."
 					],
-					"colStyles": [
-						"text-align-left col-2",
-						"text-align-left col-10"
+					[
+						"{@b Level 8}",
+						"Default difficulty. Encounters as written."
 					],
-					"rows": [
-						[
-							"**Level 7**",
-							"Reduce the number of Frost-Cursed minions by one per encounter. Consider making Harann's HP threshold for retreat 25% higher."
-						],
-						[
-							"**Level 8**",
-							"Default difficulty. Encounters as written."
-						],
-						[
-							"**Level 9**",
-							"Add one additional Frost-Cursed elite or minor environmental hazard in each chapter. The voyage may feature an extra divine omen from Renata."
-						]
+					[
+						"{@b Level 9}",
+						"Add one additional Frost-Cursed elite or minor environmental hazard in each chapter. The voyage may feature an extra divine omen from Renata."
 					]
-				}
-			]
+				]
+			}]
 		},
 		{
 			"type": "section",
 			"name": "Required Materials",
 			"entries": [
 				"To run this adventure, you'll need the {@b Player's Handbook (PHB)}, {@b Dungeon Master's Guide (DMG)}, and {@b Monster Manual (MM)}.",
-				"Custom monsters\u2014{@b Frost-Cursed Mariners}, {@b Frost-Cursed Soldiers}, and {@b Dragon-Kin Variants}\u2014should be prepared beforehand or substituted with similar CR foes from the MM.",
+				"Custom monsters\u2014{@b {@creature Frost-Cursed Mariner|MTW-VS|Frost-Cursed Soldiers}}, and {@b Dragon-Kin Variants}\u2014should be prepared beforehand or substituted with similar CR foes from the MM.",
 				{
 					"type": "table",
 					"colLabels": [
@@ -94,22 +91,22 @@ export const IntroductionSection = {
 					],
 					"colStyles": [
 						"text-align-left col-3",
-						"text-align-left col-5",
-						"text-align-left col-3"
+						"text-align-left col-6",
+						"text-align-left col-4"
 					],
 					"rows": [
 						[
-							"**Player's Handbook (PHB)**",
+							"Player's Handbook (PHB)",
 							"Core rules, spells, ability checks",
 							"Standard player actions"
 						],
 						[
-							"**Dungeon Master's Guide (DMG)**",
+							"Dungeon Master's Guide (DMG)",
 							"Extreme Cold (p.110), creating monsters, treasure tables",
 							"Managing the cold and loot balance"
 						],
 						[
-							"**Monster Manual (MM)**",
+							"Monster Manual (MM)",
 							"White Dragon (CR 13) base, undead & humanoid templates",
 							"Reference for Harann and her minions"
 						]
@@ -127,9 +124,8 @@ export const IntroductionSection = {
 		},
 		{
 			"type": "section",
-			"name": "ADVENTURE BACKGROUND",
-			"entries": [
-				{
+			"name": "Adventure Background",
+			"entries": [{
 					"type": "entries",
 					"name": "The Sundering War and Vaeil's Fractured Legacy",
 					"entries": [
@@ -184,7 +180,7 @@ export const IntroductionSection = {
 		},
 		{
 			"type": "section",
-			"name": "ADVENTURE OUTLINE",
+			"name": "Adventure Outline",
 			"entries": [
 				"The adventure begins not with destiny declared, but with {@b a rumor sold for gold}\u2014and a divine thread hiding beneath it.",
 				"{@b Captain Thania Schmidt}, a ruthless yet pragmatic pirate, seeks to reclaim the legendary treasure of the {@b Sacred Eye}, a mythic crew once said to have buried their greatest wealth beneath {@b Raijinsho Island}. Her ambitions are far from noble\u2014she only desires the gold, gems, and spoils the dragon guards.",
@@ -213,8 +209,7 @@ export const IntroductionSection = {
 				{
 					"type": "entries",
 					"name": "Adventure Progression Overview",
-					"entries": [
-						{
+					"entries": [{
 							"type": "table",
 							"colLabels": [
 								"Chapter",
@@ -228,18 +223,18 @@ export const IntroductionSection = {
 							],
 							"rows": [
 								[
-									"**Chapter 1**",
-									"*The Hook at Thundrum Port*",
+									"Chapter 1",
+									"{@i The Hook at Thundrum Port}",
 									"Social interaction, roleplay, and negotiation. Introduction to Thania, Renata, and the pirate contract."
 								],
 								[
-									"**Chapter 2**",
-									"*The Journey and the Cold*",
+									"Chapter 2",
+									"{@i The Journey and the Cold}",
 									"Environmental survival and interpersonal tension aboard the *Glowing Gate*. Tests the party's endurance, leadership, and trust."
 								],
 								[
-									"**Chapter 3**",
-									"*Into the Labyrinth of Ice*",
+									"Chapter 3",
+									"{@i Into the Labyrinth of Ice}",
 									"Exploration and tactical combat. Crossing the frozen sea, navigating the labyrinth, and confronting Harann Nemmonis to reclaim Raijinsho."
 								]
 							]
@@ -250,52 +245,48 @@ export const IntroductionSection = {
 				{
 					"type": "entries",
 					"name": "Primary Objectives",
-					"entries": [
-						{
-							"type": "list",
-							"items": [
-								"{@b Defeat or drive away Harann Nemmonis}, ending her dominion over Raijinsho Island.",
-								"{@b Locate and secure the Koi Vaelithra}, ensuring its divine protection.",
-								"{@b Survive the extreme cold} and maintain crew morale through the voyage.",
-								"{@b Fulfill (or betray)} the pirate contract, shaping the group's reputation across Thundrum and the seas beyond."
-							]
-						}
-					]
+					"entries": [{
+						"type": "list",
+						"items": [
+							"{@b Defeat or drive away Harann Nemmonis}, ending her dominion over Raijinsho Island.",
+							"{@b Locate and secure the Koi Vaelithra}, ensuring its divine protection.",
+							"{@b Survive the extreme cold} and maintain crew morale through the voyage.",
+							"{@b Fulfill (or betray)} the pirate contract, shaping the group's reputation across Thundrum and the seas beyond."
+						]
+					}]
 				},
 				{
 					"type": "entries",
 					"name": "Secondary Objectives and Roleplay Hooks",
-					"entries": [
-						{
-							"type": "table",
-							"colLabels": [
-								"Objective",
-								"Description"
+					"entries": [{
+						"type": "table",
+						"colLabels": [
+							"Objective",
+							"Description"
+						],
+						"colStyles": [
+							"text-align-left col-2",
+							"text-align-left col-10"
+						],
+						"rows": [
+							[
+								"Rebuild Trust",
+								"The pirates distrust outsiders. Winning their respect can secure supplies, safety, or hidden lore."
 							],
-							"colStyles": [
-								"text-align-left col-2",
-								"text-align-left col-10"
+							[
+								"Sacred Eye Lore",
+								"Fragments of journals, carvings, and frozen bodies reveal hints of the Sacred Eye's final stand\u2014and the fate of Kaelen's brother."
 							],
-							"rows": [
-								[
-									"**Rebuild Trust**",
-									"The pirates distrust outsiders. Winning their respect can secure supplies, safety, or hidden lore."
-								],
-								[
-									"**Sacred Eye Lore**",
-									"Fragments of journals, carvings, and frozen bodies reveal hints of the Sacred Eye's final stand\u2014and the fate of Kaelen's brother."
-								],
-								[
-									"**Divine Insight**",
-									"Renata may appear briefly in dreams, giving cryptic visions about \"the silver scale beneath the endless white.\""
-								],
-								[
-									"**Greed vs. Duty**",
-									"Thania's deal favors profit; the Vaelithra's path favors salvation. The players must decide which voice they follow."
-								]
+							[
+								"Divine Insight",
+								"Renata may appear briefly in dreams, giving cryptic visions about \"the silver scale beneath the endless white.\""
+							],
+							[
+								"Greed vs. Duty",
+								"Thania's deal favors profit; the Vaelithra's path favors salvation. The players must decide which voice they follow."
 							]
-						}
-					]
+						]
+					}]
 				},
 				{
 					"type": "entries",
@@ -304,7 +295,7 @@ export const IntroductionSection = {
 						"The adventure begins on the {@b docks of Thundrum Port}, where the adventurers are resting, resupplying, or searching for new work. It's {@b Sylvryn Day}, and the harbor thrums with life\u2014hawkers shouting, sailors brawling, the clang of chains and the hiss of steamships venting on the tide.",
 						"There's no panic, no omen\u2014just another day in a city that survives on salt and sin. Yet, for a reason none of them can name, the wind feels... expectant. The chill that brushes across their skin lingers longer than it should, as though the sea itself is holding its breath.",
 						{
-							"type": "inset",
+							"type": "insetReadaloud",
 							"entries": [
 								"{@b Read-Aloud Text:}",
 								"The docks of {@b Thundrum Port} are loud and bright beneath the late morning sun. Fishmongers haggle, gulls scream overhead, and the sharp tang of brine and ale fills the air. Amidst the crowd, a calm voice cuts through the noise\u2014",
@@ -319,17 +310,15 @@ export const IntroductionSection = {
 				{
 					"type": "entries",
 					"name": "Structure of Play",
-					"entries": [
-						{
-							"type": "list",
-							"items": [
-								"{@b Act I\u2013The Hook (Roleplay):} Renata delivers the message and draws the adventurers into Thania's contract.",
-								"{@b Act II\u2013The Voyage (Tension & Survival):} The party endures the cold, growing distrust, and the first touch of the dragon's influence.",
-								"{@b Act III\u2013The Ice (Exploration & Combat):} The final confrontation and the discovery of the Koi Vaelithra.",
-								"{@b Act IV\u2013The Thaw (Resolution):} The dragon's defeat lifts the curse, setting the stage for the next fragment."
-							]
-						}
-					]
+					"entries": [{
+						"type": "list",
+						"items": [
+							"{@b Act I\u2013The Hook (Roleplay):} Renata delivers the message and draws the adventurers into Thania's contract.",
+							"{@b Act II\u2013The Voyage (Tension & Survival):} The party endures the cold, growing distrust, and the first touch of the dragon's influence.",
+							"{@b Act III\u2013The Ice (Exploration & Combat):} The final confrontation and the discovery of the Koi Vaelithra.",
+							"{@b Act IV\u2013The Thaw (Resolution):} The dragon's defeat lifts the curse, setting the stage for the next fragment."
+						]
+					}]
 				}
 			]
 		}

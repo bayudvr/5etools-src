@@ -1,7 +1,6 @@
-export const EpilogueSection = [
-	{
+export const EpilogueSection = {
 		"type": "section",
-		"name": "EPILOGUE",
+		"name": "Epilogue",
 		"entries": [
 			{
 				"type": "section",
@@ -90,5 +89,3 @@ export const EpilogueSection = [
 			}
 		]
 	}
-]
-
