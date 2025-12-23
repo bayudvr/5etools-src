@@ -40,7 +40,7 @@
     "status": "ready",
     "edition": "one",
     "dateAdded": 1757462400000,
-    "dateLastModified": 1760674604789
+    "dateLastModified": 1766512027649
   },
   "adventure": [
     {
@@ -201,6 +201,62 @@
         },
         {
           "name": "Credits"
+        }
+      ]
+    },
+    {
+      "name": "Vaelithra: Violet Carnival",
+      "id": "VVC",
+      "abbreviation": "VVC",
+      "source": "MTW-VS",
+      "group": "supplement",
+      "cover": {
+        "type": "external",
+        "url": "https://i.imgur.com/TtjK4rP.png"
+      },
+      "published": "2025-12-24",
+      "author": "Malvidra Twisted World",
+      "storyline": "One Shot Adventure",
+      "level": {
+        "start": 5,
+        "end": 5
+      },
+      "contents": [
+        {
+          "name": "VAELITHRA: VIOLET CARNIVAL",
+          "headers": []
+        },
+        {
+          "name": "Chapter 1: Arrival at Violet Carnival & The Violet",
+          "headers": []
+        },
+        {
+          "name": "Chapter 2: Kedatangan di Karnaval & Komidi Putar",
+          "headers": []
+        },
+        {
+          "name": "Chapter 3: Balapan Siput Raksasa Old Man Thoraq",
+          "headers": []
+        },
+        {
+          "name": "Chapter 4: Terowongan Gema Kenangan",
+          "headers": []
+        },
+        {
+          "name": "Chapter 5: Tenda Peramal Varquin",
+          "headers": []
+        },
+        {
+          "name": "CHAPTER 6: Gerbang Akhir Sang Dalang",
+          "headers": []
+        },
+        {
+          "name": "CHAPTER 7: Pertunjukan Terakhir Violet Carnival",
+          "headers": []
+        },
+        {
+          "name": "CHAPTER 8: Epilog—Benang yang Terus Bergerak",
+          "headers": []
         }
       ]
     }
@@ -3281,6 +3337,2770 @@
               "items": [
                 "Malvidra Collection; Malvidra Twisted World written by M Bayu Devara.",
                 "This document was created by using the Homebrewery JSON schema and the Homebrewery JSON Editor."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "VVC",
+      "abbreviation": "VVC",
+      "source": "MTW-VS",
+      "data": [
+        {
+          "type": "section",
+          "name": "VAELITHRA: VIOLET CARNIVAL",
+          "entries": [
+            {
+              "type": "entries",
+              "name": "Prologue: The Invitation to Smile",
+              "entries": [
+                "{@b Petualangan untuk 4–7 karakter level 5}",
+                "Tema: Misteri • Investigasi • Psikologis • Horor Karnaval",
+                "Setting: Demiplane—Violet Carnival"
+              ]
+            },
+            {
+              "type": "section",
+              "name": "Adventure Synopsis (untuk DM)",
+              "entries": [
+                "Para petualang menerima {@b undangan misterius} ke sebuah karnaval yang {@i tidak tercatat dalam sejarah mana pun}. Undangan tersebut menarik mereka ke dalam {@b demiplane Violet Carnival}, sebuah tempat yang tampak ceria di permukaan—namun menyembunyikan keputusasaan, jiwa yang hilang, dan sebuah kesepakatan iblis yang membusuk.",
+                "Di balik tawa dan lampu warna-warni, seseorang memohon pertolongan."
+              ]
+            },
+            {
+              "type": "section",
+              "name": "Overview",
+              "entries": [
+                "{@b Tujuan Chapter}",
+                {
+                  "type": "list",
+                  "items": [
+                    "Menarik karakter ke dalam Violet Carnival tanpa paksaan terasa",
+                    "Menanam {@b misteri utama}: seorang wanita yang terperangkap",
+                    "Memperkenalkan atmosfer horor lembut",
+                    "Memberi {@b foreshadowing antagonis} tanpa menyebut namanya"
+                  ]
+                },
+                "{@b Fokus Gameplay}",
+                {
+                  "type": "list",
+                  "items": [
+                    "Narasi & roleplay",
+                    "Saving throw psikologis",
+                    "Visi simbolik",
+                    "Tidak ada combat"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "name": "Starting This Adventure",
+              "entries": [
+                {
+                  "type": "inset",
+                  "entries": [
+                    "{@b DM Read Aloud:}",
+                    "{@i Entah di mana kalian berada—di penginapan hangat, di jalan berdebu, atau di sela rutinitas hidup yang melelahkan—waktu tiba-tiba... melambat.}",
+                    "{@i Suara di sekitar kalian meredup. Warna memudar. Seolah dunia menahan napas.}",
+                    "{@i Dan di hadapan kalian... sebuah amplop berwarna ungu pekat muncul begitu saja.}",
+                    "{@i Bukan dilempar. Bukan diberikan.}",
+                    "{@i Ia sudah ada di sana.}",
+                    "{@i Lilin segelnya berkilau perak, terukir simbol topeng tanpa ekspresi. Aromanya manis... terlalu manis.}",
+                    "{@i Anehnya—tak satu pun orang di sekitar kalian menyadari keberadaannya.}",
+                    "{@i Hanya kalian.}"
+                  ]
+                },
+                "Biarkan pemain bereaksi. Jangan terburu-buru."
+              ]
+            },
+            {
+              "type": "section",
+              "name": "Running This Chapter",
+              "entries": [
+                {
+                  "type": "list",
+                  "items": [
+                    "Biarkan setiap pemain {@b menentukan sendiri} bagaimana undangan itu muncul bagi karakter mereka",
+                    "Jangan paksa emosi, tapi {@b tekan keanehan}",
+                    "Jika pemain ragu membuka surat, {@b amplop akan membuka sendiri setelah 1 menit}"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "name": "Scene 1: The Violet Invitation",
+              "entries": [
+                {
+                  "type": "entries",
+                  "name": "Opening the Letter",
+                  "entries": [
+                    "Saat amplop dibuka, tinta di dalamnya {@b bergerak hidup}, membentuk kata-kata yang seakan ditulis ulang setiap kali dibaca.",
+                    {
+                      "type": "inset",
+                      "entries": [
+                        "{@b DM Read Aloud:}",
+                        "\"Dengan penuh hormat, Violet Carnival mengundangmu",
+                        "ke Malam Senyum Abadi.\"",
+                        "{@i Huruf terakhir bersinar ungu terang... dan denyut cahaya itu merambat ke mata kalian.}"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "Wisdom Saving Throw",
+                  "entries": [
+                    "Setiap karakter melakukan {@b Wisdom Saving Throw DC 15}.",
+                    {
+                      "type": "entries",
+                      "name": "On a Failure",
+                      "entries": [
+                        "Karakter {@b kehilangan kesadaran penuh}, tubuh mereka terasa jatuh ke dalam kehangatan yang menyesatkan."
+                      ]
+                    },
+                    {
+                      "type": "entries",
+                      "name": "On a Success",
+                      "entries": [
+                        "Karakter tetap setengah sadar, tubuh limbung, pikiran terdistorsi—namun mereka {@b mengingat lebih banyak detail visi} nanti.",
+                        {
+                          "type": "inset",
+                          "entries": [
+                            "⚠️ Catatan DM:",
+                            "Semua karakter {@b tetap masuk ke dalam visi}, hasil save hanya memengaruhi {@i clarity of memory}, bukan akses konten."
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "name": "Scene 2: Vision of the Caged Woman",
+              "entries": [
+                "Ini adalah {@b core mystery hook}.",
+                {
+                  "type": "inset",
+                  "entries": [
+                    "{@b DM Read Aloud:}",
+                    "{@i Kalian melihat seorang wanita berambut coklat gelap.}",
+                    "{@i Bajunya compang-camping, kulitnya pucat, dan tubuhnya terikat oleh benang-benang ungu yang bergerak seperti akar hidup.}",
+                    "{@i Ia terkurung di dalam sangkar kristal ungu—retakannya membentuk motif topeng tanpa wajah.}",
+                    "{@i Matanya bertemu dengan kalian.}",
+                    "{@i Takut...}",
+                    "{@i Namun penuh harap.}"
+                  ]
+                },
+                "Ia berbisik, nyaris tak terdengar:",
+                {
+                  "type": "inset",
+                  "entries": [
+                    "{@i \"Juval... tolong...\"}",
+                    "{@i \"Siapa pun kalian...\"}",
+                    "{@i \"Temukan aku...\"}"
+                  ]
+                },
+                "Dari balik bayangan, {@b dua tangan besar} muncul—gemuk, berkulit merah marun, kuku hitam berkilat—perlahan meraih sang wanita.",
+                {
+                  "type": "inset",
+                  "entries": [
+                    "{@i \"Senyumlah...\"}",
+                    "{@i (bisikan asing menggema)}"
+                  ]
+                },
+                "Visi {@b pecah seperti kaca}."
+              ]
+            },
+            {
+              "type": "section",
+              "name": "Scene 3: The Living Letter",
+              "entries": [
+                "Saat para karakter tersadar—",
+                {
+                  "type": "inset",
+                  "entries": [
+                    "{@b DM Read Aloud:}",
+                    "{@i Surat ungu itu melipat dirinya sendiri.}",
+                    "{@i Kertas berubah menjadi bingkai tipis, cahaya violet berputar di dalamnya.}",
+                    "{@i Sebuah gerbang terbuka.}",
+                    "{@i Dan dari baliknya... terdengar musik karnaval.}"
+                  ]
+                },
+                "Di balik portal tampak {@b Violet Carnival di masa jayanya}:",
+                {
+                  "type": "list",
+                  "items": [
+                    "Lampu berkilauan",
+                    "Tenda warna-warni",
+                    "Tawa anak-anak",
+                    "Namun... ada {@b isakan kecil} yang tenggelam di balik musik"
+                  ]
+                },
+                "Portal {@b menarik mereka perlahan}, tanpa rasa sakit."
+              ]
+            },
+            {
+              "type": "section",
+              "name": "Scene 4: Arrival at Violet Carnival",
+              "entries": [
+                {
+                  "type": "inset",
+                  "entries": [
+                    "{@b DM Read Aloud:}",
+                    "{@i Kalian berdiri di depan gerbang besi besar bertuliskan:}",
+                    "{@b VIOLET CARNIVAL}",
+                    "{@i Langit berwarna ungu senja.}",
+                    "{@i Lampion bergoyang pelan.}",
+                    "{@i Udara harum gula dan logam.}",
+                    "{@i Karnaval ini... hidup.}",
+                    "{@i Tapi kalian bisa merasakan—}",
+                    "{@i sesuatu sedang menunggu.}"
+                  ]
+                },
+                "Di kejauhan, sesosok {@b badut wanita} memperhatikan mereka.",
+                "{@i (Transisi ke Chapter 2 nanti)}"
+              ]
+            },
+            {
+              "type": "section",
+              "name": "End of Chapter 1",
+              "entries": [
+                "{@b Player Gains}",
+                {
+                  "type": "list",
+                  "items": [
+                    "Misteri utama (wanita terperangkap)",
+                    "Nama {@b Juval} (tanpa konteks penuh)",
+                    "Rasa bahwa karnaval ini {@b bukan tempat aman}"
+                  ]
+                },
+                "{@b DM Notes}",
+                {
+                  "type": "list",
+                  "items": [
+                    "Jangan jelaskan terlalu banyak",
+                    "Jawaban ada di wahana, bukan NPC",
+                    "Karnaval adalah teka-teki hidup"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "name": "Chapter 1: Arrival at Violet Carnival & The Violet Ticket",
+          "entries": [
+            "{@i Chapter ini menandai masuknya para karakter ke Violet Carnival secara penuh. Mereka menerima Violet Ticket—artefak planar yang berfungsi sebagai kunci akses ke atraksi karnaval—dan bertemu dengan penjaga gerbang yang aneh namun ramah, Mr. Smiley Hat.}",
+            {
+              "type": "section",
+              "name": "Chapter 1 Overview (Untuk DM)",
+              "entries": [
+                "{@b Tujuan Chapter}",
+                {
+                  "type": "list",
+                  "items": [
+                    "Mengukuhkan bahwa Violet Carnival mengikuti {@b aturan yang tidak manusiawi}",
+                    "Memperkenalkan {@b mekanik Bite System}",
+                    "Memberi rasa \"aman palsu\"",
+                    "Menanam ancaman samar melalui visual pertama Gluttonette"
+                  ]
+                },
+                "{@b Fokus Gameplay}",
+                {
+                  "type": "list",
+                  "items": [
+                    "Atmosfer & roleplay",
+                    "Pengenalan sistem resource (ticket bites)",
+                    "Foreshadowing horor"
+                  ]
+                },
+                "Tidak ada combat pada chapter ini."
+              ]
+            },
+            {
+              "type": "section",
+              "name": "Running This Chapter",
+              "entries": [
+                {
+                  "type": "list",
+                  "items": [
+                    "Mr. Smiley Hat {@b bukan musuh} dan tidak akan menyerang",
+                    "Jangan jawab semua pertanyaan pemain secara langsung—jawabannya {@i berlapis metafora}",
+                    "Tekankan bahwa tiket {@b terikat secara personal} pada masing-masing karakter",
+                    "Biarkan pemain merasa: {@i \"Kami diundang... tapi bukan sepenuhnya diinginkan.\"}"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "name": "Scene 1: After the Vision—The Violet Ticket",
+              "entries": [
+                {
+                  "type": "inset",
+                  "entries": [
+                    "{@b DM Read Aloud:}",
+                    "{@i Kesadaran kalian kembali perlahan.}",
+                    "{@i Suara detak jantung mereda... digantikan alunan waltz lirih dari kejauhan.}",
+                    "{@i Cahaya-cahaya ungu kecil—seperti kunang-kunang—menari di udara di sekitar kalian.}",
+                    "{@i Dan di tangan kalian... amplop ungu itu telah berubah.}"
+                  ]
+                },
+                "Di tangan setiap karakter kini terdapat {@b Violet Carnival Ticket}.",
+                {
+                  "type": "entries",
+                  "name": "Violet Carnival Ticket",
+                  "entries": [
+                    "Setiap tiket memiliki ciri yang sama, namun terasa {@i pribadi} bagi pemiliknya.",
+                    {
+                      "type": "list",
+                      "items": [
+                        "{@b Warna:} Lilac dengan cahaya lembut yang berdenyut pelan",
+                        "{@b Aroma:} Manis seperti permen karet",
+                        "{@b Tekstur:} Elastis, hangat—lebih mirip permen daripada kertas",
+                        "{@b Tulisan:} Huruf perak yang terus berubah, paling sering membentuk kalimat:"
+                      ]
+                    },
+                    "{@b \"Only those invited may enter.\"}",
+                    {
+                      "type": "inset",
+                      "entries": [
+                        "⚠️ {@b DM Note:}",
+                        "Tiket ini {@b tidak bisa ditukar, disalin, atau dihancurkan secara normal}. Upaya magis untuk menduplikasi tiket gagal tanpa efek jelas."
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "name": "Scene 2: The Gatekeeper Appears",
+              "entries": [
+                {
+                  "type": "inset",
+                  "entries": [
+                    "{@b DM Read Aloud:}",
+                    "{@i Terdengar suara cekikikan tertahan.}",
+                    "{@i \"Glek... glek... glek...\"}",
+                    "{@i Gerbang karnaval berputar perlahan dengan sendirinya.}",
+                    "{@i Dari baliknya, muncul sesosok tinggi kurus dengan pakaian penjaga karnaval.}",
+                    "{@i Wajahnya dicat putih bersih, dihiasi semburat ungu.}",
+                    "{@i Namun yang paling mencolok—topi silindernya...}",
+                    "{@i tersenyum lebar.}"
+                  ]
+                },
+                "Ini adalah {@b Mr. Smiley Hat}, penjaga gerbang Violet Carnival.",
+                "Ia membungkuk dalam dengan gerakan patah-patah, lalu berkata dengan suara manis yang terlalu terlatih:",
+                {
+                  "type": "inset",
+                  "entries": [
+                    "**\"Selamat datang, bintang-bintang kecil~",
+                    "Violet Carnival telah menanti kalian.\"**"
+                  ]
+                },
+                "Matanya tidak berkedip, bahkan saat tubuhnya bergerak terlalu cepat untuk ukuran manusia."
+              ]
+            },
+            {
+              "type": "section",
+              "name": "Scene 3: Ticket Validation—The Bite Ritual",
+              "entries": [
+                "Mr. Smiley Hat mengulurkan tangan, telapak terbuka.",
+                {
+                  "type": "inset",
+                  "entries": [
+                    "{@b \"Tiketnya... boleh kulihat~?\"}"
+                  ]
+                },
+                "Saat pemain menyerahkan tiket—",
+                {
+                  "type": "inset",
+                  "entries": [
+                    "{@b DM Read Aloud:}",
+                    "{@i Tanpa peringatan, ia mencondongkan tubuhnya.}",
+                    "{@i Giginya menekan tiket—bukan seperti orang makan, tapi seperti makhluk yang menguji kualitas sesuatu yang hidup.}",
+                    "{@i Tiket itu bergetar... lalu diam.}"
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "entries": [
+                    {
+                      "type": "entries",
+                      "name": "The Bite",
+                      "entries": [
+                        {
+                          "type": "list",
+                          "items": [
+                            "Tiket {@b tidak rusak}",
+                            "Bekas gigitan kecil tertinggal, berkilau seperti hologram",
+                            "Tiket terasa lebih {@b dingin dan berat}"
+                          ]
+                        },
+                        "Mr. Smiley Hat menjilat bibirnya perlahan.",
+                        {
+                          "type": "inset",
+                          "entries": [
+                            "{@b \"Ahhh~ lezat... Valid.\"}"
+                          ]
+                        },
+                        "Ia mengembalikan tiket itu.",
+                        {
+                          "type": "inset",
+                          "entries": [
+                            "{@b \"Kalian boleh masuk.\"}"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "name": "Violet Ticket Mechanics—Bite Mark System",
+              "entries": [
+                "Setiap Violet Ticket memiliki {@b 5 Bite Marks} saat pertama kali diterima.",
+                "{@b Aturan Dasar}",
+                {
+                  "type": "list",
+                  "items": [
+                    "{@b 1 Bite = 1 Akses} ke wahana, area terlarang, atau atraksi tertentu",
+                    "Bite dikonsumsi {@b saat memasuki}, bukan saat keluar",
+                    "Bekas gigitan akan memudar setelah digunakan"
+                  ]
+                },
+                "{@b Alternatif Non-Bite}",
+                "Beberapa lokasi dapat diakses tanpa Bite melalui:",
+                {
+                  "type": "list",
+                  "items": [
+                    "Pemecahan teka-teki",
+                    "Menemukan jalur rahasia",
+                    "Menyelesaikan permintaan NPC",
+                    "Investigasi lingkungan"
+                  ]
+                },
+                "{@b Jika Semua Bite Habis}",
+                {
+                  "type": "list",
+                  "items": [
+                    "Tiket menjadi pucat dan dingin",
+                    "Pemain {@b tidak bisa masuk atraksi baru} secara normal",
+                    "Satu-satunya jalan adalah {@b negosiasi, trik, atau quest tersembunyi}"
+                  ]
+                },
+                {
+                  "type": "inset",
+                  "entries": [
+                    "⚠️ {@b DM Tip:}",
+                    "Bite System adalah {@b resource tekanan psikologis}, bukan hukuman.",
+                    "Jangan buat pemain \"soft lock\" tanpa jalan keluar."
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "name": "Scene 4: Words of Warning",
+              "entries": [
+                "Mr. Smiley Hat melangkah ke samping, membuka jalan.",
+                {
+                  "type": "inset",
+                  "entries": [
+                    "**\"Lima gigitan tersisa~",
+                    "Setiap atraksi meminta satu rasa.\"**"
+                  ]
+                },
+                "Ia terkekeh kecil.",
+                {
+                  "type": "inset",
+                  "entries": [
+                    "**\"Rahasia bisa terbuka...",
+                    "atau kalian yang ditelan.\"**"
+                  ]
+                },
+                "Lalu, dengan nada yang hampir menenangkan:",
+                {
+                  "type": "inset",
+                  "entries": [
+                    "{@b \"Tapi tenang saja.\"}",
+                    "{@b \"Kalian aman.\"}",
+                    "{@b \"...untuk sekarang.\"}"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "name": "Scene 5: Entering Violet Carnival",
+              "entries": [
+                {
+                  "type": "inset",
+                  "entries": [
+                    "{@b DM Read Aloud:}",
+                    "{@i Begitu kalian melewati gerbang, dunia berubah.}",
+                    "{@i Udara terasa hangat, seperti sore musim gugur.}",
+                    "{@i Aroma karamel, lavender... dan sesuatu yang berbau besi.}",
+                    "{@i Musik kotak musik mengalun indah, namun sesekali terdengar nada yang sumbang.}",
+                    "{@i Lampu-lampu ungu menari di setiap sudut.}",
+                    "{@i Dan di kejauhan...}",
+                    "{@i sebuah sosok bertopeng berdiri mematung.}"
+                  ]
+                },
+                "Sebuah {@b Gluttonette}.",
+                "Topengnya retak, ekspresinya kosong.",
+                "Saat salah satu karakter menatapnya—",
+                {
+                  "type": "inset",
+                  "entries": [
+                    "{@i Ia berputar seperti boneka.}",
+                    "{@i Dan menghilang ke dalam kabut.}"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "name": "End of Chapter 1",
+              "entries": [
+                "{@b Player Takeaways}",
+                {
+                  "type": "list",
+                  "items": [
+                    "Violet Carnival memiliki {@b aturan dan harga}",
+                    "Tiket adalah sumber daya berharga",
+                    "Mereka {@b tidak sendirian}",
+                    "Sesuatu mengamati mereka sejak awal"
+                  ]
+                },
+                "{@b Transition}",
+                "Chapter berikutnya membawa pemain ke:",
+                {
+                  "type": "list",
+                  "items": [
+                    "Eksplorasi bebas karnaval",
+                    "Atraksi pertama",
+                    "Petunjuk awal tentang Sylvia dan Juval"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "name": "Chapter 2: Kedatangan di Karnaval & Komidi Putar Lilith",
+          "entries": [
+            {
+              "type": "entries",
+              "name": "Running This Chapter",
+              "entries": [
+                "Di chapter ini, para pemain akan disambut di gerbang utama Karnaval Violet oleh Juval dan Varquin, yang akan memberikan petunjuk awal. Mereka kemudian akan menghadapi atraksi pertama: Komidi Putar Lilith, yang menyajikan sebuah teka-teki bertahap untuk dipecahkan. Pemain akan menggunakan mekanik \"gigitan\" tiket mereka untuk mengaktifkan wahana, memecahkan teka-teki nama kuda dan melodi, serta mendapatkan visi penting tentang wanita yang diculik. Pastikan untuk membangun suasana misterius dan sedikit menyeramkan sepanjang interaksi."
+              ]
+            },
+            {
+              "type": "section",
+              "name": "Sambutan di Gerbang Karnaval",
+              "entries": [
+                {
+                  "type": "entries",
+                  "name": "Read-Aloud: Di Gerbang Utama",
+                  "entries": [
+                    {
+                      "type": "insetReadaloud",
+                      "entries": [
+                        "\"Kalian berdiri di ambang gerbang Karnaval Violet. Dari balik gerbang yang dihiasi lampu-luppu ungu menari, muncul seorang pria dengan pakaian bak seorang dalang. Senyum tipis terukir di wajahnya yang terlihat ramah, namun matanya memancarkan kesedihan yang dalam, seolah membawa beban ribuan kenangan. Di sampingnya, seorang wanita berpenampilan badut, dengan pakaian yang lebih sederhana namun tetap mencolok, ikut berdiri. Senyumnya terasa lebih hangat, meskipun tatapannya penuh rahasia."
+                      ]
+                    },
+                    "Pria itu, sang dalang, melambaikan tangannya dengan gerakan kaku. \"Selamat datang di Karnaval Violet. Semoga kunjungan kalian... membawa warna. Ada begitu banyak hal indah yang menunggu untuk ditemukan... atau diselamatkan.\" Suaranya terdengar manis, namun ada nada dingin yang terselip, seolah ada pesan tersembunyi yang tak terucapkan.",
+                    "Wanita badut di sampingnya mengangguk singkat pada kalian. \"Petualangan baru... selalu menarik. Jika kalian merasa tersesat dalam pusaran kegembiraan ini, tenda ramalanku selalu terbuka. Tapi... nikmati dulu wahana-wahana yang berputar. Ada banyak rahasia yang tersembunyi di baliknya.\" Ia lalu melangkah anggun, menjauh dari gerbang sampai tak terlihat.",
+                    "Sang dalang hanya tersenyum samar, pandangannya menyapu kalian, lalu perlahan ia membalikkan badan, berjalan pergi ke arah kedalaman karnaval, meninggalkan kalian di ambang gerbang.\""
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "DM Notes: Pengenalan Awal & Petunjuk Tersembunyi",
+                  "entries": [
+                    {
+                      "type": "list",
+                      "items": [
+                        "{@b Sang Dalang (Juval):} Pertahankan nama \"dalang\" atau \"pemilik karnaval\" untuk Juval. Dialognya menekankan tema \"menemukan\" dan \"menyelamatkan\", dengan nada dingin yang mengindikasikan bahwa ia membutuhkan bantuan. DC Insight (DC 13-15) bisa mengungkap bahwa pria ini menyembunyikan kesedihan dan keputusasaan di balik senyumannya.",
+                        "{@b Wanita Badut (Varquin):} Pertahankan nama \"wanita badut\" atau \"peramal\". Dia memberikan petunjuk bahwa ada \"rahasia di balik wahana\" dan menawarkan bantuannya {@i nanti}. Dia juga memberikan \"undangan\" tidak langsung ke tendanya untuk pembacaan tarot, tapi tidak memaksa.",
+                        "{@b Penting:} Pemain belum tahu nama \"Juval\" atau \"Varquin\". Sebut mereka dengan deskripsi mereka.",
+                        "{@b Langkah Selanjutnya:} Pemain bebas masuk dan memilih arah. Asumsikan mereka akan bergerak menuju atraksi pertama yang menarik perhatian, yaitu Komidi Putar Lilith."
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "name": "Komidi Putar Lilith",
+              "entries": [
+                {
+                  "type": "entries",
+                  "name": "Read-Aloud: Kedatangan di Komidi Putar Lilith",
+                  "entries": [
+                    {
+                      "type": "insetReadaloud",
+                      "entries": [
+                        "\"Setelah berjalan beberapa saat, di antara keramaian karnaval yang aneh, kalian melihat sebuah komidi putar tua, namun megah, berdiri tegak. Empat pasang kuda kayu yang terpahat indah dengan warna-warna pastel yang memudar berjejer rapi. Beberapa terlihat usang, namun matanya yang dicat seperti hidup, seolah mengikuti setiap gerak kalian. Setiap kuda memiliki sebuah plakat kecil di sadelnya, namun anehnya, tulisan di plakat-plakat itu tampak kosong atau tidak lengkap, seperti sebuah misteri yang belum terpecahkan."
+                      ]
+                    },
+                    "Musik waltz klasik terdengar pelan, kadang sedikit sumbang, mengisi udara.",
+                    "Di depan gerbang masuk menuju area komidi putar ini, seorang wanita dengan gaun panjang yang terlihat usang namun elegan berdiri menyambut. Wajahnya dipulas riasan badut putih pucat dengan bibir merah gelap, dan matanya... matanya seperti dua kelereng kosong yang melihat menembus kalian. Ia tersenyum tipis, sorot matanya sulit ditebak. Itulah {@b penjaga komidi putar}.\""
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "DM Notes: Observasi Awal & Penjaga Atraksi",
+                  "entries": [
+                    {
+                      "type": "list",
+                      "items": [
+                        "{@b Penjaga Komidi Putar (Miss Lilith):} Sebut dia sebagai \"penjaga komidi putar\" atau \"wanita badut penjaga\" untuk menjaga misteri namanya. Dia tetap di luar {@i barrier}.",
+                        "{@b Gluttonette:} 1-2 Gluttonette mungkin berdiri diam di sekitar komidi putar, seperti manekin. Tidak merespons kecuali diserang.",
+                        "{@b Plaque Kuda:} Tekankan bahwa plakatnya kosong/tidak lengkap. Ini adalah petunjuk pertama untuk puzzle \"nama kuda\"."
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "Read-Aloud: Tawaran Penjaga Komidi Putar & Tiket Gigitan",
+                  "entries": [
+                    {
+                      "type": "insetReadaloud",
+                      "entries": [
+                        "\"Penjaga komidi putar itu mengulurkan tangan porselennya ke arah wahana. \"Selamat datang, para pencari sensasi! Komidi Putar Lilith menanti kalian. Sebuah perjalanan manis menuju kenangan... atau melodi yang terlupakan.\""
+                      ]
+                    },
+                    "Namun, setiap putaran adalah janji. Dan setiap janji membutuhkan... sebuah tanda. Silakan pilih tunggangan kalian. Tapi ingat, komidi putar ini takkan berputar sampai semua yang naik telah... memberi makan tiket mereka.\" Ia sedikit mencondongkan kepalanya, senyumnya melebar.\""
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "DM Notes: Mekanik Gigitan Tiket (Pemicu Event)",
+                  "entries": [
+                    {
+                      "type": "list",
+                      "items": [
+                        "{@b Pilihan Pemain:} Biarkan pemain memilih kuda mereka. Setiap kuda bisa punya detail unik (warna, ukiran, ekspresi).",
+                        "{@b Memicu Gigitan:} Saat pemain memutuskan untuk memulai, penjaga komidi putar itu akan menunggu semua pemain naik. Setelah semua siap, dia akan mengingatkan mereka untuk menggigit tiket.",
+                        "{@b Efek Gigitan:} Bacakan:"
+                      ]
+                    },
+                    "\"Saat gigi kalian menyentuh tiket lilac itu, sebuah sensasi aneh menjalar. Tiket itu berdenyut lembut, seperti jantung kecil, dan secercah energi dingin tapi juga memabukkan meresap ke dalam tubuh kalian. Sebuah bekas gigitan kecil, berkilauan seperti hologram, kini terukir di permukaannya. Kalian merasakan satu 'gigitan' kalian telah terpakai.\"",
+                    {
+                      "type": "list",
+                      "items": [
+                        "{@b Penting:} Komidi putar tidak akan berputar {@i sampai semua pemain yang ada di dalamnya menggigit tiket}. Ini adalah pemicu untuk event selanjutnya."
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "Read-Aloud: Marionette Muncul & Barrier Violet",
+                  "entries": [
+                    {
+                      "type": "insetReadaloud",
+                      "entries": [
+                        "\"Begitu gigitan tiket terakhir selesai, musik waltz komidi putar mendadak berubah. Melodi manis nan lirih tadi mendadak pecah menjadi harmoni yang sumbang dan mengganggu, seolah ada instrumen yang dimainkan dengan paksa."
+                      ]
+                    },
+                    "Lalu, secepat kilat, dari celah bayangan di balik kuda terdekat, sebuah sosok muncul dan menghilang dalam sekejap. Sebuah boneka marionette bertubuh hitam legam, dengan topeng badut putih bergaris mata merah, menunjuk ke arah komidi putar dengan jari mungilnya sebelum lenyap seperti asap.",
+                    "{@i SWOOSH!} Sebelum kalian sempat mencerna apa yang terjadi, sebuah dinding energi violet transparan tiba-tiba muncul dan membumbung tinggi, mengelilingi seluruh area komidi putar, {@i memerangkap kalian di dalamnya}. Penjaga komidi putar, yang berdiri di gerbang, kini terlihat samar dari balik barrier, ekspresinya sulit dibaca. Udara di dalamnya terasa lebih tebal, berat, dan dipenuhi aroma lavender yang terlalu kuat, dicampur dengan bau karat.",
+                    "Kalian sadar, kalian terjebak. Komidi putar kini berputar perlahan, menciptakan ilusi menakutkan di sekeliling kalian.\""
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "DM Notes: Pemicu Puzzle & Barrier Effect",
+                  "entries": [
+                    {
+                      "type": "list",
+                      "items": [
+                        "{@b Marionette:} Munculnya marionette adalah sinyal dari Juval bahwa ini adalah tempat yang tepat untuk mencari petunjuk. Topeng badutnya adalah Vaelithra.",
+                        "{@b Violet Barrier:} Barrier ini tidak bisa ditembus. Jika pemain mencoba menyentuhnya:",
+                        {
+                          "type": "list",
+                          "items": [
+                            "Bacakan:"
+                          ]
+                        }
+                      ]
+                    },
+                    "\"Saat tanganmu menyentuh dinding violet transparan itu, rasa dingin yang membakar menjalar ke seluruh lenganmu, diikuti oleh bisikan-bisikan tak jelas yang menusuk pikiran. Otakmu terasa ditekan oleh jutaan kenangan yang bukan milikmu.\"",
+                    {
+                      "type": "list",
+                      "items": [
+                        "{@b Effect:} Menerima 4d6 Psychic Damage.",
+                        "{@b Tujuan:} Para pemain harus memecahkan puzzle untuk menghilangkan barrier dan melanjutkan petualangan."
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "Read-Aloud: Teka-teki Kuda yang Lebih Dalam",
+                  "entries": [
+                    {
+                      "type": "insetReadaloud",
+                      "entries": [
+                        "\"Komidi putar berputar semakin lambat, seolah sengaja memberi kalian waktu. Kuda-kuda kayu di sekeliling kalian kini terlihat lebih mengerikan, mata mereka seolah berkedip. Ukiran di tubuh mereka terasa lebih menonjol. Kalian melihat plakat di sadel setiap kuda dengan lebih jelas sekarang: beberapa bagian nama terukir samar, tapi sisanya kosong. Kalian merasa ada sesuatu yang tersembunyi di dalam mereka, menunggu untuk dipanggil dengan nama yang benar.\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "DM Notes: Puzzle Tahap 1 - Identitas Kuda yang Hilang",
+                  "entries": [
+                    {
+                      "type": "list",
+                      "items": [
+                        "{@b Konsep Puzzle:} Pemain harus menemukan dan memanggil nama yang tepat untuk empat kuda kunci yang akan memberikan petunjuk untuk puzzle melodi. Setelah nama dipanggil dengan benar, kuda tersebut akan \"aktif\" dan memberikan {@i vision/bisikan} {@i clue} untuk puzzle melodi.",
+                        "{@b Empat Kuda Kunci:} Fokus pada 4 kuda {@i spesifik} yang memiliki ukiran simbol (Lavender, Bintang, Kunci Patah, Topeng Badut) dan plakat nama yang tidak lengkap.",
+                        "{@b Mencari Nama (Clues untuk Pemain):}",
+                        {
+                          "type": "list",
+                          "items": [
+                            "{@b Dari Plakat Kuda (Clue Awal):} Setiap plakat kuda kunci memiliki sebagian nama yang terlihat.",
+                            {
+                              "type": "list",
+                              "items": [
+                                "{@b Kuda \"Lavender\" (Ukiran Bunga Lavender):} Plakat: \"Ma{@i _}is\" (Nama lengkap: {@b Manis})",
+                                "{@b Kuda \"Bintang\" (Ukiran Bintang Jatuh):} Plakat: \"Har{@i _}an\" (Nama lengkap: {@b Harapan})",
+                                "{@b Kuda \"Kunci Patah\" (Ukiran Kunci Tua yang Retak):} Plakat: \"Pu{@i _}ar\" (Nama lengkap: {@b Pudar})",
+                                "{@b Kuda \"Badut\" (Ukiran Topeng Badut Mini):} Plakat: \"Li{@i _}ah\" (Nama lengkap: {@b Lincah})"
+                              ]
+                            }
+                          ]
+                        },
+                        "{@b Dari Observasi Lingkungan Internal Barrier:}",
+                        {
+                          "type": "list",
+                          "items": [
+                            "{@b Di salah satu tiang penyangga komidi putar (Investigasi DC 12):} Mungkin ada coretan kecil atau ukiran samar dari kata sifat ini, atau fragmen puisi yang menyebutkan sifat-sifat yang cocok dengan nama kuda.",
+                            {
+                              "type": "list",
+                              "items": [
+                                "Contoh: \"Selembut sentuhan, seharum bunga... (Manis)\"",
+                                "Contoh: \"Bercahaya di kegelapan, membawa asa... (Harapan)\"",
+                                "Contoh: \"Memudar ditelan waktu, janji yang retak... (Pudar)\"",
+                                "Contoh: \"Menari riang, walau hati meringis... (Lincah)\""
+                              ]
+                            }
+                          ]
+                        },
+                        "{@b Di bawah sadel kuda yang tidak aktif (Pencarian DC 12):} Mungkin menemukan nama lengkap yang tergores samar.",
+                        "{@b Di lantai komidi putar (Pencarian DC 10):} Mungkin ada kelopak bunga lavender kering dengan tulisan 'Manis' yang samar, atau debu bintang yang membentuk kata 'Harapan'.",
+                        "{@b Mekanik \"Memanggil Nama\":} Pemain harus berdiri di depan kuda yang mereka yakini namanya, dan secara verbal memanggil nama lengkapnya (misal: \"Manis!\").",
+                        "{@b Konsekuensi (Nama Salah):} Jika pemain memanggil nama yang salah, kuda tersebut bisa menggelengkan kepalanya pelan, atau mengeluarkan {@i bisikan} kecewa, dan tidak terjadi apa-apa. Atau, mungkin ada sedikit 1d4 Psychic Damage.",
+                        "{@b Sukses (Nama Benar):} Saat nama yang benar dipanggil:",
+                        {
+                          "type": "list",
+                          "items": [
+                            "Bacakan:"
+                          ]
+                        }
+                      ]
+                    },
+                    "\"Saat kalian memanggil nama '[Nama Kuda yang Benar]' di depan kuda itu, matanya yang dicat mendadak berbinar lembut. Sebuah cahaya ungu samar menyelimuti tubuhnya, dan ukiran di badannya terasa hangat. Sebuah melodi lembut, seperti senandung, berbisik langsung ke dalam pikiran kalian, diiringi sebuah visi singkat...\"",
+                    {
+                      "type": "list",
+                      "items": [
+                        "{@b Effect:} Plakat di kuda tersebut akan menyala dan menampilkan nama lengkapnya. Kuda tersebut akan {@i mengaktifkan} {@i vision/bisikan} {@i clue} untuk puzzle melodi (lihat poin \"Clue Kuda\" di bawah)."
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "DM Notes: Puzzle Tahap 2 - Melodi Kenangan yang Terlupakan",
+                  "entries": [
+                    {
+                      "type": "list",
+                      "items": [
+                        "{@b Tujuan:} Para pemain harus menemukan dan \"memainkan\" melodi yang benar pada {@i Music Box} untuk memecahkan {@i barrier}.",
+                        "{@b Penting:} Visi/Bisikan dari kuda-kuda hanya akan muncul {@i setelah nama mereka dipanggil dengan benar}.",
+                        "{@b Kuda-Kuda yang Hidup (dan Punya Memori) - Setelah Dinamai:}",
+                        {
+                          "type": "list",
+                          "items": [
+                            "Setiap kuda (setelah namanya dipanggil dengan benar) kini akan memberikan {@i clue} dalam bentuk {@i bisikan} atau {@i vision} singkat saat pemain berinteraksi (misal, menyentuhnya atau mencoba \"menungganginya\" lagi).",
+                            "{@b Clue Kuda (Contoh Pengembangan):}",
+                            {
+                              "type": "list",
+                              "items": [
+                                "{@b Kuda \"Manis\" (Bunga Lavender):} {@i Bisikan:} \"Melodi yang dia senandungkan saat memetik bunga pertama... Sebuah awal yang begitu lembut.\" {@i Atau visual:} Kilasan seorang wanita tersenyum riang, memetik bunga lavender.",
+                                "{@b Kuda \"Harapan\" (Bintang Jatuh):} {@i Bisikan:} \"Nada-nada yang dia mainkan di malam bintang jatuh, saat melamarnya... Sebuah janji di bawah cahaya bintang.\" {@i Atau visual:} Kilasan seorang pria dan wanita di bawah langit bertabur bintang, sang pria bermain musik.",
+                                "{@b Kuda \"Pudar\" (Kunci Rusak):} {@i Bisikan:} \"Lagu yang terhenti, saat janji diusik oleh bayangan yang datang... Kunci tak lagi cocok, warna memudar.\" {@i Atau visual:} Kilasan tangan seorang wanita gemetar memegang kunci yang jatuh dan hancur, ekspresi sedih.",
+                                "{@b Kuda \"Lincah\" (Topeng Badut Kecil):} {@i Bisikan:} \"Senandung kecil saat boneka itu hidup, mencari dia yang hilang... Harapan terakhir yang menari di kegelapan.\" {@i Atau visual:} Kilasan Marionette yang pertama kali bergerak dengan lincah, diiringi melodi aneh tapi penuh tekad."
+                              ]
+                            }
+                          ]
+                        },
+                        "{@b Mekanisme Puzzle (_Music Box_):}",
+                        {
+                          "type": "list",
+                          "items": [
+                            "Di pilar utama komidi putar, terdapat sebuah {@i Music Box} tua. Di permukaannya ada 4 tombol/tuas kecil, masing-masing diukir dengan simbol-simbol yang sama dengan kuda: Bunga, Bintang, Kunci, Topeng Badut.",
+                            "Pemain harus menekan tombol-tombol ini dalam urutan yang benar berdasarkan {@i timeline} vision yang mereka dapatkan.",
+                            "{@b Urutan yang Benar:} Bunga (Manis) -> Bintang (Harapan) -> Kunci (Pudar) -> Topeng Badut (Lincah)."
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "DM Notes: Konsekuensi Kegagalan & Kesuksesan Music Box Puzzle",
+                  "entries": [
+                    {
+                      "type": "list",
+                      "items": [
+                        "{@b Kegagalan (Urutan Salah):}",
+                        {
+                          "type": "list",
+                          "items": [
+                            "Bacakan:"
+                          ]
+                        }
+                      ]
+                    },
+                    "\"Saat tombol yang salah kalian tekan, komidi putar mendadak berputar gila-gilaan, musiknya semakin kacau dan disonan, seolah berteriak. Wajah-wajah Gluttonette muncul dan menghilang di cermin kuda, tertawa tanpa suara. Pikiran kalian diserang oleh bisikan-bisikan keputusasaan.\"",
+                    {
+                      "type": "list",
+                      "items": [
+                        "{@b Effect:} Semua pemain menerima 1d6 Psychic Damage. Puzzle bisa dicoba lagi setelah beberapa saat.",
+                        "{@b Kesuksesan (Urutan Benar):}",
+                        {
+                          "type": "list",
+                          "items": [
+                            "Bacakan:"
+                          ]
+                        }
+                      ]
+                    },
+                    "\"Begitu tombol terakhir ditekan dalam urutan yang benar, melodi yang kacau tadi perlahan mereda. Suara-suara sumbang menghilang, digantikan oleh melodi yang indah namun pilu, sebuah lagu tentang cinta, kehilangan, dan harapan. Komidi putar berputar semakin lambat, hingga akhirnya berhenti sepenuhnya.",
+                    "Dinding energi violet di sekeliling kalian mulai memudar, lenyap seperti kabut. Udara kembali normal, tapi getaran energi masih terasa di udara. Namun, saat barrier itu menghilang sepenuhnya, sebuah {@i vision} yang jernih dan nyata tiba-tiba menghantam pikiran setiap dari kalian!\""
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "Read-Aloud: Visi Sylvia (Tidak Sadarkan Diri)",
+                  "entries": [
+                    {
+                      "type": "insetReadaloud",
+                      "entries": [
+                        "\"Dalam sekejap, kalian melihatnya: sebuah tenda besar yang gelap, diterangi hanya oleh satu sorot lampu ungu. Di tengah tenda itu, berdiri sebuah tenda panggung besar berwarna ungu gelap, yang terbuat dari kain tebal yang diikat erat dengan rantai-rantai besi berkarat."
+                      ]
+                    },
+                    "Di dalam tenda itu, tersembunyi dari pandangan dunia, kalian melihat seorang wanita terbaring tak sadarkan diri. Rambutnya yang biasanya berkilau kini tampak kusam, tergerai tak terurus. Wajahnya pucat pasi, dan tangannya terborgol ke tiang tengah tenda. Ia tidak bergerak, hanya tergeletak lemah, sepenuhnya tak berdaya.",
+                    "Visi itu berlangsung hanya beberapa detik, lalu lenyap secepat ia datang, meninggalkan kalian dengan gambaran yang jelas dan rasa urgensi yang membakar di hati. Kalian tahu apa yang harus dicari selanjutnya.\""
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "DM Notes: Setelah Visi",
+                  "entries": [
+                    {
+                      "type": "list",
+                      "items": [
+                        "{@b Pentingnya Visi:} Ini adalah petunjuk lokasi kunci bagi pemain. Mereka sekarang tahu seorang wanita terbaring tak sadarkan diri di tenda besar di atas panggung.",
+                        "{@b Reaksi Lingkungan:} Penjaga komidi putar di luar gerbang mungkin akan tampak tidak terpengaruh, seolah dia tidak menyadari adanya {@i barrier} atau visi.",
+                        "{@b Langkah Selanjutnya:} Pemain bebas menjelajahi karnaval untuk mencari panggung dan tenda yang mereka lihat dalam visi."
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "name": "Tabel Reward Komidi Putar Lilith (1d10)",
+              "entries": [
+                "Setelah berhasil memecahkan teka-teki Komidi Putar Lilith dan melihat visi Sylvia, para pemain bisa mendapatkan salah satu reward acak ini:",
+                {
+                  "type": "table",
+                  "colLabels": [
+                    "1d10",
+                    "Reward",
+                    "Keterangan"
+                  ],
+                  "colStyles": [
+                    "col-1 text-center",
+                    "col-3",
+                    "col-8"
+                  ],
+                  "rows": [
+                    [
+                      "1",
+                      "Permen Kapas Violet (Consumable)",
+                      "Kamu menemukan segumpal permen kapas ungu yang masih hangat. Jika dimakan, pulihkan 1d4 HP **atau** dapatkan Advantage pada satu Charisma (Persuasion/Deception) check selama 10 menit. Rasanya manis tapi ada sedikit *aftertaste* aneh."
+                    ],
+                    [
+                      "2",
+                      "Air Mata Marionette (Clue Item)",
+                      "Sebongkah kristal kecil berbentuk tetesan air mata. Kalau dihancurkan, kamu mendapat kilasan singkat (visual atau suara) dari memori yang berhubungan dengan karnaval atau salah satu NPC (DM bisa improvisasi atau berikan petunjuk)."
+                    ],
+                    [
+                      "3",
+                      "Arloji Saku Waktu Pudar (Minor Magic Item)",
+                      "Arloji saku biasa, tapi kadang jarumnya melambat. Sekali per hari, kamu bisa menggunakannya sebagai bonus action untuk membuat waktu melambat di sekitar satu musuh (mereka dapat disadvantage pada saving throw atau attack roll pertama di giliran mereka berikutnya)."
+                    ],
+                    [
+                      "4",
+                      "Jimat Gluttonette (Minor Magic Item)",
+                      "Patung kecil aneh berbentuk wajah Gluttonette. Memberikan Advantage pada satu Stealth check. Setelah digunakan, patung ini retak dan kehilangan kekuatannya."
+                    ],
+                    [
+                      "5",
+                      "Fragmen Tiket (Resource)",
+                      "Kamu menemukan sobekan tiket kecil yang berdenyut energi. Ini bisa mengisi ulang satu \"gigitan\" pada tiket Karnaval"
+                    ],
+                    [
+                      "6",
+                      "Topeng Eksentrik (Minor Magic Item)",
+                      "Topeng dekoratif yang indah namun sedikit menyeramkan. Saat dipakai, kamu mendapat Advantage pada semua Charisma (Deception) atau Charisma (Performance) check selama 1 jam."
+                    ],
+                    [
+                      "7",
+                      "Suvenir Bisikan (Clue Item)",
+                      "Suvenir kecil (misal: kuda komidi putar mini atau topi badut mungil). Sekali sehari, kalau kamu pegang, ia akan membisikkan petunjuk samar tentang situasi kalian atau apa yang akan terjadi selanjutnya."
+                    ],
+                    [
+                      "8",
+                      "Batu Permata Ephemeral (Consumable)",
+                      "Permata kecil yang bersinar lembut. Jika dihancurkan, kamu bisa mengeluarkan satu mantra *Minor Illusion* (suara, gambar sederhana) sebagai bonus action."
+                    ],
+                    [
+                      "9",
+                      "Benih Mimpi (Utility)",
+                      "Benih kecil berkilauan. Jika ditanam (bahkan di pot), dalam 10 menit ia akan tumbuh menjadi ilusi tenda kecil yang nyaman. Jika beristirahat panjang di dalamnya, semua anggota *party* mendapat Advantage pada saving throw untuk mencegah kelelahan."
+                    ],
+                    [
+                      "10",
+                      "Kunci Kotak Musik Bergema (Utility/Future Puzzle)",
+                      "Kunci ornamen antik. Mungkin bisa membuka kotak musik lain atau mengungkapkan rahasia di tempat lain di karnaval. Simpan ini, pasti berguna nanti!"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "name": "**Chapter 3: Balapan Siput Raksasa Old Man Thoraq**",
+          "entries": [
+            {
+              "type": "entries",
+              "name": "Running This Chapter",
+              "entries": [
+                "Chapter ini memperkenalkan atraksi kedua di karnaval: Balapan Siput Raksasa. Pemain akan bertemu dengan Old Man Thoraq, sang penjaga arena yang unik. Mekanik utama di sini adalah pemain akan menyusut dan menunggangi siput balap, lalu harus menggunakan \"gigitan\" tiket mereka untuk memotivasi siput melalui teka-teki balapan yang melibatkan interaksi dengan lingkungan kecil dan memahami sifat siput. Pastikan untuk membangun suasana yang aneh namun menyenangkan di arena ini."
+              ]
+            },
+            {
+              "type": "section",
+              "name": "Balapan Siput Raksasa Old Man Thoraq",
+              "entries": [
+                {
+                  "type": "entries",
+                  "name": "Read-Aloud: Menemukan Arena Balapan Siput",
+                  "entries": [
+                    {
+                      "type": "inset",
+                      "entries": [
+                        "\"Kalian berdiri di ambang gerbang Karnaval Violet. Dari balik gerbang yang dihiasi lampu-lampu ungu menari, muncul seorang pria dengan pakaian bak seorang dalang. Senyum tipis terukir di wajahnya yang terlihat ramah, namun matanya memancarkan kesedihan yang dalam, seolah membawa beban ribuan kenangan. Di sampingnya, seorang wanita berpenampilan badut, dengan pakaian yang lebih sederhana namun tetap mencolok, ikut berdiri. Senyumnya terasa lebih hangat, meskipun tatapannya penuh rahasia.",
+                        "Pria itu, sang dalang, melambaikan tangannya dengan gerakan kaku. \"Selamat datang di Karnaval Violet. Semoga kunjungan kalian... membawa warna. Ada begitu banyak hal indah yang menunggu untuk ditemukan... atau diselamatkan.\" Suaranya terdengar manis, namun ada nada dingin yang terselip, seolah ada pesan tersembunyi yang tak terucapkan.",
+                        "Wanita badut di sampingnya mengangguk singkat pada kalian. \"Petualangan baru... selalu menarik. Jika kalian merasa tersesat dalam pusaran kegembiraan ini, tenda ramalanku selalu terbuka. Tapi... nikmati dulu wahana-wahana yang berputar. Ada banyak rahasia yang tersembunyi di baliknya.\" Ia lalu melangkah anggun, menjauh dari gerbang sampai tak terlihat.",
+                        "Sang dalang hanya tersenyum samar, pandangannya menyapu kalian, lalu perlahan ia membalikkan badan, berjalan pergi ke arah kedalaman karnaval, meninggalkan kalian di ambang gerbang."
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "DM Notes: Pengenalan Old Man Thoraq & Arena",
+                  "entries": [
+                    {
+                      "type": "list",
+                      "items": [
+                        "{@b Old Man Thoraq:} Dia adalah karakter yang misterius tapi tidak agresif. Dia akan bicara dengan sedikit menggerutu tapi ramah. Dia tidak akan menyebut namanya sendiri secara langsung, tapi pemain bisa mendengarnya dari pengunjung lain atau jika melakukan Perception/Insight check (DC 13) pada piala-piala di mejanya yang mungkin bertuliskan \"Thoraq's Snail Race\".",
+                        "{@b Arena:} Deskripsikan lintasan yang lurus, mungkin ada garis {@i start} dan {@i finish} yang jelas. Di sekitar arena, mungkin ada beberapa Gluttonette kecil yang pasif, bertindak sebagai penonton diam.",
+                        "{@b Siput:} Tekankan bahwa siputnya {@i kecil} dan {@i didandani}. Deskripsi ini penting untuk membangun efek penyusutan nanti.",
+                        "{@b Piala:} Piala-piala di meja Thoraq mungkin berisi nama-nama pemenang aneh atau bahkan ukiran-ukiran kecil yang menyerupai simbol-simbol tertentu (clue masa depan?)."
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "Read-Aloud: Tawaran Old Man Thoraq & Pemilihan Siput",
+                  "entries": [
+                    {
+                      "type": "inset",
+                      "entries": [
+                        "\"Kakek tua itu tersenyum lebar, menunjukkan gigi-giginya yang jarang. \"Ah, pengunjung baru! Tertarik dengan kecepatan? Ini Balapan Siput Raksasa Thoraq! Sepuluh kontestan terbaik siap melaju. Pilih satu siput favoritmu, berikan hadiah tiketmu, dan rasakan sensasi melaju {@i di atas} sang juara!\"",
+                        "\"Jangan ragu, mereka semua adalah bintang!\" Ia menunjuk ke arah barisan siput-siput kecil yang didandani itu. \"Tiga puluh inci garis lurus! Yang pertama sampai ujung, dialah pemenangnya! Hadiahnya... oh, rahasia! Tapi dijamin sepadan dengan usahamu!\" Ia tertawa kecil, \"Glek-glek-glek.\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "DM Notes: Memilih Siput & Tiket Gigitan",
+                  "entries": [
+                    {
+                      "type": "list",
+                      "items": [
+                        "{@b Pemilihan Siput:} Minta setiap pemain melempar 1d10. Cocokkan hasilnya dengan tabel di bawah untuk menentukan siput pilihan mereka.",
+                        "**Tabel Siput Balap (DM Only - Bacakan deskripsi penampilannya kepada pemain):"
+                      ]
+                    },
+                    {
+                      "type": "table",
+                      "colLabels": [
+                        "1d10",
+                        "Nama Siput (DM Only)",
+                        "Penampilan/Dandanan",
+                        "Clue/Motivasi Rahasia (DM Info, untuk dibisikkan ke pemain atau ditemukan melalui Insight/Nature check)"
+                      ],
+                      "colStyles": [
+                        "col-1 text-center",
+                        "col-1 text-center",
+                        "col-4",
+                        "col-6"
+                      ],
+                      "rows": [
+                        [
+                          "1",
+                          "Bintang Kecil",
+                          "Cangkang biru gelap bertabur glitter perak, ada bendera kecil motif bulan.",
+                          "Ia merindukan sorotan. Bisikan cahaya dari bintang-bintang di angkasa. Puji dia, sentuh bagian glitter cangkangnya. (Advantage on Animal Handling jika dipuji / ditarik ke area lebih terang)"
+                        ],
+                        [
+                          "2",
+                          "Kembang Desa",
+                          "Cangkang merah muda dengan hiasan kelopak bunga mawar mini.",
+                          "Jiwanya haus akan keharuman yang membangkitkan taman yang terlupakan. Cari aroma manis bunga atau parfum, dan ia akan melaju. (Advantage on Animal Handling jika ada aroma wangi/bunga di dekatnya)"
+                        ],
+                        [
+                          "3",
+                          "Si Gesit",
+                          "Cangkang hijau terang dengan garis-garis balap hitam.",
+                          "Ia terburu-buru, seolah ada sesuatu yang mengejarnya dari belakang. Jalur yang bersih sempurna, jauh dari jejak-jejak yang kotor, akan membuatnya tenang. (Advantage on Animal Handling jika jalur di depannya bersih)"
+                        ],
+                        [
+                          "4",
+                          "Pembawa Hujan",
+                          "Cangkang abu-abu gelap, tubuhnya selalu sedikit lembab.",
+                          "Setiap tetes adalah nafas, sebuah kerinduan akan keheningan yang basah. Ia melaju cepat menuju sumber air. (Advantage on Animal Handling jika ada air/kelembaban di depannya)"
+                        ],
+                        [
+                          "5",
+                          "Penguasa Bayangan",
+                          "Cangkang hitam pekat dengan ornamen jaring laba-laba kecil.",
+                          "Hanya dalam pelukan bayangan, rahasia-rahasia bisa terungkap. Ia bersembunyi dari sorotan, melaju nyaman di area gelap. (Advantage on Animal Handling jika berada di area gelap/bayangan)"
+                        ],
+                        [
+                          "6",
+                          "Raja Aroma",
+                          "Cangkang oranye gelap, mengeluarkan bau manis seperti buah busuk.",
+                          "Panggillah dengan aroma yang membangkitkan selera, pancing nafsu yang tak pernah kenyang. Buah-buahan manis yang membusuk adalah kesukaannya. (Advantage on Animal Handling jika ada makanan manis/busuk)"
+                        ],
+                        [
+                          "7",
+                          "Pemikir",
+                          "Cangkang coklat tua, matanya terlihat besar dan sering melirik.",
+                          "Setiap langkah adalah refleksi, jangan buru-buru ingatan yang berputar. Ia membenci paksaan, melaju dengan kehati-hatian. (Advantage on Animal Handling jika pemain bersabar / tidak terlalu mendesak)"
+                        ],
+                        [
+                          "8",
+                          "Si Pemberani",
+                          "Cangkang merah cerah dengan helm mini dari tempurung kenari.",
+                          "Api keberanian butuh percikan. Doronglah jiwanya melampaui batas yang terlihat, tunjukkan jalan berbahaya yang aman. (Advantage on Animal Handling jika diberi perintah \"berani\" / melewati rintangan kecil)"
+                        ],
+                        [
+                          "9",
+                          "Penjaga Rahasia",
+                          "Cangkang ungu misterius, selalu sedikit bersembunyi.",
+                          "Bisikan rahasia, sentuhan lembut. Teriakkan akan membuat jiwanya bersembunyi semakin dalam. Ia akan melaju jika merasa aman. (Advantage on Animal Handling jika pemain berbicara lembut / menenangkan)"
+                        ],
+                        [
+                          "10",
+                          "Pelari Mimpi",
+                          "Cangkang putih mutiara, seolah mengambang.",
+                          "Lantunkan lagu yang terlupakan, panggil mimpi yang tertidur di antara bintang-bintang. Melodi atau bisikan lembut akan membangkitkannya. (Advantage on Animal Handling jika pemain bersenandung / membisikkan)"
+                        ]
+                      ]
+                    },
+                    {
+                      "type": "list",
+                      "items": [
+                        "{@b Mekanik Gigitan Tiket:}",
+                        {
+                          "type": "list",
+                          "items": [
+                            "{@i Read-Aloud:} \"Setelah kalian memilih siput (atau dadu kalian memilihkan!), Old Man Thoraq mengulurkan tangan. 'Ya, ya! Sekarang, berikan dia... janji kemenanganmu!' Saat kalian menggigit tiket, sensasi dingin menusuk menjalar, dan bekas gigitan berkilauan muncul. Tiket kalian terasa satu gigitan telah terpakai.\""
+                          ]
+                        },
+                        "{@b Efek Penyusutan:}",
+                        {
+                          "type": "list",
+                          "items": [
+                            "{@i Read-Aloud:} \"Tiba-tiba, pandangan kalian berputar! Lantai mendadak menjauh, dan dunia di sekitar kalian membesar dengan kecepatan yang membingungkan. Siput pilihan kalian, yang tadi hanya sebesar jempol, kini menjulang tinggi di hadapan kalian, cangkangnya setinggi kepala gajah! Dengan sensasi aneh, kalian merasa ditarik dan didudukkan dengan nyaman di atas cangkang siput raksasa itu, seolah sadel empuk telah terbentuk khusus untuk kalian. Old Man Thoraq di kejauhan tampak seperti raksasa, dan bahkan butiran pasir di lintasan kini sebesar kerikil. Kalian telah menyusut dan siap menunggangi siput kalian!\""
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "DM Notes: Puzzle Balapan Siput - Manuver & Membaca Keinginan Siput",
+                  "entries": [
+                    {
+                      "type": "list",
+                      "items": [
+                        "{@b Kondisi Awal:} Kalian berada di lintasan, berukuran kecil, {@i menunggangi} siput pilihan. Old Man Thoraq akan memulai hitungan mundur dari kejauhan.",
+                        "{@b Tujuan Puzzle:} Memenangkan balapan dengan mencari tahu apa yang paling efektif memotivasi siput kalian untuk bergerak, {@i sambil bermanuver di atasnya}.",
+                        "{@b Mekanisme Per Ronde:}",
+                        {
+                          "type": "list",
+                          "items": [
+                            "Setiap ronde, pemain bisa melakukan satu {@i Tindakan} (Action) dan satu {@i Bonus Action}.",
+                            "{@b Tindakan Wajib (Manuver Dasar):} Lakukan roll {@b Animal Handling (DC 15)}. Ini untuk {@i manuver} dan {@i mengarahkan} siput.",
+                            {
+                              "type": "list",
+                              "items": [
+                                "{@b Berhasil (15+):} Siput maju 5 inci.",
+                                "{@b Nat 20:} Siput maju 10 inci.",
+                                "{@b Gagal (di bawah 15):} Siput terdiam.",
+                                "{@b Nat 1:} Siput mundur 5 inci."
+                              ]
+                            }
+                          ]
+                        },
+                        "{@b Puzzle (Bonus Action/Tindakan Tambahan):} Pemain bisa melakukan hal lain yang kreatif untuk berinteraksi dengan siput atau lingkungan {@i dari atas siput}, ini akan mempengaruhi roll Animal Handling mereka.",
+                        "{@b Petunjuk & Interaksi Lingkungan Kecil (Sekarang Terlihat Besar):}",
+                        {
+                          "type": "list",
+                          "items": [
+                            "{@b Lintasan Tidak Polos:} Lintasan 30 inci itu mungkin memiliki detail kecil yang kini terlihat besar bagi kalian:",
+                            {
+                              "type": "list",
+                              "items": [
+                                "{@b Genangan Lendir Kering:} Beberapa bagian lintasan mungkin ada genangan lendir siput yang sudah mengering dan lengket. (Butuh Nature check DC 12 untuk tahu cara terbaik melewatinya, atau Sleight of Hand DC 14 untuk mencoba membersihkan jalur {@i dari atas siput}).",
+                                "{@b Cahaya Terang / Bayangan:} Beberapa titik di lintasan mungkin lebih terang (karena celah di atap) atau lebih gelap (karena tumpukan sampah karnaval yang kini terlihat seperti gunung).",
+                                "{@b Puing-puing Kecil:} Kerikil kecil, remah makanan, atau sisa dekorasi yang kini seukuran batu besar."
+                              ]
+                            }
+                          ]
+                        },
+                        "{@b Mengamati Siput (Perception / Investigation DC 12):} Mengamati reaksi siput terhadap lingkungan atau {@i dandanannya} (misal, topi bunga matahari yang menghadap cahaya, atau cangkang gelap yang menghindari terang). Ini bisa memberikan {@i clue} lebih lanjut tentang sifat siputnya.",
+                        "{@i *Mencoba Memotivasi Siput (Pilih salah satu per ronde - }dari atas cangkang{@i ):*}",
+                        {
+                          "type": "list",
+                          "items": [
+                            "{@b Membujuk (Persuasion / Performance DC 13):} Mengajak bicara, memuji, bersenandung, atau bahkan mengancam (Intimidation DC 13) siput kalian {@i dari atas cangkangnya}.",
+                            "{@b Mengarahkan Lingkungan (Nature / Sleight of Hand DC 14):} Mencoba mendorong puing dengan tangan, membuat sedikit bayangan dengan jubah, atau meneteskan sedikit air (jika ada sumber air dari botol minum yang juga menyusut) di depannya.",
+                            "{@b Menawarkan Insentif (Sleight of Hand / Survival DC 15):} Jika pemain punya sisa makanan kecil/parfum di kantong yang ikut menyusut, bisa ditawarkan di depan mata siput (cek dulu apa jenis insentif yang disukai siput dari Insight/Nature check)."
+                          ]
+                        },
+                        "{@b Efek Puzzle pada Balapan:}",
+                        {
+                          "type": "list",
+                          "items": [
+                            "{@b Siput Merespons Positif (Berhasil Puzzle):} Jika pemain melakukan tindakan yang {@i cocok} dengan sifat siputnya (lihat tabel \"Clue/Motivasi Rahasia\"), dan roll skillnya berhasil:",
+                            {
+                              "type": "list",
+                              "items": [
+                                "Siput mendapatkan {@b Advantage} pada roll Animal Handling di ronde itu.",
+                                "{@b DAN} jika roll Animal Handling berhasil, siput maju {@b +5 inci tambahan} (total bisa 10 atau 15 inci)."
+                              ]
+                            }
+                          ]
+                        },
+                        "{@b Siput Merespons Negatif (Gagal Puzzle / Tindakan Salah):} Jika pemain melakukan tindakan yang {@i berlawanan} dengan sifat siputnya, dan roll skillnya gagal:",
+                        {
+                          "type": "list",
+                          "items": [
+                            "Siput mendapatkan {@b Disadvantage} pada roll Animal Handling di ronde itu.",
+                            "{@b DAN} jika roll Animal Handling gagal, siput maju {@b -5 inci tambahan} (mundur total 10 inci) atau bahkan terdiam total jika dia sudah gagal roll AN."
+                          ]
+                        },
+                        "{@b Tidak Melakukan Puzzle:} Hanya Animal Handling biasa (maju 5, Nat 20 = 10, Nat 1 = -5)."
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "DM Notes: Akhir Balapan & Hadiah",
+                  "entries": [
+                    {
+                      "type": "list",
+                      "items": [
+                        "{@b Pemenang:} Pemain yang siputnya mencapai garis {@i finish} (30 inci) duluan adalah pemenangnya.",
+                        "{@b Reaksi Old Man Thoraq:}",
+                        {
+                          "type": "list",
+                          "items": [
+                            "{@i Read-Aloud (jika pemain menang):} \"Kakek Thoraq menganga tak percaya, lalu senyumnya melebar. 'Luar biasa! Siputmu... benar-benar juara! Jarang sekali ada yang bisa membaca hati siput dan bermanuver sebaik itu!' Dia tertawa \"Glek-glek-glek\" lagi, lalu mengulurkan tangannya yang keriput. 'Ini, ambillah hadiahmu, anak muda. Sebuah... {@b Kenang-kenangan Pudar}.'\"",
+                            "{@b Hadiah:} Old Man Thoraq menyerahkan sebuah kelereng kaca kusam yang terlihat tua dan di dalamnya terukir samar simbol Archive of Vaeil, tapi tidak terlalu jelas. Kelereng ini bisa disimpan pemain.",
+                            {
+                              "type": "list",
+                              "items": [
+                                "{@b Efek Kelereng (DM Note):} Jika pemain menatapnya atau melakukan Arcana/History (DC 15), mereka bisa mendapatkan {@i fragmen bisikan} tentang Gluttonette atau kutukan memudar yang melanda ingatan pengunjung karnaval. Contoh: \"Jiwa yang hilang... memudar seperti kenangan... mengisi perut yang tak pernah kenyang.\" Atau \"Mereka yang memakan... takkan pernah kenyang. Hanya kehampaan.\""
+                              ]
+                            }
+                          ]
+                        },
+                        "{@i Read-Aloud (jika pemain kalah):} \"Kakek Thoraq menghela napas, menggelengkan kepalanya. 'Ah, sayang sekali. Belum beruntung. Tapi jangan khawatir, selalu ada balapan lain!' Dia menyeringai, 'Sampai jumpa lain waktu!'\"",
+                        "{@b Kembali Normal:} Setelah balapan selesai, efek menyusut akan otomatis hilang.",
+                        {
+                          "type": "list",
+                          "items": [
+                            "{@i Read-Aloud:} \"Tiba-tiba, dunia di sekitar kalian berputar lagi, lalu kembali ke ukuran semula. Siput-siput mungil itu kembali menjadi kecil di cangkangnya, dan Old Man Thoraq kembali menjadi kakek tua satu kaki di depan meja piala-pialanya.\""
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "name": "**Chapter 4: Terowongan Gema Kenangan**",
+          "entries": [
+            {
+              "type": "section",
+              "name": "Running This Chapter",
+              "entries": [
+                "Terowongan Gema Kenangan adalah wahana {@i dark ride} yang berfungsi sebagai {@b arsip emosi dan ingatan yang rusak}.",
+                "Alih-alih ancaman fisik, tantangan utama di chapter ini adalah {@b memahami makna di balik ilusi}, mengisi kekosongan memori, dan menyatukan fragmen yang tercerai-berai.",
+                "Chapter ini memberikan petunjuk penting tentang {@b Sylvia, Juval}, dan peran Belgruth—bukan lewat fakta langsung, tetapi melalui {@b gema perasaan}."
+              ]
+            },
+            {
+              "type": "section",
+              "name": "Area: Terowongan Gema Kenangan",
+              "entries": [
+                "Wahana ini berupa terowongan sempit dan gelap.",
+                "Perahu kayu kecil bergerak otomatis dengan kecepatan lambat. Pemain {@b tidak memiliki kendali arah maupun laju}, menciptakan rasa pasrah dan fokus pada apa yang muncul di sekitar mereka.",
+                "Lampion ungu redup menerangi dinding terowongan yang lembab dan berlumut."
+              ]
+            },
+            {
+              "type": "section",
+              "name": "NPC: Nyonya Bisik",
+              "entries": [
+                "Penjaga wahana ini adalah seorang wanita tua bermata kosong, duduk di dekat dermaga perahu.",
+                "Ia berbicara dalam {@b gumaman terputus}, sering lupa apa yang baru saja ia katakan.",
+                {
+                  "type": "entries",
+                  "name": "DM Notes",
+                  "entries": [
+                    {
+                      "type": "list",
+                      "items": [
+                        "Nyonya Bisik {@b bukan makhluk hidup sepenuhnya}—lebih mirip residu memori.",
+                        "Insight DC 13 mengungkap bahwa dirinya adalah refleksi dari ingatan yang memudar di Karnaval Violet.",
+                        "Ia tidak bermaksud jahat, tapi juga tidak sepenuhnya sadar."
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "name": "Read-Aloud: Menemukan Terowongan",
+              "entries": [
+                {
+                  "type": "inset",
+                  "entries": [
+                    "{@i \"Meninggalkan riuh Balapan Siput, kalian melangkah lebih dalam ke Karnaval Violet. Sebuah lengkungan raksasa menjulang di hadapan kalian, dihiasi ukiran wajah tersenyum yang kini tampak menyimpang.}",
+                    "{@i Sebuah plakat pudar bertuliskan: **'Terowongan Gema Kenangan.'**}",
+                    "{@i Di dermaga kecil, sebuah perahu kayu berhias lampion ungu menunggu. Di sampingnya, seorang wanita tua bergaun abu-abu duduk membungkuk. Kelopak matanya tertutup rapat, namun kepalanya bergerak pelan.}",
+                    "{@i 'Gema... gema... apa yang hilang...?' gumamnya lirih.\"}"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "name": "Tiket Gigitan & Memulai Wahana",
+              "entries": [
+                {
+                  "type": "entries",
+                  "name": "Read-Aloud: Tawaran Nyonya Bisik",
+                  "entries": [
+                    {
+                      "type": "inset",
+                      "entries": [
+                        "{@i \"Perahu... akan membawamu,\" katanya pelan.}",
+                        "{@i 'Ke masa lalu... ke yang pudar. Tapi gema... harus dibayar.'}",
+                        "{@i Ia menoleh sedikit.}",
+                        "{@i 'Satu... gigitan.'\"}"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "DM Notes",
+                  "entries": [
+                    {
+                      "type": "list",
+                      "items": [
+                        "Memasuki wahana membutuhkan {@b 1 gigitan tiket per kelompok} (atau sesuai keputusan DM).",
+                        "Setelah tiket digigit, perahu otomatis bergerak masuk ke terowongan."
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "name": "Puzzle Utama: Menyatukan Fragmen Kenangan",
+              "entries": [
+                {
+                  "type": "entries",
+                  "name": "Struktur Puzzle",
+                  "entries": [
+                    {
+                      "type": "list",
+                      "items": [
+                        "Total {@b 4 fragmen kenangan}",
+                        "Pemain harus {@b berhasil memulihkan minimal 3}",
+                        "Setiap fragmen memberikan {@b satu potongan clue}"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "Mekanik Umum",
+                  "entries": [
+                    {
+                      "type": "list",
+                      "items": [
+                        "Setiap fragmen memicu:",
+                        {
+                          "type": "list",
+                          "items": [
+                            "Ilusi visual / suara",
+                            "1–2 pilihan pendekatan"
+                          ]
+                        },
+                        "Gagal memulihkan fragmen:",
+                        {
+                          "type": "list",
+                          "items": [
+                            "Ilusi semakin rusak",
+                            "Pemain menerima {@b 1d4 Psychic Damage}"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "name": "Fragmen Kenangan",
+              "entries": [
+                {
+                  "type": "entries",
+                  "name": "**Fragmen 1: Taman Pudar**",
+                  "entries": [
+                    "{@b Tema:} Kebahagiaan yang memudar",
+                    "{@b Elemen:} Visual & Aroma",
+                    {
+                      "type": "inset",
+                      "entries": [
+                        "{@i \"Ilusi taman bermekaran muncul—lavender, cahaya keemasan, dan tawa wanita. Lalu semuanya berkedip. Warna memudar. Tawa berubah isak.\"}"
+                      ]
+                    },
+                    "{@b Pendekatan yang Valid}",
+                    {
+                      "type": "list",
+                      "items": [
+                        "Performance DC 13 (melodi ceria)",
+                        "Insight DC 14 (memahami harapan)",
+                        "Perception DC 12 (detail simbol kebahagiaan)"
+                      ]
+                    },
+                    "{@b Clue Sukses:}",
+                    "Frasa pertama dari sebuah lagu."
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "**Fragmen 2: Bayangan Bintang**",
+                  "entries": [
+                    "{@b Tema:} Janji yang rusak",
+                    "{@b Elemen:} Visual & Suara",
+                    {
+                      "type": "inset",
+                      "entries": [
+                        "{@i \"Langit malam bertabur bintang. Sepasang patung berdiri bersama. Bintang padam satu per satu. Musik menjadi sumbang.\"}"
+                      ]
+                    },
+                    "{@b Pendekatan yang Valid}",
+                    {
+                      "type": "list",
+                      "items": [
+                        "Arcana DC 14 (memahami ilusi)",
+                        "Performance DC 13 (melodi benar)",
+                        "Insight DC 15 (mengulang janji)"
+                      ]
+                    },
+                    "{@b Clue Sukses:}",
+                    "Simbol kedua + frasa kedua lagu."
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "**Fragmen 3: Cermin Retak**",
+                  "entries": [
+                    "{@b Tema:} Keterpisahan",
+                    "{@b Elemen:} Visual & Sentuhan",
+                    {
+                      "type": "inset",
+                      "entries": [
+                        "{@i \"Cermin-cermin memantulkan wajah kalian... lalu retak. Di balik salah satunya, wanita terkurung menggapai—lalu pecah.\"}"
+                      ]
+                    },
+                    "{@b Pendekatan yang Valid}",
+                    {
+                      "type": "list",
+                      "items": [
+                        "Investigation DC 14",
+                        "Sleight of Hand DC 15",
+                        "Perception DC 12"
+                      ]
+                    },
+                    "{@b Clue Sukses:}",
+                    "Arah penting + frasa ketiga lagu."
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "**Fragmen 4: Parade Bayangan**",
+                  "entries": [
+                    "{@b Tema:} Kehilangan & pemangsaan",
+                    "{@b Elemen:} Visual & Aural",
+                    {
+                      "type": "inset",
+                      "entries": [
+                        "{@i \"Bayangan parade menari. Marionette jatuh. Sosok raksasa menelan satu di antaranya.\"}"
+                      ]
+                    },
+                    "{@b Pendekatan yang Valid}",
+                    {
+                      "type": "list",
+                      "items": [
+                        "Intimidation DC 14",
+                        "Insight DC 13",
+                        "Religion / History DC 15"
+                      ]
+                    },
+                    "{@b Clue Sukses:}",
+                    "Arah panggung utama + frasa keempat lagu."
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "name": "Resolusi Terowongan",
+              "entries": [
+                {
+                  "type": "entries",
+                  "name": "Jika Berhasil (≥ 3 Fragmen)",
+                  "entries": [
+                    {
+                      "type": "inset",
+                      "entries": [
+                        "{@i \"Perahu keluar dari gelap. Nyonya Bisik menoleh, seolah melihat.}",
+                        "{@i 'Gema... sudah terdengar.'}",
+                        "{@i Di tangannya, sebuah liontin kunci perak berpendar ungu.}",
+                        "{@i 'Melodi... akan membimbingmu.'\"}"
+                      ]
+                    },
+                    "{@b Hadiah:}",
+                    "{@b Liontin Kunci}–petunjuk untuk Music Box / panggung utama."
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "Jika Gagal",
+                  "entries": [
+                    {
+                      "type": "inset",
+                      "entries": [
+                        "{@i \"Nyonya Bisik menunduk.}",
+                        "{@i 'Gema... belum utuh.'}",
+                        "{@i Di tangannya hanya tersisa kerikil biasa.\"}"
+                      ]
+                    },
+                    "Tidak ada petunjuk tambahan."
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "name": "Akhir Chapter",
+              "entries": [
+                "Perahu berhenti.",
+                "Pemain kembali ke ukuran normal dan meninggalkan Terowongan Gema Kenangan dengan {@b potongan lagu yang belum lengkap}, rasa kehilangan yang menempel, dan bayangan panggung utama yang kini terasa semakin dekat."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "name": "**Chapter 5: Tenda Peramal Varquin**",
+          "entries": [
+            {
+              "type": "section",
+              "name": "Running This Chapter",
+              "entries": [
+                "Chapter ini adalah {@b titik klarifikasi besar} dalam Violet Carnival.",
+                "Berbeda dengan wahana sebelumnya yang bersifat simbolik dan puzzle-driven, Tenda Peramal Varquin berfungsi sebagai:",
+                {
+                  "type": "list",
+                  "items": [
+                    "Pengikat seluruh {@i clue} yang sudah pemain kumpulkan",
+                    "Penegas konflik emosional (Sylvia–Juval–Belgruth)",
+                    "Persiapan mental dan naratif menuju {@b panggung akhir}"
+                  ]
+                },
+                "Varquin tidak memberi solusi instan, tetapi {@b menyusun kebenaran} lewat simbol dan takdir."
+              ]
+            },
+            {
+              "type": "section",
+              "name": "Area: Tenda Peramal Varquin",
+              "entries": [
+                "Tenda kecil dari kain beludru ungu tua, berdiri sedikit terpisah dari keramaian.",
+                "Lampion bulan dan bintang berkedip lembut di depan pintu, sementara aroma dupa manis bercampur bau kertas tua memenuhi udara.",
+                "Sebuah papan kayu kecil bertuliskan samar:",
+                "{@b \"Madame Varquin—Pembaca Takdir & Penangkap Mimpi.\"}"
+              ]
+            },
+            {
+              "type": "section",
+              "name": "Read-Aloud: Menemukan Tenda",
+              "entries": [
+                {
+                  "type": "inset",
+                  "entries": [
+                    "{@i Kalian terus melangkah di tengah hiruk pikuk Karnaval Violet. Setelah melodi yang meresahkan, sensasi menyusut, dan gema kenangan yang terdistorsi, kalian teringat akan ucapan wanita badut di gerbang—bahwa tenda ramalannya selalu terbuka.}",
+                    "{@i Di hadapan kalian kini berdiri sebuah tenda beludru ungu tua. Lampion kecil berbentuk bulan dan bintang berkelip redup. Aroma dupa yang manis, bercampur bau kertas tua dan sesuatu yang sulit dijelaskan, menguar dari balik tirai.}",
+                    "{@i Tulisan di papan kayu kecil itu hampir pudar, namun masih terbaca jelas.\"}"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "name": "NPC: Varquin",
+              "entries": [
+                "Varquin duduk di balik meja bundar kecil.",
+                "Kartu tarot tersebar rapi, lilin-lilin menari perlahan, dan bola kristal memantulkan cahaya ungu lembut.",
+                "Ia berpenampilan seperti badut wanita—ceria di luar, penuh rahasia di dalam.",
+                {
+                  "type": "entries",
+                  "name": "DM Notes",
+                  "entries": [
+                    {
+                      "type": "list",
+                      "items": [
+                        "Varquin adalah {@b Vaelithra}, meski tidak perlu langsung diungkap sepenuhnya.",
+                        "Ia sudah mengetahui:",
+                        {
+                          "type": "list",
+                          "items": [
+                            "Misi penyelamatan Sylvia",
+                            "Peran Belgruth",
+                            "Perjalanan pemain di wahana lain"
+                          ]
+                        },
+                        "Ia {@b tidak berbohong}, tapi berbicara melalui simbol."
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "name": "Read-Aloud: Sambutan Varquin",
+              "entries": [
+                {
+                  "type": "inset",
+                  "entries": [
+                    "{@i Wanita badut itu mendongak saat kalian masuk. Senyumnya hangat, tapi matanya menyimpan kelelahan yang dalam.}",
+                    "{@i \"Ah... akhirnya,\" katanya lembut, seperti melodi dari kotak musik tua.}",
+                    "{@i \"Ada takdir yang menunggu untuk dibaca. Dan... jiwa yang menunggu untuk dibebaskan.\"}",
+                    "{@i Ia menunjuk kursi kosong di hadapannya.}",
+                    "{@i \"Duduklah. Biarkan kartu-kartu ini mengingat apa yang dunia coba lupakan.\"}"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "name": "Mekanik Utama: Pembacaan Tarot Varquin",
+              "entries": [
+                "Pembacaan tarot adalah {@b inti Chapter ini}.",
+                "Pemain dapat mengajukan pertanyaan spesifik atau menunjukkan item yang mereka miliki.",
+                "Varquin akan mengocok kartu dan menafsirkan hasilnya sesuai kondisi pemain."
+              ]
+            },
+            {
+              "type": "section",
+              "name": "Variasi Pembacaan Tarot",
+              "entries": [
+                {
+                  "type": "entries",
+                  "name": "1. Jika Pemain Memiliki **Kenang-kenangan Pudar**",
+                  "entries": [
+                    "{@i (Kelereng dari Balapan Siput)}",
+                    "{@b Read-Aloud / Dialog Varquin:}",
+                    {
+                      "type": "inset",
+                      "entries": [
+                        "{@i \"Aku merasakan sesuatu... dari saku kalian. Kenangan yang hampir habis dimakan.\"}"
+                      ]
+                    },
+                    "Varquin meletakkan kelereng di tengah meja, kartu-kartu mengelilinginya.",
+                    "{@b Kartu yang Muncul (Contoh):}",
+                    {
+                      "type": "list",
+                      "items": [
+                        "{@i The Hanged Man} (terbalik)",
+                        "{@i The Tower} (terbalik)"
+                      ]
+                    },
+                    "{@b Interpretasi Varquin:}",
+                    {
+                      "type": "list",
+                      "items": [
+                        "Jiwa-jiwa tergantung dalam kehampaan",
+                        "Kekuasaan Belgruth rapuh dan palsu",
+                        "Ikatan terhadap Sylvia berasal dari {@b putus asa}, bukan rantai fisik"
+                      ]
+                    },
+                    "{@b Clue Utama:}",
+                    "Belgruth mengikat Sylvia melalui {@b rasa putus asa}."
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "2. Jika Pemain Memiliki **Liontin Kunci**",
+                  "entries": [
+                    "{@i (Dari Terowongan Gema Kenangan)}",
+                    "{@b Read-Aloud / Dialog Varquin:}",
+                    {
+                      "type": "inset",
+                      "entries": [
+                        "{@i \"Ah... melodi yang hampir lengkap.\"}"
+                      ]
+                    },
+                    "Liontin diletakkan di tengah meja.",
+                    "{@b Kartu yang Muncul (Contoh):}",
+                    {
+                      "type": "list",
+                      "items": [
+                        "{@i The Empress}",
+                        "{@i The Lovers}",
+                        "{@i The Devil} (terbalik)"
+                      ]
+                    },
+                    "{@b Interpretasi Varquin:}",
+                    {
+                      "type": "list",
+                      "items": [
+                        "Sylvia sebagai sumber kehidupan",
+                        "Ikatan cinta antara Sylvia & Juval",
+                        "Belgruth adalah pemutarbalik hasrat",
+                        "{@b Melodi harapan} adalah kunci pembebasan"
+                      ]
+                    },
+                    "{@b Clue Utama:}",
+                    "Melodi yang disatukan dari terowongan adalah {@b kunci sejati}."
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "3. Jika Pemain Tidak Memiliki Keduanya",
+                  "entries": [
+                    "{@b Kartu yang Muncul (Contoh):}",
+                    {
+                      "type": "list",
+                      "items": [
+                        "{@i The Hermit}",
+                        "{@i The Moon}"
+                      ]
+                    },
+                    "{@b Interpretasi Varquin:}",
+                    {
+                      "type": "list",
+                      "items": [
+                        "Kebenaran tersembunyi dalam kesunyian",
+                        "Pemain perlu kembali ke wahana yang belum diselesaikan"
+                      ]
+                    },
+                    "{@b Clue:}",
+                    "Dorongan eksplorasi ulang."
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "name": "Informasi Tambahan dari Varquin (DM Notes)",
+              "entries": [
+                "Jika pemain bertanya langsung atau terlihat kebingungan, Varquin bisa mengungkap:",
+                {
+                  "type": "list",
+                  "items": [
+                    "Sylvia dikurung di tenda besar di {@b panggung utama}",
+                    "Marionette Juval digerakkan oleh {@b pecahan kekuatan Vaelithra}",
+                    "Belgruth tumbuh kuat dari penderitaan Sylvia",
+                    "Sylvia {@b harus dibebaskan lebih dulu} sebelum Belgruth bisa dikalahkan"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "name": "Read-Aloud: Kata Penutup Varquin",
+              "entries": [
+                {
+                  "type": "inset",
+                  "entries": [
+                    "{@i Varquin mengumpulkan kartunya.}",
+                    "{@i \"Pedang dan mantra hanyalah alat,\" katanya pelan.}",
+                    "{@i \"Harapan... ingatan... dan cinta—itulah yang benar-benar melukai kegelapan.\"}",
+                    "{@i \"Pergilah. Bebaskan dia... sebelum semuanya benar-benar pudar.\"}"
+                  ]
+                },
+                "Aura tenda terasa lebih hangat saat kalian melangkah keluar."
+              ]
+            },
+            {
+              "type": "section",
+              "name": "End of Chapter",
+              "entries": [
+                "Pemain kini:",
+                {
+                  "type": "list",
+                  "items": [
+                    "Memahami {@b cara menghadapi Belgruth}",
+                    "Menyadari pentingnya membebaskan Sylvia terlebih dahulu",
+                    "Siap menuju {@b panggung akhir sang dalang}"
+                  ]
+                },
+                "➡️ {@b Next:} {@i Panggung Akhir Sang Dalang}"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "name": "**CHAPTER 6: Gerbang Akhir Sang Dalang**",
+          "entries": [
+            "Bab ini merupakan {@b titik emosional dan naratif puncak} sebelum konfrontasi akhir. Fokus utama bukan pertempuran langsung, melainkan {@b interaksi emosional, penyatuan petunjuk, dan pembukaan jalan menuju kebenaran}.",
+            {
+              "type": "section",
+              "name": "**Running This Chapter**",
+              "entries": [
+                "Bab ini dibagi menjadi dua bagian utama:",
+                "1. {@b Gerbang & Juval}—Tantangan investigasi dan emosional",
+                "2. {@b Sarang Belgruth}—Transisi menuju konfrontasi final",
+                "Tekankan suasana:",
+                {
+                  "type": "list",
+                  "items": [
+                    "Putus asa yang menekan",
+                    "Harapan yang rapuh",
+                    "Konsekuensi dari pilihan emosional pemain"
+                  ]
+                },
+                "Juval {@b bukan musuh}, melainkan {@b korban terakhir sebelum Belgruth}."
+              ]
+            },
+            {
+              "type": "section",
+              "name": "**Area 7A: Gerbang Akhir Karnaval**",
+              "entries": [
+                {
+                  "type": "entries",
+                  "name": "**Read-Aloud: Di Hadapan Gerbang & Juval**",
+                  "entries": [
+                    {
+                      "type": "inset",
+                      "entries": [
+                        "Kalian berdiri di hadapan tenda paling besar di ujung karnaval—sebuah struktur kolosal yang menjulang gelap, seolah menelan semua cahaya di sekitarnya.",
+                        "Gerbangnya bukan terbuat dari kayu atau besi, melainkan anyaman dahan-dahan hitam yang memilin tak wajar, seperti ranting pohon yang membeku dalam jeritan bisu. Di sela-selanya, aura sihir dingin berdenyut pelan, menekan naluri untuk melangkah maju. Tidak ada kunci. Tidak ada pegangan. Hanya penolakan murni.",
+                        "Tepat di depan gerbang itu berdiri seorang pria—{@b Juval}.",
+                        "Pakaiannya yang dahulu rapi kini kusam, pundaknya melengkung seolah menanggung beban yang terlalu berat. Tatapannya kosong, menembus gerbang seakan melihat sesuatu yang tak kasat mata di baliknya. Ia tak bergerak, tak berkedip.",
+                        "Udara di sekitarnya terasa lebih dingin, seolah keputusasaannya telah membekukan waktu itu sendiri."
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "**DM Notes: Gerbang & Keputusasaan**",
+                  "entries": [
+                    {
+                      "type": "list",
+                      "items": [
+                        "{@b Gerbang Raksasa}",
+                        {
+                          "type": "list",
+                          "items": [
+                            "Gerbang ini adalah manifestasi fisik dari ikatan emosional dan sihir yang mengurung Sylvia.",
+                            "Tidak bisa dibuka dengan:",
+                            {
+                              "type": "list",
+                              "items": [
+                                "Serangan fisik",
+                                "{@i Knock}",
+                                "Upaya paksa lainnya"
+                              ]
+                            }
+                          ]
+                        },
+                        "Upaya memaksa memicu gelombang keputusasaan:",
+                        {
+                          "type": "list",
+                          "items": [
+                            "{@b 1d6 Psychic Damage} pada pelaku"
+                          ]
+                        },
+                        "{@b Juval (Non-Hostile NPC)}",
+                        {
+                          "type": "list",
+                          "items": [
+                            "Berada dalam kondisi {@i catatonic} akibat kutukan Belgruth",
+                            "Ia adalah kunci emosional, bukan mekanis"
+                          ]
+                        },
+                        "{@b Aura Putus Asa}",
+                        {
+                          "type": "list",
+                          "items": [
+                            "Semua makhluk dalam radius interaksi merasakan tekanan emosional",
+                            "{@b DC 13 Wisdom Saving Throw}",
+                            {
+                              "type": "list",
+                              "items": [
+                                "Gagal: Disadvantage pada Charisma checks selama interaksi dengan Juval"
+                              ]
+                            }
+                          ]
+                        },
+                        "{@b Gluttonette Pasif}",
+                        {
+                          "type": "list",
+                          "items": [
+                            "1–2 Gluttonette tampak seperti patung",
+                            "Tidak aktif kecuali pemain bertindak agresif"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "name": "**Mekanisme Interaksi: Membuka Gerbang Hati**",
+              "entries": [
+                "Gunakan struktur ini seperti {@i skill challenge naratif}.",
+                "Setiap ronde, {@b satu pemain melakukan satu pendekatan}.",
+                {
+                  "type": "entries",
+                  "name": "**Pendekatan yang Tersedia**",
+                  "entries": [
+                    {
+                      "type": "entries",
+                      "name": "**1. Membujuk atau Membangkitkan Harapan**",
+                      "entries": [
+                        "{@b Charisma (Persuasion) DC 15}",
+                        {
+                          "type": "list",
+                          "items": [
+                            "Mengingatkan Juval tentang:",
+                            {
+                              "type": "list",
+                              "items": [
+                                "Sylvia",
+                                "Perannya sebagai pembawa kebahagiaan",
+                                "Penyesalan dan harapan"
+                              ]
+                            }
+                          ]
+                        },
+                        "{@b Berhasil:}",
+                        {
+                          "type": "list",
+                          "items": [
+                            "Reaksi kecil dari Juval",
+                            "Aura dingin melemah",
+                            "Memberi {@b Advantage} pada {@i Performance check} berikutnya"
+                          ]
+                        },
+                        "{@b Gagal:}",
+                        {
+                          "type": "list",
+                          "items": [
+                            "Aura menguat",
+                            "{@b 1d4 Psychic Damage}"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "entries",
+                      "name": "**2. Melodi dari [[Liontin Kunci]]**",
+                      "entries": [
+                        "{@b Charisma (Performance) DC 14}",
+                        {
+                          "type": "inset",
+                          "entries": [
+                            "Gunakan hanya jika pemain memiliki liontin dan mengetahui melodinya."
+                          ]
+                        },
+                        "{@b Jika Berhasil (Read-Aloud):}",
+                        {
+                          "type": "inset",
+                          "entries": [
+                            "Saat melodi itu mengalun, getaran samar menjalar melalui gerbang dahan. Cahaya ungu tipis mulai menari di sela ranting, dan aura dingin di sekitar Juval melunak.",
+                            "Untuk pertama kalinya, mata Juval bergetar oleh emosi. Sebuah suara lirih keluar dari bibirnya—nyaris seperti sebuah nama."
+                          ]
+                        },
+                        "{@b Efek:}",
+                        {
+                          "type": "list",
+                          "items": [
+                            "Gerbang mulai melonggar",
+                            "Juval menyebut nama {@b Sylvia}",
+                            "Memberi {@b Advantage} pada {@i Persuasion check} berikutnya"
+                          ]
+                        },
+                        "{@b Gagal:}",
+                        {
+                          "type": "list",
+                          "items": [
+                            "Tidak ada efek signifikan"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "entries",
+                      "name": "**3. Kenang-Kenangan Pudar**",
+                      "entries": [
+                        "{@b Intelligence (Insight) atau Wisdom (Perception) DC 13}",
+                        {
+                          "type": "list",
+                          "items": [
+                            "Menggunakan [[Kenang-kenangan Pudar]] (kelereng)"
+                          ]
+                        },
+                        "{@b Berhasil:}",
+                        {
+                          "type": "list",
+                          "items": [
+                            "Reaksi emosional singkat",
+                            "Juval mendapat {@b Disadvantage} pada Wisdom saving throw berikutnya",
+                            "Pendekatan ini membangkitkan rasa sakit, bukan harapan"
+                          ]
+                        },
+                        "{@b Gagal:}",
+                        {
+                          "type": "list",
+                          "items": [
+                            "Tidak ada perubahan"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "entries",
+                      "name": "**4. Aksi Kreatif**",
+                      "entries": [
+                        "Contoh:",
+                        {
+                          "type": "list",
+                          "items": [
+                            "{@i Minor Illusion} kenangan bahagia",
+                            "Menyentuh tangan Juval ({@b Medicine DC 14})",
+                            "Doa, nyanyian, atau tindakan simbolik"
+                          ]
+                        },
+                        "Sesuaikan DC & efek secara naratif."
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "name": "**Membuka Gerbang**",
+              "entries": [
+                {
+                  "type": "entries",
+                  "name": "**Pemicu Keberhasilan**",
+                  "entries": [
+                    "Gerbang terbuka jika:",
+                    {
+                      "type": "list",
+                      "items": [
+                        "Juval menunjukkan reaksi emosional positif {@b dan}",
+                        "Pemain berhasil menggabungkan:",
+                        {
+                          "type": "list",
+                          "items": [
+                            "Melodi",
+                            "Kata-kata harapan"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "**Peran Juval (Read-Aloud Singkat)**",
+                  "entries": [
+                    {
+                      "type": "inset",
+                      "entries": [
+                        "Juval mengangkat kepalanya. Air mata mengalir di wajahnya yang ternodai riasan pudar.",
+                        "\"Pergi... selamatkan dia... sebelum semuanya benar-benar hilang...\""
+                      ]
+                    },
+                    {
+                      "type": "list",
+                      "items": [
+                        "Juval {@b tidak bisa masuk}",
+                        "Ia tersandar di samping gerbang, menjadi saksi terakhir"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "name": "**Area 7B: Sarang Belgruth**",
+              "entries": [
+                {
+                  "type": "entries",
+                  "name": "**Read-Aloud: Memasuki Kegelapan**",
+                  "entries": [
+                    {
+                      "type": "inset",
+                      "entries": [
+                        "Gerbang terbuka, memperlihatkan kegelapan yang jauh lebih pekat. Bau besi anyir bercampur aroma gula yang terlalu manis menyergap indera kalian—kombinasi yang menjijikkan.",
+                        "Saat melangkah masuk, sesuatu menarik jiwa kalian, seolah kegelapan ini lapar akan kebahagiaan."
+                      ]
+                    },
+                    "{@b Semua karakter melakukan Constitution Saving Throw DC 13}",
+                    {
+                      "type": "list",
+                      "items": [
+                        "Gagal: {@b 1d6 Psychic Damage}",
+                        "Berhasil: Tidak ada damage"
+                      ]
+                    },
+                    {
+                      "type": "inset",
+                      "entries": [
+                        "Sorot cahaya ungu dari atas menerangi panggung besar di tengah tenda.",
+                        "Di sana, terikat rantai besi yang tampak hidup, terbaring {@b Sylvia}. Sayap marionette-nya robek, tubuhnya lemah dan pucat.",
+                        "Dari bayangan terdalam, sosok raksasa bergerak. Wajah badut dengan senyum terbelah dan mata merah menyala muncul perlahan.",
+                        "{@b Belgruth} menatap kalian—bukan dengan kemarahan... melainkan kelaparan."
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "name": "**DM Notes: Konfrontasi Terakhir**",
+              "entries": [
+                {
+                  "type": "list",
+                  "items": [
+                    "{@b Situasi Awal}",
+                    {
+                      "type": "list",
+                      "items": [
+                        "Sylvia adalah sandera sekaligus sumber kekuatan",
+                        "Belgruth menikmati penderitaan"
+                      ]
+                    },
+                    "{@b Pilihan Pemain}",
+                    {
+                      "type": "list",
+                      "items": [
+                        "Menyerang Belgruth",
+                        "Membebaskan Sylvia",
+                        "Membagi fokus"
+                      ]
+                    },
+                    "{@b Konsekuensi}",
+                    {
+                      "type": "list",
+                      "items": [
+                        "Membebaskan Sylvia dapat melemahkan Belgruth",
+                        "Atau sebaliknya, Belgruth runtuh dulu baru rantai terlepas"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "name": "**CHAPTER 7: Pertunjukan Terakhir Violet Carnival**",
+          "entries": [
+            "Bab ini adalah {@b konfrontasi klimaks} dari Violet Carnival. Fokus utamanya adalah:",
+            {
+              "type": "list",
+              "items": [
+                "Pertarungan bertahap (multi-phase boss fight)",
+                "Tekanan emosional melalui sandera",
+                "Resolusi kosmik pasca kemenangan"
+              ]
+            },
+            {
+              "type": "section",
+              "name": "**Running This Chapter**",
+              "entries": [
+                "Chapter ini terdiri dari tiga bagian besar:",
+                "1. {@b Fase 1–The Grand Puppeteer}",
+                "2. {@b Fase 2–The Ravenous Maw}",
+                "3. {@b Epilog–Kemenangan & Penghakiman Kosmik}",
+                "Jaga tempo pertarungan tetap tegang, namun beri ruang bagi pemain untuk merasakan bahwa {@b setiap pilihan mereka berdampak langsung pada nasib Sylvia dan dunia di sekitarnya}."
+              ]
+            },
+            {
+              "type": "section",
+              "name": "**Area 8A: Panggung Utama–Awal Pertarungan**",
+              "entries": [
+                {
+                  "type": "entries",
+                  "name": "**Read-Aloud: Awal Pertarungan**",
+                  "entries": [
+                    {
+                      "type": "inset",
+                      "entries": [
+                        "Udara di dalam tenda raksasa ini terasa menyesakkan—dingin dan dipenuhi aroma busuk yang membuat perut mual. Cahaya ungu redup dari atas menyoroti panggung, tempat {@b Sylvia} terikat tak berdaya pada tiang-tiang berantai. Sepasang sayap marionette-nya terkulai lemah, wajahnya pucat pasi.",
+                        "Di sudut panggung, sesosok tubuh mengerikan perlahan bangkit dari bayangan.",
+                        "{@b Belgruth}, Sang Dalang Iblis, kini berdiri sepenuhnya. Topeng badut di wajahnya menyeringai lebar, menampakkan gigi-gigi runcing yang tak wajar. Mata merah menyala menatap kalian dengan kelaparan dan amarah—seolah kalian adalah hidangan penutup yang telah lama ditunggu.",
+                        "Di tangannya, sebuah tongkat dalang tipis berhias tengkorak kecil berputar pelan, memancarkan aura manipulatif yang menusuk pikiran.",
+                        "\"Selamat datang... ke pertunjukan terakhirku,\" suaranya bergema, manis namun mematikan.",
+                        "\"Jiwa-jiwa kalian akan jadi bintang utama... dan kenangan kalian, santapan paling lezat.\""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "name": "**Fase 1: Belgruth, The Grand Puppeteer**",
+              "entries": [
+                {
+                  "type": "entries",
+                  "name": "**DM Notes: Pengaturan Pertarungan Fase 1**",
+                  "entries": [
+                    {
+                      "type": "list",
+                      "items": [
+                        "{@b Arena}",
+                        {
+                          "type": "list",
+                          "items": [
+                            "Tenda utama yang luas dan remang",
+                            "Panggung tengah sebagai fokus",
+                            "Dekorasi karnaval rusak (peti, kotak, tirai robek) dapat digunakan sebagai {@i cover} atau rintangan"
+                          ]
+                        },
+                        "{@b Musuh}",
+                        {
+                          "type": "list",
+                          "items": [
+                            "{@b Belgruth, The Grand Puppeteer}"
+                          ]
+                        }
+                      ]
+                    },
+                    "([[Belgruth.md#^Belgruth-The-Grand-Puppeteer]])",
+                    {
+                      "type": "list",
+                      "items": [
+                        "{@b Sylvia}",
+                        {
+                          "type": "list",
+                          "items": [
+                            "Status: {@b Unconscious}, {@b Restrained}",
+                            "HP: 0 (melakukan {@i death saving throw} di awal gilirannya)",
+                            "Rantai:",
+                            {
+                              "type": "list",
+                              "items": [
+                                "AC 15, HP 20",
+                                "Membebaskan: {@i Action} untuk menyerang rantai {@b atau} DC 15 Athletics / Sleight of Hand"
+                              ]
+                            }
+                          ]
+                        },
+                        "Konsekuensi:",
+                        {
+                          "type": "list",
+                          "items": [
+                            "Jika mati sebelum Belgruth dikalahkan → dampak naratif & mekanik besar",
+                            "Membebaskan terlalu cepat dapat memicu reaksi agresif Belgruth atau {@i Aura of Despair} lebih awal"
+                          ]
+                        },
+                        "{@b Juval}",
+                        {
+                          "type": "list",
+                          "items": [
+                            "Berada di luar gerbang",
+                            "Tidak dapat masuk",
+                            "Masih dalam kondisi {@i Withered Heart}",
+                            "Dapat memberi bisikan penyesalan atau {@i inspiration} terbatas (opsional)"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "entries",
+                      "name": "**Tujuan Fase 1**",
+                      "entries": [
+                        {
+                          "type": "list",
+                          "items": [
+                            "Menurunkan HP Belgruth hingga {@b 50% atau kurang}",
+                            "Menjaga Sylvia tetap hidup"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "name": "**Transisi: Transformasi Belgruth**",
+              "entries": [
+                {
+                  "type": "entries",
+                  "name": "**Read-Aloud: Awal Fase 2**",
+                  "entries": [
+                    {
+                      "type": "inset",
+                      "entries": [
+                        "Saat serangan kalian menghantamnya, Belgruth mengaum kesakitan. Tubuhnya bergetar hebat, tawa mengerikannya berubah menjadi suara retakan tulang.",
+                        "Topeng badut di wajahnya pecah berkeping-keping, memperlihatkan kulit iblis yang membengkak dan mengerikan. Dagingnya merayap, membesar, menelan pakaian megahnya menjadi gumpalan kotor.",
+                        "Rantai di panggung berderak keras. Aura gelap menyelimuti seluruh tenda.",
+                        "\"DASAR KOTOR! KALIAN AKAN KUTELAN HIDUP-HIDUP!\"",
+                        "Dalam ledakan energi busuk, Belgruth berubah menjadi monstrositas menjijikkan. Perutnya yang tembus pandang bergejolak, siluet jiwa-jiwa tersegel berteriak di dalamnya.",
+                        "Dari bayangan dan celah panggung, dua makhluk mengerikan merangkak keluar—{@b Gluttonette}, lapar dan siap menelan apa pun yang mendekat."
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "name": "**Fase 2: Belgruth, The Ravenous Maw**",
+              "entries": [
+                {
+                  "type": "entries",
+                  "name": "**DM Notes: Pengaturan Fase 2**",
+                  "entries": [
+                    {
+                      "type": "list",
+                      "items": [
+                        "{@b Pemicu}",
+                        {
+                          "type": "list",
+                          "items": [
+                            "Belgruth mencapai {@b 50% HP atau kurang} (≤ 85 HP)"
+                          ]
+                        },
+                        "{@b Transformasi}",
+                        {
+                          "type": "list",
+                          "items": [
+                            "Ganti statblock ke:",
+                            {
+                              "type": "list",
+                              "items": [
+                                "{@b Belgruth, The Ravenous Maw}"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    "([[Belgruth.md#^Belgruth-The-Ravenous-Maw]])",
+                    {
+                      "type": "list",
+                      "items": [
+                        "HP {@b tetap} pada nilai saat transformasi",
+                        "{@b Gluttonette Reinforcement}",
+                        {
+                          "type": "list",
+                          "items": [
+                            "Muncul {@b 2–3 Gluttonette}",
+                            "Rekomendasi:",
+                            {
+                              "type": "list",
+                              "items": [
+                                "2 musuh: T1 + T2",
+                                "3 musuh: T1 + T2 + T3"
+                              ]
+                            }
+                          ]
+                        },
+                        "{@b Opsional Tambahan}",
+                        {
+                          "type": "list",
+                          "items": [
+                            "{@b Juval Simulacrum} (CR 3) dapat muncul sebagai pengganggu"
+                          ]
+                        },
+                        "{@b Aura of Despair}",
+                        {
+                          "type": "list",
+                          "items": [
+                            "Lebih kuat",
+                            "{@i Wisdom Saving Throw} setiap awal giliran",
+                            "Gagal → {@i Frightened}"
+                          ]
+                        },
+                        "{@b Lingkungan}",
+                        {
+                          "type": "list",
+                          "items": [
+                            "Reruntuhan panggung",
+                            "Lendir Belgruth menciptakan {@i difficult terrain}"
+                          ]
+                        },
+                        "{@b Sylvia}",
+                        {
+                          "type": "list",
+                          "items": [
+                            "Rentan terhadap efek area",
+                            "Beberapa serangan Belgruth dapat memicu {@i death saving throw} tambahan"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "name": "**Failsafe Playtest: Intervensi Varquin**",
+              "entries": [
+                {
+                  "type": "inset",
+                  "entries": [
+                    "Gunakan {@b hanya jika diperlukan} untuk mencegah TPK saat playtest."
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "**Pemicu**",
+                  "entries": [
+                    {
+                      "type": "list",
+                      "items": [
+                        "Dua atau lebih PC {@i unconscious}",
+                        "Situasi tidak lagi dapat diselamatkan secara realistis"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "**Read-Aloud**",
+                  "entries": [
+                    {
+                      "type": "inset",
+                      "entries": [
+                        "Di tengah kekacauan, kilatan cahaya ungu menyambar dari arah gerbang.",
+                        "{@b Varquin} muncul, topeng badut dari Juval Simulacrum melayang di tangannya, memancarkan aura yang luar biasa kuat. Wajahnya dipenuhi tekad.",
+                        "\"Cukup! Aku takkan biarkan tragedi ini terulang!\"",
+                        "Ia menekan topeng itu ke dadanya. Gelombang energi ungu menyapu arena.",
+                        "\"Kembalilah, kekuatanku... lindungi mereka!\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "**Efek**",
+                  "entries": [
+                    {
+                      "type": "list",
+                      "items": [
+                        "Semua PC {@i unconscious} → sadar dengan {@b 1 HP}",
+                        "Semua PC sadar → pulih ke {@b Max HP}",
+                        "Semua PC memulihkan {@b ½ total Spell Slot} (dibulatkan ke atas)",
+                        "Varquin:",
+                        {
+                          "type": "list",
+                          "items": [
+                            "{@b Unconscious}",
+                            "{@b Incapacitated}",
+                            "Topeng retak dan kehabisan energi"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "name": "**Tujuan Akhir**",
+              "entries": [
+                {
+                  "type": "list",
+                  "items": [
+                    "Mengalahkan {@b Belgruth, The Ravenous Maw}",
+                    "Menyelamatkan Sylvia",
+                    "Melindungi Varquin (jika hadir)"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "name": "**Epilog: Kemenangan & Penghakiman**",
+              "entries": [
+                {
+                  "type": "entries",
+                  "name": "**Read-Aloud**",
+                  "entries": [
+                    {
+                      "type": "inset",
+                      "entries": [
+                        "Dengan raungan terakhir yang memekakkan telinga, tubuh Belgruth meledak dalam semburan lendir dan asap ungu. Energi gelap yang menyelimuti tenda memudar, digantikan keheningan pahit. Gluttonette yang tersisa membeku... lalu meleleh menjadi genangan pekat.",
+                        "Rantai magis yang membelenggu Sylvia berderak dan hancur menjadi debu. Tubuhnya jatuh lemas, namun cahaya lembut menyelubunginya. Perlahan, matanya terbuka—lemah, namun penuh rasa terima kasih.",
+                        "Udara bergetar. Retakan dimensi terbuka di atas panggung. Tiga sosok mekanis tanpa emosi melangkah keluar—{@b Marut}, {@b Kolyarut}, dan {@b Quarut}.",
+                        "\"Kontrak dilanggar. Pakta dilanggar. Hukum ditegakkan.\"",
+                        "Marut mencengkeram sisa Belgruth. Iblis itu tak berdaya saat jiwanya ditarik paksa.",
+                        "Quarut berhenti di hadapan Varquin... lalu membungkuk hormat.",
+                        "Dalam kilatan senyap, para Inevitable menghilang—membawa Belgruth yang terhukum.",
+                        "Langit ungu Violet Carnival beriak... dan perlahan berubah menjadi cahaya fajar yang normal. Karnaval itu kembali ke aliran waktu."
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "name": "**CHAPTER 8: Epilog—Benang yang Terus Bergerak**",
+          "entries": [
+            "Bab ini menutup petualangan {@b Violet Carnival}, memberikan:",
+            {
+              "type": "list",
+              "items": [
+                "Resolusi emosional",
+                "Pengungkapan lore inti",
+                "Hadiah artefak",
+                "Hook petualangan masa depan"
+              ]
+            },
+            "tanpa mengikat hasil jangka panjang (playtest-safe).",
+            {
+              "type": "section",
+              "name": "**Running This Chapter**",
+              "entries": [
+                "Chapter ini tidak memiliki konflik mekanik.",
+                "Fungsinya adalah {@b resolusi naratif}, {@b lore delivery}, dan {@b transisi keluar demiplane}.",
+                "Biarkan pemain:",
+                {
+                  "type": "list",
+                  "items": [
+                    "Berinteraksi ringan",
+                    "Bertanya seperlunya",
+                    "Menyerap konsekuensi emosional"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "name": "**Area 9A: Setelah Pertempuran**",
+              "entries": [
+                {
+                  "type": "entries",
+                  "name": "**Read-Aloud: Varquin Bangkit**",
+                  "entries": [
+                    {
+                      "type": "inset",
+                      "entries": [
+                        "Perlahan, {@b Varquin} terbatuk. Matanya terbuka lemah.",
+                        "Ia mencoba bangkit dengan susah payah, dibantu oleh kalian—atau oleh Sylvia, yang kini telah sepenuhnya sadar. Senyum tipis terukir di wajah badutnya. Untuk pertama kalinya, senyum itu terasa tulus.",
+                        "Riasannya masih pudar, kelelahan tampak jelas di gurat wajahnya, namun ada kelegaan yang dalam di balik tatapannya.",
+                        "\"Terima kasih... para pahlawan,\" suaranya serak dan lemah, namun menyimpan kekuatan tersembunyi.",
+                        "\"Kalian... telah melakukan hal yang luar biasa.\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "**DM Notes: Kondisi Varquin**",
+                  "entries": [
+                    {
+                      "type": "list",
+                      "items": [
+                        "Varquin:",
+                        {
+                          "type": "list",
+                          "items": [
+                            "Lemah",
+                            "Tidak mampu bertarung",
+                            "Sadar sepenuhnya"
+                          ]
+                        },
+                        "Ini adalah momen {@b aman} bagi pemain untuk berbicara atau bertanya",
+                        "Jangan terburu-buru—biarkan suasana turun dengan alami"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "name": "**Area 9B: Pengakuan Sang Peramal**",
+              "entries": [
+                {
+                  "type": "entries",
+                  "name": "**DM Notes: Pengakuan Varquin**",
+                  "entries": [
+                    {
+                      "type": "list",
+                      "items": [
+                        "Varquin akan:",
+                        {
+                          "type": "list",
+                          "items": [
+                            "Menatap topeng yang ia gunakan (topeng Juval Simulacrum yang rusak)",
+                            "Atau menunjuk ke arahnya jika tergeletak"
+                          ]
+                        },
+                        "Ini adalah {@b lore drop utama}",
+                        "Tidak perlu dicek atau diuji"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "**Read-Aloud: Pengakuan Varquin**",
+                  "entries": [
+                    {
+                      "type": "inset",
+                      "entries": [
+                        "Varquin menatap sisa-sisa topeng di tangannya—kusam, retak, nyaris tak bersinar.",
+                        "\"Iblis rakus itu... Belgruth,\" ucapnya pelan. \"Ia telah lama mengganggu keseimbangan alam semesta.\"",
+                        "Ia menghela napas panjang.",
+                        "\"Entah dari mana ia memperoleh kekuatan untuk menciptakan demiplane ini—tempat yang melangkahi waktu dan realitas. Tapi satu hal pasti... ia harus dihentikan.\"",
+                        "Pandangannya beralih pada Juval dan Sylvia, yang kini saling berpelukan erat, tenggelam dalam tangis lega. Varquin membiarkan mereka, menghormati momen itu.",
+                        "\"Aku tak bisa bertindak terang-terangan,\" lanjutnya.",
+                        "\"Namun melalui topeng yang kuserahkan pada Juval—yang sejatinya adalah pecahan kecil dari kekuatanku—aku membimbingnya. Mengundang kalian. Untuk menyelamatkan Sylvia... dan mengakhiri kekejian ini.\""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "name": "**Area 9C: Hadiah & Benang Masa Depan**",
+              "entries": [
+                {
+                  "type": "entries",
+                  "name": "**DM Notes: Lore Item & Hook**",
+                  "entries": [
+                    {
+                      "type": "list",
+                      "items": [
+                        "Artefak ini:",
+                        {
+                          "type": "list",
+                          "items": [
+                            "Tidak perlu dijelaskan mekaniknya sekarang",
+                            "Berfungsi sebagai {@b narrative anchor}"
+                          ]
+                        },
+                        "Cocok untuk:",
+                        {
+                          "type": "list",
+                          "items": [
+                            "Campaign lanjutan",
+                            "One-shot sekuel",
+                            "Atau sekadar simbol"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "**Read-Aloud: Hadiah dan Janji**",
+                  "entries": [
+                    {
+                      "type": "inset",
+                      "entries": [
+                        "Dengan sisa kekuatannya, Varquin merogoh jubahnya.",
+                        "Ia mengeluarkan sebuah kalung sederhana. Liontinnya terdiri dari dua elemen yang terjalin indah—sebuah topeng kecil yang misterius, dan sebuah buku terbuka, seolah siap dibaca.",
+                        "Aura lembut keperakan menyelubunginya, diselingi kilatan ungu samar.",
+                        "\"Ini adalah... {@b Aegis Vaeil: Echo of Chronos},\" bisiknya, menyerahkannya pada salah satu dari kalian.",
+                        "\"Bagian dari esensi Vaeil, sang Dewa Waktu. Ia akan membimbing kalian... dan kalian akan membutuhkannya.\"",
+                        "Tatapannya menjauh, menembus sesuatu yang tak bisa kalian lihat.",
+                        "\"Ada bayangan yang lebih besar. Benang yang terputus... dalam tapestry waktu.\"",
+                        "\"Aegis ini akan membantu kalian menemukannya.\""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "name": "**Area 9D: Kembali ke Aliran Waktu**",
+              "entries": [
+                {
+                  "type": "entries",
+                  "name": "**Read-Aloud: Kepulangan**",
+                  "entries": [
+                    {
+                      "type": "inset",
+                      "entries": [
+                        "Saat kalian menerima {@b Aegis Vaeil}, tarikan kuat menghantam perut kalian—seolah waktu itu sendiri menarik mundur.",
+                        "Dunia di sekitar kalian berputar. Warna-warna Violet Carnival melarut menjadi pusaran cahaya keunguan yang memusingkan.",
+                        "Sylvia dan Juval melambaikan tangan. Senyum lega, penuh perpisahan, terukir di wajah mereka... sebelum pandangan kalian terenggut sepenuhnya.",
+                        "Kalian terempas kembali ke tempat kalian berada sebelum menerima undangan Violet Carnival—di titik waktu yang sama.",
+                        "Dunia terasa... normal. Terlalu normal."
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "**Wisdom Saving Throw: Ingatan**",
+                  "entries": [
+                    "{@b DC 12 Wisdom Saving Throw}",
+                    {
+                      "type": "list",
+                      "items": [
+                        "{@b Berhasil}",
+                        {
+                          "type": "list",
+                          "items": [
+                            "Semua kenangan Violet Carnival tetap utuh",
+                            "Setiap detail, rasa takut, dan kemenangan teringat jelas"
+                          ]
+                        },
+                        "{@b Gagal}",
+                        {
+                          "type": "list",
+                          "items": [
+                            "Kenangan terasa buram",
+                            "Seperti mimpi yang nyaris terlupakan",
+                            "Kalian tahu {@i sesuatu} telah terjadi",
+                            "Kalian tahu kalung itu penting",
+                            "Tapi detailnya... menghilang"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "inset",
+                      "entries": [
+                        "Sebuah janji menggantung di udara.",
+                        "Sebuah benang takdir baru saja terentang."
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "name": "**Penutup Modul**",
+              "entries": [
+                "Bab ini mengakhiri {@b Violet Carnival} sebagai:",
+                {
+                  "type": "list",
+                  "items": [
+                    "One-shot penuh",
+                    "Arc misteri investigatif",
+                    "Atau pembuka campaign besar"
+                  ]
+                },
+                "Tidak ada keputusan yang mengunci masa depan.",
+                "Tidak ada kebenaran yang dipaksakan.",
+                "Hanya satu hal yang pasti:",
+                "{@b waktu telah terusik—dan ia mengingat siapa yang berani melangkah ke dalam karnavalnya.}"
               ]
             }
           ]
