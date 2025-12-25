@@ -40,7 +40,7 @@
     "status": "ready",
     "edition": "one",
     "dateAdded": 1757462400000,
-    "dateLastModified": 1766512027649
+    "dateLastModified": 1766649969352
   },
   "adventure": [
     {
@@ -6473,200 +6473,408 @@
       }
     },
     {
-      "name": "Demolias Nogard",
-      "source": "MTW-VS",
+      "name": "Belgruth, The Grand Puppeteer",
       "size": [
         "M"
       ],
-      "type": "humanoid",
+      "type": {
+        "type": "fiend",
+        "note": "(Demon)"
+      },
+      "source": "MTW-VS",
       "alignment": [
-        "L",
-        "G"
+        "C",
+        "E"
       ],
       "ac": [
-        18
+        {
+          "ac": 16,
+          "from": [
+            "{@item glamoured studded leather|xdmg}"
+          ]
+        }
       ],
       "hp": {
-        "average": 140,
-        "formula": "15d10 + 60"
+        "formula": "20d8 + 80",
+        "average": 170
       },
       "speed": {
         "walk": 30
       },
-      "str": 16,
-      "dex": 12,
+      "str": 10,
+      "dex": 14,
       "con": 18,
-      "int": 10,
-      "wis": 14,
+      "int": 18,
+      "wis": 16,
       "cha": 20,
+      "passive": 13,
+      "cr": "8",
+      "shortName": "Belgruth",
+      "senses": [
+        "truesight 120 ft."
+      ],
+      "senseTags": [
+        "U"
+      ],
+      "languages": [
+        "Abyssal",
+        "Common",
+        "Telepathy 120ft"
+      ],
+      "languageTags": [
+        "AB",
+        "C"
+      ],
       "save": {
-        "wis": "+7",
-        "cha": "+9"
+        "con": "+7",
+        "int": "+7",
+        "wis": "+6",
+        "cha": "+8"
       },
       "skill": {
-        "persuasion": "+9",
-        "insight": "+7"
+        "deception": "+8",
+        "insight": "+6",
+        "performance": "+8",
+        "persuasion": "+8"
       },
-      "languages": [
-        "Common",
-        "Elvish",
-        "Celestial"
-      ],
-      "cr": "10",
-      "spellcasting": [
+      "resist": [
+        "bludgeoning",
+        "cold",
+        "fire",
+        "lightning",
+        "piercing",
         {
-          "name": "Spellcasting",
-          "headerEntries": [
-            "Demolias is a 15th-level spellcaster. His spellcasting ability is Charisma (spell save {@dc 17}). He has the following paladin spells prepared:"
-          ],
-          "spells": {
-            "1": {
-              "slots": 4,
-              "spells": [
-                "bless",
-                "compelled duel",
-                "divine favor"
-              ]
-            },
-            "2": {
-              "slots": 3,
-              "spells": [
-                "find steed",
-                "magic weapon"
-              ]
-            },
-            "3": {
-              "slots": 3,
-              "spells": [
-                "daylight",
-                "revivify"
-              ]
-            },
-            "4": {
-              "slots": 2,
-              "spells": [
-                "aura of life",
-                "death ward"
-              ]
-            }
-          }
+          "special": "and Slashing from nonmagical attacks"
         }
       ],
-      "trait": [
-        {
-          "name": "Aura of Protection",
-          "entries": [
-            "Whenever Demolias or a friendly creature within 10 feet of him must make a saving throw, that creature gains a +5 bonus to the saving throw (included in the statblock)."
-          ]
-        }
-      ],
-      "action": [
-        {
-          "name": "Multiattack",
-          "entries": [
-            "Demolias makes two melee attacks with his shortsword."
-          ]
-        },
-        {
-          "name": "Shortsword",
-          "entries": [
-            "{@atk mw} {@hit 9} to hit, reach 5 ft., one target. Hit: {@dice 1d6 + 3} piercing damage."
-          ]
-        },
-        {
-          "name": "Divine Smite",
-          "entries": [
-            "When Demolias hits with a melee weapon attack, he can expend a spell slot to deal radiant damage to the target, in addition to the weapon's damage. The extra damage is {@dice 2d8} for a 1st-level spell slot, plus {@dice 1d8} for each spell level higher than 1st, to a maximum of {@dice 5d8}."
-          ]
-        }
+      "immune": [
+        "poison"
       ],
       "conditionImmune": [
         "charmed",
-        "frightened"
-      ]
-    },
-    {
-      "name": "Diane Serpent",
-      "source": "MTW-VS",
-      "size": [
-        "M"
+        "exhaustion",
+        "frightened",
+        "poisoned"
       ],
-      "type": "humanoid",
-      "alignment": [
-        "L",
-        "G"
+      "traitTags": [
+        "Legendary Resistances",
+        "Magic Resistance"
       ],
-      "ac": [
-        18
-      ],
-      "hp": {
-        "average": 180,
-        "formula": "15d10 + 90"
-      },
-      "speed": {
-        "walk": 30
-      },
-      "str": 20,
-      "dex": 12,
-      "con": 20,
-      "int": 10,
-      "wis": 14,
-      "cha": 12,
-      "save": {
-        "str": "+10",
-        "con": "+10"
-      },
-      "skill": {
-        "athletics": "+10",
-        "intimidation": "+5"
-      },
-      "languages": [
-        "Common",
-        "Dwarvish"
-      ],
-      "cr": "10",
       "trait": [
         {
-          "name": "Action Surge",
+          "name": "Magic Resistance",
           "entries": [
-            "Diane can take one additional action on her turn. Once she uses this feature, she must finish a short or long rest before she can use it again."
+            "The belgruth has advantage on saving throws against spells and other magical effects."
           ]
         },
         {
-          "name": "Second Wind",
+          "name": "Aura of Temptation (15 ft radius)",
           "entries": [
-            "On her turn, Diane can use a bonus action to regain {@dice 1d10 + 15} hit points. Once she uses this feature, she must finish a short or long rest before she can use it again."
+            "Any creature hostile to Belgruth that starts its turn in this aura must make a {@dc 16} Wisdom saving throw. On a failed save, the creature has disadvantage on attack rolls and ability checks until the start of its next turn. On a successful save, the creature is immune to Belgruth's Aura of Temptation for the next 24 hours."
           ]
         },
         {
-          "name": "Indomitable (2/Day)",
+          "name": "Grand Puppeteer",
           "entries": [
-            "Diane can re-roll a saving throw that she fails. She must use the new roll."
+            "Belgruth can use a bonus action to command up to three Gluttonettes within 60 feet of him that he can see. Each Gluttonette can move up to its speed and make one attack."
           ]
         },
         {
-          "name": "Weapon Master",
+          "name": "Legendary Resistance (2/Day)",
           "entries": [
-            "Diane's heavy hammer is a formidable weapon. She has a +2 bonus to attack rolls with her warhammer (included in the statblock)."
+            "If the belgruth fails a saving throw, it can choose to succeed instead."
           ]
         }
+      ],
+      "spellcasting": [
+        {
+          "name": "Innate Spellcasting",
+          "headerEntries": [
+            "Belgruth's innate spellcasting ability is Charisma (spell save {@dc 16}). He can innately cast the following spells, requiring no material components:"
+          ],
+          "will": [
+            "{@spell Detect Thoughts|XPHB}",
+            "{@spell Disguise Self|XPHB}",
+            "{@spell Minor Illusion|XPHB}",
+            "{@spell Suggestion|XPHB}"
+          ],
+          "daily": {
+            "1": [
+              "{@spell Dominate Person|XPHB}",
+              "{@spell Mass Suggestion|XPHB}"
+            ],
+            "3e": [
+              "{@spell Charm Person|XPHB}",
+              "{@spell Enthrall|XPHB}",
+              "{@spell Hold Person|XPHB}",
+              "{@spell Phantasmal Force|XPHB}",
+              "{@spell Raulothim's Psychic Lance|FTD}"
+            ]
+          },
+          "ability": "cha",
+          "type": "spellcasting"
+        }
+      ],
+      "spellcastingTags": [
+        "I"
       ],
       "action": [
         {
           "name": "Multiattack",
           "entries": [
-            "Diane makes three melee attacks with her warhammer."
+            "Belgruth makes two Draining Touch attacks."
           ]
         },
         {
-          "name": "Warhammer (Two-Handed)",
+          "name": "Draining Touch",
           "entries": [
-            "{@atk mw} {@hit 12} to hit, reach 5 ft., one target. Hit: 12 ({@dice 2d6 + 5}) bludgeoning damage."
+            "{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d6 + 5}) psychic damage, and Belgruth regains hit points equal to the damage dealt."
+          ]
+        },
+        {
+          "name": "Puppeteer's Gaze {@recharge 5}",
+          "entries": [
+            "targets one creature he can see within 60 feet of him. The target must succeed on a {@dc 16} Wisdom saving throw or take 21 ({@damage 6d6}) psychic damage and be {@condition frightened} for 1 minute. The {@condition frightened} creature can repeat the saving throw at the end of each of its turns, ending the effect on a success."
           ]
         }
       ],
-      "conditionImmune": [
-        "exhaustion"
+      "actionTags": [
+        "Multiattack"
+      ],
+      "miscTags": [
+        "MW"
+      ],
+      "conditionInflict": [
+        "frightened"
+      ],
+      "legendary": [
+        {
+          "name": "Move",
+          "entries": [
+            "Belgruth moves up to his speed."
+          ]
+        },
+        {
+          "name": "Command Gluttonette (1 action)",
+          "entries": [
+            "Belgruth commands one Gluttonette within 60 feet of him to make one attack."
+          ]
+        },
+        {
+          "name": "Whisper of Doubt (2 actions)",
+          "entries": [
+            "One creature Belgruth can see within 60 feet must make a {@dc 16} Wisdom saving throw. On a failed save, the creature has disadvantage on the next attack roll or ability check it makes."
+          ]
+        }
+      ],
+      "damageTags": [
+        "Y"
+      ],
+      "damageTagsSpell": [
+        "Y"
+      ],
+      "savingThrowForced": [
+        "wisdom"
+      ],
+      "savingThrowForcedSpell": [
+        "intelligence",
+        "wisdom"
+      ]
+    },
+    {
+      "name": "Belgruth, The Ravenous Maw",
+      "size": [
+        "L"
+      ],
+      "type": {
+        "type": "fiend",
+        "note": "(demon)"
+      },
+      "source": "MTW-VS",
+      "alignment": [
+        "C",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 17,
+          "from": [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "20d10 + 110",
+        "average": 220
+      },
+      "speed": {
+        "walk": 40,
+        "climb": 30
+      },
+      "str": 22,
+      "dex": 10,
+      "con": 24,
+      "int": 14,
+      "wis": 12,
+      "cha": 20,
+      "passive": 15,
+      "cr": "10",
+      "shortName": "Belgruth Demon",
+      "senses": [
+        "truesight 120 ft."
+      ],
+      "senseTags": [
+        "U"
+      ],
+      "languages": [
+        "Abyssal",
+        "Common",
+        "telepathy 120 ft"
+      ],
+      "languageTags": [
+        "AB",
+        "C",
+        "TP"
+      ],
+      "save": {
+        "str": "+10",
+        "con": "+11",
+        "wis": "+5",
+        "cha": "+9"
+      },
+      "skill": {
+        "intimidation": "+9",
+        "perception": "+5",
+        "athletics": "+10"
+      },
+      "resist": [
+        "bludgeoning",
+        "cold",
+        "fire",
+        "lightning",
+        "piercing",
+        "slashing",
+        {
+          "special": "Slashing from nonmagical attacks"
+        }
+      ],
+      "immune": [
+        "poison"
+      ],
+      "trait": [
+        {
+          "name": "Magic Resistance",
+          "entries": [
+            "The belgruth demon has advantage on saving throws against spells and other magical effects."
+          ]
+        },
+        {
+          "name": "Aura of Despair (30 ft. radius)",
+          "entries": [
+            "Any hostile creature that starts its turn in this aura must make a {@dc 17} Wisdom saving throw. On a failed save, the creature is {@condition frightened} until the start of its next turn. If a creature's saving throw is successful, the creature is immune to Belgruth's Aura of Despair for the next 24 hours."
+          ]
+        },
+        {
+          "name": "Devouring Maw",
+          "entries": [
+            "Belgruth's attacks deal an extra 3 ({@damage 1d6}) psychic damage if the target is {@condition frightened}"
+          ]
+        },
+        {
+          "name": "Legendary Resistance (2/Day)",
+          "entries": [
+            "If the belgruth demon fails a saving throw, it can choose to succeed instead."
+          ]
+        },
+        {
+          "name": "Soul Consumption",
+          "entries": [
+            "When a humanoid within 30 feet of Belgruth is reduced to 0 hit points, Belgruth gains 20 temporary hit points"
+          ]
+        }
+      ],
+      "traitTags": [
+        "Legendary Resistances",
+        "Magic Resistance"
+      ],
+      "conditionInflict": [
+        "blinded",
+        "frightened",
+        "grappled",
+        "restrained"
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "Belgruth makes three attacks: one with his Claws, one with his Tongue Lash, and one with his Gnashing Bite."
+          ]
+        },
+        {
+          "name": "Claw",
+          "entries": [
+            "{@atk mw} {@hit 10} to hit, reach 10 ft., one target. {@h}15 ({@damage 2d8 + 6}) slashing damage."
+          ]
+        },
+        {
+          "name": "Tongue Lash",
+          "entries": [
+            "{@atk mw} {@hit 10} to hit, reach 15 ft., one target. {@h}13 ({@damage 2d6 + 6}) bludgeoning damage plus 7 ({@damage 2d6}) acid damage. If the target is a Large or smaller creature, it is {@condition grappled} (escape {@dc 18}). Until this grapple ends, Belgruth can't use his Tongue Lash on another target."
+          ]
+        },
+        {
+          "name": "Gnashing Bite",
+          "entries": [
+            "{@hit 10} to hit, reach 5 ft., one {@condition grappled} creature. {@h}19 ({@damage 3d8 + 6}) piercing damage plus 10 ({@damage 3d6}) psychic damage. If this damage reduces the target to 0 hit points, the target is swallowed. While swallowed, the creature is {@condition blinded} and {@condition restrained}, it has total cover against attacks and other effects outside Belgruth, and it takes 10 ({@damage 3d6}) acid damage at the start of each of Belgruth's turns. If Belgruth takes 30 or more damage on a single turn from a creature inside it, Belgruth must succeed on a {@dc 15} Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall {@condition prone} in a space next to Belgruth. If Belgruth dies, a swallowed creature is no longer {@condition restrained} by him and can escape from the corpse using 15 feet of movement, exiting {@condition prone}."
+          ]
+        },
+        {
+          "name": "Belly Burst {@recharge 4}",
+          "entries": [
+            "Belgruth violently convulses, causing spectral figures to burst from his translucent belly in a 20-foot radius sphere centered on him. Each creature in that area must make a {@dc 17} Dexterity saving throw. On a failed save, a creature takes 28 ({@damage 8d6}) psychic damage and is pushed 10 feet away. On a successful save, a creature takes half as much damage and isn't pushed."
+          ]
+        }
+      ],
+      "actionTags": [
+        "Multiattack",
+        "Swallow"
+      ],
+      "miscTags": [
+        "MW",
+        "RCH",
+        "AOE"
+      ],
+      "legendary": [
+        {
+          "name": "Move",
+          "entries": [
+            "Belgruth moves up to his speed."
+          ]
+        },
+        {
+          "name": "Slam",
+          "entries": [
+            "Belgruth makes one Claw attack."
+          ]
+        },
+        {
+          "name": "Gorge",
+          "entries": [
+            "Belgruth uses his Gnashing Bite."
+          ]
+        }
+      ],
+      "damageTags": [
+        "A",
+        "B",
+        "P",
+        "S",
+        "Y"
+      ],
+      "savingThrowForced": [
+        "constitution",
+        "dexterity",
+        "wisdom"
       ]
     },
     {
@@ -7079,6 +7287,199 @@
       ],
       "damageTags": [
         "B"
+      ]
+    },
+    {
+      "name": "Glutonnette T1 (The Ravenous Shadow)",
+      "size": [
+        "M"
+      ],
+      "type": "construct",
+      "source": "MTW-VS",
+      "alignment": [
+        "C",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 13,
+          "from": [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "10d8 + 40",
+        "average": 85
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 14,
+      "dex": 10,
+      "con": 18,
+      "int": 6,
+      "wis": 10,
+      "cha": 8,
+      "passive": 12,
+      "cr": "1",
+      "shortName": "GT1",
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "languages": [
+        "understands the languages it knew in life but can't speak"
+      ],
+      "languageTags": [
+        "CS",
+        "LF"
+      ],
+      "skill": {
+        "perception": "+2"
+      },
+      "resist": [
+        "psychic"
+      ],
+      "conditionImmune": [
+        "charmed",
+        "exhaustion",
+        "frightened",
+        "poisoned"
+      ],
+      "trait": [
+        {
+          "name": "Memory Drain",
+          "entries": [
+            "When the Gluttonette T1 hits a creature with a melee attack, the target must succeed on a {@dc 13} Wisdom saving throw or have disadvantage on its next attack roll or ability check until the end of its next turn."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The Gluttonette T1 makes two Slam attacks."
+          ]
+        },
+        {
+          "name": "Slam",
+          "entries": [
+            "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d8 + 5}) bludgeoning damage plus 7 ({@damage 2d6}) psychic damage."
+          ]
+        },
+        {
+          "name": "Echoing Wail {@recharge}",
+          "entries": [
+            "The Gluttonette T1 emits a mournful wail. Each creature within 15 feet of it must make a {@dc 13} Wisdom saving throw. On a failed save, a creature is {@condition frightened} until the end of its next turn."
+          ]
+        }
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "miscTags": [
+        "MW",
+        "AOE"
+      ],
+      "conditionInflict": [
+        "frightened"
+      ],
+      "damageTags": [
+        "B",
+        "Y"
+      ],
+      "savingThrowForced": [
+        "wisdom"
+      ]
+    },
+    {
+      "name": "Gluttonette T2 (The Hungry Husk)",
+      "size": [
+        "M"
+      ],
+      "type": "construct",
+      "source": "MTW-VS",
+      "alignment": [
+        "C",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 12,
+          "from": [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "12d8 + 24",
+        "average": 78
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 12,
+      "dex": 10,
+      "con": 14,
+      "int": 6,
+      "wis": 10,
+      "cha": 8,
+      "passive": 12,
+      "cr": "1",
+      "shortName": "GT2",
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "languages": [
+        "understands the languages it knew in life but can't speak"
+      ],
+      "languageTags": [
+        "CS",
+        "LF"
+      ],
+      "skill": {
+        "perception": "+2"
+      },
+      "resist": [
+        "psychic"
+      ],
+      "conditionImmune": [
+        "charmed",
+        "exhaustion",
+        "frightened",
+        "poisoned"
+      ],
+      "trait": [
+        {
+          "name": "Lingering Hunger",
+          "entries": [
+            "When the Gluttonette T2 damages a creature, the target's speed is reduced by 10 feet until the end of its next turn. This effect does not stack."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Suffocating Embrace",
+          "entries": [
+            "{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) bludgeoning damage plus 3 ({@damage 1d6}) necrotic damage. If the target is a Medium or smaller creature, it is {@condition grappled} (escape {@dc 12}). Until this grapple ends, the Gluttonette T2 can't use its Suffocating Embrace on another target"
+          ]
+        }
+      ],
+      "conditionInflict": [
+        "grappled"
+      ],
+      "damageTags": [
+        "B",
+        "N"
+      ],
+      "miscTags": [
+        "MW"
       ]
     },
     {
@@ -7496,6 +7897,345 @@
         "type": "external",
         "url": "https://i.imgur.com/V2bghsd.png"
       }
+    },
+    {
+      "name": "Juval Garnix (The Withered Dalang)",
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "note": "(half-elf)"
+      },
+      "source": "MTW-VS",
+      "alignment": [
+        {
+          "special": "chaotic neutral (currently leaning towards tragic evil)"
+        }
+      ],
+      "ac": [
+        {
+          "ac": 15,
+          "from": [
+            "{@item studded leather armor|xphb|studded leather}"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "16d8 + 32",
+        "average": 104
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 8,
+      "dex": 14,
+      "con": 14,
+      "int": 12,
+      "wis": 16,
+      "cha": 18,
+      "passive": 13,
+      "cr": "7",
+      "shortName": "Juval Garnix",
+      "languages": [
+        "Common",
+        "Elvish",
+        "Sylvan"
+      ],
+      "languageTags": [
+        "C",
+        "E",
+        "S"
+      ],
+      "save": {
+        "wis": "+6",
+        "cha": "+7"
+      },
+      "skill": {
+        "deception": "+7",
+        "insight": "+6",
+        "performance": "+7",
+        "persuasion": "+7",
+        "arcana": "+4"
+      },
+      "resist": [
+        {
+          "resist": [
+            "psychic"
+          ],
+          "note": "from Belgruth's influence",
+          "cond": true
+        }
+      ],
+      "immune": [
+        {
+          "immune": [],
+          "preNote": "None",
+          "note": "but prone to the Frightened condition from Belgruth's Aura of Despair"
+        }
+      ],
+      "spellcasting": [
+        {
+          "name": "Pact Magic",
+          "headerEntries": [
+            "Juval is a 7th-level spellcaster. His spellcasting ability is Charisma (spell save {@dc 15}, +7 to hit with spell attacks). He has two 4th-level spell slots, which he regains after a short or long rest. He knows the following warlock spells:"
+          ],
+          "spells": {
+            "0": {
+              "spells": [
+                "{@spell Eldritch Blast|XPHB} (2 Beams)",
+                "{@spell Friends|XPHB}",
+                "{@spell Minor Illusion|XPHB}"
+              ]
+            },
+            "1": {
+              "spells": [
+                "{@spell Charm Person|XPHB}",
+                "{@spell Faerie Fire|XPHB}"
+              ],
+              "slots": 0,
+              "lower": 1
+            },
+            "2": {
+              "spells": [
+                "{@spell Hold Person|XPHB}",
+                "{@spell Misty Step|XPHB}"
+              ],
+              "slots": 0,
+              "lower": 1
+            },
+            "3": {
+              "spells": [
+                "{@spell Counterspell|XPHB}",
+                "{@spell Fear|XPHB}",
+                "{@spell Hypnotic Pattern|XPHB}"
+              ],
+              "slots": 0,
+              "lower": 1
+            },
+            "4": {
+              "spells": [
+                "{@spell Blight|XPHB}",
+                "{@spell Phantasmal Killer|XPHB}"
+              ],
+              "slots": 0,
+              "lower": 1
+            }
+          },
+          "ability": "cha",
+          "type": "spellcasting"
+        },
+        {
+          "name": "Eldritch Invocation",
+          "headerEntries": [
+            "Juval has the following Eldritch Invocations:"
+          ],
+          "footerEntries": [
+            "-  Agonizing Blast: When he casts {@spell eldritch blast}, he adds his Charisma modifier to the damage roll of each beam.",
+            "-  Misty Visions: He can cast {@spell silent image} at will, without expending a spell slot or material components.",
+            "-  Mask of Many Faces: He can cast {@spell disguise self} at will, without expending a spell slot or material components."
+          ],
+          "type": "spellcasting"
+        }
+      ],
+      "spellcastingTags": [
+        "CL",
+        "O"
+      ],
+      "trait": [
+        {
+          "name": "Fey Presence (1/Short or Long Rest)",
+          "entries": [
+            "As a bonus action, Juval can cause each creature in a 10-foot cube originating from him to make a {@dc 15} Wisdom saving throw. The creatures that fail their saving throw are either {@condition charmed} or {@condition frightened} by Juval (Juval's choice) until the end of Juval's next turn."
+          ]
+        },
+        {
+          "name": "Withered Heart",
+          "entries": [
+            "Juval has disadvantage on saving throws against effects that cause the {@condition Frightened|XPHB} condition. However, if he succeeds on a saving throw against being {@condition frightened}, he can immediately use his reaction to cast one warlock spell he knows with a casting time of 1 action, without expending a spell slot."
+          ]
+        },
+        {
+          "name": "Echo of Vaelithra",
+          "entries": [
+            "Once per short or long rest, Juval can inspire a glimmer of hope in one creature he can see within 30 feet. That creature gains advantage on its next attack roll, saving throw, or ability check made within the next minute."
+          ]
+        }
+      ],
+      "miscTags": [
+        "RW",
+        "MW",
+        "MLW",
+        "THW",
+        "RA",
+        "AOE"
+      ],
+      "action": [
+        {
+          "name": "Dagger",
+          "entries": [
+            "{@atk mw,rw} {@hit +5} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}4 ({@damage 1d4 + 2}) Piercing damage."
+          ]
+        },
+        {
+          "name": "Eldritch Blast",
+          "entries": [
+            "{@atk rs} {@hit 7} to hit, range 120 ft., one target. {@h}{@damage 1d10 + 4} force damage."
+          ]
+        }
+      ],
+      "attachedItems": [
+        "dagger|phb"
+      ],
+      "fluff": {
+        "entries": [
+          "Juval adalah dalang utama Violet Carnival, seorang pria yang dulunya penuh semangat dan karisma. Namun, setelah kesepakatan pahit dengan Belgruth demi menyelamatkan karnaval dan istrinya, Sylvia, jiwanya kini terbelenggu dalam keputusasaan. Kekuatan warlock-nya berasal dari ikatan yang rumit dengan Archfey yang terdistorsi (mungkin Vaelithra sendiri, atau entitas sejenis yang terpengaruh Belgruth), memberinya kemampuan untuk memanipulasi emosi dan ilusi, meskipun kini seringkali ia gunakan dalam kondisi yang rapuh dan sedih."
+        ]
+      },
+      "isNpc": true,
+      "damageTags": [
+        "P"
+      ],
+      "damageTagsSpell": [
+        "N",
+        "O",
+        "Y"
+      ],
+      "savingThrowForced": [
+        "wisdom"
+      ],
+      "savingThrowForcedSpell": [
+        "constitution",
+        "dexterity",
+        "wisdom"
+      ]
+    },
+    {
+      "name": "Juval Simulacrum",
+      "size": [
+        "M"
+      ],
+      "type": "construct",
+      "source": "MTW-VS",
+      "alignment": [
+        "C",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 14,
+          "from": [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "14d8 + 28",
+        "average": 91
+      },
+      "speed": {
+        "walk": 30,
+        "fly": 30
+      },
+      "str": 14,
+      "dex": 12,
+      "con": 14,
+      "int": 8,
+      "wis": 12,
+      "cha": 14,
+      "passive": 13,
+      "cr": "3",
+      "shortName": "JS",
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "languages": [
+        "understands Common and Abyssal but can't speak",
+        "telepathy 60 ft. (with its controller)"
+      ],
+      "languageTags": [
+        "AB",
+        "C",
+        "CS",
+        "TP"
+      ],
+      "skill": {
+        "deception": "+4",
+        "perception": "+3"
+      },
+      "resist": [
+        "psychic"
+      ],
+      "trait": [
+        {
+          "name": "Controlled by Juval",
+          "entries": [
+            "The Juval Simulacrum is mentally linked to Juval Garnix. Juval can, as a bonus action, command the Simulacrum to move and take an action. If Juval is {@condition incapacitated} or more than 120 feet away, the Simulacrum becomes inert until Juval is restored or moves closer."
+          ]
+        },
+        {
+          "name": "Mask of Illusions",
+          "entries": [
+            "The Simulacrum can cast {@spell minor illusion} at will, requiring no material components. Its illusions are always tinged with a faint purple glow or a subtle, unsettling shimmer."
+          ]
+        },
+        {
+          "name": "Fading Charm",
+          "entries": [
+            "When a creature hostile to the Simulacrum starts its turn within 10 feet of the Simulacrum, the Simulacrum can force the creature to make a {@dc 12} Wisdom saving throw. On a failed save, the creature has disadvantage on its next attack roll before the end of its next turn."
+          ]
+        },
+        {
+          "name": "Gluttonous Nature",
+          "entries": [
+            "When a creature within 30 feet of the Simulacrum is reduced to 0 hit points, the Simulacrum regains 10 hit points."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The Juval Simulacrum makes two Slam attacks."
+          ]
+        },
+        {
+          "name": "Slam",
+          "entries": [
+            "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) bludgeoning damage plus 5 ({@damage 1d10}) psychic damage."
+          ]
+        }
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "miscTags": [
+        "MW"
+      ],
+      "bonus": [
+        {
+          "name": "Whisper of Doubt",
+          "entries": [
+            "The Simulacrum targets one creature it can see within 30 feet. The target must succeed on a {@dc 12} Wisdom saving throw or be filled with a fleeting sense of despair, imposing disadvantage on the next saving throw it makes against a spell or magical effect until the end of its next turn."
+          ]
+        }
+      ],
+      "isNpc": true,
+      "fluff": {
+        "entries": [
+          "Ini adalah Gluttonette, namun bukan Gluttonette biasa. Ia telah diberi topeng khusus yang dibuat dari fragmen kekuatan Vaelithra (melalui Varquin), memberinya kemampuan dan kesadaran parsial yang lebih tinggi. Karena topeng ini, ia menjadi perpanjangan tangan Juval, mampu melakukan ilusi sederhana dan terikat pada kehendak sang Dalang. Ia bergerak dengan keanggunan yang tidak wajar untuk ukuran Gluttonette, seolah ada dalang tak kasat mata yang menarik benangnya, dan topengnya menunjukkan ekspresi senyum yang membingungkan."
+        ]
+      },
+      "damageTags": [
+        "B",
+        "Y"
+      ],
+      "savingThrowForced": [
+        "wisdom"
+      ]
     },
     {
       "name": "Kaelen, The First Mate",
@@ -7952,6 +8692,179 @@
       ],
       "damageTags": [
         "P"
+      ]
+    },
+    {
+      "name": "Sylvia Garnix, The Beacon of Fading Hope",
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "note": "(half-elf)"
+      },
+      "source": "MTW-VS",
+      "alignment": [
+        "L",
+        "G"
+      ],
+      "ac": [
+        {
+          "ac": 16,
+          "from": [
+            "{@item shield|xphb}",
+            "{@item scale mail|xphb}"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "12d8 + 12",
+        "average": 66
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 10,
+      "dex": 12,
+      "con": 12,
+      "int": 10,
+      "wis": 18,
+      "cha": 14,
+      "passive": 14,
+      "cr": "4",
+      "shortName": "SG",
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "languages": [
+        "Common",
+        "Elvish"
+      ],
+      "languageTags": [
+        "C",
+        "E"
+      ],
+      "save": {
+        "wis": "+6",
+        "cha": "+4"
+      },
+      "skill": {
+        "insight": "+6",
+        "medicine": "+6",
+        "persuasion": "+4"
+      },
+      "trait": [
+        {
+          "name": "Fey Ancestry",
+          "entries": [
+            "Sylvia has advantage on saving throws against being {@condition charmed}, and magic can't put her to sleep."
+          ]
+        },
+        {
+          "name": "Disciple of Life",
+          "entries": [
+            "Whenever Sylvia uses a spell of 1st level or higher to restore hit points to a creature, the creature regains additional hit points equal to 2 + the spell's level."
+          ]
+        },
+        {
+          "name": "Channel Divinity: Preserve Life (1/Short or Long Rest)",
+          "entries": [
+            "As an action, Sylvia presents her holy symbol and uses her Channel Divinity. She chooses any creatures within 30 feet of her, and divides 40 hit points among them. This feature can't restore a creature to more than half of its hit point maximum."
+          ]
+        }
+      ],
+      "traitTags": [
+        "Fey Ancestry"
+      ],
+      "spellcasting": [
+        {
+          "name": "Spellcasting",
+          "headerEntries": [
+            "Sylvia is an 8th-level spellcaster. Her spellcasting ability is Wisdom (spell save {@dc 15}, +7 to hit with spell attacks). She has the following cleric spells prepared:"
+          ],
+          "spells": {
+            "0": {
+              "spells": [
+                "{@spell guidance|XPHB}",
+                "{@spell light|XPHB}",
+                "{@spell sacred flame|XPHB}",
+                "{@spell thaumaturgy|XPHB}"
+              ]
+            },
+            "1": {
+              "spells": [
+                "{@spell bless|XPHB}",
+                "{@spell cure wounds|XPHB}",
+                "{@spell guiding bolt|XPHB}",
+                "{@spell shield of faith|XPHB}"
+              ],
+              "slots": 4
+            },
+            "2": {
+              "spells": [
+                "{@spell aid|XPHB}",
+                "{@spell hold person|XPHB}",
+                "{@spell spiritual weapon|XPHB}"
+              ],
+              "slots": 3
+            },
+            "3": {
+              "spells": [
+                "{@spell beacon of hope|XPHB}",
+                "{@spell dispel magic|XPHB}",
+                "{@spell spirit guardians|XPHB}"
+              ],
+              "slots": 3
+            },
+            "4": {
+              "spells": [
+                "{@spell death ward|XPHB}",
+                "{@spell guardian of faith|XPHB}"
+              ],
+              "slots": 2
+            }
+          },
+          "ability": "wis",
+          "type": "spellcasting"
+        }
+      ],
+      "spellcastingTags": [
+        "CC"
+      ],
+      "action": [
+        {
+          "name": "Mace",
+          "entries": [
+            "{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) bludgeoning damage."
+          ]
+        }
+      ],
+      "miscTags": [
+        "MW",
+        "MLW"
+      ],
+      "attachedItems": [
+        "mace|phb"
+      ],
+      "fluff": {
+        "entries": [
+          "Sylvia Garnix adalah pendeta dari dewa cahaya atau kehidupan, dan istri tercinta Juval. Dulunya ia adalah pilar kebaikan dan harapan di Violet Carnival, membawa sukacita dan penyembuhan. Namun, kini ia terbelenggu oleh Belgruth, kekuatannya terkuras dan jiwanya terperangkap. Statblock ini menggambarkan kemampuannya sebelum ia disandra, atau saat ia berhasil diselamatkan dan mendapatkan kembali kekuatannya di tengah pertarungan."
+        ]
+      },
+      "damageTags": [
+        "B"
+      ],
+      "damageTagsSpell": [
+        "N",
+        "O",
+        "R"
+      ],
+      "savingThrowForcedSpell": [
+        "dexterity",
+        "wisdom"
       ]
     },
     {
@@ -8529,6 +9442,213 @@
         "MW",
         "RD",
         "W"
+      ]
+    },
+    {
+      "name": "Varquin",
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "note": "(half-elf)"
+      },
+      "source": "MTW-VS",
+      "alignment": [
+        "C",
+        "G"
+      ],
+      "ac": [
+        {
+          "ac": 15,
+          "from": [
+            "{@item studded leather armor|xphb}"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "16d8 + 32",
+        "average": 104
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 8,
+      "dex": 16,
+      "con": 14,
+      "int": 12,
+      "wis": 16,
+      "cha": 20,
+      "passive": 13,
+      "cr": "8",
+      "shortName": "VQ",
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "languages": [
+        "Common",
+        "Elvish",
+        "Sylvan"
+      ],
+      "languageTags": [
+        "C",
+        "E",
+        "S"
+      ],
+      "save": {
+        "dex": "+6",
+        "wis": "+6",
+        "cha": "+8"
+      },
+      "skill": {
+        "arcana": "+4",
+        "deception": "+8",
+        "insight": "+6",
+        "performance": "+8",
+        "persuasion": "+8",
+        "stealth": "+6"
+      },
+      "conditionImmune": [
+        "charmed",
+        "frightened"
+      ],
+      "spellcasting": [
+        {
+          "name": "Spellcasting",
+          "headerEntries": [
+            "Varquin is a 10th-level spellcaster. Her spellcasting ability is Charisma (spell save {@dc 16}, +8 to hit with spell attacks). She has the following bard spells prepared:"
+          ],
+          "spells": {
+            "0": {
+              "spells": [
+                "{@spell mage hand|XPHB}",
+                "{@spell minor illusion|XPHB}",
+                "{@spell prestidigitation|XPHB}",
+                "{@spell vicious mockery|XPHB}"
+              ]
+            },
+            "1": {
+              "spells": [
+                "{@spell charm person|XPHB}",
+                "{@spell comprehend languages|XPHB}",
+                "{@spell healing word|XPHB}",
+                "{@spell sleep|XPHB}"
+              ],
+              "slots": 4
+            },
+            "2": {
+              "spells": [
+                "{@spell calm emotions|XPHB}",
+                "{@spell hold person|XPHB}",
+                "{@spell phantasmal force|XPHB}"
+              ],
+              "slots": 3
+            },
+            "3": {
+              "spells": [
+                "{@spell dispel magic|XPHB}",
+                "{@spell hypnotic pattern|XPHB}",
+                "{@spell major image|XPHB}"
+              ],
+              "slots": 3
+            },
+            "4": {
+              "spells": [
+                "{@spell confusion|XPHB}",
+                "{@spell dimension door|XPHB}"
+              ],
+              "slots": 3
+            },
+            "5": {
+              "spells": [
+                "{@spell dominate person|XPHB}",
+                "{@spell scrying|XPHB}"
+              ],
+              "slots": 2
+            }
+          },
+          "ability": "cha",
+          "type": "spellcasting"
+        }
+      ],
+      "spellcastingTags": [
+        "CB"
+      ],
+      "trait": [
+        {
+          "name": "Fey Ancestry",
+          "entries": [
+            "The varquin has advantage on saving throws against being {@condition charmed}, and magic can't put the vq to sleep."
+          ]
+        },
+        {
+          "name": "Bardic Inspiration (5/day)",
+          "entries": [
+            "As a bonus action, Varquin can inspire one creature (other than herself) she can see within 60 feet that can hear her. The creature gains one Bardic Inspiration die, a {@dice d8}. Once within the next 10 minutes, the creature can roll the die and add the number rolled to one ability check, attack roll, or saving throw it makes. The creature can wait until after it rolls the {@dice d20} before deciding to use the Bardic Inspiration die, but must decide before the DM says whether the roll succeeds or fails. Once the Bardic Inspiration die is rolled, it is lost. A creature can have only one Bardic Inspiration die at a time."
+          ]
+        },
+        {
+          "name": "Vaelithra's Echo",
+          "entries": [
+            "Once per short or long rest, Varquin can project a soothing, yet unsettling, illusion that fills a 15-foot cube within 60 feet. Each creature in the area must make a {@dc 16} Wisdom saving throw. On a failed save, a creature is either {@condition charmed} or {@condition frightened} (Varquin's choice) until the end of its next turn. On a successful save, the creature is immune to this specific use of Vaelithra's Echo for 24 hours."
+          ]
+        }
+      ],
+      "traitTags": [
+        "Fey Ancestry"
+      ],
+      "conditionInflict": [
+        "charmed",
+        "frightened"
+      ],
+      "miscTags": [
+        "RW",
+        "MW",
+        "MLW",
+        "THW",
+        "AOE"
+      ],
+      "action": [
+        {
+          "name": "Dagger",
+          "entries": [
+            "{@atk mw,rw} {@hit +6} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}5 ({@damage 1d4 + 3}) piercing damage."
+          ]
+        }
+      ],
+      "attachedItems": [
+        "dagger|phb"
+      ],
+      "reaction": [
+        {
+          "name": "Cutting Words (5/day)",
+          "entries": [
+            "When a creature that Varquin can see within 60 feet of her makes an attack roll, an ability check, or a damage roll, Varquin can use her reaction to expend one of her Bardic Inspiration uses, rolling a {@dice d8} and subtracting the number rolled from the creature's roll. She can choose to use this feature after the creature makes its roll, but before the DM determines whether the attack roll, ability check, or saving throw succeeds or fails."
+          ]
+        }
+      ],
+      "fluff": {
+        "entries": [
+          "Varquin adalah peramal misterius Violet Carnival, dan secara rahasia adalah bagian dari esensi Vaelithra yang terpecah. Ia bergerak dengan keanggunan aneh dan senyum yang menyimpan ribuan rahasia. Kekuatannya terletak pada manipulasi emosi, ilusi, dan bisikan takdir, membimbing mereka yang ia anggap layak, namun menyembunyikan kebenaran pahit di balik setiap senyumnya."
+        ]
+      },
+      "damageTags": [
+        "P"
+      ],
+      "damageTagsSpell": [
+        "O",
+        "Y"
+      ],
+      "savingThrowForced": [
+        "wisdom"
+      ],
+      "savingThrowForcedSpell": [
+        "charisma",
+        "intelligence",
+        "wisdom"
       ]
     },
     {
