@@ -1,5 +1,5 @@
 export const GT3 = {
-	"name": "Glutonette 3 (The Fading Echo)",
+	"name": "Glutonette T3 (The Fading Echo)",
 	"size": [
 		"M"
 	],
