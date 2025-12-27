@@ -2,6 +2,7 @@ export * from "./Belgruth.monster.js";
 export * from "./BelgruthDemon.monster.js";
 export * from "./GT1.monster.js";
 export * from "./GT2.monster.js";
+export * from "./GT3.monster.js";
 export * from "./Juval.monster.js";
 export * from "./JuvalSimulacrum.monster.js";
 export * from "./Sylvia.monster.js";
