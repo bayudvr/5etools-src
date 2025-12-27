@@ -1,5 +1,5 @@
 export const GT1 = {
-	"name": "Gluttonnette T1 (The Ravenous Shadow)",
+	"name": "Gluttonette T1 (The Ravenous Shadow)",
 	"size": [
 		"M"
 	],
