@@ -147,7 +147,7 @@ export const Part9Section = {
 							"Dengan sisa kekuatannya, Varquin merogoh jubahnya.",
 							"Ia mengeluarkan sebuah kalung sederhana. Liontinnya terdiri dari dua elemen yang terjalin indah\u2014sebuah topeng kecil yang misterius, dan sebuah buku terbuka, seolah siap dibaca.",
 							"Aura lembut keperakan menyelubunginya, diselingi kilatan ungu samar.",
-							"\"Ini adalah... {@b Aegis Vaeil: Echo of Chronos},\" bisiknya, menyerahkannya pada salah satu dari kalian.",
+							"\"Ini adalah... {@item Aegis Vaeil: Echo of Chronos|MTW-VS},\" bisiknya, menyerahkannya pada salah satu dari kalian.",
 							"\"Bagian dari esensi Vaeil, sang Dewa Waktu. Ia akan membimbing kalian... dan kalian akan membutuhkannya.\"",
 							"Tatapannya menjauh, menembus sesuatu yang tak bisa kalian lihat.",
 							"\"Ada bayangan yang lebih besar. Benang yang terputus... dalam tapestry waktu.\"",
@@ -166,7 +166,7 @@ export const Part9Section = {
 					"entries": [{
 						"type": "inset",
 						"entries": [
-							"Saat kalian menerima {@b Aegis Vaeil}, tarikan kuat menghantam perut kalian\u2014seolah waktu itu sendiri menarik mundur.",
+							"Saat kalian menerima {@item Aegis Vaeil: Echo of Chronos|MTW-VS}, tarikan kuat menghantam perut kalian\u2014seolah waktu itu sendiri menarik mundur.",
 							"Dunia di sekitar kalian berputar. Warna-warna Violet Carnival melarut menjadi pusaran cahaya keunguan yang memusingkan.",
 							"Sylvia dan Juval melambaikan tangan. Senyum lega, penuh perpisahan, terukir di wajah mereka... sebelum pandangan kalian terenggut sepenuhnya.",
 							"Kalian terempas kembali ke tempat kalian berada sebelum menerima undangan Violet Carnival\u2014di titik waktu yang sama.",

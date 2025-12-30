@@ -40,7 +40,7 @@
     "status": "ready",
     "edition": "one",
     "dateAdded": 1757462400000,
-    "dateLastModified": 1767060932860
+    "dateLastModified": 1767061304759
   },
   "adventure": [
     {
@@ -4562,7 +4562,7 @@
                         {
                           "type": "list",
                           "items": [
-                            "{@i Read-Aloud (jika pemain menang):} \"Kakek Thoraq menganga tak percaya, lalu senyumnya melebar. 'Luar biasa! Siputmu... benar-benar juara! Jarang sekali ada yang bisa membaca hati siput dan bermanuver sebaik itu!' Dia tertawa \"Glek-glek-glek\" lagi, lalu mengulurkan tangannya yang keriput. 'Ini, ambillah hadiahmu, anak muda. Sebuah... {@b Kenang-kenangan Pudar}.'\"",
+                            "{@i Read-Aloud (jika pemain menang):} \"Kakek Thoraq menganga tak percaya, lalu senyumnya melebar. 'Luar biasa! Siputmu... benar-benar juara! Jarang sekali ada yang bisa membaca hati siput dan bermanuver sebaik itu!' Dia tertawa \"Glek-glek-glek\" lagi, lalu mengulurkan tangannya yang keriput. 'Ini, ambillah hadiahmu, anak muda. Sebuah... {@item Faded Memento|MTW-VS}.'\"",
                             "{@b Hadiah:} Old Man Thoraq menyerahkan sebuah kelereng kaca kusam yang terlihat tua dan di dalamnya terukir samar simbol Archive of Vaeil, tapi tidak terlalu jelas. Kelereng ini bisa disimpan pemain.",
                             {
                               "type": "list",
@@ -6013,7 +6013,7 @@
                         "Dengan sisa kekuatannya, Varquin merogoh jubahnya.",
                         "Ia mengeluarkan sebuah kalung sederhana. Liontinnya terdiri dari dua elemen yang terjalin indah—sebuah topeng kecil yang misterius, dan sebuah buku terbuka, seolah siap dibaca.",
                         "Aura lembut keperakan menyelubunginya, diselingi kilatan ungu samar.",
-                        "\"Ini adalah... {@b Aegis Vaeil: Echo of Chronos},\" bisiknya, menyerahkannya pada salah satu dari kalian.",
+                        "\"Ini adalah... {@item Aegis Vaeil: Echo of Chronos|MTW-VS},\" bisiknya, menyerahkannya pada salah satu dari kalian.",
                         "\"Bagian dari esensi Vaeil, sang Dewa Waktu. Ia akan membimbing kalian... dan kalian akan membutuhkannya.\"",
                         "Tatapannya menjauh, menembus sesuatu yang tak bisa kalian lihat.",
                         "\"Ada bayangan yang lebih besar. Benang yang terputus... dalam tapestry waktu.\"",
@@ -6035,7 +6035,7 @@
                     {
                       "type": "inset",
                       "entries": [
-                        "Saat kalian menerima {@b Aegis Vaeil}, tarikan kuat menghantam perut kalian—seolah waktu itu sendiri menarik mundur.",
+                        "Saat kalian menerima {@item Aegis Vaeil: Echo of Chronos|MTW-VS}, tarikan kuat menghantam perut kalian—seolah waktu itu sendiri menarik mundur.",
                         "Dunia di sekitar kalian berputar. Warna-warna Violet Carnival melarut menjadi pusaran cahaya keunguan yang memusingkan.",
                         "Sylvia dan Juval melambaikan tangan. Senyum lega, penuh perpisahan, terukir di wajah mereka... sebelum pandangan kalian terenggut sepenuhnya.",
                         "Kalian terempas kembali ke tempat kalian berada sebelum menerima undangan Violet Carnival—di titik waktu yang sama.",

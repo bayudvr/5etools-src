@@ -244,7 +244,7 @@ export const Part4Section = {
 							{
 								"type": "list",
 								"items": [
-									"{@i Read-Aloud (jika pemain menang):} \"Kakek Thoraq menganga tak percaya, lalu senyumnya melebar. 'Luar biasa! Siputmu... benar-benar juara! Jarang sekali ada yang bisa membaca hati siput dan bermanuver sebaik itu!' Dia tertawa \"Glek-glek-glek\" lagi, lalu mengulurkan tangannya yang keriput. 'Ini, ambillah hadiahmu, anak muda. Sebuah... {@b Kenang-kenangan Pudar}.'\"",
+									"{@i Read-Aloud (jika pemain menang):} \"Kakek Thoraq menganga tak percaya, lalu senyumnya melebar. 'Luar biasa! Siputmu... benar-benar juara! Jarang sekali ada yang bisa membaca hati siput dan bermanuver sebaik itu!' Dia tertawa \"Glek-glek-glek\" lagi, lalu mengulurkan tangannya yang keriput. 'Ini, ambillah hadiahmu, anak muda. Sebuah... {@item Faded Memento|MTW-VS}.'\"",
 									"{@b Hadiah:} Old Man Thoraq menyerahkan sebuah kelereng kaca kusam yang terlihat tua dan di dalamnya terukir samar simbol Archive of Vaeil, tapi tidak terlalu jelas. Kelereng ini bisa disimpan pemain.",
 									{
 										"type": "list",
