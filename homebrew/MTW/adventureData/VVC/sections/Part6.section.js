@@ -53,7 +53,7 @@ export const Part6Section = {
 					"entries": [{
 						"type": "list",
 						"items": [
-							"Varquin adalah {@b Vaelithra}, meski tidak perlu langsung diungkap sepenuhnya.",
+							"Varquin adalah {@creature Vaelithra, Fragment of Vaeil|MTW-VS}, meski tidak perlu langsung diungkap sepenuhnya.",
 							"Ia sudah mengetahui:",
 							{
 								"type": "list",
@@ -122,7 +122,7 @@ export const Part6Section = {
 							"items": [
 								"Jiwa-jiwa tergantung dalam kehampaan",
 								"Kekuasaan Belgruth rapuh dan palsu",
-								"Ikatan terhadap Sylvia berasal dari {@b putus asa}, bukan rantai fisik"
+								"Ikatan terhadap {@creature Sylvia|MTW-VS} berasal dari {@b putus asa}, bukan rantai fisik"
 							]
 						},
 						"{@b Clue Utama:}",
@@ -158,7 +158,7 @@ export const Part6Section = {
 								"Sylvia sebagai sumber kehidupan",
 								"Ikatan cinta antara Sylvia & Juval",
 								"Belgruth adalah pemutarbalik hasrat",
-								"{@b Melodi harapan} adalah kunci pembebasan"
+								"{@b Melodi harapan} adalah kunci pembebasan {@deity Vaeil|The Primordials|MTW}"
 							]
 						},
 						"{@b Clue Utama:}",
@@ -200,9 +200,9 @@ export const Part6Section = {
 					"type": "list",
 					"items": [
 						"Sylvia dikurung di tenda besar di {@b panggung utama}",
-						"Marionette Juval digerakkan oleh {@b pecahan kekuatan Vaelithra}",
-						"Belgruth tumbuh kuat dari penderitaan Sylvia",
-						"Sylvia {@b harus dibebaskan lebih dulu} sebelum Belgruth bisa dikalahkan"
+						"Marionette {@creature Juval|MTW-VS} digerakkan oleh {@b pecahan kekuatan Vaelithra}",
+						"Belgruth tumbuh kuat dari penderitaan {@creature Sylvia|MTW-VS}",
+						"{@creature Sylvia|MTW-VS} {@b harus dibebaskan lebih dulu} sebelum Belgruth bisa dikalahkan"
 					]
 				}
 			]

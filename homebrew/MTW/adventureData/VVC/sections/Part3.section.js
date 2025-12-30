@@ -63,7 +63,7 @@ export const Part3Section = {
 						"type": "list",
 						"items": [
 							"{@b Penjaga Komidi Putar (Miss Lilith):} Sebut dia sebagai \"penjaga komidi putar\" atau \"wanita badut penjaga\" untuk menjaga misteri namanya. Dia tetap di luar {@i barrier}.",
-							"{@b Gluttonette:} 1-2 Gluttonette mungkin berdiri diam di sekitar komidi putar, seperti manekin. Tidak merespons kecuali diserang.",
+							"{@b Gluttonette:} 1-2 {@creature Gluttonette T1|MTW-VS}, {@creature Gluttonette T2|MTW-VS}, or {@creature Gluttonette T3|MTW-VS} mungkin berdiri diam di sekitar komidi putar, seperti manekin. Tidak merespons kecuali diserang.",
 							"{@b Plaque Kuda:} Tekankan bahwa plakatnya kosong/tidak lengkap. Ini adalah petunjuk pertama untuk puzzle \"nama kuda\"."
 						]
 					}]
@@ -264,7 +264,7 @@ export const Part3Section = {
 								}
 							]
 						},
-						"\"Saat tombol yang salah kalian tekan, komidi putar mendadak berputar gila-gilaan, musiknya semakin kacau dan disonan, seolah berteriak. Wajah-wajah Gluttonette muncul dan menghilang di cermin kuda, tertawa tanpa suara. Pikiran kalian diserang oleh bisikan-bisikan keputusasaan.\"",
+						"\"Saat tombol yang salah kalian tekan, komidi putar mendadak berputar gila-gilaan, musiknya semakin kacau dan disonan, seolah berteriak. Wajah-wajah {@creature Gluttonette T1|MTW-VS}, {@creature Gluttonette T2|MTW-VS}, or {@creature Gluttonette T3|MTW-VS} muncul dan menghilang di cermin kuda, tertawa tanpa suara. Pikiran kalian diserang oleh bisikan-bisikan keputusasaan.\"",
 						{
 							"type": "list",
 							"items": [
