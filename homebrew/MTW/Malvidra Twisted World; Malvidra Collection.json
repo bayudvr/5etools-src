@@ -40,7 +40,7 @@
     "status": "ready",
     "edition": "one",
     "dateAdded": 1757462400000,
-    "dateLastModified": 1766811734189
+    "dateLastModified": 1767060932860
   },
   "adventure": [
     {
@@ -4250,52 +4250,52 @@
                   "rows": [
                     [
                       "1",
-                      "Permen Kapas Violet (Consumable)",
+                      "{@item Violet Cotton Candy|MTW-VS}",
                       "Kamu menemukan segumpal permen kapas ungu yang masih hangat. Jika dimakan, pulihkan 1d4 HP **atau** dapatkan Advantage pada satu Charisma (Persuasion/Deception) check selama 10 menit. Rasanya manis tapi ada sedikit *aftertaste* aneh."
                     ],
                     [
                       "2",
-                      "Air Mata Marionette (Clue Item)",
+                      "{@item Marionette Tear|MTW-VS}",
                       "Sebongkah kristal kecil berbentuk tetesan air mata. Kalau dihancurkan, kamu mendapat kilasan singkat (visual atau suara) dari memori yang berhubungan dengan karnaval atau salah satu NPC (DM bisa improvisasi atau berikan petunjuk)."
                     ],
                     [
                       "3",
-                      "Arloji Saku Waktu Pudar (Minor Magic Item)",
+                      "{@item Faded Pocket Watch|MTW-VS}",
                       "Arloji saku biasa, tapi kadang jarumnya melambat. Sekali per hari, kamu bisa menggunakannya sebagai bonus action untuk membuat waktu melambat di sekitar satu musuh (mereka dapat disadvantage pada saving throw atau attack roll pertama di giliran mereka berikutnya)."
                     ],
                     [
                       "4",
-                      "Jimat Gluttonette (Minor Magic Item)",
+                      "{@item Gluttonette Charm|MTW-VS}",
                       "Patung kecil aneh berbentuk wajah Gluttonette. Memberikan Advantage pada satu Stealth check. Setelah digunakan, patung ini retak dan kehilangan kekuatannya."
                     ],
                     [
                       "5",
-                      "Fragmen Tiket (Resource)",
+                      "{@item Ticket Fragment|MTW-VS}",
                       "Kamu menemukan sobekan tiket kecil yang berdenyut energi. Ini bisa mengisi ulang satu \"gigitan\" pada tiket Karnaval"
                     ],
                     [
                       "6",
-                      "Topeng Eksentrik (Minor Magic Item)",
+                      "{@item Eccentric Mask|MTW-VS}",
                       "Topeng dekoratif yang indah namun sedikit menyeramkan. Saat dipakai, kamu mendapat Advantage pada semua Charisma (Deception) atau Charisma (Performance) check selama 1 jam."
                     ],
                     [
                       "7",
-                      "Suvenir Bisikan (Clue Item)",
+                      "{@item Whispering Souvenir|MTW-VS}",
                       "Suvenir kecil (misal: kuda komidi putar mini atau topi badut mungil). Sekali sehari, kalau kamu pegang, ia akan membisikkan petunjuk samar tentang situasi kalian atau apa yang akan terjadi selanjutnya."
                     ],
                     [
                       "8",
-                      "Batu Permata Ephemeral (Consumable)",
+                      "{@item Ephemeral Gemstone|MTW-VS}",
                       "Permata kecil yang bersinar lembut. Jika dihancurkan, kamu bisa mengeluarkan satu mantra *Minor Illusion* (suara, gambar sederhana) sebagai bonus action."
                     ],
                     [
                       "9",
-                      "Benih Mimpi (Utility)",
+                      "{@item Dream Seed|MTW-VS}",
                       "Benih kecil berkilauan. Jika ditanam (bahkan di pot), dalam 10 menit ia akan tumbuh menjadi ilusi tenda kecil yang nyaman. Jika beristirahat panjang di dalamnya, semua anggota *party* mendapat Advantage pada saving throw untuk mencegah kelelahan."
                     ],
                     [
                       "10",
-                      "Kunci Kotak Musik Bergema (Utility/Future Puzzle)",
+                      "{@item Resonant Music Box Key|MTW-VS}",
                       "Kunci ornamen antik. Mungkin bisa membuka kotak musik lain atau mengungkapkan rahasia di tempat lain di karnaval. Simpan ini, pasti berguna nanti!"
                     ]
                   ]
@@ -6164,6 +6164,22 @@
   ],
   "item": [
     {
+      "name": "Aegis Vaeil: Echo of Chronos",
+      "source": "MTW-VS",
+      "page": 2,
+      "edition": "one",
+      "type": "W|MTW",
+      "rarity": "legendary",
+      "weight": 0.5,
+      "value": 10000,
+      "entries": [
+        "A simple necklace with a small mysterious mask-shaped locket intertwined with an open book. It emits a soft, silvery aura with purple flashes.",
+        "An important {@i lore} item that is part of the essence of {@deity Vaeil|The Primordials|MTW}, the god of Time. It will serve as a guide and key for future Vaelithra adventures, connecting to a larger plot about \"the severed threads in the tapestry of time.\"",
+        "While attuned, once per long rest, you can use the necklace to gain advantage on one Intelligence (Arcana) or Intelligence (History) check related to time, temporal mechanics, or historical events.",
+        "The necklace resonates with other fragments of Vaeil's essence, growing stronger when in proximity to such items."
+      ]
+    },
+    {
       "name": "Ashen Token",
       "source": "MTW-VS",
       "page": 28,
@@ -6248,6 +6264,21 @@
       ]
     },
     {
+      "name": "Dream Seed",
+      "source": "MTW-VS",
+      "page": 11,
+      "edition": "one",
+      "type": "W|MTW",
+      "rarity": "rare",
+      "weight": 0.1,
+      "value": 350,
+      "entries": [
+        "A small shimmering seed.",
+        "If planted (even in a pot), within 10 minutes it will grow into an illusion of a comfortable small tent. If taking a long rest inside, all {@i party} members gain Advantage on saving throws to prevent exhaustion.",
+        "The illusionary tent lasts for 8 hours and then disappears along with the grown seed."
+      ]
+    },
+    {
       "name": "Dried Vial of Silver Fog",
       "source": "MTW-VS",
       "page": 27,
@@ -6259,6 +6290,66 @@
       "entries": [
         "A tiny vial containing dried residue of the Silver Fog.",
         "Smash it to create a 10-foot radius of lightly obscured mist for 1 minute."
+      ]
+    },
+    {
+      "name": "Eccentric Mask",
+      "source": "MTW-VS",
+      "page": 8,
+      "edition": "one",
+      "type": "W|MTW",
+      "rarity": "rare",
+      "weight": 0.5,
+      "value": 400,
+      "entries": [
+        "A beautiful yet slightly terrifying decorative mask.",
+        "When worn, you gain Advantage on all Charisma (Deception) or Charisma (Performance) checks for 1 hour.",
+        "This mask seems to change its expression when not looked at directly."
+      ]
+    },
+    {
+      "name": "Ephemeral Gemstone",
+      "source": "MTW-VS",
+      "page": 10,
+      "edition": "one",
+      "type": "W|MTW",
+      "rarity": "uncommon",
+      "weight": 0.1,
+      "value": 250,
+      "entries": [
+        "A small gemstone that glows softly.",
+        "When shattered, you can cast one {@spell Minor Illusion} spell (sound, simple image) as a {@action bonus action}.",
+        "This item can be used only once and will shatter after releasing its illusionary energy."
+      ]
+    },
+    {
+      "name": "Faded Memento",
+      "source": "MTW-VS",
+      "page": 13,
+      "edition": "one",
+      "type": "W|MTW",
+      "rarity": "rare",
+      "weight": 0.2,
+      "value": 600,
+      "entries": [
+        "An old-looking dull glass marble with a faintly engraved Archive of Vaeil symbol inside.",
+        "If stared at or with an Arcana/History check (DC 15), players can receive {@i whisper fragments} about Gluttonette or the fading curse affecting carnival visitors' memories.",
+        "This marble feels cold to the touch and sometimes shows unclear memory flashes."
+      ]
+    },
+    {
+      "name": "Faded Pocket Watch",
+      "source": "MTW-VS",
+      "page": 5,
+      "edition": "one",
+      "type": "W|MTW",
+      "rarity": "rare",
+      "weight": 0.2,
+      "value": 500,
+      "entries": [
+        "An ordinary pocket watch, but sometimes its hands slow down.",
+        "Once per day, you can use it as a {@action bonus action} to slow time around one enemy (they have disadvantage on their first saving throw or attack roll on their next turn).",
+        "This watch has a mysterious connection to the flow of time in the Violet Carnival."
       ]
     },
     {
@@ -6275,6 +6366,21 @@
         "While attuned, once per long rest, you can invoke its power to rewind a fleeting moment: when you or an ally within 30 feet fails a {@h} saving throw, ability check, or attack roll, you can reroll it. The second result must be used.",
         "If shattered intentionally, the fragment releases a surge of divine time-energy. Each ally within 20 feet may immediately take the {@action Help} action as a {@b Reaction}.",
         "The fragment hums with faint whispers of archives unwritten."
+      ]
+    },
+    {
+      "name": "Gluttonette Charm",
+      "source": "MTW-VS",
+      "page": 6,
+      "edition": "one",
+      "type": "W|MTW",
+      "rarity": "uncommon",
+      "weight": 0.1,
+      "value": 150,
+      "entries": [
+        "A small strange statue shaped like Gluttonette's face.",
+        "Grants Advantage on one Stealth check. After use, the statue cracks and loses its power.",
+        "This item feels heavy for its size and sometimes emits soft whispers when held."
       ]
     },
     {
@@ -6306,6 +6412,36 @@
       ]
     },
     {
+      "name": "Locket Key",
+      "source": "MTW-VS",
+      "page": 14,
+      "edition": "one",
+      "type": "W|MTW",
+      "rarity": "very rare",
+      "weight": 0.3,
+      "value": 1500,
+      "entries": [
+        "A silver locket shaped like a small key that glows faintly with a purple aura.",
+        "Provides {@i clues} for the Music Box in Lilith's Carousel (if not yet solved) or as a hint to open something on the main stage. The melody successfully assembled from the Memory Echo Tunnel is the true key that can burn demonic bonds.",
+        "This locket vibrates when near music or certain melodies and feels warm when touching magical items related to time."
+      ]
+    },
+    {
+      "name": "Marionette Tear",
+      "source": "MTW-VS",
+      "page": 4,
+      "edition": "one",
+      "type": "W|MTW",
+      "rarity": "uncommon",
+      "weight": 0.1,
+      "value": 100,
+      "entries": [
+        "A small crystal shard shaped like a teardrop.",
+        "When shattered, you receive a brief flash (visual or auditory) of a memory related to the carnival or one of the NPCs (DM can improvise or provide clues).",
+        "This item can be used only once and will shatter after use."
+      ]
+    },
+    {
       "name": "Moonlit Thread",
       "source": "MTW-VS",
       "page": 31,
@@ -6331,6 +6467,36 @@
       "entries": [
         "A string of dull beads once used in prayer to Vaeil.",
         "When used as a focus during a rest, it restores {@dice 1d4} temporary hit points to the bearer."
+      ]
+    },
+    {
+      "name": "Purple Envelope & Violet Carnival Ticket",
+      "source": "MTW-VS",
+      "page": 1,
+      "edition": "one",
+      "type": "W|MTW",
+      "rarity": "very rare",
+      "weight": 0.1,
+      "value": 2000,
+      "entries": [
+        "A deep purple envelope with a silver wax seal engraved with an expressionless mask. It smells sweet like vanilla. When opened, the envelope transforms into a glowing lilac carnival ticket with a bubblegum scent and elastic texture.",
+        "An invitation to enter the Violet Carnival. The ticket has a 'bite' system that functions as an access key to various attractions. Each player gets 5 bites at the start.",
+        "This ticket is magical and cannot be forged. If lost, players must find another way to gain access to the carnival."
+      ]
+    },
+    {
+      "name": "Resonant Music Box Key",
+      "source": "MTW-VS",
+      "page": 12,
+      "edition": "one",
+      "type": "W|MTW",
+      "rarity": "uncommon",
+      "weight": 0.1,
+      "value": 300,
+      "entries": [
+        "An antique ornamental key.",
+        "Might be able to open other music boxes or reveal secrets elsewhere in the carnival.",
+        "This key feels warm to the touch and sometimes emits a soft melody without an apparent source."
       ]
     },
     {
@@ -6376,6 +6542,36 @@
       ]
     },
     {
+      "name": "Ticket Fragment",
+      "source": "MTW-VS",
+      "page": 7,
+      "edition": "one",
+      "type": "W|MTW",
+      "rarity": "uncommon",
+      "weight": 0.05,
+      "value": 200,
+      "entries": [
+        "A small ticket fragment that pulses with energy.",
+        "Can recharge one 'bite' on your Violet Carnival ticket.",
+        "This fragment vibrates softly when near a complete ticket and emits a faint bubblegum scent."
+      ]
+    },
+    {
+      "name": "Violet Cotton Candy",
+      "source": "MTW-VS",
+      "page": 3,
+      "edition": "one",
+      "type": "W|MTW",
+      "rarity": "common",
+      "weight": 0.1,
+      "value": 25,
+      "entries": [
+        "A warm lump of purple cotton candy. It tastes sweet but has a strange {@i aftertaste}.",
+        "When eaten, restore {@dice 1d4} HP {@b or} gain Advantage on one Charisma (Persuasion/Deception) check for 10 minutes.",
+        "This item can be consumed only once."
+      ]
+    },
+    {
       "name": "Whispering Feather",
       "source": "MTW-VS",
       "page": 26,
@@ -6387,6 +6583,21 @@
       "entries": [
         "A delicate silver-dyed feather.",
         "When blown into the air, the bearer hears a whisper of guidance, adding {@dice 1d4} to their next ability check."
+      ]
+    },
+    {
+      "name": "Whispering Souvenir",
+      "source": "MTW-VS",
+      "page": 9,
+      "edition": "one",
+      "type": "W|MTW",
+      "rarity": "uncommon",
+      "weight": 0.3,
+      "value": 175,
+      "entries": [
+        "A small souvenir (e.g., a miniature carousel horse or a tiny clown hat).",
+        "Once per day, if you hold it, it will whisper vague clues about your situation or what will happen next.",
+        "The whispers sound like children's laughter or distant carousel music."
       ]
     }
   ],

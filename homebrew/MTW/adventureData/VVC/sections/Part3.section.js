@@ -329,52 +329,52 @@ export const Part3Section = {
 					"rows": [
 						[
 							"1",
-							"Permen Kapas Violet (Consumable)",
+							"{@item Violet Cotton Candy|MTW-VS}",
 							"Kamu menemukan segumpal permen kapas ungu yang masih hangat. Jika dimakan, pulihkan 1d4 HP **atau** dapatkan Advantage pada satu Charisma (Persuasion/Deception) check selama 10 menit. Rasanya manis tapi ada sedikit *aftertaste* aneh."
 						],
 						[
 							"2",
-							"Air Mata Marionette (Clue Item)",
+							"{@item Marionette Tear|MTW-VS}",
 							"Sebongkah kristal kecil berbentuk tetesan air mata. Kalau dihancurkan, kamu mendapat kilasan singkat (visual atau suara) dari memori yang berhubungan dengan karnaval atau salah satu NPC (DM bisa improvisasi atau berikan petunjuk)."
 						],
 						[
 							"3",
-							"Arloji Saku Waktu Pudar (Minor Magic Item)",
+							"{@item Faded Pocket Watch|MTW-VS}",
 							"Arloji saku biasa, tapi kadang jarumnya melambat. Sekali per hari, kamu bisa menggunakannya sebagai bonus action untuk membuat waktu melambat di sekitar satu musuh (mereka dapat disadvantage pada saving throw atau attack roll pertama di giliran mereka berikutnya)."
 						],
 						[
 							"4",
-							"Jimat Gluttonette (Minor Magic Item)",
+							"{@item Gluttonette Charm|MTW-VS}",
 							"Patung kecil aneh berbentuk wajah Gluttonette. Memberikan Advantage pada satu Stealth check. Setelah digunakan, patung ini retak dan kehilangan kekuatannya."
 						],
 						[
 							"5",
-							"Fragmen Tiket (Resource)",
+							"{@item Ticket Fragment|MTW-VS}",
 							"Kamu menemukan sobekan tiket kecil yang berdenyut energi. Ini bisa mengisi ulang satu \"gigitan\" pada tiket Karnaval"
 						],
 						[
 							"6",
-							"Topeng Eksentrik (Minor Magic Item)",
+							"{@item Eccentric Mask|MTW-VS}",
 							"Topeng dekoratif yang indah namun sedikit menyeramkan. Saat dipakai, kamu mendapat Advantage pada semua Charisma (Deception) atau Charisma (Performance) check selama 1 jam."
 						],
 						[
 							"7",
-							"Suvenir Bisikan (Clue Item)",
+							"{@item Whispering Souvenir|MTW-VS}",
 							"Suvenir kecil (misal: kuda komidi putar mini atau topi badut mungil). Sekali sehari, kalau kamu pegang, ia akan membisikkan petunjuk samar tentang situasi kalian atau apa yang akan terjadi selanjutnya."
 						],
 						[
 							"8",
-							"Batu Permata Ephemeral (Consumable)",
+							"{@item Ephemeral Gemstone|MTW-VS}",
 							"Permata kecil yang bersinar lembut. Jika dihancurkan, kamu bisa mengeluarkan satu mantra *Minor Illusion* (suara, gambar sederhana) sebagai bonus action."
 						],
 						[
 							"9",
-							"Benih Mimpi (Utility)",
+							"{@item Dream Seed|MTW-VS}",
 							"Benih kecil berkilauan. Jika ditanam (bahkan di pot), dalam 10 menit ia akan tumbuh menjadi ilusi tenda kecil yang nyaman. Jika beristirahat panjang di dalamnya, semua anggota *party* mendapat Advantage pada saving throw untuk mencegah kelelahan."
 						],
 						[
 							"10",
-							"Kunci Kotak Musik Bergema (Utility/Future Puzzle)",
+							"{@item Resonant Music Box Key|MTW-VS}",
 							"Kunci ornamen antik. Mungkin bisa membuka kotak musik lain atau mengungkapkan rahasia di tempat lain di karnaval. Simpan ini, pasti berguna nanti!"
 						]
 					]
